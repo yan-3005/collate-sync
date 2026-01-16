@@ -3,7 +3,8 @@ displayName: ""
 description: <p>GitTerm1 sync to github</p>
 style: {}
 fullyQualifiedName: GitSyncGlossary.GitTerm1
-synonyms: []
+synonyms:
+  - synonym
 glossary:
   id: bc2f8e61-e97d-409e-bb3d-f5a45fc524d1
   type: glossary
@@ -15,6 +16,7 @@ glossary:
 children: []
 relatedTerms: []
 references: []
+impersonatedBy: governance-bot
 reviewers:
   - id: 50a2a4c3-811b-4f03-8e35-27dea461eea4
     type: user
@@ -33,16 +35,15 @@ owners:
 usageCount: 0
 tags: []
 incrementalChangeDescription:
-  fieldsAdded:
-    - name: reviewers
-      newValue: "[{\"id\":\"50a2a4c3-811b-4f03-8e35-27dea461eea4\",\"type\":\"user\"\
-        ,\"name\":\"ram\",\"fullyQualifiedName\":\"ram\",\"displayName\":\"ram\",\"\
-        deleted\":false}]"
-  fieldsUpdated: []
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Approved
+      newValue: In Review
   fieldsDeleted: []
-  previousVersion: 0.2
+  previousVersion: 0.4
   changeSummary: {}
-entityStatus: Approved
+entityStatus: In Review
 provider: user
 mutuallyExclusive: false
 domains: []
