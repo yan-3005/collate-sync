@@ -1,0 +1,52 @@
+name: Term2
+displayName: lkra
+description: <p>Term2. ffff</p>
+style: {}
+fullyQualifiedName: ImportGlossary.Term1.Term2
+synonyms: []
+glossary:
+  id: 8d3a5fbc-01f4-475a-88c7-d151f9403df9
+  type: glossary
+  name: ImportGlossary
+  fullyQualifiedName: ImportGlossary
+  description: <p>ImportGlossary</p>
+  displayName: ImportGlossary
+  deleted: false
+  href: http://host.docker.internal:8585/api/v1/glossaries/8d3a5fbc-01f4-475a-88c7-d151f9403df9
+parent:
+  id: f19c395d-556b-4a91-a054-bc841db1e3c8
+  type: glossaryTerm
+  name: Term1
+  fullyQualifiedName: ImportGlossary.Term1
+  description: <p>Term1</p>
+  displayName: Term1
+  deleted: false
+  href: http://host.docker.internal:8585/api/v1/glossaryTerms/f19c395d-556b-4a91-a054-bc841db1e3c8
+children: []
+relatedTerms: []
+references: []
+reviewers: []
+owners:
+  - id: aca1c704-7c43-4ae4-9710-8319cb4f7856
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+usageCount: 0
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: displayName
+      oldValue: maira
+      newValue: lkra
+  fieldsDeleted: []
+  previousVersion: 0.7
+  changeSummary: {}
+entityStatus: Approved
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0

@@ -1,0 +1,58 @@
+name: eBskhUNvgl
+displayName: eBskhUNvgl
+description: Lorem ipsum dolor sit amet. Ut alias ducimus et dolores delectus et distinctio
+  quas vel nulla dolores! Ut molestiae atque qui expedita       officia est exercitationem
+  dignissimos? Sed illo velit et dolorem debitis non dolore vero non placeat nulla.
+fullyQualifiedName: Glossary.eBskhUNvgl
+synonyms:
+  - HQipF
+  - QnYLV
+  - Qkvyq
+  - vQRbJ
+  - vitxg
+glossary:
+  id: 47a75b03-2ee8-42ea-8f1d-d4a534dbbbb1
+  type: glossary
+  name: Glossary
+  fullyQualifiedName: Glossary
+  description: <p>Glossary</p>
+  displayName: Glossary
+  deleted: false
+children: []
+relatedTerms: []
+references: []
+impersonatedBy: governance-bot
+reviewers:
+  - id: 50a2a4c3-811b-4f03-8e35-27dea461eea4
+    type: user
+    name: ram
+    fullyQualifiedName: ram
+    description: ""
+    displayName: ram
+    deleted: false
+    inherited: true
+owners:
+  - id: aca1c704-7c43-4ae4-9710-8319cb4f7856
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+    inherited: true
+usageCount: 0
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Approved
+      newValue: In Review
+  fieldsDeleted: []
+  previousVersion: 0.3
+  changeSummary: {}
+entityStatus: In Review
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0

@@ -1,0 +1,49 @@
+name: Term1
+displayName: ""
+description: <p>Term1</p>
+style: {}
+fullyQualifiedName: ImportGlossary.Term1
+synonyms: []
+glossary:
+  id: 8d3a5fbc-01f4-475a-88c7-d151f9403df9
+  type: glossary
+  name: ImportGlossary
+  fullyQualifiedName: ImportGlossary
+  description: <p>ImportGlossary</p>
+  displayName: ImportGlossary
+  deleted: false
+  href: http://host.docker.internal:8585/api/v1/glossaries/8d3a5fbc-01f4-475a-88c7-d151f9403df9
+children:
+  - id: 360f7e72-5ace-4c5a-bcb9-e59c1fd992d2
+    type: glossaryTerm
+    name: Term2
+    fullyQualifiedName: ImportGlossary.Term1.Term2
+    description: <p>Term2. ffff</p>
+    displayName: lkra
+    deleted: false
+relatedTerms: []
+references: []
+reviewers: []
+owners:
+  - id: aca1c704-7c43-4ae4-9710-8319cb4f7856
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+usageCount: 0
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: synonyms
+      oldValue: "[\"term2\"]"
+  previousVersion: 1.2
+  changeSummary: {}
+entityStatus: Approved
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 1
