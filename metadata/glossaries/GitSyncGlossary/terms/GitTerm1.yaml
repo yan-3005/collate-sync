@@ -1,0 +1,42 @@
+name: GitTerm1
+displayName: ""
+description: <p>GitTerm1 sync to github</p>
+style: {}
+fullyQualifiedName: GitSyncGlossary.GitTerm1
+synonyms: []
+glossary:
+  id: bc2f8e61-e97d-409e-bb3d-f5a45fc524d1
+  type: glossary
+  name: GitSyncGlossary
+  fullyQualifiedName: GitSyncGlossary
+  description: <p>GitSyncGlossary</p>
+  displayName: GitSyncGlossary
+  deleted: false
+children: []
+relatedTerms: []
+references: []
+reviewers: []
+owners:
+  - id: aca1c704-7c43-4ae4-9710-8319cb4f7856
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+usageCount: 0
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: description
+      oldValue: <p>GitTerm1</p>
+      newValue: <p>GitTerm1 sync to github</p>
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: Approved
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0
