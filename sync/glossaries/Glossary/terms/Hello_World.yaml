@@ -1,0 +1,43 @@
+name: Hello World
+displayName: ""
+description: Hello World
+fullyQualifiedName: Glossary.Hello World
+synonyms: []
+glossary:
+  id: fb987fa1-e0fe-4777-8906-d7f260eaff8d
+  type: glossary
+  name: Glossary
+  fullyQualifiedName: Glossary
+  description: <p>Glossary</p>
+  displayName: Glossary
+  deleted: false
+children: []
+relatedTerms: []
+references: []
+reviewers: []
+owners:
+  - id: 3a01230d-ac9a-4dfe-ab34-5db17192cf8f
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+    inherited: true
+usageCount: 0
+tags:
+  - tagFQN: PersonalData.SpecialCategory
+    name: SpecialCategory
+    description: "GDPR special category data is personal information of data subjects\
+      \ that is especially sensitive, the exposure of which could significantly impact\
+      \ the rights and freedoms of data subjects and potentially be used against them\
+      \ for unlawful discrimination."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1768552092000
+entityStatus: Approved
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0

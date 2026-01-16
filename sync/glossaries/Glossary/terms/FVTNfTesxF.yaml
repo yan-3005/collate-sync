@@ -1,0 +1,40 @@
+name: FVTNfTesxF
+displayName: FVTNfTesxF
+description: Lorem ipsum dolor sit amet. Ut alias ducimus et dolores delectus et distinctio
+  quas vel nulla dolores! Ut molestiae atque qui expedita       officia est exercitationem
+  dignissimos? Sed illo velit et dolorem debitis non dolore vero non placeat nulla.
+fullyQualifiedName: Glossary.FVTNfTesxF
+synonyms:
+  - WkRyC
+  - QwckL
+  - YzAqt
+  - UxFPs
+  - iXoOh
+glossary:
+  id: fb987fa1-e0fe-4777-8906-d7f260eaff8d
+  type: glossary
+  name: Glossary
+  fullyQualifiedName: Glossary
+  description: <p>Glossary</p>
+  displayName: Glossary
+  deleted: false
+children: []
+relatedTerms: []
+references: []
+reviewers: []
+owners:
+  - id: 3a01230d-ac9a-4dfe-ab34-5db17192cf8f
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+    inherited: true
+usageCount: 0
+tags: []
+entityStatus: Approved
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0
