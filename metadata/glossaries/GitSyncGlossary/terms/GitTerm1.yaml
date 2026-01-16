@@ -15,7 +15,14 @@ glossary:
 children: []
 relatedTerms: []
 references: []
-reviewers: []
+reviewers:
+  - id: 50a2a4c3-811b-4f03-8e35-27dea461eea4
+    type: user
+    name: ram
+    fullyQualifiedName: ram
+    description: ""
+    displayName: ram
+    deleted: false
 owners:
   - id: aca1c704-7c43-4ae4-9710-8319cb4f7856
     type: user
@@ -26,13 +33,14 @@ owners:
 usageCount: 0
 tags: []
 incrementalChangeDescription:
-  fieldsAdded: []
-  fieldsUpdated:
-    - name: description
-      oldValue: <p>GitTerm1</p>
-      newValue: <p>GitTerm1 sync to github</p>
+  fieldsAdded:
+    - name: reviewers
+      newValue: "[{\"id\":\"50a2a4c3-811b-4f03-8e35-27dea461eea4\",\"type\":\"user\"\
+        ,\"name\":\"ram\",\"fullyQualifiedName\":\"ram\",\"displayName\":\"ram\",\"\
+        deleted\":false}]"
+  fieldsUpdated: []
   fieldsDeleted: []
-  previousVersion: 0.1
+  previousVersion: 0.2
   changeSummary: {}
 entityStatus: Approved
 provider: user
