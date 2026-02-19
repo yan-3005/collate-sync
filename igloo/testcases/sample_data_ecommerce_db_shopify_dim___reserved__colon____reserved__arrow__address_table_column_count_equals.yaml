@@ -1,0 +1,54 @@
+name: table_column_count_equals
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.table_column_count_equals
+description: test the number of column in table
+testDefinition:
+  id: 4cc5dd31-7f86-4d4d-9fe3-0b3ac1905677
+  type: testDefinition
+  name: tableColumnCountToEqual
+  fullyQualifiedName: tableColumnCountToEqual
+  description: This test defines the test TableColumnCountToEqual. Test the number
+    of columns equal to a value.
+  displayName: Table Column Count To Equal
+  deleted: false
+entityLink: <#E::table::sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address>
+entityFQN: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address
+testSuite:
+  id: c72d2aa2-a220-4f73-97cf-6b60e3a02a86
+  type: testSuite
+  name: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.testSuite
+  fullyQualifiedName: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.testSuite
+  displayName: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.testSuite
+  deleted: false
+testSuites:
+  - id: c72d2aa2-a220-4f73-97cf-6b60e3a02a86
+    name: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.testSuite
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.testSuite
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488526236
+    updatedBy: ingestion-bot
+    deleted: false
+    basic: true
+    basicEntityReference:
+      id: 608a573b-c048-4b4c-bde8-a34caddabdf5
+      type: table
+      name: dim___reserved__colon____reserved__arrow__address
+      fullyQualifiedName: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address
+    testCaseResultSummary: []
+    domains: []
+    tags: []
+    inherited: true
+    reviewers: []
+parameterValues:
+  - name: columnCount
+    value: 10
+owners: []
+createdBy: admin
+computePassedFailedRowCount: false
+domains: []
+useDynamicAssertion: false
+tags: []
+dimensionColumns: []
+entityStatus: Unprocessed
+reviewers: []

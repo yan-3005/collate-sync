@@ -1,0 +1,104 @@
+name: table_column_count_equals
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.table_column_count_equals
+description: test the number of column in table
+testDefinition:
+  id: 4cc5dd31-7f86-4d4d-9fe3-0b3ac1905677
+  type: testDefinition
+  name: tableColumnCountToEqual
+  fullyQualifiedName: tableColumnCountToEqual
+  description: This test defines the test TableColumnCountToEqual. Test the number
+    of columns equal to a value.
+  displayName: Table Column Count To Equal
+  deleted: false
+entityLink: <#E::table::sample_data.ecommerce_db.shopify.dim_address>
+entityFQN: sample_data.ecommerce_db.shopify.dim_address
+testSuite:
+  id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+  type: testSuite
+  name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  description: This is an executable test suite linked to an entity
+  displayName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  deleted: false
+testSuites:
+  - id: bde329fc-3206-4332-8fce-1e479a67535f
+    name: a2bbb0e6-f6ed-4b96-8b4c-bb14c0ccd73f
+    displayName: Data Contract - dim_address_comprehensive_contract
+    fullyQualifiedName: a2bbb0e6-f6ed-4b96-8b4c-bb14c0ccd73f
+    description: "Logical test suite for Data Contract: dim_address_comprehensive_contract"
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488584945
+    updatedBy: admin
+    deleted: false
+    basic: false
+    dataContract:
+      id: a2bbb0e6-f6ed-4b96-8b4c-bb14c0ccd73f
+      type: dataContract
+      fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.dataContract_dim_address_comprehensive_contract
+    testCaseResultSummary: []
+    tags: []
+    inherited: true
+    reviewers: []
+  - id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+    name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    description: This is an executable test suite linked to an entity
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488524784
+    updatedBy: admin
+    deleted: false
+    basic: true
+    basicEntityReference:
+      id: 6c0cce20-3060-4d8a-8bfb-35b68cbf5379
+      type: table
+      name: dim_address
+      fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address
+    testCaseResultSummary: []
+    domains: []
+    tags: []
+    inherited: true
+    reviewers: []
+parameterValues:
+  - name: columnCount
+    value: 10
+testCaseResult:
+  id: 92ffcf1f-addb-4ad4-aad0-85d10830d102
+  testCaseFQN: sample_data.ecommerce_db.shopify.dim_address.table_column_count_equals
+  timestamp: 1771488527725
+  testCaseStatus: Success
+  result: Found 10 columns vs. the expected 10
+  testResultValue:
+    - name: columnCount
+      value: 10
+  dimensionResults: []
+testCaseStatus: Success
+owners: []
+createdBy: admin
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: testCaseStatus
+      newValue: Success
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+computePassedFailedRowCount: false
+domains: []
+useDynamicAssertion: false
+tags:
+  - tagFQN: PII.Sensitive
+    name: Sensitive
+    description: "PII which if lost, compromised, or disclosed without authorization,\
+      \ could result in substantial harm, embarrassment, inconvenience, or unfairness\
+      \ to an individual."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771488495773
+dimensionColumns: []
+entityStatus: Unprocessed
+reviewers: []
