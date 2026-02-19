@@ -1,0 +1,76 @@
+name: child
+fullyQualifiedName: bug.test.test.child
+tableType: Regular
+columns:
+  - name: child_id
+    dataType: INT
+    dataLength: 1
+    dataTypeDisplay: int
+    fullyQualifiedName: bug.test.test.child.child_id
+    tags: []
+    constraint: PRIMARY_KEY
+    children: []
+    customMetrics: []
+  - name: some_col
+    dataType: VARCHAR
+    dataLength: 50
+    dataTypeDisplay: varchar(50)
+    fullyQualifiedName: bug.test.test.child.some_col
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints:
+  - constraintType: PRIMARY_KEY
+    columns:
+      - child_id
+owners: []
+databaseSchema:
+  id: c4737809-6449-4dc7-af88-4b0073e6f2fa
+  type: databaseSchema
+  name: test
+  fullyQualifiedName: bug.test.test
+  displayName: test
+  deleted: false
+database:
+  id: ab09e027-7e5c-4642-9fdf-219172e1fcc7
+  type: database
+  name: test
+  fullyQualifiedName: bug.test
+  displayName: test
+  deleted: false
+service:
+  id: a9ee9933-c7b2-4700-9853-683e2b618c33
+  type: databaseService
+  name: bug
+  fullyQualifiedName: bug
+  description: ""
+  displayName: bug
+  deleted: false
+serviceType: Mysql
+tags: []
+joins:
+  startDate: 2026-01-20
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: tableConstraints
+      oldValue: "[{\"constraintType\":\"FOREIGN_KEY\",\"columns\":[\"parent_drop_col\"\
+        ],\"referredColumns\":[\"bug.test.test.parent.drop_col\"],\"relationshipType\"\
+        :\"ONE_TO_ONE\"}]"
+    - name: columns
+      oldValue: "[{\"name\":\"parent_drop_col\",\"dataType\":\"INT\",\"dataLength\"\
+        :1,\"dataTypeDisplay\":\"int\",\"fullyQualifiedName\":\"bug.test.test.child.parent_drop_col\"\
+        ,\"tags\":[],\"constraint\":\"NOT_NULL\",\"children\":[]}]"
+  previousVersion: 1.4
+  changeSummary: {}
+domains: []
+dataProducts: []
+sourceHash: 669f5a0141f0c39bc9eb995b1891ba53
+processedLineage: false
+entityStatus: Unprocessed
