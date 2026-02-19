@@ -1,0 +1,36 @@
+name: dim_user_etl
+displayName: dim_user etl
+fullyQualifiedName: sample_airflow.dim_user_etl
+description: dim_user ETL pipeline
+dataProducts: []
+sourceUrl: http://localhost:8080/tree?dag_id=dim_user_etl
+tasks:
+  - name: dim_user_task
+    displayName: dim_user Task
+    fullyQualifiedName: sample_airflow.dim_user_etl.dim_user_task
+    description: Airflow operator to perform ETL and generate dim_user table
+    sourceUrl: http://localhost:8080/taskinstance/list/?_flt_3_dag_id=dim_user_task
+    downstreamTasks:
+      - assert_table_exists
+    taskType: PrestoOperator
+    tags: []
+  - name: assert_table_exists
+    displayName: Assert Table Exists
+    fullyQualifiedName: sample_airflow.dim_user_etl.assert_table_exists
+    description: Assert if a table exists
+    sourceUrl: http://localhost:8080/taskinstance/list/?_flt_3_dag_id=assert_table_exists
+    downstreamTasks: []
+    taskType: HiveOperator
+    tags: []
+tags: []
+owners: []
+service:
+  id: 5cccdddc-1b0a-4613-86de-b9d224e5aa97
+  type: pipelineService
+  name: sample_airflow
+  fullyQualifiedName: sample_airflow
+  displayName: sample_airflow
+  deleted: false
+serviceType: Airflow
+domains: []
+entityStatus: Unprocessed
