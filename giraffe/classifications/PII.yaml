@@ -1,0 +1,20 @@
+name: PII
+fullyQualifiedName: PII
+description: "Personally Identifiable Information that, when used alone or with other\
+  \ relevant data, can identify an individual.<br/><br/>_Note to Legal - This tag\
+  \ category is provided as a starting point. Please review and update the tags based\
+  \ on your company policy. Also, add a reference to your PII policy document in this\
+  \ description._"
+termCount: 3
+usageCount: 5
+provider: system
+disabled: false
+mutuallyExclusive: true
+owners: []
+reviewers: []
+entityStatus: Unprocessed
+autoClassificationConfig:
+  enabled: true
+  conflictResolution: highest_priority
+  minimumConfidence: 0.6
+  requireExplicitMatch: true
