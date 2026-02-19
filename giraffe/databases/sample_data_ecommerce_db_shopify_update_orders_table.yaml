@@ -1,0 +1,45 @@
+name: update_orders_table
+fullyQualifiedName: sample_data.ecommerce_db.shopify.update_orders_table
+description: This stored procedure is written java script to update the orders table
+storedProcedureCode:
+  code: "create or replace procedure read_result_set()\n  returns float not null\n\
+    \  language javascript\n  as     \n  $$  \n    var my_sql_command = \"select *\
+    \ from table1\";\n    var statement1 = snowflake.createStatement( {sqlText: my_sql_command}\
+    \ );\n    var result_set1 = statement1.execute();\n    // Loop through the results,\
+    \ processing one row at a time... \n    while (result_set1.next())  {\n      \
+    \ var column1 = result_set1.getColumnValue(1);\n       var column2 = result_set1.getColumnValue(2);\n\
+    \       // Do something with the retrieved values...\n       }\n  return 0.0;\
+    \ // Replace with something more useful.\n  $$\n  ;"
+dataProducts: []
+storedProcedureType: StoredProcedure
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+owners: []
+tags: []
+domains: []
+processedLineage: false
+entityStatus: Unprocessed
