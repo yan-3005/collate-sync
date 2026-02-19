@@ -1,0 +1,12 @@
+name: Certification
+fullyQualifiedName: Certification
+description: Certifying Data Asset will provide the users with a clear idea of how
+  reliable a Data Asset is.
+termCount: 3
+usageCount: 0
+provider: system
+disabled: false
+mutuallyExclusive: true
+owners: []
+reviewers: []
+entityStatus: Unprocessed
