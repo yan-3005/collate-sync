@@ -1,0 +1,47 @@
+name: openmetadata-db-1
+fullyQualifiedName: openmetadata-0.openmetadata-db-1
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 40493925-f17f-4557-9c52-a0d7547876e6
+  type: databaseService
+  name: openmetadata-0
+  fullyQualifiedName: openmetadata-0
+  displayName: openmetadata-0
+  deleted: false
+serviceType: Snowflake
+databaseSchemas:
+  - id: 8b30a0b3-4f2b-4070-a113-6bc97671ae94
+    type: databaseSchema
+    name: openmetadata-schema-0
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-0
+    displayName: openmetadata-schema-0
+    deleted: false
+  - id: b6d2d74c-f9ca-4aec-b0ef-27520c5de82a
+    type: databaseSchema
+    name: openmetadata-schema-1
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-1
+    displayName: openmetadata-schema-1
+    deleted: false
+  - id: 4d52c2e1-af1e-4e48-9788-d8e174b885f0
+    type: databaseSchema
+    name: openmetadata-schema-2
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2
+    displayName: openmetadata-schema-2
+    deleted: false
+  - id: 36a05852-3056-410a-8781-5e92cf1171d2
+    type: databaseSchema
+    name: openmetadata-schema-3
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-3
+    displayName: openmetadata-schema-3
+    deleted: false
+  - id: 4957af48-b04b-443f-823c-e46c47b99ddf
+    type: databaseSchema
+    name: openmetadata-schema-4
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-4
+    displayName: openmetadata-schema-4
+    deleted: false
+default: false
+domains: []
+entityStatus: Unprocessed
