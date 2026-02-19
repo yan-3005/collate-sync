@@ -1,0 +1,39 @@
+name: sample_data
+fullyQualifiedName: sample_data
+serviceType: BigQuery
+connection:
+  config:
+    type: BigQuery
+    scheme: bigquery
+    hostPort: localhost:1234
+    costPerTB: 6.25
+    credentials:
+      gcpConfig:
+        type: service_account
+        authUri: https://accounts.google.com/o/oauth2/auth
+        clientId: clientId
+        tokenUri: https://oauth2.googleapis.com/token
+        projectId:
+          - projectID
+        privateKey: fernet:gAAAAABplsTmGFKfn3DBwrIQjtogObRkcJcTBTNnXqc__uisssOmoLwmAufL9uAsIJxouwi70nkqO2gbyOQT9hxtNM4a1H1nTA==
+        clientEmail: clientEmail
+        privateKeyId: privateKeyId
+        clientX509CertUrl: https://cert.url/
+        authProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+    usageLocation: us
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    taxonomyLocation: us
+    includePolicyTags: true
+    supportsQueryComment: true
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    supportsIncrementalMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
