@@ -1,0 +1,31 @@
+name: engineering
+fullyQualifiedName: s3_storage_sample.departments.engineering
+displayName: Engineering department
+description: Bucket containing engineering department information
+owners: []
+service:
+  id: 1008bd4b-8160-414c-98ec-2eb21825068f
+  type: storageService
+  name: s3_storage_sample
+  fullyQualifiedName: s3_storage_sample
+  displayName: s3_storage_sample
+  deleted: false
+parent:
+  id: f1dcd19f-72fa-42e0-9ed8-52a9f239696f
+  type: container
+  name: departments
+  fullyQualifiedName: s3_storage_sample.departments
+  description: Bucket containing company department information
+  displayName: Company departments
+  deleted: false
+children: []
+prefix: /departments/engineering/
+numberOfObjects: 5.0
+size: 14336.0
+fileFormats:
+  - zip
+serviceType: S3
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

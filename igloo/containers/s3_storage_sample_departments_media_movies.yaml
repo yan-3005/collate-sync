@@ -1,0 +1,31 @@
+name: movies
+fullyQualifiedName: s3_storage_sample.departments.media.movies
+displayName: Company official footage
+description: Bucket containing movies about the company
+owners: []
+service:
+  id: 1008bd4b-8160-414c-98ec-2eb21825068f
+  type: storageService
+  name: s3_storage_sample
+  fullyQualifiedName: s3_storage_sample
+  displayName: s3_storage_sample
+  deleted: false
+parent:
+  id: 301c2382-dfeb-4d64-b046-1fb544fe52b9
+  type: container
+  name: media
+  fullyQualifiedName: s3_storage_sample.departments.media
+  description: Bucket containing media department information
+  displayName: Media department
+  deleted: false
+children: []
+prefix: /departments/media/media2020/
+numberOfObjects: 500.0
+size: 1.536E7
+fileFormats:
+  - gz
+serviceType: S3
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

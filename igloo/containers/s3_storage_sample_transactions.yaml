@@ -1,0 +1,53 @@
+name: transactions
+fullyQualifiedName: s3_storage_sample.transactions
+displayName: Company Transactions
+description: Bucket containing all the company's transactions
+owners: []
+service:
+  id: 1008bd4b-8160-414c-98ec-2eb21825068f
+  type: storageService
+  name: s3_storage_sample
+  fullyQualifiedName: s3_storage_sample
+  displayName: s3_storage_sample
+  deleted: false
+children: []
+dataModel:
+  isPartitioned: true
+  columns:
+    - name: transaction_id
+      dataType: NUMERIC
+      dataTypeDisplay: numeric
+      description: The ID of the executed transaction. This column is the primary
+        key for this table.
+      fullyQualifiedName: s3_storage_sample.transactions.transaction_id
+      tags: []
+      constraint: PRIMARY_KEY
+      ordinalPosition: 1
+      children: []
+    - name: merchant
+      dataType: VARCHAR
+      dataLength: 100
+      dataTypeDisplay: varchar
+      description: The merchant for this transaction.
+      fullyQualifiedName: s3_storage_sample.transactions.merchant
+      tags: []
+      ordinalPosition: 2
+      children: []
+    - name: transaction_time
+      dataType: TIMESTAMP
+      dataTypeDisplay: timestamp
+      description: The time the transaction took place.
+      fullyQualifiedName: s3_storage_sample.transactions.transaction_time
+      tags: []
+      ordinalPosition: 3
+      children: []
+prefix: /transactions/
+numberOfObjects: 1.7661858297E10
+size: 102400.0
+fileFormats:
+  - parquet
+serviceType: S3
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
