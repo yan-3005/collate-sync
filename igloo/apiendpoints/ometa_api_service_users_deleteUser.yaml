@@ -1,0 +1,26 @@
+name: deleteUser
+displayName: Delete user by ID
+fullyQualifiedName: ometa_api_service.users.deleteUser
+description: Delete user by ID
+endpointURL: https://docs.open-metadata.org/api/v1/users/%7Bid%7D
+requestMethod: DELETE
+apiCollection:
+  id: 7c1f83fa-c81e-4481-bc71-3989c65f2c0b
+  type: apiCollection
+  name: users
+  fullyQualifiedName: ometa_api_service.users
+  displayName: users
+  deleted: false
+owners: []
+tags: []
+service:
+  id: c5716e2e-2fd8-43fe-9cbe-497c25874b55
+  type: apiService
+  name: ometa_api_service
+  fullyQualifiedName: ometa_api_service
+  displayName: ometa_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

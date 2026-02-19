@@ -1,0 +1,78 @@
+name: listUsers
+displayName: List users
+fullyQualifiedName: ometa_api_service.users.listUsers
+description: Get a list of users
+endpointURL: https://docs.open-metadata.org/api/v1/users
+requestMethod: GET
+responseSchema:
+  schemaType: JSON
+  schemaFields:
+    - name: data
+      dataType: RECORD
+      description: list of users
+      fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.data
+      tags: []
+      children:
+        - name: id
+          dataType: STRING
+          description: ID of user
+          fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.data.id
+          tags: []
+        - name: name
+          dataType: STRING
+          description: name of user
+          fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.data.name
+          tags: []
+        - name: email
+          dataType: STRING
+          description: email id of user
+          fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.data.email
+          tags: []
+    - name: errors
+      dataType: RECORD
+      description: list of errors
+      fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.errors
+      tags: []
+      children:
+        - name: entity
+          dataType: RECORD
+          description: entity object
+          fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.errors.entity
+          tags: []
+          children: []
+        - name: message
+          dataType: STRING
+          description: error message
+          fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.errors.message
+          tags: []
+    - name: paging
+      dataType: RECORD
+      description: paging
+      fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.paging
+      tags: []
+      children:
+        - name: total
+          dataType: INT
+          description: total pages
+          fullyQualifiedName: ometa_api_service.users.listUsers.responseSchema.paging.total
+          tags: []
+apiCollection:
+  id: 7c1f83fa-c81e-4481-bc71-3989c65f2c0b
+  type: apiCollection
+  name: users
+  fullyQualifiedName: ometa_api_service.users
+  displayName: users
+  deleted: false
+owners: []
+tags: []
+service:
+  id: c5716e2e-2fd8-43fe-9cbe-497c25874b55
+  type: apiService
+  name: ometa_api_service
+  fullyQualifiedName: ometa_api_service
+  displayName: ometa_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

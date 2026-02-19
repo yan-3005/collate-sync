@@ -1,0 +1,26 @@
+name: deleteTable
+displayName: Delete table by ID
+fullyQualifiedName: ometa_api_service.tables.deleteTable
+description: Delete table by ID
+endpointURL: https://docs.open-metadata.org/api/v1/tables/%7Bid%7D
+requestMethod: DELETE
+apiCollection:
+  id: a41eb538-73d3-4c0c-af33-acf7eb3c3fb8
+  type: apiCollection
+  name: tables
+  fullyQualifiedName: ometa_api_service.tables
+  displayName: tables
+  deleted: false
+owners: []
+tags: []
+service:
+  id: c5716e2e-2fd8-43fe-9cbe-497c25874b55
+  type: apiService
+  name: ometa_api_service
+  fullyQualifiedName: ometa_api_service
+  displayName: ometa_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
