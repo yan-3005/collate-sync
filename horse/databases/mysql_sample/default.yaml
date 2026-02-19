@@ -1,0 +1,24 @@
+name: default
+fullyQualifiedName: mysql_sample.default
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 8fc9213b-9e0d-4b8d-a9b9-2f38562a9c03
+  type: databaseService
+  name: mysql_sample
+  fullyQualifiedName: mysql_sample
+  displayName: mysql_sample
+  deleted: false
+serviceType: Mysql
+databaseSchemas:
+  - id: 566ee84a-9496-43e9-bd39-6b787ae07d86
+    type: databaseSchema
+    name: posts_db
+    fullyQualifiedName: mysql_sample.default.posts_db
+    displayName: posts_db
+    deleted: false
+default: false
+sourceUrl: https://localhost:3306/posts_db
+domains: []
+entityStatus: Unprocessed
