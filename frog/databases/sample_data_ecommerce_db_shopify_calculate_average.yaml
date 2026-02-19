@@ -1,0 +1,49 @@
+name: calculate_average
+fullyQualifiedName: sample_data.ecommerce_db.shopify.calculate_average
+description: Procedure to calculate average
+storedProcedureCode:
+  code: |-
+    CREATE OR REPLACE PROCEDURE calculate_average(numbers INT ARRAY) RETURNS FLOAT NOT NULL LANGUAGE SQL AS $$DECLARE sum_val INT = 0;count_val INT = 0;average_val FLOAT;BEGIN
+      FOR num IN ARRAY numbers DO sum_val := sum_val + num;
+      count_val := count_val + 1;
+    END FOR;
+    IF count_val = 0 THEN
+      average_val := 0.0;
+    ELSE
+      average_val := sum_val / count_val;
+    END IF;
+    RETURN average_val;
+    END;$$;
+dataProducts: []
+storedProcedureType: StoredProcedure
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+owners: []
+tags: []
+domains: []
+processedLineage: false
+entityStatus: Unprocessed
