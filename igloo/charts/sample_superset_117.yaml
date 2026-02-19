@@ -1,0 +1,34 @@
+name: 117
+displayName: Age distribution of respondents
+fullyQualifiedName: sample_superset.117
+description: ""
+chartType: Histogram
+sourceUrl: http://localhost:8088/superset/explore/?form_data=%7B%22slice_id%22%3A%20117%7D
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+dashboards:
+  - id: 4b7ac31a-f415-40e2-a145-3c584af62071
+    type: dashboard
+    name: 31
+    fullyQualifiedName: sample_superset.31
+    description: ""
+    displayName: Sales Dashboard
+    deleted: false
+  - id: 981fd2f3-307b-4087-9fc6-6ff72cdea4a9
+    type: dashboard
+    name: 9
+    fullyQualifiedName: sample_superset.9
+    description: ""
+    displayName: COVID Vaccine Dashboard
+    deleted: false
+entityStatus: Unprocessed
