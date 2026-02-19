@@ -1,0 +1,52 @@
+name: 73
+displayName: Vaccine Candidates per Country
+fullyQualifiedName: sample_superset.model.73
+description: Data of Vaccine Candidates per Country
+owners: []
+dataProducts: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+dataModelType: SupersetDataModel
+sql: |-
+  SELECT country_name AS country_name,
+         COUNT(*) AS count,
+         count(country_name) AS "COUNT(Country_Name)"
+  FROM covid_vaccines
+  GROUP BY country_name
+  LIMIT 10000
+  OFFSET 0;
+columns:
+  - name: country_name
+    dataType: VARCHAR
+    dataLength: 256
+    dataTypeDisplay: varchar
+    description: Name of the country.
+    fullyQualifiedName: sample_superset.model.73.country_name
+    tags: []
+    ordinalPosition: 1
+    children: []
+  - name: count
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: Total number of vaccine candidates per country.
+    fullyQualifiedName: sample_superset.model.73.count
+    tags: []
+    ordinalPosition: 2
+    children: []
+  - name: COUNT(Country_Name)
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: Total number of vaccine candidates.
+    fullyQualifiedName: sample_superset.model.73.COUNT(Country_Name)
+    tags: []
+    ordinalPosition: 3
+    children: []
+domains: []
+entityStatus: Unprocessed
