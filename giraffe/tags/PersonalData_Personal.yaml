@@ -1,0 +1,28 @@
+name: Personal
+fullyQualifiedName: PersonalData.Personal
+description: Data that can be used to directly or indirectly identify a person.
+classification:
+  id: da1ccd1c-7d13-4c15-92be-0b227672a2b5
+  type: classification
+  name: PersonalData
+  fullyQualifiedName: PersonalData
+  description: "Tags related classifying **Personal data** as defined by **GDPR.**<br/><br/>_Note\
+    \ to Legal - This tag category is provided as a starting point. Please review\
+    \ and update the tags based on your company policy. Also, add a reference to your\
+    \ GDPR policy document in this description._"
+  displayName: PersonalData
+  deleted: false
+children: []
+usageCount: 0
+deprecated: false
+provider: system
+disabled: false
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+owners: []
+reviewers: []
+entityStatus: Unprocessed
+recognizers: []
+autoClassificationEnabled: false
+autoClassificationPriority: 50

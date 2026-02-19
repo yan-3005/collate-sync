@@ -1,0 +1,39 @@
+name: Email
+fullyQualifiedName: General.Email
+description: Email address.
+classification:
+  id: 6c8a8f38-9f49-40ad-b8ce-5f557da28c33
+  type: classification
+  name: General
+  fullyQualifiedName: General
+  description: "Category describing generic data types, such as `DateTime`, `Location`,\
+    \ or `BankNumber`"
+  displayName: General
+  deleted: false
+children: []
+usageCount: 0
+deprecated: false
+provider: system
+disabled: false
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+owners: []
+reviewers: []
+entityStatus: Unprocessed
+recognizers:
+  - id: e25de3d0-9fea-4af1-ac69-6ac3d6caf76e
+    name: EmailRecognizer
+    displayName: Email Recognizer
+    description: Recognize email addresses using regex.
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: EmailRecognizer
+      type: predefined
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+autoClassificationEnabled: true
+autoClassificationPriority: 50

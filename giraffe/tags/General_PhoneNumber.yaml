@@ -1,0 +1,61 @@
+name: PhoneNumber
+fullyQualifiedName: General.PhoneNumber
+description: A telephone number.
+classification:
+  id: 6c8a8f38-9f49-40ad-b8ce-5f557da28c33
+  type: classification
+  name: General
+  fullyQualifiedName: General
+  description: "Category describing generic data types, such as `DateTime`, `Location`,\
+    \ or `BankNumber`"
+  displayName: General
+  deleted: false
+children: []
+usageCount: 0
+deprecated: false
+provider: system
+disabled: false
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+owners: []
+reviewers: []
+entityStatus: Unprocessed
+recognizers:
+  - id: 337188a7-6922-4e93-99be-462781101d55
+    name: PhoneRecognizer
+    displayName: Phone Recognizer
+    description: Recognize multi-regional phone numbers.
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: PhoneRecognizer
+      type: predefined
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+  - id: bf87cef0-8ff3-4e2e-9025-4553db74410a
+    name: phone_number
+    displayName: Phone number column name
+    description: A regex recognizer for column names
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      type: pattern
+      context: []
+      patterns:
+        - name: phone_number_pattern_0
+          regex: ^.*(phone).*$
+          score: 0.6
+      regexFlags:
+        dotAll: true
+        multiline: true
+        ignoreCase: true
+      supportedLanguage: en
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: column_name
+autoClassificationEnabled: true
+autoClassificationPriority: 50
