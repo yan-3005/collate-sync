@@ -1,0 +1,84 @@
+name: createTable
+displayName: Create a table
+fullyQualifiedName: ometa_api_service.tables.createTable
+description: Create a new table under an existing database
+endpointURL: https://docs.open-metadata.org/api/v1/tables
+requestMethod: POST
+requestSchema:
+  schemaType: JSON
+  schemaFields:
+    - name: databaseSchema
+      dataType: STRING
+      description: db schema of new table
+      fullyQualifiedName: ometa_api_service.tables.createTable.requestSchema.databaseSchema
+      tags: []
+    - name: name
+      dataType: STRING
+      description: name of table
+      fullyQualifiedName: ometa_api_service.tables.createTable.requestSchema.name
+      tags: []
+    - name: columns
+      dataType: RECORD
+      description: list of columns
+      fullyQualifiedName: ometa_api_service.tables.createTable.requestSchema.columns
+      tags: []
+      children:
+        - name: name
+          dataType: STRING
+          description: name of column
+          fullyQualifiedName: ometa_api_service.tables.createTable.requestSchema.columns.name
+          tags: []
+        - name: datatype
+          dataType: STRING
+          description: datatype of column
+          fullyQualifiedName: ometa_api_service.tables.createTable.requestSchema.columns.datatype
+          tags: []
+responseSchema:
+  schemaType: JSON
+  schemaFields:
+    - name: id
+      dataType: STRING
+      description: id of created table
+      fullyQualifiedName: ometa_api_service.tables.createTable.responseSchema.id
+      tags: []
+    - name: name
+      dataType: STRING
+      description: name of created table
+      fullyQualifiedName: ometa_api_service.tables.createTable.responseSchema.name
+      tags: []
+    - name: columns
+      dataType: RECORD
+      description: list of columns
+      fullyQualifiedName: ometa_api_service.tables.createTable.responseSchema.columns
+      tags: []
+      children:
+        - name: name
+          dataType: STRING
+          description: name of column
+          fullyQualifiedName: ometa_api_service.tables.createTable.responseSchema.columns.name
+          tags: []
+        - name: datatype
+          dataType: STRING
+          description: datatype of column
+          fullyQualifiedName: ometa_api_service.tables.createTable.responseSchema.columns.datatype
+          tags: []
+apiCollection:
+  id: a41eb538-73d3-4c0c-af33-acf7eb3c3fb8
+  type: apiCollection
+  name: tables
+  fullyQualifiedName: ometa_api_service.tables
+  displayName: tables
+  deleted: false
+owners: []
+tags: []
+service:
+  id: c5716e2e-2fd8-43fe-9cbe-497c25874b55
+  type: apiService
+  name: ometa_api_service
+  fullyQualifiedName: ometa_api_service
+  displayName: ometa_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

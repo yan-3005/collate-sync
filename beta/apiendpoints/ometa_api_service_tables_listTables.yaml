@@ -1,0 +1,79 @@
+name: listTables
+displayName: List tables
+fullyQualifiedName: ometa_api_service.tables.listTables
+description: Get a list of tables
+endpointURL: https://docs.open-metadata.org/api/v1/tables
+requestMethod: GET
+responseSchema:
+  schemaType: JSON
+  schemaFields:
+    - name: data
+      dataType: RECORD
+      description: list of tables
+      fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.data
+      tags: []
+      children:
+        - name: id
+          dataType: STRING
+          description: ID of table
+          fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.data.id
+          tags: []
+        - name: name
+          dataType: STRING
+          description: name of table
+          fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.data.name
+          tags: []
+        - name: columns
+          dataType: RECORD
+          description: columns of table
+          fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.data.columns
+          tags: []
+          children: []
+    - name: errors
+      dataType: RECORD
+      description: list of errors
+      fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.errors
+      tags: []
+      children:
+        - name: entity
+          dataType: RECORD
+          description: entity object
+          fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.errors.entity
+          tags: []
+          children: []
+        - name: message
+          dataType: STRING
+          description: error message
+          fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.errors.message
+          tags: []
+    - name: paging
+      dataType: RECORD
+      description: paging
+      fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.paging
+      tags: []
+      children:
+        - name: total
+          dataType: INT
+          description: total pages
+          fullyQualifiedName: ometa_api_service.tables.listTables.responseSchema.paging.total
+          tags: []
+apiCollection:
+  id: a41eb538-73d3-4c0c-af33-acf7eb3c3fb8
+  type: apiCollection
+  name: tables
+  fullyQualifiedName: ometa_api_service.tables
+  displayName: tables
+  deleted: false
+owners: []
+tags: []
+service:
+  id: c5716e2e-2fd8-43fe-9cbe-497c25874b55
+  type: apiService
+  name: ometa_api_service
+  fullyQualifiedName: ometa_api_service
+  displayName: ometa_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

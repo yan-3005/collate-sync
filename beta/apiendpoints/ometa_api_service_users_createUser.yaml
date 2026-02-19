@@ -1,0 +1,57 @@
+name: createUser
+displayName: Create a user
+fullyQualifiedName: ometa_api_service.users.createUser
+description: Create a new user
+endpointURL: https://docs.open-metadata.org/api/v1/users
+requestMethod: POST
+requestSchema:
+  schemaType: JSON
+  schemaFields:
+    - name: email
+      dataType: STRING
+      description: email of new user
+      fullyQualifiedName: ometa_api_service.users.createUser.requestSchema.email
+      tags: []
+    - name: name
+      dataType: STRING
+      description: name of new user
+      fullyQualifiedName: ometa_api_service.users.createUser.requestSchema.name
+      tags: []
+responseSchema:
+  schemaType: JSON
+  schemaFields:
+    - name: id
+      dataType: STRING
+      description: ID of user
+      fullyQualifiedName: ometa_api_service.users.createUser.responseSchema.id
+      tags: []
+    - name: name
+      dataType: STRING
+      description: name of user
+      fullyQualifiedName: ometa_api_service.users.createUser.responseSchema.name
+      tags: []
+    - name: email
+      dataType: STRING
+      description: email id of user
+      fullyQualifiedName: ometa_api_service.users.createUser.responseSchema.email
+      tags: []
+apiCollection:
+  id: 7c1f83fa-c81e-4481-bc71-3989c65f2c0b
+  type: apiCollection
+  name: users
+  fullyQualifiedName: ometa_api_service.users
+  displayName: users
+  deleted: false
+owners: []
+tags: []
+service:
+  id: c5716e2e-2fd8-43fe-9cbe-497c25874b55
+  type: apiService
+  name: ometa_api_service
+  fullyQualifiedName: ometa_api_service
+  displayName: ometa_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
