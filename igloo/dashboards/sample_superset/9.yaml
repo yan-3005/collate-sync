@@ -1,0 +1,49 @@
+name: 9
+displayName: COVID Vaccine Dashboard
+fullyQualifiedName: sample_superset.9
+description: ""
+dashboardType: Dashboard
+sourceUrl: http://localhost:808/superset/dashboard/8/
+charts:
+  - id: 6b0605ef-fcca-49e2-8f6c-5e315bd30bd5
+    type: chart
+    name: 117
+    fullyQualifiedName: sample_superset.117
+    description: ""
+    displayName: Age distribution of respondents
+    deleted: false
+  - id: 5c532c33-72ec-4cf1-83af-4a2af09a9e4f
+    type: chart
+    name: 197
+    fullyQualifiedName: sample_superset.197
+    description: ""
+    displayName: Arcs
+    deleted: false
+dataModels:
+  - id: b3ebd89f-d6cf-40c7-928b-fdf23412ddfa
+    type: dashboardDataModel
+    name: 103
+    fullyQualifiedName: sample_superset.model.103
+    description: Data of Vaccine Candidates per Phase
+    displayName: Vaccine Candidates per Phase
+    deleted: false
+  - id: 2c5e4c19-dc53-4765-a35a-4a9623ca5145
+    type: dashboardDataModel
+    name: 73
+    fullyQualifiedName: sample_superset.model.73
+    description: Data of Vaccine Candidates per Country
+    displayName: Vaccine Candidates per Country
+    deleted: false
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
