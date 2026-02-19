@@ -1,0 +1,42 @@
+name: 10
+displayName: deck.gl Demo
+fullyQualifiedName: sample_superset.10
+description: ""
+dashboardType: Dashboard
+sourceUrl: http://localhost:808/superset/dashboard/deck/
+charts:
+  - id: 6fd2e7b2-9526-485e-b62c-dbec7c4f75b2
+    type: chart
+    name: 114
+    fullyQualifiedName: sample_superset.114
+    description: ""
+    displayName: "# of Games That Hit 100k in Sales By Release Year"
+    deleted: false
+  - id: 9689909c-ca24-4b04-82a2-99ceb5f69c7b
+    type: chart
+    name: 127
+    fullyQualifiedName: sample_superset.127
+    description: ""
+    displayName: Are you an ethnic minority in your city?
+    deleted: false
+  - id: c5b9e2d4-1701-48f0-ae59-b751d055029b
+    type: chart
+    name: 166
+    fullyQualifiedName: sample_superset.166
+    description: ""
+    displayName: '% Rural'
+    deleted: false
+dataModels: []
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
