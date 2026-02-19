@@ -1,0 +1,77 @@
+name: bug
+fullyQualifiedName: bug
+serviceType: Mysql
+description: ""
+connection:
+  config:
+    type: Mysql
+    scheme: mysql+pymysql
+    authType:
+      password: fernet:gAAAAABplqKrw62Fkj8mWyiDxZJMdHrC-qqyAubFDfT9G0SefmZjurGv9qWTmkEQJx7gvKW9ErVfc238azWhVGcEJQI_8bbPEoGG6GjcU-wesltBV8gV1BU=
+    hostPort: localhost:3306
+    username: openmetadata_user
+    useSlowLogs: false
+    databaseName: test
+    databaseSchema: test
+    supportsDataDiff: true
+    supportsProfiler: true
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+        - ^performance_schema$
+      includes:
+        - test
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes: []
+      includes: []
+    supportsDBTExtraction: true
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+pipelines:
+  - id: c842d742-8cfc-484a-b7b0-b250212a6bb5
+    type: ingestionPipeline
+    name: 4900f04f-1d20-4ac2-b0ac-c8e1b1723463
+    fullyQualifiedName: bug.4900f04f-1d20-4ac2-b0ac-c8e1b1723463
+    displayName: Profiler Agent
+    deleted: false
+  - id: 0a45768a-5cfb-47e9-a0f8-7053d53d0ad2
+    type: ingestionPipeline
+    name: 679fb723-b1cf-4323-aa13-865cb33b8c5c
+    fullyQualifiedName: bug.679fb723-b1cf-4323-aa13-865cb33b8c5c
+    displayName: Lineage Agent
+    deleted: false
+  - id: 4832a4db-d721-4417-a41a-9429731f0a26
+    type: ingestionPipeline
+    name: 69568efe-e4fb-4784-994c-c9507de84484
+    fullyQualifiedName: bug.69568efe-e4fb-4784-994c-c9507de84484
+    displayName: AutoClassification Agent
+    deleted: false
+  - id: f3cada48-c1fc-496c-95c1-7199d922c640
+    type: ingestionPipeline
+    name: a9b62b5a-861b-4710-b113-0188b8003eb6
+    fullyQualifiedName: bug.a9b62b5a-861b-4710-b113-0188b8003eb6
+    displayName: Usage Agent
+    deleted: false
+  - id: 14fdfb3a-372e-456f-9595-36b1be9e3553
+    type: ingestionPipeline
+    name: bc339d91-41de-47a2-b530-f6c943356313
+    fullyQualifiedName: bug.bc339d91-41de-47a2-b530-f6c943356313
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: c0421655-1efc-480e-9282-62d36024968b
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+dataProducts: []
