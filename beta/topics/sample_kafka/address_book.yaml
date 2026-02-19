@@ -1,0 +1,88 @@
+name: address_book
+fullyQualifiedName: sample_kafka.address_book
+description: All Protobuf record related events gets captured in this topic
+service:
+  id: 827440df-83ad-4a59-a0ec-b01f9494d47f
+  type: messagingService
+  name: sample_kafka
+  fullyQualifiedName: sample_kafka
+  displayName: sample_kafka
+  deleted: false
+serviceType: Kafka
+messageSchema:
+  schemaText: |-
+    syntax = "proto2";
+
+    package tutorial;
+
+    message Person {
+      optional string name = 1;
+      optional int32 id = 2;
+      optional string email = 3;
+
+      enum PhoneType {
+        MOBILE = 0;
+        HOME = 1;
+        WORK = 2;
+      }
+
+      message PhoneNumber {
+        optional string number = 1;
+        optional PhoneType type = 2 [default = HOME];
+      }
+
+      repeated PhoneNumber phones = 4;
+    }
+
+    message AddressBook {
+      repeated Person people = 1;
+    }
+  schemaType: Protobuf
+  schemaFields:
+    - name: AddressBook
+      dataType: RECORD
+      fullyQualifiedName: sample_kafka.address_book.AddressBook
+      tags: []
+      children:
+        - name: people
+          dataType: RECORD
+          fullyQualifiedName: sample_kafka.address_book.AddressBook.people
+          tags: []
+          children:
+            - name: name
+              dataType: STRING
+              fullyQualifiedName: sample_kafka.address_book.AddressBook.people.name
+              tags: []
+            - name: id
+              dataType: INT
+              fullyQualifiedName: sample_kafka.address_book.AddressBook.people.id
+              tags: []
+            - name: email
+              dataType: STRING
+              fullyQualifiedName: sample_kafka.address_book.AddressBook.people.email
+              tags: []
+            - name: phones
+              dataType: RECORD
+              fullyQualifiedName: sample_kafka.address_book.AddressBook.people.phones
+              tags: []
+              children:
+                - name: number
+                  dataType: STRING
+                  fullyQualifiedName: sample_kafka.address_book.AddressBook.people.phones.number
+                  tags: []
+                - name: type
+                  dataType: ENUM
+                  fullyQualifiedName: sample_kafka.address_book.AddressBook.people.phones.type
+                  tags: []
+partitions: 128
+cleanupPolicies:
+  - compact
+  - delete
+replicationFactor: 4
+maximumMessageSize: 249
+retentionSize: 1.931232624E9
+owners: []
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
