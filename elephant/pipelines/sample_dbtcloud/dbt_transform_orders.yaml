@@ -1,0 +1,53 @@
+name: dbt_transform_orders
+displayName: DBT Transform Orders
+fullyQualifiedName: sample_dbtcloud.dbt_transform_orders
+description: DBT pipeline for transforming order data into fact tables - runs daily
+dataProducts: []
+sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_transform_orders
+tasks:
+  - name: dbt_run_orders
+    displayName: DBT Run Order Transformations
+    fullyQualifiedName: sample_dbtcloud.dbt_transform_orders.dbt_run_orders
+    description: Execute dbt run for order fact tables
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_transform_orders
+    downstreamTasks:
+      - dbt_test_orders
+    taskType: dbtRunTask
+    tags: []
+  - name: dbt_test_orders
+    displayName: DBT Test Order Models
+    fullyQualifiedName: sample_dbtcloud.dbt_transform_orders.dbt_test_orders
+    description: Execute dbt tests for order models
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_transform_orders
+    downstreamTasks: []
+    taskType: dbtTestTask
+    tags: []
+pipelineStatus:
+  timestamp: 1771370701889
+  executionStatus: Successful
+  taskStatus:
+    - name: dbt_run_orders
+      executionStatus: Successful
+      inputs: []
+      outputs: []
+    - name: dbt_test_orders
+      executionStatus: Successful
+      inputs: []
+      outputs: []
+  executionId: orders_run_201
+  endTime: 1771374301889
+  inputs: []
+  outputs: []
+tags: []
+owners: []
+service:
+  id: b22201d1-32fb-4140-a70b-2a57f3348be8
+  type: pipelineService
+  name: sample_dbtcloud
+  fullyQualifiedName: sample_dbtcloud
+  displayName: sample_dbtcloud
+  deleted: false
+serviceType: DBTCloud
+scheduleInterval: 0 3 * * *
+domains: []
+entityStatus: Unprocessed
