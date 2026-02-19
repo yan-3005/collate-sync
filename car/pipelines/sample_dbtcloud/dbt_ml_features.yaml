@@ -1,0 +1,37 @@
+name: dbt_ml_features
+displayName: DBT ML Feature Generation
+fullyQualifiedName: sample_dbtcloud.dbt_ml_features
+description: DBT pipeline for generating ML features - runs twice daily
+dataProducts: []
+sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_ml_features
+tasks:
+  - name: dbt_run_ml_features
+    displayName: DBT Run ML Features
+    fullyQualifiedName: sample_dbtcloud.dbt_ml_features.dbt_run_ml_features
+    description: Execute dbt run for ML feature generation
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_ml_features
+    downstreamTasks:
+      - dbt_test_ml_features
+    taskType: dbtRunTask
+    tags: []
+  - name: dbt_test_ml_features
+    displayName: DBT Test ML Features
+    fullyQualifiedName: sample_dbtcloud.dbt_ml_features.dbt_test_ml_features
+    description: Execute dbt tests for ML feature models
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_ml_features
+    downstreamTasks: []
+    taskType: dbtTestTask
+    tags: []
+tags: []
+owners: []
+service:
+  id: b22201d1-32fb-4140-a70b-2a57f3348be8
+  type: pipelineService
+  name: sample_dbtcloud
+  fullyQualifiedName: sample_dbtcloud
+  displayName: sample_dbtcloud
+  deleted: false
+serviceType: DBTCloud
+scheduleInterval: "0 2,14 * * *"
+domains: []
+entityStatus: Unprocessed

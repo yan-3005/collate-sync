@@ -1,0 +1,37 @@
+name: ml_feature_pipeline
+displayName: ML Feature Engineering Pipeline
+fullyQualifiedName: sample_airflow.ml_feature_pipeline
+description: Machine learning feature engineering pipeline running twice daily
+dataProducts: []
+sourceUrl: http://localhost:8080/tree?dag_id=ml_feature_pipeline
+tasks:
+  - name: feature_engineering_task
+    displayName: Feature Engineering Task
+    fullyQualifiedName: sample_airflow.ml_feature_pipeline.feature_engineering_task
+    description: Airflow operator to generate ML features from order data
+    sourceUrl: http://localhost:8080/taskinstance/list/?_flt_3_dag_id=feature_engineering_task
+    downstreamTasks:
+      - assert_table_exists
+    taskType: PythonOperator
+    tags: []
+  - name: assert_table_exists
+    displayName: Assert Table Exists
+    fullyQualifiedName: sample_airflow.ml_feature_pipeline.assert_table_exists
+    description: Assert if a table exists
+    sourceUrl: http://localhost:8080/taskinstance/list/?_flt_3_dag_id=assert_table_exists
+    downstreamTasks: []
+    taskType: HiveOperator
+    tags: []
+tags: []
+owners: []
+service:
+  id: 5cccdddc-1b0a-4613-86de-b9d224e5aa97
+  type: pipelineService
+  name: sample_airflow
+  fullyQualifiedName: sample_airflow
+  displayName: sample_airflow
+  deleted: false
+serviceType: Airflow
+scheduleInterval: "0 2,14 * * *"
+domains: []
+entityStatus: Unprocessed
