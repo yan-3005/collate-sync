@@ -1,0 +1,54 @@
+name: DriverLicense
+fullyQualifiedName: General.DriverLicense
+description: Person's driver's license image or number.
+classification:
+  id: 6c8a8f38-9f49-40ad-b8ce-5f557da28c33
+  type: classification
+  name: General
+  fullyQualifiedName: General
+  description: "Category describing generic data types, such as `DateTime`, `Location`,\
+    \ or `BankNumber`"
+  displayName: General
+  deleted: false
+children: []
+usageCount: 0
+deprecated: false
+provider: system
+disabled: false
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+owners: []
+reviewers: []
+entityStatus: Unprocessed
+recognizers:
+  - id: c89fe33e-e721-4c97-a645-75bb8a732d6b
+    name: UsLicenseRecognizer
+    displayName: Us License Recognizer
+    description: Recognizes US driver license using regex.
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: UsLicenseRecognizer
+      type: predefined
+      supportedLanguage: en
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+  - id: fe582a21-08b7-4c55-8695-849123422ca0
+    name: ItDriverLicenseRecognizer
+    displayName: It Driver License Recognizer
+    description: Recognizes IT Driver License using regex.
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: ItDriverLicenseRecognizer
+      type: predefined
+      supportedLanguage: it
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+autoClassificationEnabled: true
+autoClassificationPriority: 50
