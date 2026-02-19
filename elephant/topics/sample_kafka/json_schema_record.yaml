@@ -1,0 +1,57 @@
+name: json_schema_record
+fullyQualifiedName: sample_kafka.json_schema_record
+description: All Json Schema record related events gets captured in this topic
+service:
+  id: 827440df-83ad-4a59-a0ec-b01f9494d47f
+  type: messagingService
+  name: sample_kafka
+  fullyQualifiedName: sample_kafka
+  displayName: sample_kafka
+  deleted: false
+serviceType: Kafka
+messageSchema:
+  schemaText: "{\"type\":\"object\",\"required\":[\"name\",\"age\",\"club_name\"],\"\
+    properties\":{\"name\":{\"type\":\"object\",\"required\":[\"first_name\",\"last_name\"\
+    ],\"properties\":{\"first_name\":{\"type\":\"string\"},\"last_name\":{\"type\"\
+    :\"string\"}}},\"age\":{\"type\":\"integer\"},\"club_name\":{\"type\":\"string\"\
+    }}}"
+  schemaType: JSON
+  schemaFields:
+    - name: default
+      dataType: RECORD
+      fullyQualifiedName: sample_kafka.json_schema_record.default
+      tags: []
+      children:
+        - name: name
+          dataType: RECORD
+          fullyQualifiedName: sample_kafka.json_schema_record.default.name
+          tags: []
+          children:
+            - name: first_name
+              dataType: STRING
+              fullyQualifiedName: sample_kafka.json_schema_record.default.name.first_name
+              tags: []
+            - name: last_name
+              dataType: STRING
+              fullyQualifiedName: sample_kafka.json_schema_record.default.name.last_name
+              tags: []
+        - name: age
+          dataType: INT
+          fullyQualifiedName: sample_kafka.json_schema_record.default.age
+          tags: []
+        - name: club_name
+          dataType: STRING
+          fullyQualifiedName: sample_kafka.json_schema_record.default.club_name
+          tags: []
+partitions: 128
+cleanupPolicies:
+  - compact
+  - delete
+replicationFactor: 4
+maximumMessageSize: 249
+retentionSize: 1.931232624E9
+owners: []
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
