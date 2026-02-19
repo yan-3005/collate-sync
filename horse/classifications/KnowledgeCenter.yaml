@@ -1,0 +1,12 @@
+name: KnowledgeCenter
+fullyQualifiedName: KnowledgeCenter
+description: "Category describing the knowledge center articles or quickLinks. E.g.,\
+  \ How-To-Guide, Quick-Link etc."
+termCount: 3
+usageCount: 0
+provider: system
+disabled: false
+mutuallyExclusive: false
+owners: []
+reviewers: []
+entityStatus: Unprocessed
