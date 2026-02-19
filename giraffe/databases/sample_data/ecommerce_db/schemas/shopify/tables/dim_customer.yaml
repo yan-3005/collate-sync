@@ -1,0 +1,416 @@
+name: dim_customer
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer
+description: "The dimension table contains data about your customers. The customers\
+  \ table contains one row per customer. It includes historical metrics (such as the\
+  \ total amount that each customer has spent in your store) as well as forward-looking\
+  \ metrics (such as the predicted number of days between future orders and the expected\
+  \ order value in the next 30 days). This table also includes columns that segment\
+  \ customers into various categories (such as new, returning, promising, at risk,\
+  \ dormant, and loyal), which you can use to target marketing activities."
+tableType: Regular
+columns:
+  - name: customer_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the customer. This is the primary key column for this table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.customer_id
+    tags: []
+    constraint: PRIMARY_KEY
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: shop_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the store. This column is a foreign key reference to the
+      shop_id column in the dim_shop table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.shop_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: average_order_size
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "The average amount of money that the customer spends on orders from\
+      \ the store. The value is formatted in the store's currency and it is calculated\
+      \ using the following formula: total_order_value / total_order_count."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.average_order_size
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: total_order_count
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The total number of orders that the customer has made from this store
+      across their lifetime.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.total_order_count
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: total_order_value
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The total amount of money that the customer has spent on orders from
+      the store across their lifetime. The value is formatted in the store's currency.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.total_order_value
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+  - name: first_order_date
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "The date (ISO 8601) and time (UTC) when the customer placed their\
+      \ first order. The format is YYYY-MM-DD HH:mm:ss (for example, 2016-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.first_order_date
+    tags: []
+    ordinalPosition: 6
+    children: []
+    customMetrics: []
+  - name: last_order_date
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "The date (ISO 8601) and time (UTC) when the customer placed their\
+      \ most recent order. The format is YYYY-MM-DD HH:mm:ss (for example, 2016-02-05\
+      \ 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.last_order_date
+    tags: []
+    ordinalPosition: 7
+    children: []
+    customMetrics: []
+  - name: rank
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: A numeric ranking of the customer's lifetime value for the store
+      relative to all customers.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.rank
+    tags: []
+    ordinalPosition: 8
+    children: []
+    customMetrics: []
+  - name: new
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: Returns true if the customer made their first order in the last 30
+      days. Otherwise returns false.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.new
+    tags: []
+    ordinalPosition: 9
+    children: []
+    customMetrics: []
+  - name: returning
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "Returns true when the customer has made more than one order. Returns\
+      \ false when the customer has made one order only. Returns Null when the customer\
+      \ exists in Shopify, but they have not made any orders. For example, this column\
+      \ can be null because the customer provided their contact information and then\
+      \ abandoned the checkout. Customers can also be created manually in the Shopify\
+      \ admin and by apps that use the Admin API."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.returning
+    tags: []
+    ordinalPosition: 10
+    children: []
+    customMetrics: []
+  - name: loyal
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "Returns true when the customer has a high probability of returning,\
+      \ and has placed more orders than the average customer. Otherwise returns false."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.loyal
+    tags: []
+    ordinalPosition: 11
+    children: []
+    customMetrics: []
+  - name: at_risk
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "Returns true for repeat customers, who have a medium probability\
+      \ of returning and have not placed an order in a while. Otherwise returns false."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.at_risk
+    tags: []
+    ordinalPosition: 12
+    children: []
+    customMetrics: []
+  - name: dormant
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: Returns true when the customer has a very low probability of returning
+      to make another purchase. Otherwise returns false.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.dormant
+    tags: []
+    ordinalPosition: 13
+    children: []
+    customMetrics: []
+  - name: promising
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: Returns true when the customer has a high probability of returning
+      and becoming a loyal customer. Otherwise returns false.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.promising
+    tags: []
+    ordinalPosition: 14
+    children: []
+    customMetrics: []
+  - name: predicted_average_number_of_days_between_orders
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The predicated number of days between future orders.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.predicted_average_number_of_days_between_orders
+    tags: []
+    ordinalPosition: 15
+    children: []
+    customMetrics: []
+  - name: expected_purchase_value_in_next_30_days
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The total purchase amount of the orders that the customer is expected
+      to make in the next 30 days. The value is formatted in the store's currency.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.expected_purchase_value_in_next_30_days
+    tags: []
+    ordinalPosition: 16
+    children: []
+    customMetrics: []
+  - name: first_name
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: The first name of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.first_name
+    tags: []
+    ordinalPosition: 17
+    children: []
+    customMetrics: []
+  - name: last_name
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: The last name of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.last_name
+    tags: []
+    ordinalPosition: 18
+    children: []
+    customMetrics: []
+  - name: city
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The city from the customer's billing address. For example, Topeka."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.city
+    tags: []
+    ordinalPosition: 19
+    children: []
+    customMetrics: []
+  - name: region
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The name of the region, such as the province or state, from the\
+      \ customer's billing address. For example, Alberta, Florida. This column is\
+      \ the same as CustomerAddress.province in the Admin API."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.region
+    tags: []
+    ordinalPosition: 20
+    children: []
+    customMetrics: []
+  - name: country
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The country from the customer's billing address. For example, United\
+      \ States."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.country
+    tags: []
+    ordinalPosition: 21
+    children: []
+    customMetrics: []
+  - name: email
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: The email of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.email
+    tags: []
+    ordinalPosition: 22
+    children: []
+    customMetrics: []
+  - name: phone
+    dataType: VARCHAR
+    dataLength: 15
+    dataTypeDisplay: varchar
+    description: The phone number of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.phone
+    tags: []
+    ordinalPosition: 23
+    children: []
+    customMetrics: []
+  - name: verified_email
+    dataType: BOOLEAN
+    dataLength: 15
+    dataTypeDisplay: boolean
+    description: Returns true when the customer's email has been verified. Otherwise
+      returns false.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.verified_email
+    tags: []
+    ordinalPosition: 24
+    children: []
+    customMetrics: []
+  - name: created_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "The date (ISO 8601) and time (UTC) when the customer was added to\
+      \ the store. The format is YYYY-MM-DD HH:mm:ss (for example, 2018-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.created_at
+    tags: []
+    ordinalPosition: 25
+    children: []
+    customMetrics: []
+  - name: accepts_marketing
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: Returns true when the customer has agreed to accept marketing. Otherwise
+      returns false.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.accepts_marketing
+    tags: []
+    ordinalPosition: 26
+    children: []
+    customMetrics: []
+  - name: customer
+    dataType: STRUCT
+    dataTypeDisplay: "struct<username:varchar(32),name:varchar(32),sex:char(1),address:varchar(128),mail:varchar(64),birthdate:varchar(16)>"
+    description: Customer Personal Details
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.customer
+    tags: []
+    ordinalPosition: 27
+    children:
+      - name: username
+        dataType: VARCHAR
+        dataLength: 20
+        dataTypeDisplay: VARCHAR(32)
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.customer.username
+        tags: []
+        children: []
+      - name: name
+        dataType: VARCHAR
+        dataLength: 20
+        dataTypeDisplay: VARCHAR(32)
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.customer.name
+        tags: []
+        children: []
+      - name: sex
+        dataType: CHAR
+        dataLength: 1
+        dataTypeDisplay: CHAR(1)
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.customer.sex
+        tags: []
+        children: []
+      - name: address
+        dataType: VARCHAR
+        dataLength: 128
+        dataTypeDisplay: VARCHAR(128)
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.customer.address
+        tags: []
+        children: []
+      - name: mail
+        dataType: VARCHAR
+        dataLength: 64
+        dataTypeDisplay: VARCHAR(64)
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.customer.mail
+        tags: []
+        children: []
+      - name: birthdate
+        dataType: VARCHAR
+        dataLength: 16
+        dataTypeDisplay: VARCHAR(16)
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.customer.birthdate
+        tags: []
+        children: []
+    customMetrics: []
+  - name: shipping_address
+    dataType: ARRAY
+    arrayDataType: STRUCT
+    dataTypeDisplay: "array<struct<type:string,provider:array<int>>>"
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.shipping_address
+    tags: []
+    children:
+      - name: type
+        dataType: STRING
+        dataTypeDisplay: string
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.shipping_address.type
+        tags: []
+        children: []
+      - name: provider
+        dataType: ARRAY
+        arrayDataType: INT
+        dataTypeDisplay: array<int>
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.shipping_address.provider
+        tags: []
+        children: []
+    customMetrics: []
+  - name: orders
+    dataType: ARRAY
+    arrayDataType: STRUCT
+    dataTypeDisplay: "array<struct<product_id:varchar(24),price:int,onsale:boolean,tax:int,weight:int,others:int,vendor:varchar(64)>>"
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_customer.orders
+    tags: []
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+schemaDefinition: "CREATE TABLE dim_customer(customer_id NUMERIC PRIMARY KEY, shop_id\
+  \ NUMERIC, average_order_size NUMERIC)"
+tags: []
+joins:
+  startDate: 2026-01-20
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+sourceUrl: http://localhost:8080/dim_customer
+domains: []
+dataProducts: []
+lifeCycle:
+  created:
+    timestamp: 1770903556121
+    accessedByAProcess: Alice
+  updated:
+    timestamp: 1770989956121
+    accessedByAProcess: Bob
+  accessed:
+    timestamp: 1770989956121
+    accessedByAProcess: Charlie
+processedLineage: false
+entityStatus: Unprocessed
