@@ -1,0 +1,17 @@
+name: General
+fullyQualifiedName: General
+description: "Category describing generic data types, such as `DateTime`, `Location`,\
+  \ or `BankNumber`"
+termCount: 21
+usageCount: 1
+provider: system
+disabled: false
+mutuallyExclusive: true
+owners: []
+reviewers: []
+entityStatus: Unprocessed
+autoClassificationConfig:
+  enabled: true
+  conflictResolution: highest_confidence
+  minimumConfidence: 0.6
+  requireExplicitMatch: true
