@@ -1,0 +1,36 @@
+name: media
+fullyQualifiedName: s3_storage_sample.departments.media
+displayName: Media department
+description: Bucket containing media department information
+owners: []
+service:
+  id: 1008bd4b-8160-414c-98ec-2eb21825068f
+  type: storageService
+  name: s3_storage_sample
+  fullyQualifiedName: s3_storage_sample
+  displayName: s3_storage_sample
+  deleted: false
+parent:
+  id: f1dcd19f-72fa-42e0-9ed8-52a9f239696f
+  type: container
+  name: departments
+  fullyQualifiedName: s3_storage_sample.departments
+  description: Bucket containing company department information
+  displayName: Company departments
+  deleted: false
+children:
+  - id: 9f476e4a-4da2-4a77-9ecf-26b77a11bea2
+    type: container
+    name: movies
+    fullyQualifiedName: s3_storage_sample.departments.media.movies
+    description: Bucket containing movies about the company
+    displayName: Company official footage
+    deleted: false
+prefix: /departments/media/
+numberOfObjects: 123.0
+size: 243712.0
+serviceType: S3
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

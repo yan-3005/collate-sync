@@ -1,0 +1,29 @@
+name: cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx2
+fullyQualifiedName: s3_storage_sample.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx1.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx2
+owners: []
+service:
+  id: 1008bd4b-8160-414c-98ec-2eb21825068f
+  type: storageService
+  name: s3_storage_sample
+  fullyQualifiedName: s3_storage_sample
+  displayName: s3_storage_sample
+  deleted: false
+parent:
+  id: f28d5309-6ced-425b-8579-eb6fd3cf653f
+  type: container
+  name: cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx1
+  fullyQualifiedName: s3_storage_sample.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx1
+  displayName: cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx1
+  deleted: false
+children:
+  - id: 1cec5826-69a6-43b8-ac92-78cec7b4eeb4
+    type: container
+    name: cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx3
+    fullyQualifiedName: s3_storage_sample.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx1.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx2.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx3
+    displayName: cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx3
+    deleted: false
+serviceType: S3
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

@@ -1,0 +1,22 @@
+name: cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx1
+fullyQualifiedName: s3_storage_sample.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx1
+owners: []
+service:
+  id: 1008bd4b-8160-414c-98ec-2eb21825068f
+  type: storageService
+  name: s3_storage_sample
+  fullyQualifiedName: s3_storage_sample
+  displayName: s3_storage_sample
+  deleted: false
+children:
+  - id: 3029e28c-dcff-40b1-b03a-35734f8107cf
+    type: container
+    name: cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx2
+    fullyQualifiedName: s3_storage_sample.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx1.cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx2
+    displayName: cGFWvEcASOMcdfEDXoDldVnDDzAmZLVrncfgtJSgpZwlOlRpFpOOTSZMuGRBBAxIRpwKgICABkynFadIjJJaEqbXuidKwJEIalCx2
+    deleted: false
+serviceType: S3
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
