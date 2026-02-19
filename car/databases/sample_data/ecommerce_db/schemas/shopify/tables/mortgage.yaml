@@ -1,0 +1,204 @@
+name: mortgage
+fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage
+description: "This dimension table contains the billing and shipping addresses of\
+  \ customers. You can join this table with the sales table to generate lists of the\
+  \ billing and shipping addresses. Customers can enter their addresses more than\
+  \ once, so the same address can appear in more than one row in this table. This\
+  \ table contains one row per customer address."
+tableType: Regular
+columns:
+  - name: address___reserved__colon____reserved__arrow__id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: Unique identifier for the address.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.address___reserved__colon____reserved__arrow__id
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: shop_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the store. This column is a foreign key reference to the
+      shop_id column in the dim_shop table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.shop_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: first_name
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: First name of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.first_name
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: last_name
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: Last name of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.last_name
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: address1
+    dataType: VARCHAR
+    dataLength: 500
+    dataTypeDisplay: varchar
+    description: "The first address line. For example, 150 Elgin St."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.address1
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+  - name: address2
+    dataType: VARCHAR
+    dataLength: 500
+    dataTypeDisplay: varchar
+    description: "The second address line. For example, Suite 800."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.address2
+    tags: []
+    ordinalPosition: 6
+    children: []
+    customMetrics: []
+  - name: company
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The name of the customer's business, if one exists."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.company
+    tags: []
+    ordinalPosition: 7
+    children: []
+    customMetrics: []
+  - name: city
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The name of the city. For example, Palo Alto."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.city
+    tags: []
+    ordinalPosition: 8
+    children: []
+    customMetrics: []
+  - name: region
+    dataType: VARCHAR
+    dataLength: 512
+    dataTypeDisplay: varchar
+    description: "The name of the region, such as a province or state, where the customer\
+      \ is located. For example, Ontario or New York. This column is the same as CustomerAddress.province\
+      \ in the Admin API."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.region
+    tags: []
+    ordinalPosition: 9
+    children: []
+    customMetrics: []
+  - name: zip
+    dataType: VARCHAR
+    dataLength: 10
+    dataTypeDisplay: varchar
+    description: "The ZIP or postal code. For example, 90210."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.zip
+    tags: []
+    ordinalPosition: 10
+    children: []
+    customMetrics:
+      - id: fc554c39-1413-49c7-9088-75561b9f25ca
+        name: CountOfLAZipCode
+        columnName: zip
+        expression: SELECT COUNT(zip) FROM dim_address WHERE zip LIKE '900%'
+        updatedAt: 1771488502075
+        updatedBy: admin
+      - id: 82b41bc2-104e-4e5f-8613-6bc64d54cd6b
+        name: CountOfOrangeCountyZipCode
+        columnName: zip
+        expression: SELECT COUNT(zip) FROM dim_address WHERE zip LIKE '92%'
+        updatedAt: 1771488502115
+        updatedBy: admin
+  - name: country
+    dataType: VARCHAR
+    dataLength: 50
+    dataTypeDisplay: varchar
+    description: "The full name of the country. For example, Canada."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.country
+    tags: []
+    ordinalPosition: 11
+    children: []
+    customMetrics: []
+  - name: phone
+    dataType: VARCHAR
+    dataLength: 15
+    dataTypeDisplay: varchar
+    description: The phone number of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.mortgage.phone
+    tags: []
+    ordinalPosition: 12
+    children: []
+    customMetrics:
+      - id: b3808b63-02af-4b84-8cb1-da8b58ce3f5b
+        name: CountOfNonUsPhoneNumbers
+        columnName: phone
+        expression: SELECT COUNT(phone) FROM dim_address WHERE phone NOT LIKE '1%'
+        updatedAt: 1771488502148
+        updatedBy: admin
+tableConstraints:
+  - constraintType: PRIMARY_KEY
+    columns:
+      - address___reserved__colon____reserved__arrow__id
+      - shop_id
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+schemaDefinition: "CREATE TABLE dim_address(address_id NUMERIC PRIMARY KEY, shop_id\
+  \ NUMERIC)"
+tags: []
+joins:
+  startDate: 2026-01-20
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics:
+  - id: 3e026153-611d-493e-8c1d-183c3887ec26
+    name: CountOfFRAddress
+    expression: SELECT COUNT(address_id) FROM dim_address WHERE country = 'FR'
+    updatedAt: 1771488502026
+    updatedBy: admin
+  - id: b985b98a-5636-46ae-a3d2-6ec5598afc9a
+    name: CountOfUSAddress
+    expression: SELECT COUNT(address_id) FROM dim_address WHERE country = 'US'
+    updatedAt: 1771488501986
+    updatedBy: admin
+sourceUrl: http://localhost:8080/mortgage
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
