@@ -1,0 +1,13 @@
+name: ometa_api_service
+fullyQualifiedName: ometa_api_service
+serviceType: Rest
+connection:
+  config:
+    type: Rest
+    token: fernet:gAAAAABplsTnFP5j9xWAmsLgJbrtEXAG8YGpGNuQta31hshrn0WasFBN8b_TSQy13TxDM142QBOISfSL3nJFSSY1bM9-nLfmNQ==
+    openAPISchemaURL: https://docs.open-metadata.org/swagger.html
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
