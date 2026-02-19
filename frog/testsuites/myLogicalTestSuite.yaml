@@ -1,0 +1,51 @@
+name: myLogicalTestSuite
+fullyQualifiedName: myLogicalTestSuite
+description: This is a logical test suite linked to an entity
+tests:
+  - id: 245a6ac3-69dc-4999-90f7-a280f1cc6863
+    type: testCase
+    name: column_value_max_to_be_between
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.shop_id.column_value_max_to_be_between
+    description: test the value of a column is between x and y
+    displayName: column_value_max_to_be_between
+    deleted: false
+  - id: 4b3aa0a7-7e22-443c-a638-a3da5bcba9e2
+    type: testCase
+    name: column_values_to_match_regex
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.last_name.column_values_to_match_regex
+    description: test value of a column match regex
+    displayName: column_values_to_match_regex
+    deleted: false
+pipelines: []
+serviceType: TestSuite
+owners: []
+basic: false
+summary:
+  success: 2
+  failed: 0
+  aborted: 0
+  queued: 0
+  total: 2
+  columnTestSummary:
+    - success: 1
+      failed: 0
+      aborted: 0
+      queued: 0
+      total: 1
+      entityLink: <#E::table::sample_data.ecommerce_db.shopify.dim_address::columns::last_name>
+    - success: 1
+      failed: 0
+      aborted: 0
+      queued: 0
+      total: 1
+      entityLink: <#E::table::sample_data.ecommerce_db.shopify.dim_address::columns::shop_id>
+testCaseResultSummary:
+  - testCaseName: sample_data.ecommerce_db.shopify.dim_address.shop_id.column_value_max_to_be_between
+    status: Success
+    timestamp: 1771488536292
+  - testCaseName: sample_data.ecommerce_db.shopify.dim_address.last_name.column_values_to_match_regex
+    status: Success
+    timestamp: 1771488541316
+tags: []
+inherited: false
+reviewers: []
