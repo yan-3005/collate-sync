@@ -1,0 +1,45 @@
+name: calculate_interest
+fullyQualifiedName: sample_data.ecommerce_db.shopify.calculate_interest
+description: Procedure to calculate interest
+storedProcedureCode:
+  code: |-
+    CREATE OR REPLACE PROCEDURE calculate_interest(principal FLOAT, rate FLOAT, time_period INT) RETURNS FLOAT NOT NULL LANGUAGE SQL AS $$
+    DECLARE interest FLOAT;
+    BEGIN
+      interest := (principal * rate * time_period) / 100.0;
+      RETURN interest;
+    END;
+    $$;
+dataProducts: []
+storedProcedureType: StoredProcedure
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+owners: []
+tags: []
+domains: []
+processedLineage: false
+entityStatus: Unprocessed
