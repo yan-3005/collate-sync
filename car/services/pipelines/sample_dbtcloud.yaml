@@ -1,0 +1,20 @@
+name: sample_dbtcloud
+fullyQualifiedName: sample_dbtcloud
+serviceType: DBTCloud
+tags: []
+pipelines: []
+connection:
+  config:
+    host: https://cloud.getdbt.com/
+    type: DBTCloud
+    token: fernet:gAAAAABplsTnKfwY_uFJF7imMtAKNke1QXDqUcqbnomhQImBKNlpBLQ42uF-KZ4K7PLTGpfbCSXrkwMv9RtXjDNGv0MlRdnw_RdPGkh99p1tKQRuOJ4PhHU=
+    jobIds:
+      - 654321
+    accountId: 123456
+    projectIds: []
+    discoveryAPI: https://metadata.cloud.getdbt.com/graphql
+    numberOfRuns: 100
+    environmentIds: []
+    supportsMetadataExtraction: true
+owners: []
+dataProducts: []
