@@ -1,0 +1,34 @@
+name: collateaiapplicationbot
+fullyQualifiedName: collateaiapplicationbot
+displayName: Collate AI Documentation Agent
+email: collateaiapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLKzHgbBdaucoClqlt6JjLerzWSgbfmZqNXouoJdWZES_7f3_3Ba51htd8o_X3NJaRpFztRQwm6UjCGQj8z6fJjh2R4--X1zUEIbtYN_W5mK48s8swkjLfWKlremWltcVehZr45bc8Yho9b-PPgA2CGNgpm3dVzeccPNHMvQlWQQwXF3_DiC3oqoBNT42eXxXHH7lK_NlKpN5G7q2vlNFGz4zV5N8qKe2HkGZ-3mLf_xeHZKnwjfnFL3yRyEBpve7B5qNE63Q6_WdYMlJGwquip2MFQryMPdqOi3nbtdFLis2w9-uV_YRq8zf5-4939jiEZzfM1C9Uklz-ErG11IXCjvN0ZPDPMhpPQsU8mw4hdfV6qnHZkYqFKgmvV0ZnqooFa1G4NZZFEF1sgfreCArlpl_00hCCjQVfkkBaEUwOidE7v60UwL8rR9U1zIINEKvRIK7F14Kpz04Q6bZT_-ozTGf6I8HnJTMMpeA50Mear2GgGx_kKoJ4GoQ7qvO8ip6126ax0FS1XTkXFGvSXG0CoabR-N_0rNR30q-DWfoM2daYBUGdjx37O4DtLwVu7VSfz9URHte90IXHT9_e6E5m-TNQBxczI6ZjcohOWhnNA9_UGOD6d1sMAuN-T-WThnJACBKeFhmsAXPHvD4TdbPFkor6zKlZ8Zo4-HokaTm85Zx1pysYT6blcQuGsJCA8BvPP6kSgilUDK2-34tsHP2HN1Dr8W63P3QeneXcpwW8_ZVOFz-h_zLFfkTmTT7-6-b5EwrOCbD4AfSTpPUo1Xmq7ukAh0mBGrZgG6atJGiZ48phOrclTRB70v7DVFlNKcQ2mbSXXX6r7SqjwQKEe-FHAfycgZfBiisIr4MIGMJzt8C92KlUUBWV9EYoeotnsmt3yi_iVrgNbCH4YU6H5SfL9tC3LUcNM1MOxuBJrp2Jvf8ASPaMUV08VLPHyWOPQAqAERVC_A7BTzM48R2PA_3z2_jiJcNZEZxCFVO2a7vx2CnHQLS2mkUtEVkKWa90hI4FYFe1-cr5I5nc0wM0pD_R0WIcOuyK52ZK5a2rlBSJc6710WsU2dNTxFw4G0IhF780v84a-DRRwrAPzhXjlBo-bFdt4vahQA--E4dVqQgdMvt8=
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

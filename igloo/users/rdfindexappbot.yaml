@@ -1,0 +1,34 @@
+name: rdfindexappbot
+fullyQualifiedName: rdfindexappbot
+displayName: RDF Knowledge Graph Indexing
+email: rdfindexappbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqKrCGAIAjVuX4hf4zh0TjdK5E6kSx_mhY7BjL6q89QqLODQyFEDtIVA-bg1F8a0_qQ_P9WVOjAHU-tt7dBl4310qehsLBSeYoBuVoQPK0jyY3m5gRsFtm86Ht9fDgStUHTVdBRDtjWRZOWOqdT9ggOUmPV-60rY2MEfqbw_u8Y0imJzJ4b5_CACwxzw6F_y1f9N4K__cyV4r1XQay_sKKrFBljls3-zzrwFGTtdRjNbsaRfdkGcdI9gdy3WEq4v32IysWKZHivagmnUZEhKxVzT3EGtpTKVIfAYmsSN9V6vB5bR0c9XYTVEW9hF-0_gP9jiFR9QBkhpQ5plFWvZVvERAco0eoyAZfN-NOkfzGTTHbFudz2Fk8izcjAzzoqjG7c51b0yLZkXy5Hac4bh9xQHSD7XDcxi_jeXBI7OSF07K7qI0B5KszS-aloem9TjMd_iSgH_OeC2mE3swp5GOOrRt7S7EWuXMR7hSbdaGe8P7atEmdfDMS7LegrDaOBqJc_8rbrTMRuF2YlPAGjlBZ1YcyhbVwrjtu5HIuH6OSeV5FyN2eL3WKTFaFEUTzXIBWojQKfChfWd4zOa3fk6PiDymsTfLIDpWrxQ5ui9XUDwEhiSrAxvAbc1EZT_JKtULkPtmaS_Yze_pLV4q8qeQ2qG_E3Eh53IGlLTSxe6TWeOi3VUUIGYEq5veoKppEHTGpzX-b_c0gqYLHkYBvibtMzm55l4ZSWxuXkIfoJQNGxsY1vJpWwgshdTp4_nNt6e0CKjG-28H0bxkK1wrQIPb4xaFPn_UW0kW2qY5gTjZho4N0aVIVyJMj7r6Akggc_X3SIyVzC0seQLc3Phj4_TKYIloPf5DgOGlOnoFij6TzgrB0qk6H6BI5lt1osTFyEaFma--dZAFVVwAUFr1LJWFwmw8-vB5lM3f6PYUhbhdj450dYeLMB67xJvy3Zh97YZJY5hEFMXN_KMJ06y1qynXfr_9NPrsmYnhza27Loh1rIe8h8Kao4lf7jvnIGYssDrO4M3tMwcvwLv_ou9_-NEWLhDzq2hCQRKKw-cWKKoaG7dIw8=
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

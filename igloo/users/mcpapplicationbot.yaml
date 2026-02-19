@@ -1,0 +1,34 @@
+name: mcpapplicationbot
+fullyQualifiedName: mcpapplicationbot
+displayName: MCP Server
+email: mcpapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqKr8p17OFKEriu92DNnYnM36dR7Rj3iSe-dBNgfO24LhPUrGmBF4yyJKla5ebrwojO4jeQ9vJaxNGsIz3y5G8d5Fo002tsRVTKDmCWyHhhaj82JIsmL0yyJMHIbzBWKE0EOdXnZIIXkmHAHY0abVTeQ4et0-9sAIobeY-zOWoSe2CcmijeUU0TMSPkJlvY56JIfQHBCX1RbhX0Rn6pBiVjq-7gXD9ZA9fx878Xmat2wU64NGhjFP0oiXTRdf5MZu4I5PBgRlMlIHj31-UCCva5G3blxNncHft0r7JJjPh0JwKVGTzviq_V22uhahGNb-S7MFfrm6pTTptipFU6qjVSdM72d89QtMNjATSdSNT3ocs1xNfmQ7_aD_JWzAL6x_zMLMDWRT4gsEyBx_E51pP_C1ORM5ThiDVk195Z9hTyLu5sByqnou4FDrEG5efXObLgPCTNpHbL8lYhX4YT5lTmvK-cmFjdOLWVsStd6bTZRgm12fjW8Remmq5yY2zvH1KKiHqBTFCGQy9cbsrFrM2MeyXsgiBEk3w1Orruny8mqQSBGa9WRQ7I1wuarM-wR-M-pLWVeBJAm3jrmiXDGwSAlDiWIMbDHgq9n2ZfERop0v1g1SRjOwJXXkcKoXFg4b8jZOYG9VbfJ_Mox9rG2OpQfzSWeXTqNjXhGHd-4qOa2F7pgGPHODJTk4LnSf6XOc1Ggd3NrgAo34TpSCZYXO0kFzFpPDOee3xFe3qZSe-VDHB_H4MM8G9aRPzyogZO2qtTChHKCdkpJf8M13NeB472Kr3mCMP9wfowMMoAr_ree4rTcucMuvHRN-uBR_3Bs-Rqe-_E5pIJjCqwx60XJLMdzJye-F94FrwbxBEZ27En28mvfmXzzrYFVd84iwmAGKQ5HxxVCtnzjPbnbvSl8RdoUXpkF4ya0CdTiebOkrjZaygFV3BZU9ecRWuKkfDJ9wGBpyt2z18Sw22cJetXu4N2fPYt8vShPRIO4ghjXLIXcWdk0cHkJsFfrbC4tiNAeMYdMZNzZxwCAst7PbgGGxV-2c0zow9pc-6D2SJsDZ-kY4-ZSSQtAib-wvUKEkmIxCplA
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

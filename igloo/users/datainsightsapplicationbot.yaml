@@ -1,0 +1,34 @@
+name: datainsightsapplicationbot
+fullyQualifiedName: datainsightsapplicationbot
+displayName: Data Insights
+email: datainsightsapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLKscnO9dEq7sHfwlEp4Yc2c1HaZgtnS8_kyAhhkg92CQqcBGrggn6wd6k5Gva4r7EPtMzX1m7YALPXASeb8K_EWXpRb1_q6yGj0X2zWRXx3KZ1Ev5wgIH96gkDDAoqriyP1y2EJ4aHXW0J_3Px9-yQEojB2k81dKzBsUFXuXXlKls6r7fyDME-OG_27rQmrjduBT6v36KtvDf8QBDcOSy3bkBEtgWwbMHhnEd7mUpSJyCaMuOHZhdiezjJxQVZtpqtJY3ycON4i1Yqp4pjMBo82z_dik3K8sP018y6krhk7IJZiK8AMaQdx5tcTYMNV_M41e1-7uyBjUShyf-fUeCDiQLi1plsHWdQ6hKcc0XVaS0RWyyIU0ZnGB_zLNoPNjkQuhynReKGvSYDHQVvApOA4btHpZpEj3VfavyWvPv_s1EJh3U5Xl6by90kqdPexJ7QMK_geQmZ_OQepk_r-Y3jWGmC1fRvY6DcaRZfJtGEB0U4nwZzM3QVU0WCsmQ5LVluBcKCG4RmmwtgQ0eSvrIIhxV809WJlVcvvJ1hVwzvzywj7QcucMBqFd4xei7QrOb23Q_vrRQxv0OLeNqtwHHFbvBaQ_5LJkAUtp4f-yVVLDWoHM2rhBfPhleI40pqqhgk5VO-2xUaYr30XeoZjKrZlK7AQAlPK3xete5zJXtkNUlGzmGeapGavWOiZvXoSOhXVChYe_PVop4oIdnlE-zztnatWMntXxbzeOVGSIX-eL_7pwv2w0TPFar5ocjlIjDjb4GJKCXw0XxZphY6OJrkwDkw7ORtOcdAcaRjR4Nl5Ms2AtHBG8JT_UuQV2UHPLb2wTEcfzr_Res-AqJzH6WpT3lZvO_fzTrM9fZdZwNqVbgOMtnZAGPLTOSm_Vls0zsVRE1eNvAVtmG03Z3PtaBTZj85gv5iMc0XTajSzIF3YWhRruKma_Z-yZz7HaskfHDB2_8bXbHYYVV6jt4PkzqWQKmMdgTom_PXNuJ1wAiLknC7OZ5bM20TC496JgLv8D53YirFZ6NmQ_FU8_XPl0uLXUgBxyQKIcGYIHr2G3tfEywqmfgSYc3XB_rqY9LAJeKzAicNN8azXAuQmLk1i6dzBSSa0raqSVJdIdBv_qiPkt9Dd0LACYh8vUFWwrp2wCEx
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

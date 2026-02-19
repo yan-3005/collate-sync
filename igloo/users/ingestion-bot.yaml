@@ -1,0 +1,44 @@
+name: ingestion-bot
+fullyQualifiedName: ingestion-bot
+email: ingestion-bot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpl1z6EVm1PbXdK7V0I7VoKTYgMKOTlCr7BgzkiLBEWdNZ5AIEZ7_HLiSOMd9stTCZSeZUpTaUdaheg0l-3kgAmShDImsLKPNobJ2ZXNDYio-8q_4z8ZKk7SOACuOgWDYpI3M4a_X6CXDaxTXXzkf-n6Ltqf0fhoyMnhhDPONiJI6Sqszg_i56-HqQztEbW4j0DYIovI_Wcm-OR1W3CAe4uwTGLzYMAlqmKa-YenS8wwpHCK4nPJGWzgN__WsmSc_bcelh45xZcj0jFfaWIZSbPkWP2qc1gTOYv9sG5TgsKdOmicld2qK-hnayF_ziRRYSaVIoX9h69k7bcV7Y6xjxLPSogBdhknLamwHRDEphamG8ywV6_9KjrP-hXtlPfvF3Qbkcqz7kW7fUgsFt5MaCDDBDByxeOCp80FMHv9lXg0eKKRtALsPOnVqdEVjRTnjuXpDol7LRL1NvQq8Ys5EVUUFoIHl-m4uSfPRYVrfToZCdRs58L13MzIBQl6t-Sx24ahOPzPZcYmn4VN7nWxsiarsMRsCGE5NVN7y3wCBDf_14ES6jrk1gq9PiOen5HfzK4s7-n8IePw7ZGaWuBZefGHe5u9s7fbHmAFNefWNSqYr2UYARia6CgYF_kyD-X6Mbrlx0hNivF2xcFz9NL2_stu-IWw4aB2tB7gPya8ICKM__0uRReegWd22ZoZf5oPP37MXB13T9SDs8rbpPhCx8PC4Wv1HNVdlLyA-X8uFGYtGwcgOrsYsv2CmYssAXa2_W-ObzDgJsP0tlWi48PIXHW6wgF2gL4KlrDnKfnyPqngSuPcMP2Ku0v9VnKSSJLO5rpRooUB87N3rvt1ucguQecry91hI_hig0pUZJo3uR80z0k1bTYz5lXYUOCpkd_FWMfTRCeGpyPq6BQh1j81qsnDkKaFtPV-2sUp4QhP8wKeGB7NQWSL2PtUQeveIcR17g-6P6kJyDbfG-IjeBau-Im-3--Lff0grrElHGCv8Kq9AUdqSqaO_qXztNcTDsLPueDVo8LEpXEybqBInQVrTuFzxHcrtOra78CDCUoZ1jF4V7p-Yslbpi4ETcxqFhuKhQrSd_
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 4.1
+  changeSummary: {}
+roles:
+  - id: 576a2cc2-d304-4255-a1d7-ab8de206103d
+    type: role
+    name: IngestionBotRole
+    fullyQualifiedName: IngestionBotRole
+    description: Role corresponding to a Ingestion bot.
+    displayName: Ingestion bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

@@ -1,0 +1,44 @@
+name: lineage-bot
+fullyQualifiedName: lineage-bot
+email: lineage-bot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpl1z7epBfK2hPoQ67v-ryVKHFMPQFMVy_vmCIlzIqJ-s786SmWymWwRCPQcm5VyBkhad5TVQAT6q0fijhD4rnGFq7-jviFs0Ss1swT2qyynd3tllThz8_gms6YQOvYGQWiYPELd7pctBTZNf9hY4LUoSZDsD71QuQkCmtVeU592DX2nn_ZU-AloeLJiE_T5uwU-hzHJvWVnT6AEvqpkRmBy4ldijIPL7l8ldoR4P1WMTimvhkHaq0CQq2nyBPbsdl-LUXKXykswmBLQgsI1RRva91P6fySXp84q6sgbuYiUV1XZtFT38H0X5NsqErHF4QU4ed3VLtMa3aPh7EPcuHgO79v0WqUT8VQo-c8-7L7joP3ZBlf0pm9MZ9sZSX5MDepxoAN0CYN0DehmhfkEHYeZ19HXXA-Lcho7OJb5XRicxk9lqALa0azMm8iTtOWdGoQ3sDSb6EXrA4C-dsZqI6dAPTnB56jlZnYpd2uvLIdiw5i1zYBNZ8U2aHH2TBfTxZ_OVOykRyUsaGOL9SFAXuJnJKonnWvA7N5yONyPOBooAafWRXJLZbI-96-l5S32jrRZ7cIvfO3n3srb3Dl_dJ9bW7gZCe-UfKD3xAKqtWrgClXfSJ3Kkr7uV-6xOGjp9hjhjFymtzdDsqBOb2J2BeWi_jAqZJlqGQspBAyYZZTzo6uSTitCjm-VV7UBxqnA7Mbw3-14T7aISB0FGSkCoZENBaMis7NUiy5xmj-aRRdTF6q1Sm2zqiQa4EXRWLYplQNAqKpDjdjEFfz2Xv8404ibfmkerA1Y85TNoF_tAyvDZ4-rMkbjkF-YBGqtqwVp5EedZOHc1X6vjYy4Hl3EDk8evlRGHZO-6bbAzQYUxmQ7Ji_3MVR5h8bCJybDFZFckP-Zjl7reStsI-uF5VoREtUThX8unFlFOjQYau2YPKaTAABXMX1rjB91DGDF1WwkXNX_mfkiS8n65GYXd6JAfL7CtKz5qc-DOqWBWazzRrXMjyyeFMY2e2F0ej-oZNpL3MFviDp8yRGHsmDnvncj7vZUIGSvOTvvG9VgB-2g0JvGpqn10=
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 4.1
+  changeSummary: {}
+roles:
+  - id: 6a344c06-347f-4712-985d-8093cef8e51c
+    type: role
+    name: LineageBotRole
+    fullyQualifiedName: LineageBotRole
+    description: Role corresponding to a Lineage bot.
+    displayName: Lineage bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

@@ -1,0 +1,44 @@
+name: scim-bot
+fullyQualifiedName: scim-bot
+email: scim-bot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpl1z6STt3BFKQHanCnGK4VKuwBOJz06Ito7caTX_bM7oBJVsaUGUpxZfOsVKH1RrbpuL99ug7z_FmDhnR43lUlBz-nDyEk8cfCBZmeNELR-Mig-x8sX0czv9OxIgc64aZVBEg6C5OomyqxhqfFL5RdjWVs6Nm1jgK1CLcLJGjr4_q6XB8gg6mUyzogK9M0EPPVz9t1m7CsaDilKWcbxyUEsyM85l4GEoPflOcKKfrJ11yLd4dV9UP4Y2OLas3soX6EFlp_4Xa6PydaKwvqXtIIMbnQiH5J13UqKDtuObxgaoEsGc41JImZ3urXwhWhsXvKyHjssf-JyFtMmKojstTRJPMgjfrEtM5I-HAU94gMb1JYiLW8lkj9aui5X52ph3fVirKey24riqztpDcEfbpX1Dh2oRHKPbSogZWNFXPC1ifNhPd_iVWROh9dw1IC8c__np_TgIJnSdWGWooPXqMaY7G8SI-_lm6ZCkP4ahsPVK1K0dXYREqPkBxCp2ARXJeULvryentyj2dsmo8UKQBM9KPKRftAmpNhlutA6NneqmFgFfJVa1DD2Eon3xSBqdoBpJEDxrfNFrhDjXtegI4l8eKSaaKiWKXHT-fYFYxpmsYDY_aTYsz64HKf9nGEOi9XiTVXG285KhZE6cE4bDHPTFVcRCCc0UFOITHJk-znDlvixn62LUjZEvnJDzwGlpzSrc1QbUZAnI6L7A-2SHNZjwEVDGkDrfI7UKQDpepeyT8OzzqHv32wAFceD_6xjmHtLmReSsHUJnOPJRVfUk_urK07PPqoDys0T1wYrg7K-s3f5tGTZYNIG9eb4ePvoxlFU10YbolI3N2pK-Pp_NWPJNpvxpw7oBKhcrc_lxBiF22qTAwI8HHCCnvvd8VGx-WDx7sP8cuE7rSrB10jCnJqYU8iTeuBYU35uQHTEoeVtuL4aG9yHXclnitqbdc5SYd4VxVfYGY-pqFjjHTBLAj4jnxlUA1ktHBxdijwb56Vm7wk6C9aqVZNHggDp7nwc0vQjvlPLdAIiU_pYcNr7Vnc1b7EA==
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 4.1
+  changeSummary: {}
+roles:
+  - id: 1539c3e4-207b-4957-9b15-69915f939d8c
+    type: role
+    name: ScimBotRole
+    fullyQualifiedName: ScimBotRole
+    description: "Role corresponding to the SCIM bot, with SCIM-only access."
+    displayName: SCIM bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

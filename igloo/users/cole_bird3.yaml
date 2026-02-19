@@ -1,0 +1,30 @@
+name: cole_bird3
+fullyQualifiedName: cole_bird3
+displayName: Cole Bird
+email: cole_bird3@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: 5ba3816e-113f-43a0-ba1b-46a66edb1fbb
+    type: team
+    name: Marketplace
+    fullyQualifiedName: Marketplace
+    description: This is Marketplace description.
+    displayName: Marketplace
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

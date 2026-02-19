@@ -1,0 +1,44 @@
+name: usage-bot
+fullyQualifiedName: usage-bot
+email: usage-bot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpl1z6m2ofiYk--w6qDuZe3rOX3TKbhFmu_IP9C5RmeXvySXryGPyP_whA6nBIW1WiB4NB8h5Nx_07NenCmhYr3BS-lVT_xapYWmrU26sBLe8dtfdNMYxlLd4IJkNPyGjR4_kLrtIqPrElHC_FRL4sIXjXnGEOSIevg2i0PVNRNDmDMQVJ3LauQvzn9asyvj6AZQC8L5aPlM7OsBUqZnsfjr74YxqWtfrJShOCkHH4HSBCyvG0nqux6dSs-evr0AWuYz4WNI9daUeQ2G_g_GvrHdZuBWM88qPfVHL9U7eGV6mBJ1rNobfX5GPk4Hf6txrKq04xP4v6--hXzWW3ReOhHIxlsFnj4H-HjAAhSLuP2euJkZSWGTjpSGsncFb1MMwpuN4540UpyNxo-9ehwcDOsdlij0MccG8_zUXls0WNfr1Cw0YtkCc6M3hts1rRTHpUyNIaSzppPQb_6zVczmtFsVmpBGPcFiZfhJdIKEOSvgLltMOp0t0RuJivZ96qFXpMrOso4dRyvuhuoXggB2bfMa13ct5wyRzuVyiKGieRyVryQWXT-vjqkOW8L7sdO_y0sNlx4KUW0WMKg3VliP7tvJO9_rl3KOSEpwbvMavkPcSJEbglomO8VV2ccFDFjphK8lsThgHF78R3NrQ1eY30RkS6IL_Rr3KLvnCKn7C3pSs9nwI2Ahz_dWXuQegjaEuTCZANuMIyMC7zYyzGn9b3kPRpocFK5_CJ9ld_dvdgX1YxIlMcze2IwCUcEBAXfpLm549kCDSp_wOAB-8XmJchd-kv2mD3UsUl2CSU22wUk8WkqOzVj44f4uIQLKumrHljW2WCeKTVPzntzT4rPADJnh7e-1d3N01i0zl-oLX6LV2VVUqg-QETbSKySsp6IKtB5u-GkyaGXvK87d4u9IwjGqoHB0LPkqGxCwR-U0QKRIZwF5_RW6w8n9B8fo0Rn0C_3DKgBOD_iuJ2gk5_bjvBsgV_GlQgfrIs0DGBTfZG7j3VsZrCuKaUQNJMgp_Sp5Iqlkp4YpUEXquTuaNM9C1679dRFg==
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 4.1
+  changeSummary: {}
+roles:
+  - id: fbceb139-6e2f-4fe8-a0b1-46a5353e61b8
+    type: role
+    name: UsageBotRole
+    fullyQualifiedName: UsageBotRole
+    description: Role corresponding to a Usage bot.
+    displayName: Usage bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []
