@@ -1,0 +1,120 @@
+name: customer_features
+fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features
+description: ML feature store for customer analytics
+tableType: Regular
+columns:
+  - name: customer_id
+    dataType: BIGINT
+    dataTypeDisplay: bigint
+    description: Unique customer identifier
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features.customer_id
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: total_orders
+    dataType: INT
+    dataTypeDisplay: int
+    description: Total number of orders placed
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features.total_orders
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: total_spend
+    dataType: DECIMAL
+    dataTypeDisplay: "decimal(10,2)"
+    description: Total amount spent
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features.total_spend
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: avg_order_value
+    dataType: DECIMAL
+    dataTypeDisplay: "decimal(10,2)"
+    description: Average order value
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features.avg_order_value
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: customer_lifetime_value
+    dataType: DECIMAL
+    dataTypeDisplay: "decimal(10,2)"
+    description: Predicted customer lifetime value
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features.customer_lifetime_value
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+  - name: churn_probability
+    dataType: DOUBLE
+    dataTypeDisplay: double
+    description: Probability of customer churn (0-1)
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features.churn_probability
+    tags: []
+    ordinalPosition: 6
+    children: []
+    customMetrics: []
+  - name: preferred_category
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: Customer's preferred product category
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features.preferred_category
+    tags: []
+    ordinalPosition: 7
+    children: []
+    customMetrics: []
+  - name: feature_updated_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: When features were last updated
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.customer_features.feature_updated_at
+    tags: []
+    ordinalPosition: 8
+    children: []
+    customMetrics: []
+tableConstraints:
+  - constraintType: PRIMARY_KEY
+    columns:
+      - customer_id
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-20
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed

@@ -1,0 +1,64 @@
+name: itm_utilization_detail_login_events
+fullyQualifiedName: sample_data.ecommerce_db.shopify.itm_utilization_detail_login_events
+description: "An intermediate table used to create ssot_utilization_detail. This table\
+  \ cleans up the \"CS Platform: login\" event dimensions to be congruent with downstream\
+  \ analytics."
+tableType: Regular
+columns:
+  - name: reporting_date
+    dataType: DATE
+    dataTypeDisplay: date
+    description: Event date
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.itm_utilization_detail_login_events.reporting_date
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: agent_id
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: Agent identifier
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.itm_utilization_detail_login_events.agent_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-20
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed

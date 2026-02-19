@@ -1,0 +1,151 @@
+name: big_data_table_with_nested_columns
+fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns
+description: A large table with thousands of columns including nested structures for
+  testing pagination and search performance
+tableType: Regular
+columns:
+  - name: column_0001
+    dataType: BIGINT
+    dataTypeDisplay: bigint
+    description: Auto-generated column 1 for testing pagination and search
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.column_0001
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: column_0002
+    dataType: INT
+    dataTypeDisplay: int
+    description: Auto-generated column 2 for testing pagination and search
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.column_0002
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: column_0003
+    dataType: VARCHAR
+    dataLength: 255
+    dataTypeDisplay: varchar(255)
+    description: Auto-generated column 3 for testing pagination and search
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.column_0003
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: nested_struct_01
+    dataType: STRUCT
+    dataTypeDisplay: struct
+    description: Nested structure 1 containing customer/order/product data
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.nested_struct_01
+    tags: []
+    ordinalPosition: 1001
+    children:
+      - name: field_01
+        dataType: BIGINT
+        dataTypeDisplay: bigint
+        description: Nested field 1 in structure 1
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.nested_struct_01.field_01
+        tags: []
+        ordinalPosition: 1
+        children: []
+      - name: field_02
+        dataType: DOUBLE
+        dataTypeDisplay: double
+        description: Nested field 2 in structure 1
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.nested_struct_01.field_02
+        tags: []
+        ordinalPosition: 2
+        children: []
+      - name: field_03
+        dataType: INT
+        dataTypeDisplay: int
+        description: Nested field 3 in structure 1
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.nested_struct_01.field_03
+        tags: []
+        ordinalPosition: 3
+        children: []
+    customMetrics: []
+  - name: deeply_nested_data
+    dataType: STRUCT
+    dataTypeDisplay: struct
+    description: Deeply nested structure for testing recursive search
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.deeply_nested_data
+    tags: []
+    ordinalPosition: 1011
+    children:
+      - name: customer_info
+        dataType: STRUCT
+        dataTypeDisplay: struct
+        description: Customer information structure
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.deeply_nested_data.customer_info
+        tags: []
+        ordinalPosition: 1
+        children:
+          - name: personal_details
+            dataType: STRUCT
+            dataTypeDisplay: struct
+            description: Personal details nested structure
+            fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.deeply_nested_data.customer_info.personal_details
+            tags: []
+            ordinalPosition: 1
+            children:
+              - name: first_name
+                dataType: VARCHAR
+                dataLength: 50
+                dataTypeDisplay: varchar(50)
+                description: Customer first name
+                fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.deeply_nested_data.customer_info.personal_details.first_name
+                tags: []
+                ordinalPosition: 1
+                children: []
+              - name: last_name
+                dataType: VARCHAR
+                dataLength: 50
+                dataTypeDisplay: varchar(50)
+                description: Customer last name
+                fullyQualifiedName: sample_data.ecommerce_db.shopify.big_data_table_with_nested_columns.deeply_nested_data.customer_info.personal_details.last_name
+                tags: []
+                ordinalPosition: 2
+                children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+schemaDefinition: CREATE TABLE big_data_table_with_nested_columns AS SELECT * FROM
+  big_source
+tags: []
+joins:
+  startDate: 2026-01-20
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+sourceUrl: http://localhost:8080/big_data_table_with_nested_columns
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
