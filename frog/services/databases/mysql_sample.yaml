@@ -1,0 +1,29 @@
+name: mysql_sample
+fullyQualifiedName: mysql_sample
+serviceType: Mysql
+connection:
+  config:
+    type: Mysql
+    scheme: mysql+pymysql
+    authType:
+      password: fernet:gAAAAABplsTmZssZKERK-ILiGMLYYjYrFdhihu8tSrDu0iCQk3sukEIjHAelo3SIuHMatAFKlsxdMTa4mLA7k-ntdvvNzBZr3N1Aav1g11QaSW8GgN-37x4=
+    hostPort: localhost:3306
+    username: openmetadata_user
+    useSlowLogs: false
+    databaseSchema: posts_db
+    supportsDataDiff: true
+    supportsProfiler: true
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+        - ^performance_schema$
+      includes: []
+    supportsQueryComment: true
+    supportsDBTExtraction: true
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
