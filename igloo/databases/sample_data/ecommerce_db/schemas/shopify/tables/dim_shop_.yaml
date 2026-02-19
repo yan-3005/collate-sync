@@ -1,0 +1,91 @@
+name: dim(shop)
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim(shop)
+description: This dimension table contains online shop information with weird characters.
+tableType: Regular
+columns:
+  - name: shop(id)
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: Unique identifier for the store. This column is the primary key for
+      this table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim(shop).shop(id)
+    tags: []
+    constraint: PRIMARY_KEY
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: shop(name)
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: Name of your store.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim(shop).shop(name)
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: shop(domain)
+    dataType: VARCHAR
+    dataLength: 1000
+    dataTypeDisplay: varchar
+    description: "Primary domain specified for your online store. Your primary domain\
+      \ is the one that your customers and search engines see. For example, www.mycompany.com."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim(shop).shop(domain)
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+sourceUrl: http://localhost:8080/dim(shop)
+domains: []
+dataProducts: []
+lifeCycle:
+  created:
+    timestamp: 1769348356146
+    accessedByAProcess: Alice
+  updated:
+    timestamp: 1770298756146
+    accessedByAProcess: Bob
+  accessed:
+    timestamp: 1769434756146
+    accessedByAProcess: Charlie
+processedLineage: false
+entityStatus: Unprocessed
