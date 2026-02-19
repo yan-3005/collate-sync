@@ -1,0 +1,38 @@
+name: tables
+fullyQualifiedName: ometa_api_service.tables
+endpointURL: https://docs.open-metadata.org/swagger.html#tag/Tables
+apiEndpoints:
+  - id: 575e6403-4900-4f88-86fd-ed413e19bae5
+    type: apiEndpoint
+    name: createTable
+    fullyQualifiedName: ometa_api_service.tables.createTable
+    description: Create a new table under an existing database
+    displayName: Create a table
+    deleted: false
+  - id: e3870f70-f2dd-4c27-b1ff-ff0aae061eb2
+    type: apiEndpoint
+    name: deleteTable
+    fullyQualifiedName: ometa_api_service.tables.deleteTable
+    description: Delete table by ID
+    displayName: Delete table by ID
+    deleted: false
+  - id: cd319cdf-ffd9-412c-a415-f83c6a83c646
+    type: apiEndpoint
+    name: listTables
+    fullyQualifiedName: ometa_api_service.tables.listTables
+    description: Get a list of tables
+    displayName: List tables
+    deleted: false
+owners: []
+tags: []
+service:
+  id: c5716e2e-2fd8-43fe-9cbe-497c25874b55
+  type: apiService
+  name: ometa_api_service
+  fullyQualifiedName: ometa_api_service
+  displayName: ometa_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
