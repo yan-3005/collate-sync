@@ -1,0 +1,28 @@
+name: dbt_snapshot_inventory
+displayName: DBT Snapshot Inventory
+fullyQualifiedName: sample_dbtcloud.dbt_snapshot_inventory
+description: DBT snapshot pipeline for tracking inventory changes - runs hourly
+dataProducts: []
+sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_snapshot_inventory
+tasks:
+  - name: dbt_snapshot_task
+    displayName: DBT Snapshot
+    fullyQualifiedName: sample_dbtcloud.dbt_snapshot_inventory.dbt_snapshot_task
+    description: Execute dbt snapshot for inventory tracking
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_snapshot_inventory
+    downstreamTasks: []
+    taskType: dbtSnapshotTask
+    tags: []
+tags: []
+owners: []
+service:
+  id: b22201d1-32fb-4140-a70b-2a57f3348be8
+  type: pipelineService
+  name: sample_dbtcloud
+  fullyQualifiedName: sample_dbtcloud
+  displayName: sample_dbtcloud
+  deleted: false
+serviceType: DBTCloud
+scheduleInterval: 0 * * * *
+domains: []
+entityStatus: Unprocessed

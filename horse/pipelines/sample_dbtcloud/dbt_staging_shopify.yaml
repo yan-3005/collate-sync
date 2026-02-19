@@ -1,0 +1,53 @@
+name: dbt_staging_shopify
+displayName: DBT Staging Shopify
+fullyQualifiedName: sample_dbtcloud.dbt_staging_shopify
+description: DBT pipeline for staging shopify raw data - runs daily
+dataProducts: []
+sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_staging_shopify
+tasks:
+  - name: dbt_run_staging
+    displayName: DBT Run Staging Models
+    fullyQualifiedName: sample_dbtcloud.dbt_staging_shopify.dbt_run_staging
+    description: Execute dbt run for staging models
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_staging_shopify
+    downstreamTasks:
+      - dbt_test_staging
+    taskType: dbtRunTask
+    tags: []
+  - name: dbt_test_staging
+    displayName: DBT Test Staging Models
+    fullyQualifiedName: sample_dbtcloud.dbt_staging_shopify.dbt_test_staging
+    description: Execute dbt tests for staging models
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_staging_shopify
+    downstreamTasks: []
+    taskType: dbtTestTask
+    tags: []
+pipelineStatus:
+  timestamp: 1771252883707
+  executionStatus: Successful
+  taskStatus:
+    - name: dbt_run_staging
+      executionStatus: Successful
+      inputs: []
+      outputs: []
+    - name: dbt_test_staging
+      executionStatus: Successful
+      inputs: []
+      outputs: []
+  executionId: dbt_run_101_abc
+  endTime: 1771260083707
+  inputs: []
+  outputs: []
+tags: []
+owners: []
+service:
+  id: b22201d1-32fb-4140-a70b-2a57f3348be8
+  type: pipelineService
+  name: sample_dbtcloud
+  fullyQualifiedName: sample_dbtcloud
+  displayName: sample_dbtcloud
+  deleted: false
+serviceType: DBTCloud
+scheduleInterval: 0 1 * * *
+domains: []
+entityStatus: Unprocessed
