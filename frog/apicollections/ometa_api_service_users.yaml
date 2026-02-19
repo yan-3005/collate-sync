@@ -1,0 +1,38 @@
+name: users
+fullyQualifiedName: ometa_api_service.users
+endpointURL: https://docs.open-metadata.org/swagger.html#tag/Users
+apiEndpoints:
+  - id: 858e111a-8bd8-4269-965d-e5ba4167bb20
+    type: apiEndpoint
+    name: createUser
+    fullyQualifiedName: ometa_api_service.users.createUser
+    description: Create a new user
+    displayName: Create a user
+    deleted: false
+  - id: 9fd217f8-a844-40df-9bce-1ad39bd1b6db
+    type: apiEndpoint
+    name: deleteUser
+    fullyQualifiedName: ometa_api_service.users.deleteUser
+    description: Delete user by ID
+    displayName: Delete user by ID
+    deleted: false
+  - id: 8eb60365-4ff6-4d8e-8072-7974a061a05a
+    type: apiEndpoint
+    name: listUsers
+    fullyQualifiedName: ometa_api_service.users.listUsers
+    description: Get a list of users
+    displayName: List users
+    deleted: false
+owners: []
+tags: []
+service:
+  id: c5716e2e-2fd8-43fe-9cbe-497c25874b55
+  type: apiService
+  name: ometa_api_service
+  fullyQualifiedName: ometa_api_service
+  displayName: ometa_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
