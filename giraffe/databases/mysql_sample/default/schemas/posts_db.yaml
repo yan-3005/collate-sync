@@ -1,0 +1,67 @@
+name: posts_db
+fullyQualifiedName: mysql_sample.default.posts_db
+dataProducts: []
+owners: []
+service:
+  id: 8fc9213b-9e0d-4b8d-a9b9-2f38562a9c03
+  type: databaseService
+  name: mysql_sample
+  fullyQualifiedName: mysql_sample
+  displayName: mysql_sample
+  deleted: false
+serviceType: Mysql
+database:
+  id: dd7d0c00-1356-4a9a-bc22-12023defb161
+  type: database
+  name: default
+  fullyQualifiedName: mysql_sample.default
+  displayName: default
+  deleted: false
+tables:
+  - id: 82d0d902-f288-412a-a277-cd83f6dd046b
+    type: table
+    name: Categories
+    fullyQualifiedName: mysql_sample.default.posts_db.Categories
+    displayName: Categories
+    deleted: false
+  - id: 5bd160dc-5f00-4038-9129-58775f8224fc
+    type: table
+    name: Comments
+    fullyQualifiedName: mysql_sample.default.posts_db.Comments
+    displayName: Comments
+    deleted: false
+  - id: e218156a-bcd3-449c-8d1f-353417dac4f1
+    type: table
+    name: PostTags
+    fullyQualifiedName: mysql_sample.default.posts_db.PostTags
+    description: testdesc2
+    displayName: PostTags
+    deleted: false
+  - id: 7dc28be1-7205-4576-95be-3d938f43cd14
+    type: table
+    name: Posts
+    fullyQualifiedName: mysql_sample.default.posts_db.Posts
+    displayName: Posts
+    deleted: false
+  - id: 736b3c77-b136-46d1-8b36-e7e8d897595a
+    type: table
+    name: Profiles
+    fullyQualifiedName: mysql_sample.default.posts_db.Profiles
+    displayName: Profiles
+    deleted: false
+  - id: 1d3b17f1-0498-41a2-aaf9-5e1a4e3fc6dc
+    type: table
+    name: Tags
+    fullyQualifiedName: mysql_sample.default.posts_db.Tags
+    displayName: Tags
+    deleted: false
+  - id: 5d3c3393-46d2-48ee-8821-9576c168b529
+    type: table
+    name: Users
+    fullyQualifiedName: mysql_sample.default.posts_db.Users
+    displayName: Users
+    deleted: false
+tags: []
+sourceUrl: https://localhost:3306/posts_db
+domains: []
+entityStatus: Unprocessed
