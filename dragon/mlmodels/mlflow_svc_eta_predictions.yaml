@@ -1,0 +1,55 @@
+name: eta_predictions
+fullyQualifiedName: mlflow_svc.eta_predictions
+displayName: ETA Predictions
+description: Deep learning model for predicting estimated time of arrival using historical
+  delivery data and real-time traffic patterns
+algorithm: mlmodel
+mlFeatures:
+  - name: distance
+    dataType: numerical
+    fullyQualifiedName: mlflow_svc.eta_predictions.distance
+    featureSources: []
+  - name: traffic_density
+    dataType: numerical
+    fullyQualifiedName: mlflow_svc.eta_predictions.traffic_density
+    featureSources: []
+  - name: weather_condition
+    dataType: categorical
+    fullyQualifiedName: mlflow_svc.eta_predictions.weather_condition
+    featureSources: []
+  - name: day_of_week
+    dataType: categorical
+    fullyQualifiedName: mlflow_svc.eta_predictions.day_of_week
+    featureSources: []
+mlHyperParameters:
+  - name: learning_rate
+    value: 0.001
+  - name: batch_size
+    value: 32
+  - name: epochs
+    value: 100
+  - name: dropout_rate
+    value: 0.3
+dashboard:
+  id: 2cb31814-5124-4b8d-b397-789d236b6120
+  type: dashboard
+  name: eta_predictions_performance
+  fullyQualifiedName: sample_superset.eta_predictions_performance
+  description: ""
+  displayName: ETA Predictions Performance
+  deleted: false
+mlStore:
+  storage: mlflow-artifacts:/1/abc123def456/artifacts/model
+owners: []
+tags: []
+service:
+  id: ab1a0ac7-4892-4ba2-ab81-d17a21546571
+  type: mlmodelService
+  name: mlflow_svc
+  fullyQualifiedName: mlflow_svc
+  displayName: mlflow_svc
+  deleted: false
+serviceType: Mlflow
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
