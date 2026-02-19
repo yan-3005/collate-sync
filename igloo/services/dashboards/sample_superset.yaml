@@ -1,0 +1,17 @@
+name: sample_superset
+fullyQualifiedName: sample_superset
+serviceType: Superset
+connection:
+  config:
+    type: Superset
+    hostPort: http://localhost:8088/
+    connection:
+      password: fernet:gAAAAABplsTnrmHqOgd265pQ2_w5EjqGbKo5_Kt_iDiWIRBWlxQwNSAhakQRCptc0gDpkDFfh8sQuTDSynjx19QKZmmf4v4jkQ==
+      provider: db
+      username: admin
+      verifySSL: no-ssl
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
