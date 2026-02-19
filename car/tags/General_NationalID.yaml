@@ -1,0 +1,116 @@
+name: NationalID
+fullyQualifiedName: General.NationalID
+description: "Region specific identifiers, such as [ABN](https://en.wikipedia.org/wiki/Australian_Business_Number),\
+  \ [NIF](https://es.wikipedia.org/wiki/N%C3%BAmero_de_identificaci%C3%B3n_fiscal)\
+  \ or [NHS](https://en.wikipedia.org/wiki/National_Health_Service)."
+classification:
+  id: 6c8a8f38-9f49-40ad-b8ce-5f557da28c33
+  type: classification
+  name: General
+  fullyQualifiedName: General
+  description: "Category describing generic data types, such as `DateTime`, `Location`,\
+    \ or `BankNumber`"
+  displayName: General
+  deleted: false
+children: []
+usageCount: 0
+deprecated: false
+provider: system
+disabled: false
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+owners: []
+reviewers: []
+entityStatus: Unprocessed
+recognizers:
+  - id: e4d32b14-f1c8-4a01-883e-0823a86054c8
+    name: EsNieRecognizer
+    displayName: Es Nie Recognizer
+    description: |-
+      Recognize NIE number using regex and checksum.<br/><br/>Reference(s):<br/><br/>https://es.wikipedia.org/wiki/N%C3%BAmero_de_identidad_de_extranjero
+      https://www.interior.gob.es/opencms/ca/servicios-al-ciudadano/tramites-y-gestiones/dni/calculo-del-digito-de-control-del-nif-nie/
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: EsNieRecognizer
+      type: predefined
+      supportedLanguage: es
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+  - id: c4bfec3b-7611-4627-bb37-9f4d5892d8a4
+    name: ItIdentityCardRecognizer
+    displayName: It Identity Card Recognizer
+    description: Recognizes Italian Identity Card number using case-insensitive regex.
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: ItIdentityCardRecognizer
+      type: predefined
+      supportedLanguage: it
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+  - id: 078909cd-aa20-43bb-b66d-44a83501e70c
+    name: PlPeselRecognizer
+    displayName: Pl Pesel Recognizer
+    description: "Recognize PESEL number using regex and checksum.<br/><br/>For more\
+      \ information about PESEL: https://en.wikipedia.org/wiki/PESEL"
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: PlPeselRecognizer
+      type: predefined
+      supportedLanguage: pl
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+  - id: 5be32bf0-cb55-4ea5-a1d8-e78327c49b4f
+    name: InVoterRecognizer
+    displayName: In Voter Recognizer
+    description: "Recognize Indian Voter/Election Id(EPIC).<br/><br/>The Elector's\
+      \ Photo Identity Card or Voter id is a ten digit alpha-numeric code issued by\
+      \ Election Commission of India to adult domiciles who have reached the age of\
+      \ 18<br/><br/>Ref: https://en.wikipedia.org/wiki/Voter_ID_(India)"
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: InVoterRecognizer
+      type: predefined
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+  - id: 36170170-8326-4a65-b90d-329440f8ac8a
+    name: FiPersonalIdentityCodeRecognizer
+    displayName: FI Personal Identity Code Recognizer
+    description: Recognizes and validates Finnish Personal Identity Codes (Henkilötunnus).
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: FiPersonalIdentityCodeRecognizer
+      type: predefined
+      supportedLanguage: fi
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+  - id: 843abcb1-74f6-4a40-a74b-ecd25d7efceb
+    name: SgUenRecognizer
+    displayName: Singaporean UEN recognizer
+    description: Recognize Singapore UEN (Unique Entity Number) using regex.
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: SgUenRecognizer
+      type: predefined
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+autoClassificationEnabled: true
+autoClassificationPriority: 50
