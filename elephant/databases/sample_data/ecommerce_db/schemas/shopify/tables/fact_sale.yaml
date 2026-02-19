@@ -1,0 +1,374 @@
+name: fact_sale
+fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale
+description: "The fact table captures the value of products sold or returned, as well\
+  \ as the values of other charges such as taxes and shipping costs. The sales table\
+  \ contains one row per order line item, one row per returned line item, and one\
+  \ row per shipping charge. Use this table when you need financial metrics."
+tableType: Regular
+columns:
+  - name: sale_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: ID of the sale row. This column is the primary key for this table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.sale_id
+    tags: []
+    constraint: PRIMARY_KEY
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: billing_address_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: ID of the billing address of the customer. This column is a foreign
+      key reference to the address_id column in the dim_address table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.billing_address_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: api_client_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: ID of the API client from which the adjustment was made. This column
+      is a foreign key reference to the ID of the API client in the dim_api_client
+      table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.api_client_id
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: customer_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: ID of the customer. This column is a foreign key reference to the
+      customer_id column in the dim_customer table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.customer_id
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: line_item_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "ID of the line item. This column is a foreign key reference to line_item_id\
+      \ column in the fact_line_item table. When the row describes a shipping charge,\
+      \ there is no line_item_id value."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.line_item_id
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+  - name: location_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "ID of the Shopify POS location. This column is a foreign key reference\
+      \ to the location_id column in the dim_location table. When the order is not\
+      \ a POS order, then there is no location ID."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.location_id
+    tags: []
+    ordinalPosition: 6
+    children: []
+    customMetrics: []
+  - name: order_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: ID of the order. This column is a foreign key reference to order_id
+      column in the fact_order table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.order_id
+    tags: []
+    ordinalPosition: 7
+    children: []
+    customMetrics: []
+  - name: product_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "ID of the product sold or returned. This column is a foreign key\
+      \ reference to the product_id column in the dim.product table. When the line\
+      \ item describes a shipping charge, then there is no product ID."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.product_id
+    tags: []
+    ordinalPosition: 8
+    children: []
+    customMetrics: []
+  - name: product_variant_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "ID of the product variant sold or returned. This column is a foreign\
+      \ key reference to the product_variant_id column in the dim.product_variant\
+      \ table. When the row describes a shipping charge, then there is no product\
+      \ variant ID."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.product_variant_id
+    tags: []
+    ordinalPosition: 9
+    children: []
+    customMetrics: []
+  - name: shipping_address_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "ID of the shipping address of the customer who made the order. This\
+      \ column is a foreign key reference to the address_id column in the dim_address\
+      \ table. Some sales, such as those made using Shopify POS, do not have a customer's\
+      \ shipping address associated with them."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.shipping_address_id
+    tags: []
+    ordinalPosition: 10
+    children: []
+    customMetrics: []
+  - name: shop_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: ID of your store. This column is a foreign key reference to the shop_id
+      column in the dim.shop table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.shop_id
+    tags: []
+    ordinalPosition: 11
+    children: []
+    customMetrics: []
+  - name: user_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: ID of the staff member who is associated with the sale. This column
+      is a foreign key reference to the user_id column in the dim_staff table. Not
+      all sales have a staff member associated with them.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.user_id
+    tags: []
+    ordinalPosition: 12
+    children: []
+    customMetrics: []
+  - name: gross_sales
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Price of the product purchased multiplied by the quantity ordered.\
+      \ This value is formatted in the currency of your store. If the product purchased\
+      \ is a gift card, then 0 is returned because gift cards are not included in\
+      \ gross sales calculations. The gross sales amount also does not include any\
+      \ discounts, returns, taxes or shipping charges. The gross_sales column is calculated\
+      \ using the following formula: product (excluding gift cards) price x quantity\
+      \ (before taxes, shipping, discounts, and returns). Canceled, pending, and unpaid\
+      \ orders will have a value for this column, but test and deleted orders will\
+      \ not."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.gross_sales
+    tags: []
+    ordinalPosition: 13
+    children: []
+    customMetrics: []
+  - name: net_sales
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Net sales of the line item. The value of the line item's gross sales\
+      \ minus any discounts minus the value of any returned items. Net sales does\
+      \ not include taxes or shipping costs, or the sale of gift cards. If the line\
+      \ item contains gift cards, then the field contains 0. Net sales is calculated\
+      \ by using the following formula: gross_sales - discounts - returns."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.net_sales
+    tags: []
+    ordinalPosition: 14
+    children: []
+    customMetrics: []
+  - name: total_sales
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Total sales of the line item. This value does not include gift cards.\
+      \ Total sales is calculated using the following formula: net_sales + shipping\
+      \ + taxes."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.total_sales
+    tags: []
+    ordinalPosition: 15
+    children: []
+    customMetrics: []
+  - name: returns
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Value of the products returned by the customer regardless of the\
+      \ amount that the merchant actually receives from the customer. This value is\
+      \ usually a negative number, but it can also be zero (for example, if the item\
+      \ being returned was a free gift with purchase). Taxes and shipping charges\
+      \ are not included. The returns amount is calculated by using the following\
+      \ formula: 0 - (product variant price * quantity) + discounts."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.returns
+    tags: []
+    ordinalPosition: 16
+    children: []
+    customMetrics: []
+  - name: discounts
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Total amount discounted from the line item. The discounts column\
+      \ contains the sum of any line item discounts plus the line item's portion of\
+      \ any order-level discount. The value of the discount is either negative or\
+      \ zero. The discounts column is calculated using the following formula: line\
+      \ item discount + order level discount share."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.discounts
+    tags: []
+    ordinalPosition: 17
+    children: []
+    customMetrics: []
+  - name: shipping
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "When the line item is for a shipping charge, this column contains\
+      \ the amount charged for shipping the order or the amount of the shipping charge\
+      \ that is refunded when an item is returned. This value is positive for a shipping\
+      \ charge, and negative for the value returned. Any applicable taxes charged\
+      \ for shipping costs are recorded in the Taxes column. This column is calculated\
+      \ using the following formula: shipping charge or refund - shipping discount.."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.shipping
+    tags: []
+    ordinalPosition: 18
+    children: []
+    customMetrics: []
+  - name: taxes
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "The amount of taxes charged or returned for the line item. This\
+      \ value will be positive for a sale and negative for a return. Tax on an order\
+      \ is split proportionally amongst the line items to which it applies. Gift cards\
+      \ are not taxed. If multiple taxes are applied (for example, State and City\
+      \ sales taxes), then this column contains the sum of those tax amounts. This\
+      \ column can include taxes charged on shipping, if they are applicable."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.taxes
+    tags: []
+    ordinalPosition: 19
+    children: []
+    customMetrics: []
+  - name: gift_card_discounts
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Total amount discounted from gift card sales. For example, if a\
+      \ $50 gift card is sold at a $10 discount for $40, then this column will contain\
+      \ $10."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.gift_card_discounts
+    tags: []
+    ordinalPosition: 20
+    children: []
+    customMetrics: []
+  - name: gift_card_gross_sales
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Total face value of gift cards sold. For example, a $50 gift card\
+      \ is sold at a $10 discount for $40. In this example, the gift_card_gross_sales\
+      \ column will contain $50. Use this column to measure the increase in liabilities\
+      \ due to gift cards being issued (even though this value will not balance against\
+      \ the actual payments that you receive)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.gift_card_gross_sales
+    tags: []
+    ordinalPosition: 21
+    children: []
+    customMetrics: []
+  - name: gift_cards_issued
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Net amount that the gift cards sold for, after discounts. For example,\
+      \ for a $50 gift card sold at a $10 discount for $40, this column will contain\
+      \ $40. Use this column to balance against the payments that you receive."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.gift_cards_issued
+    tags: []
+    ordinalPosition: 22
+    children: []
+    customMetrics: []
+  - name: quantity
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: Quantity of the items sold or returned. This value will be negative
+      for returns and zero for line items that contain shipping charges.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.quantity
+    tags: []
+    ordinalPosition: 23
+    children: []
+    customMetrics: []
+  - name: currency
+    dataType: VARCHAR
+    dataLength: 200
+    dataTypeDisplay: varchar
+    description: "Three-letter ISO currency code of the payment. For example, USD\
+      \ is the code for United States Dollar. This is the currency of the store at\
+      \ the time of the order."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.currency
+    tags: []
+    ordinalPosition: 24
+    children: []
+    customMetrics: []
+  - name: is_deleted
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "Contains 1 when the sale's order was deleted, otherwise contains\
+      \ 0."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.is_deleted
+    tags: []
+    ordinalPosition: 25
+    children: []
+    customMetrics: []
+  - name: test
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: Whether the sale is a test order. Returns True when the sale is a
+      test sale. See Test orders.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.test
+    tags: []
+    ordinalPosition: 26
+    children: []
+    customMetrics: []
+  - name: happened_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: Date (ISO 8601) and time (UTC) when the order was created for a sale
+      or when the order was returned.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_sale.happened_at
+    tags: []
+    ordinalPosition: 27
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-20
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+sourceUrl: http://localhost:8080/fact_sale
+domains: []
+dataProducts: []
+lifeCycle:
+  created:
+    timestamp: 1770557956144
+    accessedByAProcess: Alice
+  updated:
+    timestamp: 1770557956144
+    accessedByAProcess: Bob
+  accessed:
+    timestamp: 1770644356144
+    accessedByAProcess: Charlie
+processedLineage: false
+entityStatus: Unprocessed
