@@ -1,0 +1,30 @@
+name: cameron_newman8
+fullyQualifiedName: cameron_newman8
+displayName: Cameron Newman
+email: cameron_newman8@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: 1cb341f0-3e7a-4ec9-883c-f95bd5782d61
+    type: team
+    name: Applications
+    fullyQualifiedName: Applications
+    description: This is Applications description.
+    displayName: Applications
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

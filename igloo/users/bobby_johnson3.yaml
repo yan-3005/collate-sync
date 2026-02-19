@@ -1,0 +1,29 @@
+name: bobby_johnson3
+fullyQualifiedName: bobby_johnson3
+displayName: Bobby Johnson
+email: bobby_johnson3@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: 537f0b28-9ca9-4568-bd66-d21f9094cdea
+    type: team
+    name: Compute
+    fullyQualifiedName: Compute
+    displayName: Compute
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

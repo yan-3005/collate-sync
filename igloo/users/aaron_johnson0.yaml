@@ -1,0 +1,38 @@
+name: aaron_johnson0
+fullyQualifiedName: aaron_johnson0
+displayName: Aaron Johnson
+email: aaron_johnson0@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: a3be77d3-e217-4f47-b021-01b7baa15d88
+    type: team
+    name: Sales
+    fullyQualifiedName: Sales
+    displayName: Sales
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: 407884cc-0d4a-455e-859d-a4d9b200699c
+    type: role
+    name: DataSteward
+    fullyQualifiedName: DataSteward
+    description: "Users with Data Steward role are responsible for ensuring correctness\
+      \ of metadata for data assets, thereby facilitating data governance principles\
+      \ within the organization.<br/>Data Stewards can update metadata for any entity."
+    displayName: Data Steward
+    deleted: false
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

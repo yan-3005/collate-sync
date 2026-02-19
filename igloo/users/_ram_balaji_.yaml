@@ -1,0 +1,45 @@
+name: ram.balaji
+fullyQualifiedName: '"ram.balaji"'
+displayName: Ram Balaji
+email: ram.balaji@getcollate.io
+isBot: false
+isAdmin: true
+allowImpersonation: false
+teams:
+  - id: 390ede9c-d235-4c7f-8009-cf4119088ccd
+    type: team
+    name: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    fullyQualifiedName: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    description: ""
+    displayName: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    deleted: false
+  - id: f43c852c-0588-47dd-803d-c703549b57f2
+    type: team
+    name: ram.balaji@getcollate.io
+    fullyQualifiedName: '"ram.balaji@getcollate.io"'
+    description: ""
+    displayName: ram.balaji@getcollate.io
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.3
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+isEmailVerified: true
+domains: []
+lastLoginTime: 1771432846744
+lastActivityTime: 1771432846897
+personaPreferences: []

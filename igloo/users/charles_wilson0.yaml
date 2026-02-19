@@ -1,0 +1,29 @@
+name: charles_wilson0
+fullyQualifiedName: charles_wilson0
+displayName: Charles Wilson
+email: charles_wilson0@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: 99ffb5dd-5994-4453-832f-6ea6acdc62bd
+    type: team
+    name: Marketing
+    fullyQualifiedName: Marketing
+    displayName: Marketing
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []
