@@ -1,0 +1,22 @@
+name: s3_storage_sample
+fullyQualifiedName: s3_storage_sample
+serviceType: S3
+connection:
+  config:
+    type: S3
+    awsConfig:
+      enabled: false
+      awsRegion: awsRegion
+      endPointURL: https://endpoint.com/
+      awsAccessKeyId: aws_access_key_id
+      awsSecretAccessKey: fernet:gAAAAABplsTnjoecpKa7_tcFF81UJ40Xia76HT8hbRb4b8mOWSyWXpzGLHZOGqBQjA3P-cmeIhwpcYO_Xg4-dLZmhpDd2k6P65wwEWyfl1KPS1AtBFcy2ig=
+      assumeRoleSessionName: OpenMetadataSession
+    containerFilterPattern:
+      excludes:
+        - _SUCCESS
+      includes: []
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
