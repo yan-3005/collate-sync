@@ -1,0 +1,83 @@
+teamType: Group
+name: Accounting
+fullyQualifiedName: Accounting
+parents:
+  - id: 1e87de7f-9aee-4d31-8c7e-45b135360d5d
+    type: team
+    name: Finance
+    fullyQualifiedName: Finance
+    displayName: Finance
+    deleted: false
+children: []
+users:
+  - id: f0d68e28-09eb-49ec-b80d-3d4269336fc4
+    type: user
+    name: amanda_york8
+    fullyQualifiedName: amanda_york8
+    displayName: Amanda York
+    deleted: false
+  - id: 836e8b4a-5fc0-4c3b-a429-323c268f5b99
+    type: user
+    name: andrew_jennings3
+    fullyQualifiedName: andrew_jennings3
+    displayName: Andrew Jennings
+    deleted: false
+  - id: 8ad1528e-1e5d-4696-89e6-277975f1d057
+    type: user
+    name: audrey_williams6
+    fullyQualifiedName: audrey_williams6
+    displayName: Audrey Williams
+    deleted: false
+  - id: efae222e-7cc0-4d51-a1e3-10837d09e7ba
+    type: user
+    name: brian_weaver7
+    fullyQualifiedName: brian_weaver7
+    displayName: Brian Weaver
+    deleted: false
+  - id: 34e349be-5396-4ef1-882d-130ec6d2e078
+    type: user
+    name: brittney_thomas3
+    fullyQualifiedName: brittney_thomas3
+    displayName: Brittney Thomas
+    deleted: false
+  - id: dc6fab33-32c6-401d-861f-521c8e9d0329
+    type: user
+    name: caitlin_wilkins0
+    fullyQualifiedName: caitlin_wilkins0
+    displayName: Caitlin Wilkins
+    deleted: false
+  - id: 3a12ba03-ee48-4ee8-9c2f-cf717409225b
+    type: user
+    name: carolyn_hill3
+    fullyQualifiedName: carolyn_hill3
+    displayName: Carolyn Hill
+    deleted: false
+  - id: 45bdd765-07df-4382-b5c3-425955f5ac27
+    type: user
+    name: charles_smith4
+    fullyQualifiedName: charles_smith4
+    displayName: Charles Smith
+    deleted: false
+  - id: 8989b483-836a-4534-861a-a0d715b6348b
+    type: user
+    name: cristina_deleon7
+    fullyQualifiedName: cristina_deleon7
+    displayName: Cristina Deleon
+    deleted: false
+childrenCount: 0
+userCount: 9
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []
