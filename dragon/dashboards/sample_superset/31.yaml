@@ -1,0 +1,42 @@
+name: 31
+displayName: Sales Dashboard
+fullyQualifiedName: sample_superset.31
+description: ""
+dashboardType: Dashboard
+sourceUrl: http://localhost:808/superset/dashboard/6/
+charts:
+  - id: 6b0605ef-fcca-49e2-8f6c-5e315bd30bd5
+    type: chart
+    name: 117
+    fullyQualifiedName: sample_superset.117
+    description: ""
+    displayName: Age distribution of respondents
+    deleted: false
+  - id: c5b9e2d4-1701-48f0-ae59-b751d055029b
+    type: chart
+    name: 166
+    fullyQualifiedName: sample_superset.166
+    description: ""
+    displayName: '% Rural'
+    deleted: false
+  - id: 37873c6b-3d53-4563-9e52-b8ac02092167
+    type: chart
+    name: 92
+    fullyQualifiedName: sample_superset.92
+    description: ""
+    displayName: ✈️ Relocation ability
+    deleted: false
+dataModels: []
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

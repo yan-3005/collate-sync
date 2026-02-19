@@ -1,0 +1,42 @@
+name: 8
+displayName: Orders dashboard
+fullyQualifiedName: sample_superset.8
+description: ""
+dashboardType: Dashboard
+sourceUrl: http://localhost:808/superset/dashboard/1/
+charts:
+  - id: 3589d9e5-55c3-46d0-b93d-ac25dcb937bd
+    type: chart
+    name: 170
+    fullyQualifiedName: sample_superset.170
+    description: ""
+    displayName: Box plot
+    deleted: false
+  - id: 102b3b68-740e-48bb-b863-39ad01c5c3b9
+    type: chart
+    name: 183
+    fullyQualifiedName: sample_superset.183
+    description: ""
+    displayName: Average and Sum Trends
+    deleted: false
+  - id: 5c532c33-72ec-4cf1-83af-4a2af09a9e4f
+    type: chart
+    name: 197
+    fullyQualifiedName: sample_superset.197
+    description: ""
+    displayName: Arcs
+    deleted: false
+dataModels: []
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

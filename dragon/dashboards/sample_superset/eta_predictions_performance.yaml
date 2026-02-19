@@ -1,0 +1,28 @@
+name: eta_predictions_performance
+displayName: ETA Predictions Performance
+fullyQualifiedName: sample_superset.eta_predictions_performance
+description: ""
+dashboardType: Dashboard
+sourceUrl: http://localhost:808/superset/dashboard/eta_predictions_performance/
+charts:
+  - id: 203f907b-9ba4-4938-932a-3604b5665c6d
+    type: chart
+    name: 210
+    fullyQualifiedName: sample_superset.210
+    description: ""
+    displayName: ETA Predictions Accuracy
+    deleted: false
+dataModels: []
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
