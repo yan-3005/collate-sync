@@ -1,0 +1,37 @@
+name: presto_etl
+displayName: Presto ETL
+fullyQualifiedName: sample_airflow.presto_etl
+description: Presto ETL pipeline
+dataProducts: []
+sourceUrl: http://localhost:8080/tree?dag_id=presto_etl
+tasks:
+  - name: presto_task
+    displayName: Presto Task
+    fullyQualifiedName: sample_airflow.presto_etl.presto_task
+    description: Airflow operator to perform ETL on presto tables
+    sourceUrl: http://localhost:8080/taskinstance/list/?_flt_3_dag_id=assert_table_exists
+    downstreamTasks:
+      - assert_table_exists
+    taskType: PrestoOperator
+    tags: []
+  - name: assert_table_exists
+    displayName: Assert Table Exists
+    fullyQualifiedName: sample_airflow.presto_etl.assert_table_exists
+    description: Assert if a table exists
+    sourceUrl: http://localhost:8080/taskinstance/list/?_flt_3_dag_id=assert_table_exists
+    downstreamTasks: []
+    taskType: HiveOperator
+    tags: []
+tags: []
+owners: []
+service:
+  id: 5cccdddc-1b0a-4613-86de-b9d224e5aa97
+  type: pipelineService
+  name: sample_airflow
+  fullyQualifiedName: sample_airflow
+  displayName: sample_airflow
+  deleted: false
+serviceType: Airflow
+scheduleInterval: '* * * * *'
+domains: []
+entityStatus: Unprocessed

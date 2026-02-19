@@ -1,0 +1,40 @@
+name: dbt_analytics_customers
+displayName: DBT Customer Analytics
+fullyQualifiedName: sample_dbtcloud.dbt_analytics_customers
+description: DBT pipeline for customer analytics and aggregations - runs daily
+dataProducts: []
+sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_analytics_customers
+tasks:
+  - name: dbt_build_analytics
+    displayName: DBT Build Customer Analytics
+    fullyQualifiedName: sample_dbtcloud.dbt_analytics_customers.dbt_build_analytics
+    description: Execute dbt build for customer analytics models
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_analytics_customers
+    downstreamTasks: []
+    taskType: dbtBuildTask
+    tags: []
+pipelineStatus:
+  timestamp: 1771488520071
+  executionStatus: Successful
+  taskStatus:
+    - name: dbt_build_analytics
+      executionStatus: Successful
+      inputs: []
+      outputs: []
+  executionId: analytics_run_301
+  endTime: 1771490920071
+  inputs: []
+  outputs: []
+tags: []
+owners: []
+service:
+  id: b22201d1-32fb-4140-a70b-2a57f3348be8
+  type: pipelineService
+  name: sample_dbtcloud
+  fullyQualifiedName: sample_dbtcloud
+  displayName: sample_dbtcloud
+  deleted: false
+serviceType: DBTCloud
+scheduleInterval: 0 4 * * *
+domains: []
+entityStatus: Unprocessed
