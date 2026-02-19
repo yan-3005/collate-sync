@@ -1,0 +1,63 @@
+name: GitTerm1
+displayName: Gittttt
+description: <p>GitTerm1</p>
+style: {}
+fullyQualifiedName: GitsyncGlossary.GitTerm1
+synonyms:
+  - You know it
+glossary:
+  id: 26c86490-9316-4374-ac03-9b9a0a78a851
+  type: glossary
+  name: GitsyncGlossary
+  fullyQualifiedName: GitsyncGlossary
+  description: <p>GitSyncGlossary</p>
+  displayName: GitsyncGlossary
+  deleted: false
+children: []
+relatedTerms:
+  - id: 0a4ccb2e-8cba-439f-a5ed-0ff51846e5db
+    type: glossaryTerm
+    name: IronMan
+    fullyQualifiedName: Marvel.IronMan
+    description: <p>IronMan</p>
+    displayName: IronMan
+    deleted: false
+references: []
+reviewers:
+  - id: c8d3e1f1-3419-40f4-804d-6c76d5887307
+    type: user
+    name: aaron_johnson0
+    fullyQualifiedName: aaron_johnson0
+    displayName: Aaron Johnson
+    deleted: false
+owners:
+  - id: c0421655-1efc-480e-9282-62d36024968b
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+usageCount: 0
+tags:
+  - tagFQN: General.Address
+    name: Address
+    description: Address of a Person.
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771488981348
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Approved
+      newValue: In Review
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: In Review
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0
