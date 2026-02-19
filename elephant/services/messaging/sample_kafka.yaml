@@ -1,0 +1,15 @@
+name: sample_kafka
+fullyQualifiedName: sample_kafka
+serviceType: Kafka
+connection:
+  config:
+    type: Kafka
+    saslMechanism: PLAIN
+    bootstrapServers: localhost:9092
+    securityProtocol: PLAINTEXT
+    supportsMetadataExtraction: true
+    schemaRegistryTopicSuffixName: -value
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
