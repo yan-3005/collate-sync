@@ -1,0 +1,13 @@
+name: mlflow_svc
+fullyQualifiedName: mlflow_svc
+serviceType: Mlflow
+pipelines: []
+connection:
+  config:
+    type: Mlflow
+    registryUri: http://localhost:8088
+    trackingUri: http://localhost:8088
+    supportsMetadataExtraction: true
+tags: []
+owners: []
+dataProducts: []
