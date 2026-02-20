@@ -1,0 +1,59 @@
+name: customer_segmentation
+fullyQualifiedName: mlflow_svc.customer_segmentation
+displayName: Customer Segmentation Model
+description: Clustering model for customer segmentation based on purchase behavior
+  and demographics
+algorithm: mlmodel
+mlFeatures:
+  - name: total_purchase_amount
+    dataType: numerical
+    fullyQualifiedName: mlflow_svc.customer_segmentation.total_purchase_amount
+    featureSources: []
+  - name: purchase_frequency
+    dataType: numerical
+    fullyQualifiedName: mlflow_svc.customer_segmentation.purchase_frequency
+    featureSources: []
+  - name: avg_basket_size
+    dataType: numerical
+    fullyQualifiedName: mlflow_svc.customer_segmentation.avg_basket_size
+    featureSources: []
+  - name: customer_age_group
+    dataType: categorical
+    fullyQualifiedName: mlflow_svc.customer_segmentation.customer_age_group
+    featureSources: []
+  - name: preferred_category
+    dataType: categorical
+    fullyQualifiedName: mlflow_svc.customer_segmentation.preferred_category
+    featureSources: []
+mlHyperParameters:
+  - name: n_clusters
+    value: 5
+  - name: max_iter
+    value: 300
+  - name: init
+    value: k-means++
+  - name: random_state
+    value: 42
+dashboard:
+  id: 2cb31814-5124-4b8d-b397-789d236b6120
+  type: dashboard
+  name: eta_predictions_performance
+  fullyQualifiedName: sample_superset.eta_predictions_performance
+  description: ""
+  displayName: ETA Predictions Performance
+  deleted: false
+mlStore:
+  storage: mlflow-artifacts:/3/seg456cluster/artifacts/model
+owners: []
+tags: []
+service:
+  id: ab1a0ac7-4892-4ba2-ab81-d17a21546571
+  type: mlmodelService
+  name: mlflow_svc
+  fullyQualifiedName: mlflow_svc
+  displayName: mlflow_svc
+  deleted: false
+serviceType: Mlflow
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

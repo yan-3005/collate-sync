@@ -1,0 +1,27 @@
+name: recommendation-engine
+fullyQualifiedName: sagemaker_svc.recommendation-engine
+algorithm: mlmodel
+dashboard:
+  id: 2cb31814-5124-4b8d-b397-789d236b6120
+  type: dashboard
+  name: eta_predictions_performance
+  fullyQualifiedName: sample_superset.eta_predictions_performance
+  description: ""
+  displayName: ETA Predictions Performance
+  deleted: false
+mlStore:
+  storage: s3://sagemaker-us-east-1-123456789/recommendations/collaborative-filter.tar.gz
+  imageRepository: 123456789.dkr.ecr.us-east-1.amazonaws.com/recommendation-engine:latest
+owners: []
+tags: []
+service:
+  id: 2740592b-e00e-4e63-805f-db186320d25f
+  type: mlmodelService
+  name: sagemaker_svc
+  fullyQualifiedName: sagemaker_svc
+  displayName: sagemaker_svc
+  deleted: false
+serviceType: SageMaker
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

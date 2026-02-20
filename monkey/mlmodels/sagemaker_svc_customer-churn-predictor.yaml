@@ -1,0 +1,27 @@
+name: customer-churn-predictor
+fullyQualifiedName: sagemaker_svc.customer-churn-predictor
+algorithm: mlmodel
+dashboard:
+  id: fac262ab-99d8-43f3-8cde-3800197b7356
+  type: dashboard
+  name: forecast_sales_performance
+  fullyQualifiedName: sample_superset.forecast_sales_performance
+  description: ""
+  displayName: ETA Predictions Performance
+  deleted: false
+mlStore:
+  storage: s3://sagemaker-us-east-1-123456789/churn-model/model-v2.tar.gz
+  imageRepository: 123456789.dkr.ecr.us-east-1.amazonaws.com/churn-predictor:v2.0.1
+owners: []
+tags: []
+service:
+  id: 2740592b-e00e-4e63-805f-db186320d25f
+  type: mlmodelService
+  name: sagemaker_svc
+  fullyQualifiedName: sagemaker_svc
+  displayName: sagemaker_svc
+  deleted: false
+serviceType: SageMaker
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
