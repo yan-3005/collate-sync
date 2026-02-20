@@ -1,0 +1,13 @@
+name: elasticsearch_sample
+fullyQualifiedName: elasticsearch_sample
+serviceType: ElasticSearch
+connection:
+  config:
+    type: ElasticSearch
+    hostPort: http://localhost:9200/
+    connectionTimeoutSecs: 30
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
