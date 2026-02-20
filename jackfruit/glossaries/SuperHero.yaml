@@ -1,0 +1,28 @@
+name: SuperHero
+fullyQualifiedName: SuperHero
+description: <p>SuperHero</p>
+reviewers: []
+owners:
+  - id: c0421655-1efc-480e-9282-62d36024968b
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+usageCount: 0
+tags: []
+termCount: 1
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: reviewers
+      oldValue: "[{\"id\":\"52b9d18c-8781-4272-b441-da703a9cb50d\",\"type\":\"user\"\
+        ,\"name\":\"ram\",\"fullyQualifiedName\":\"ram\",\"description\":\"\",\"displayName\"\
+        :\"ram@test.com\",\"deleted\":false}]"
+  previousVersion: 0.2
+  changeSummary: {}
+provider: user
+mutuallyExclusive: false
+dataProducts: []
+entityStatus: Unprocessed
