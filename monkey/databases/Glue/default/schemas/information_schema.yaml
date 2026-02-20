@@ -1,0 +1,43 @@
+name: information_schema
+fullyQualifiedName: Glue.default.information_schema
+displayName: ""
+description: This **mock** database contains tables related to the Glue service
+dataProducts: []
+impersonatedBy: admin
+owners: []
+service:
+  id: 69ec48f2-6ca0-4f4b-a809-7b4fcf5b27e9
+  type: databaseService
+  name: Glue
+  fullyQualifiedName: Glue
+  displayName: Glue
+  deleted: false
+serviceType: Glue
+database:
+  id: ea264023-47ae-4100-a6f4-01e985a50cb5
+  type: database
+  name: default
+  fullyQualifiedName: Glue.default
+  description: This **mock** database contains tables related to the Glue service
+  displayName: default
+  deleted: false
+tables:
+  - id: 64834613-49f1-49bd-898b-2ba52c4b82b7
+    type: table
+    name: marketing
+    fullyQualifiedName: Glue.default.information_schema.marketing
+    description: Marketing data
+    displayName: marketing
+    deleted: false
+  - id: 420bd096-fbc6-4e54-916f-86b70e7e6fec
+    type: table
+    name: sales
+    fullyQualifiedName: Glue.default.information_schema.sales
+    description: <p>Sales data</p>
+    displayName: sales
+    deleted: false
+tags: []
+retentionPeriod: ""
+sourceUrl: https://www.glue.com/information_schema
+domains: []
+entityStatus: Unprocessed
