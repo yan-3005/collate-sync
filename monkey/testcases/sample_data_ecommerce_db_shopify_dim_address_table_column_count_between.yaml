@@ -1,0 +1,88 @@
+name: table_column_count_between
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.table_column_count_between
+description: test the number of column in table is between x and y
+testDefinition:
+  id: 6dfecf54-cacd-4559-a9ba-d7cb8b234559
+  type: testDefinition
+  name: tableColumnCountToBeBetween
+  fullyQualifiedName: tableColumnCountToBeBetween
+  description: This schema defines the test TableColumnCountToBeBetween. Test the
+    number of columns to be between min max value.
+  displayName: Table Column Count To Be Between
+  deleted: false
+entityLink: <#E::table::sample_data.ecommerce_db.shopify.dim_address>
+entityFQN: sample_data.ecommerce_db.shopify.dim_address
+testSuite:
+  id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+  type: testSuite
+  name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  description: This is an executable test suite linked to an entity
+  displayName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  deleted: false
+testSuites:
+  - id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+    name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    description: This is an executable test suite linked to an entity
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488524784
+    updatedBy: admin
+    deleted: false
+    basic: true
+    basicEntityReference:
+      id: 6c0cce20-3060-4d8a-8bfb-35b68cbf5379
+      type: table
+      name: dim_address
+      fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address
+    testCaseResultSummary: []
+    domains: []
+    tags: []
+    inherited: true
+    reviewers: []
+parameterValues:
+  - name: minColValue
+    value: 1
+  - name: maxColValue
+    value: 10
+testCaseResult:
+  id: 4e87bff2-f10d-4822-8c13-606073cf1614
+  testCaseFQN: sample_data.ecommerce_db.shopify.dim_address.table_column_count_between
+  timestamp: 1771488532076
+  testCaseStatus: Success
+  result: "Found 9 column vs. the expected range [1, 10]."
+  testResultValue:
+    - name: columnCount
+      value: 9
+  maxBound: 10.0
+  minBound: 1.0
+  dimensionResults: []
+testCaseStatus: Success
+owners: []
+createdBy: admin
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: testCaseStatus
+      newValue: Success
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+computePassedFailedRowCount: false
+domains: []
+useDynamicAssertion: false
+tags:
+  - tagFQN: PII.Sensitive
+    name: Sensitive
+    description: "PII which if lost, compromised, or disclosed without authorization,\
+      \ could result in substantial harm, embarrassment, inconvenience, or unfairness\
+      \ to an individual."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771488495773
+dimensionColumns: []
+entityStatus: Unprocessed
+reviewers: []

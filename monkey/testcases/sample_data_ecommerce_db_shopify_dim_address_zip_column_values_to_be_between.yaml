@@ -1,0 +1,105 @@
+name: column_values_to_be_between
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.zip.column_values_to_be_between
+description: test the number of column in table is between x and y
+testDefinition:
+  id: efcd819a-3b8d-45e4-a8c4-3a763d1eeade
+  type: testDefinition
+  name: columnValuesToBeBetween
+  fullyQualifiedName: columnValuesToBeBetween
+  description: 'This schema defines the test ColumnValuesToBeBetween. Test the values
+    in a column to be between minimum and maximum value. '
+  displayName: Column Values To Be Between
+  deleted: false
+entityLink: <#E::table::sample_data.ecommerce_db.shopify.dim_address::columns::zip>
+entityFQN: sample_data.ecommerce_db.shopify.dim_address.zip
+testSuite:
+  id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+  type: testSuite
+  name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  description: This is an executable test suite linked to an entity
+  displayName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  deleted: false
+testSuites:
+  - id: bde329fc-3206-4332-8fce-1e479a67535f
+    name: a2bbb0e6-f6ed-4b96-8b4c-bb14c0ccd73f
+    displayName: Data Contract - dim_address_comprehensive_contract
+    fullyQualifiedName: a2bbb0e6-f6ed-4b96-8b4c-bb14c0ccd73f
+    description: "Logical test suite for Data Contract: dim_address_comprehensive_contract"
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488584945
+    updatedBy: admin
+    deleted: false
+    basic: false
+    dataContract:
+      id: a2bbb0e6-f6ed-4b96-8b4c-bb14c0ccd73f
+      type: dataContract
+      fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.dataContract_dim_address_comprehensive_contract
+    testCaseResultSummary: []
+    tags: []
+    inherited: true
+    reviewers: []
+  - id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+    name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    description: This is an executable test suite linked to an entity
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488524784
+    updatedBy: admin
+    deleted: false
+    basic: true
+    basicEntityReference:
+      id: 6c0cce20-3060-4d8a-8bfb-35b68cbf5379
+      type: table
+      name: dim_address
+      fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address
+    testCaseResultSummary: []
+    domains: []
+    tags: []
+    inherited: true
+    reviewers: []
+parameterValues: []
+testCaseResult:
+  id: 41b5ca8d-15b3-4f39-b006-672432ef1e02
+  testCaseFQN: sample_data.ecommerce_db.shopify.dim_address.zip.column_values_to_be_between
+  timestamp: 1771488545431
+  testCaseStatus: Aborted
+  result: "We expect `min` & `max` to be informed on the profiler for ColumnValuesToBeBetween\
+    \ but got min=None, max=None."
+  testResultValue:
+    - name: minValue
+      value: None
+    - name: maxValue
+      value: None
+  dimensionResults: []
+testCaseStatus: Aborted
+owners: []
+createdBy: admin
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: testCaseStatus
+      newValue: Aborted
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+computePassedFailedRowCount: false
+domains: []
+useDynamicAssertion: true
+tags:
+  - tagFQN: PII.Sensitive
+    name: Sensitive
+    description: "PII which if lost, compromised, or disclosed without authorization,\
+      \ could result in substantial harm, embarrassment, inconvenience, or unfairness\
+      \ to an individual."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771488495773
+dimensionColumns: []
+entityStatus: Unprocessed
+reviewers: []

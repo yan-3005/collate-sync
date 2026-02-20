@@ -1,0 +1,103 @@
+name: column_value_max_to_be_between
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.shop_id.column_value_max_to_be_between
+description: test the value of a column is between x and y
+testDefinition:
+  id: c3a5e18a-d94b-4262-a2c8-1608566a5f75
+  type: testDefinition
+  name: columnValueMaxToBeBetween
+  fullyQualifiedName: columnValueMaxToBeBetween
+  description: This schema defines the test ColumnValueMaxToBeBetween. Test the maximum
+    value in a col is within a range.
+  displayName: Column Value Max. To Be Between
+  deleted: false
+entityLink: <#E::table::sample_data.ecommerce_db.shopify.dim_address::columns::shop_id>
+entityFQN: sample_data.ecommerce_db.shopify.dim_address.shop_id
+testSuite:
+  id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+  type: testSuite
+  name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  description: This is an executable test suite linked to an entity
+  displayName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  deleted: false
+testSuites:
+  - id: 68219aad-a67d-42d1-8e26-5ef8a4d3386a
+    name: myLogicalTestSuite
+    fullyQualifiedName: myLogicalTestSuite
+    description: This is a logical test suite linked to an entity
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488555454
+    updatedBy: admin
+    deleted: false
+    basic: false
+    testCaseResultSummary: []
+    tags: []
+    inherited: true
+    reviewers: []
+  - id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+    name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    description: This is an executable test suite linked to an entity
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488524784
+    updatedBy: admin
+    deleted: false
+    basic: true
+    basicEntityReference:
+      id: 6c0cce20-3060-4d8a-8bfb-35b68cbf5379
+      type: table
+      name: dim_address
+      fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address
+    testCaseResultSummary: []
+    domains: []
+    tags: []
+    inherited: true
+    reviewers: []
+parameterValues:
+  - name: minValueForMaxInCol
+    value: 50
+  - name: maxValueForMaxInCol
+    value: 100
+testCaseResult:
+  id: 6646cffe-afbd-49f7-8244-b8d2d1aa3e07
+  testCaseFQN: sample_data.ecommerce_db.shopify.dim_address.shop_id.column_value_max_to_be_between
+  timestamp: 1771488536292
+  testCaseStatus: Success
+  result: "Found max=65 vs. the expected min=50, max=100."
+  testResultValue:
+    - name: maxValue
+      value: 65
+  maxBound: 100.0
+  minBound: 50.0
+  dimensionResults: []
+testCaseStatus: Success
+owners: []
+createdBy: admin
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: testCaseStatus
+      newValue: Success
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+computePassedFailedRowCount: false
+domains: []
+useDynamicAssertion: false
+tags:
+  - tagFQN: PII.Sensitive
+    name: Sensitive
+    description: "PII which if lost, compromised, or disclosed without authorization,\
+      \ could result in substantial harm, embarrassment, inconvenience, or unfairness\
+      \ to an individual."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771488495773
+dimensionColumns: []
+entityStatus: Unprocessed
+reviewers: []

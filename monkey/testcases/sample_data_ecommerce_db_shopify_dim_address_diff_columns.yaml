@@ -1,0 +1,108 @@
+name: diff_columns
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.diff_columns
+description: compare with a table with different columns
+testDefinition:
+  id: 6051dadf-d120-45d5-be51-53611a29f033
+  type: testDefinition
+  name: tableDiff
+  fullyQualifiedName: tableDiff
+  description: Test if 2 tables have less that <threshold> diff rows.
+  displayName: Compare 2 tables for differences
+  deleted: false
+entityLink: <#E::table::sample_data.ecommerce_db.shopify.dim_address>
+entityFQN: sample_data.ecommerce_db.shopify.dim_address
+testSuite:
+  id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+  type: testSuite
+  name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  description: This is an executable test suite linked to an entity
+  displayName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  deleted: false
+testSuites:
+  - id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+    name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+    description: This is an executable test suite linked to an entity
+    serviceType: TestSuite
+    owners: []
+    version: 0.1
+    updatedAt: 1771488524784
+    updatedBy: admin
+    deleted: false
+    basic: true
+    basicEntityReference:
+      id: 6c0cce20-3060-4d8a-8bfb-35b68cbf5379
+      type: table
+      name: dim_address
+      fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address
+    testCaseResultSummary: []
+    domains: []
+    tags: []
+    inherited: true
+    reviewers: []
+parameterValues:
+  - name: table2
+    value: sample_data.ecommerce_db.shopify.production_dim_address
+testCaseResult:
+  id: 5e9bbca7-7db8-4b70-b37a-a3abdf87f962
+  testCaseFQN: sample_data.ecommerce_db.shopify.dim_address.diff_columns
+  timestamp: 1771488550148
+  testCaseStatus: Failed
+  result: |-
+    Tables have 4 different columns:
+      Removed columns: removed_id
+      Added columns: added_column,my_other_value
+      Changed columns:
+        first_name: VARCHAR -> INT
+  testResultValue:
+    - name: addedColumns
+      value: 2
+    - name: removedColumns
+      value: 1
+    - name: changedColumns
+      value: 1
+    - name: schemaTable1
+      value: "serviceType='BigQuery' fullyQualifiedTableName='ecommerce_db.shopify.dim_address'\
+        \ schema={'order_id': Integer(_notes=[], precision=0, python_type=<class 'int'>),\
+        \ 'quantity': Integer(_notes=[], precision=0, python_type=<class 'int'>),\
+        \ 'product_id': Integer(_notes=[], precision=0, python_type=<class 'int'>),\
+        \ 'customer_id': Integer(_notes=[], precision=0, python_type=<class 'int'>),\
+        \ 'status': String_VaryingAlphanum(_notes=[], collation=None), 'order_date':\
+        \ Date(_notes=[], precision=6, rounds=True), 'price': Decimal(_notes=[], precision=2)}"
+    - name: schemaTable2
+      value: "serviceType='BigQuery' fullyQualifiedTableName='shopify.production_dim_address'\
+        \ schema={'user_id': Integer(_notes=[], precision=0, python_type=<class 'int'>),\
+        \ 'id': Integer(_notes=[], precision=0, python_type=<class 'int'>), 'cycle_name':\
+        \ String_VaryingAlphanum(_notes=[], collation=None), 'status': String_VaryingAlphanum(_notes=[],\
+        \ collation=None), 'order_date': Date(_notes=[], precision=6, rounds=True)}"
+  incidentId: 0e89cfbd-57e3-4e72-8e62-4d7e07b4771a
+  dimensionResults: []
+testCaseStatus: Failed
+owners: []
+createdBy: admin
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: testCaseStatus
+      newValue: Failed
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+computePassedFailedRowCount: false
+incidentId: 0e89cfbd-57e3-4e72-8e62-4d7e07b4771a
+domains: []
+useDynamicAssertion: false
+tags:
+  - tagFQN: PII.Sensitive
+    name: Sensitive
+    description: "PII which if lost, compromised, or disclosed without authorization,\
+      \ could result in substantial harm, embarrassment, inconvenience, or unfairness\
+      \ to an individual."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771488495773
+dimensionColumns: []
+entityStatus: Unprocessed
+reviewers: []
