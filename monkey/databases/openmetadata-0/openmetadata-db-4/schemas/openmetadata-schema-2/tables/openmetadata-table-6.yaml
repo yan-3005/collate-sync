@@ -1,0 +1,1443 @@
+name: openmetadata-table-6
+fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6
+columns:
+  - name: column_0
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_0
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_1
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_1
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_2
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_2
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_3
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_3
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_4
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_4
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_5
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_5
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_6
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_6
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_7
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_7
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_8
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_8
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_9
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_9
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_10
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_10
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_11
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_11
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_12
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_12
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_13
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_13
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_14
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_14
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_15
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_15
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_16
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_16
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_17
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_17
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_18
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_18
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_19
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_19
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_20
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_20
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_21
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_21
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_22
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_22
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_23
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_23
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_24
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_24
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_25
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_25
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_26
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_26
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_27
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_27
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_28
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_28
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_29
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_29
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_30
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_30
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_31
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_31
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_32
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_32
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_33
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_33
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_34
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_34
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_35
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_35
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_36
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_36
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_37
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_37
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_38
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_38
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_39
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_39
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_40
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_40
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_41
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_41
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_42
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_42
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_43
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_43
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_44
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_44
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_45
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_45
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_46
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_46
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_47
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_47
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_48
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_48
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_49
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_49
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_50
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_50
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_51
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_51
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_52
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_52
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_53
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_53
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_54
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_54
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_55
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_55
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_56
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_56
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_57
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_57
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_58
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_58
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_59
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_59
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_60
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_60
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_61
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_61
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_62
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_62
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_63
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_63
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_64
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_64
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_65
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_65
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_66
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_66
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_67
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_67
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_68
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_68
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_69
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_69
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_70
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_70
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_71
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_71
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_72
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_72
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_73
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_73
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_74
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_74
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_75
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_75
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_76
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_76
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_77
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_77
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_78
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_78
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_79
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_79
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_80
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_80
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_81
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_81
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_82
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_82
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_83
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_83
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_84
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_84
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_85
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_85
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_86
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_86
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_87
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_87
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_88
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_88
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_89
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_89
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_90
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_90
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_91
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_91
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_92
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_92
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_93
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_93
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_94
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_94
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_95
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_95
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_96
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_96
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_97
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_97
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_98
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_98
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_99
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_99
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_100
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_100
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_101
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_101
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_102
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_102
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_103
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_103
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_104
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_104
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_105
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_105
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_106
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_106
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_107
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_107
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_108
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_108
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_109
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_109
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_110
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_110
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_111
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_111
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_112
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_112
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_113
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_113
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_114
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_114
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_115
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_115
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_116
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_116
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_117
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_117
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_118
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_118
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_119
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_119
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_120
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_120
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_121
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_121
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_122
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_122
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_123
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_123
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_124
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_124
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_125
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_125
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_126
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_126
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_127
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_127
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_128
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_128
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_129
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_129
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_130
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_130
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_131
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_131
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_132
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_132
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_133
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_133
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_134
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_134
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_135
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_135
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_136
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_136
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_137
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_137
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_138
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_138
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_139
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_139
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_140
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_140
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_141
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_141
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_142
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_142
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_143
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_143
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_144
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_144
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_145
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_145
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_146
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_146
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_147
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_147
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_148
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_148
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_149
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_149
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_150
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_150
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_151
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_151
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_152
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_152
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_153
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_153
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_154
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_154
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_155
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_155
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_156
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_156
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_157
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_157
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_158
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_158
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_159
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_159
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_160
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_160
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_161
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_161
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_162
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_162
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_163
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_163
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_164
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_164
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_165
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_165
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_166
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_166
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_167
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_167
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_168
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_168
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_169
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_169
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_170
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_170
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_171
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_171
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_172
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_172
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_173
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_173
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_174
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_174
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_175
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_175
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_176
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_176
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_177
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_177
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_178
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_178
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_179
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_179
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_180
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_180
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_181
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_181
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_182
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_182
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_183
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_183
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_184
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_184
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_185
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_185
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_186
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_186
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_187
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_187
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_188
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_188
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_189
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_189
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_190
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_190
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_191
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_191
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_192
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_192
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_193
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_193
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_194
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_194
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_195
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_195
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_196
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_196
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_197
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_197
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_198
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_198
+    tags: []
+    children: []
+    customMetrics: []
+  - name: column_199
+    dataType: STRING
+    dataTypeDisplay: string
+    fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2.openmetadata-table-6.column_199
+    tags: []
+    children: []
+    customMetrics: []
+owners:
+  - id: c0421655-1efc-480e-9282-62d36024968b
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+databaseSchema:
+  id: ee36552c-c46b-473b-ac82-0c0077337a7e
+  type: databaseSchema
+  name: openmetadata-schema-2
+  fullyQualifiedName: openmetadata-0.openmetadata-db-4.openmetadata-schema-2
+  displayName: openmetadata-schema-2
+  deleted: false
+database:
+  id: c34bf8d1-9b4a-44e2-9986-89e64c928360
+  type: database
+  name: openmetadata-db-4
+  fullyQualifiedName: openmetadata-0.openmetadata-db-4
+  displayName: openmetadata-db-4
+  deleted: false
+service:
+  id: 40493925-f17f-4557-9c52-a0d7547876e6
+  type: databaseService
+  name: openmetadata-0
+  fullyQualifiedName: openmetadata-0
+  displayName: openmetadata-0
+  deleted: false
+serviceType: Snowflake
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed

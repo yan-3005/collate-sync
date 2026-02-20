@@ -1,0 +1,73 @@
+name: ssot_utilization_detail
+fullyQualifiedName: sample_data.ecommerce_db.shopify.ssot_utilization_detail
+description: "A detail of each agent's time throughout the day. Individual events\
+  \ in each system are collapsed by aux_code, aux_channel, worktype_name, and reporting_date."
+tableType: Regular
+columns:
+  - name: reporting_date
+    dataType: DATE
+    dataTypeDisplay: date
+    description: The date the event began.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.ssot_utilization_detail.reporting_date
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: agent_id
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: The unique identifier for the agent from customer_success.remitly_employee.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.ssot_utilization_detail.agent_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: agent_email
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: The agent email.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.ssot_utilization_detail.agent_email
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
