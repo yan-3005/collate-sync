@@ -1,0 +1,47 @@
+name: transform_and_load_data
+fullyQualifiedName: sample_data.ecommerce_db.shopify.transform_and_load_data
+description: Procedure to clean the customers data before loading
+storedProcedureCode:
+  code: |-
+    CREATE OR REPLACE FUNCTION TransformAndLoadData() RETURNS VOID AS $$ BEGIN
+     DELETE FROM dim_customer;
+     INSERT INTO dim_customer (dim_customer_name, dim_customer_email)
+     SELECT
+     TRIM(raw_customer_name),
+     LOWER(raw_customer_email)
+     FROM raw_customer;
+     COMMIT;
+     END; $$ LANGUAGE plpgsql;
+dataProducts: []
+storedProcedureType: StoredProcedure
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+owners: []
+tags: []
+domains: []
+processedLineage: false
+entityStatus: Unprocessed
