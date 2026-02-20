@@ -1,0 +1,45 @@
+name: pet
+fullyQualifiedName: sample_api_service.pet
+endpointURL: https://petstore3.swagger.io/#/pet
+apiEndpoints:
+  - id: 972012cf-ed4d-4b19-9328-cdf3d340ddb4
+    type: apiEndpoint
+    name: addPet
+    fullyQualifiedName: sample_api_service.pet.addPet
+    description: add a new pet
+    displayName: Add Pet
+    deleted: false
+  - id: 046043a9-bae6-41d5-ae93-e3e9c8520c43
+    type: apiEndpoint
+    name: deletePet
+    fullyQualifiedName: sample_api_service.pet.deletePet
+    description: Delete pet by ID
+    displayName: Delete pet by ID
+    deleted: false
+  - id: f02e74b0-321a-41c5-ba21-2795d0400332
+    type: apiEndpoint
+    name: getPetById
+    fullyQualifiedName: sample_api_service.pet.getPetById
+    description: Returns a single pet
+    displayName: Find pet by ID
+    deleted: false
+  - id: 4293e329-0dd6-40ed-8bdf-e056fdf9d02a
+    type: apiEndpoint
+    name: updatePet
+    fullyQualifiedName: sample_api_service.pet.updatePet
+    description: Update an existing pet
+    displayName: Update Pet
+    deleted: false
+owners: []
+tags: []
+service:
+  id: 65559d33-7eee-464c-b606-37ad6e52cfc6
+  type: apiService
+  name: sample_api_service
+  fullyQualifiedName: sample_api_service
+  displayName: sample_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
