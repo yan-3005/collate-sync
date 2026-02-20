@@ -1,0 +1,18 @@
+name: GitsyncGlossary
+fullyQualifiedName: GitsyncGlossary
+description: <p>GitSyncGlossary</p>
+reviewers: []
+owners:
+  - id: c0421655-1efc-480e-9282-62d36024968b
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+usageCount: 0
+tags: []
+termCount: 1
+provider: user
+mutuallyExclusive: false
+dataProducts: []
+entityStatus: Unprocessed
