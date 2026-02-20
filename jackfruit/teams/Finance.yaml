@@ -1,0 +1,48 @@
+teamType: BusinessUnit
+name: Finance
+fullyQualifiedName: Finance
+parents:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+children:
+  - id: 94b6df21-7da6-443f-9949-4a7d11754175
+    type: team
+    name: Accounting
+    fullyQualifiedName: Accounting
+    displayName: Accounting
+    deleted: false
+  - id: 99ffb5dd-5994-4453-832f-6ea6acdc62bd
+    type: team
+    name: Marketing
+    fullyQualifiedName: Marketing
+    displayName: Marketing
+    deleted: false
+  - id: a3be77d3-e217-4f47-b021-01b7baa15d88
+    type: team
+    name: Sales
+    fullyQualifiedName: Sales
+    displayName: Sales
+    deleted: false
+users: []
+childrenCount: 3
+userCount: 33
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []

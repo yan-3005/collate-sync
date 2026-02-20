@@ -1,0 +1,101 @@
+teamType: Group
+name: Sales
+fullyQualifiedName: Sales
+parents:
+  - id: 1e87de7f-9aee-4d31-8c7e-45b135360d5d
+    type: team
+    name: Finance
+    fullyQualifiedName: Finance
+    displayName: Finance
+    deleted: false
+children: []
+users:
+  - id: d3574cb1-4a4c-4d19-b144-2666739fa040
+    type: user
+    name: aaron.singh2
+    fullyQualifiedName: '"aaron.singh2"'
+    displayName: Aaron Singh
+    deleted: false
+  - id: c8d3e1f1-3419-40f4-804d-6c76d5887307
+    type: user
+    name: aaron_johnson0
+    fullyQualifiedName: aaron_johnson0
+    displayName: Aaron Johnson
+    deleted: false
+  - id: d45e185f-b0ea-41a0-90a1-49254608c067
+    type: user
+    name: ana_mckay7
+    fullyQualifiedName: ana_mckay7
+    displayName: Ana Mckay
+    deleted: false
+  - id: 07bcc9ce-87f5-4c55-8c84-d0dd07d393f6
+    type: user
+    name: andrew_hernandez9
+    fullyQualifiedName: andrew_hernandez9
+    displayName: Andrew Hernandez
+    deleted: false
+  - id: 12467551-1f07-43ab-8eac-d220459bf6e4
+    type: user
+    name: anthony_wall4
+    fullyQualifiedName: anthony_wall4
+    displayName: Anthony Wall
+    deleted: false
+  - id: 0ce2e569-7fe7-4671-88cf-ece7f6ea9b67
+    type: user
+    name: brian_bryan3
+    fullyQualifiedName: brian_bryan3
+    displayName: Brian Bryan
+    deleted: false
+  - id: 78da1681-606a-4c5f-9f3b-dbf33c280c4f
+    type: user
+    name: brian_smith7
+    fullyQualifiedName: brian_smith7
+    displayName: Brian Smith
+    deleted: false
+  - id: a0e4639e-55f2-494d-9816-4082430ff921
+    type: user
+    name: brittany_garza4
+    fullyQualifiedName: brittany_garza4
+    displayName: Brittany Garza
+    deleted: false
+  - id: 3de18226-1f57-490c-851f-88152820ab01
+    type: user
+    name: bryan_moreno6
+    fullyQualifiedName: bryan_moreno6
+    displayName: Bryan Moreno
+    deleted: false
+  - id: 01ea2f63-1a63-4fa4-a655-ef7e25bad461
+    type: user
+    name: carrie_deleon9
+    fullyQualifiedName: carrie_deleon9
+    displayName: Carrie Deleon
+    deleted: false
+  - id: dc3faf3e-4872-42ea-88a3-d1c764d942ba
+    type: user
+    name: christopher_hayes0
+    fullyQualifiedName: christopher_hayes0
+    displayName: Christopher Hayes
+    deleted: false
+  - id: 5913ca6b-b44f-432d-b540-d57f2f32a729
+    type: user
+    name: christopher_strickland5
+    fullyQualifiedName: christopher_strickland5
+    displayName: Christopher Strickland
+    deleted: false
+childrenCount: 0
+userCount: 12
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []

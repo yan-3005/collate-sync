@@ -1,0 +1,68 @@
+teamType: Group
+name: Payments
+fullyQualifiedName: Payments
+displayName: Payments
+description: This is Payments description.
+parents:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+children: []
+users:
+  - id: 9baac9fc-4f63-4bc5-8658-c75cb343f9c5
+    type: user
+    name: bradley_hernandez0
+    fullyQualifiedName: bradley_hernandez0
+    displayName: Bradley Hernandez
+    deleted: false
+  - id: 6314c686-a1f6-4b61-b24d-4d4f5754ae5d
+    type: user
+    name: cameron_price1
+    fullyQualifiedName: cameron_price1
+    displayName: Cameron Price
+    deleted: false
+  - id: 579c82e0-7ead-4b2b-b381-c56733105232
+    type: user
+    name: carol_jones9
+    fullyQualifiedName: carol_jones9
+    displayName: Carol Jones
+    deleted: false
+  - id: ed3b8402-388c-40a4-b0c0-e51b0432894b
+    type: user
+    name: chris_mata4
+    fullyQualifiedName: chris_mata4
+    displayName: Chris Mata
+    deleted: false
+  - id: 1dbb86dd-c0c7-4f07-8281-2b592b100e99
+    type: user
+    name: christopher_hull3
+    fullyQualifiedName: christopher_hull3
+    displayName: Christopher Hull
+    deleted: false
+  - id: 3bc24616-346f-4c44-9228-65c3b84299e9
+    type: user
+    name: courtney_duncan1
+    fullyQualifiedName: courtney_duncan1
+    displayName: Courtney Duncan
+    deleted: false
+childrenCount: 0
+userCount: 6
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []

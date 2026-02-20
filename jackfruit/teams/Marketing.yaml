@@ -1,0 +1,101 @@
+teamType: Group
+name: Marketing
+fullyQualifiedName: Marketing
+parents:
+  - id: 1e87de7f-9aee-4d31-8c7e-45b135360d5d
+    type: team
+    name: Finance
+    fullyQualifiedName: Finance
+    displayName: Finance
+    deleted: false
+children: []
+users:
+  - id: 1eba64a7-4f33-486e-947a-12e318d25cf5
+    type: user
+    name: aaron.warren5
+    fullyQualifiedName: '"aaron.warren5"'
+    displayName: Aaron Warren
+    deleted: false
+  - id: e19265ef-1597-4c3f-8f7e-9df24243290c
+    type: user
+    name: alexa_jordan3
+    fullyQualifiedName: alexa_jordan3
+    displayName: Alexa Jordan
+    deleted: false
+  - id: cb5e32b1-9871-4c51-871a-8e17d0cdae99
+    type: user
+    name: alexander_russell2
+    fullyQualifiedName: alexander_russell2
+    displayName: Alexander Russell
+    deleted: false
+  - id: 1d627cfd-9e23-4e7c-a293-e590de31d71e
+    type: user
+    name: andrew_jackson3
+    fullyQualifiedName: andrew_jackson3
+    displayName: Andrew Jackson
+    deleted: false
+  - id: ae346906-211d-4776-b11d-f1c86e38167c
+    type: user
+    name: ashley_sutton9
+    fullyQualifiedName: ashley_sutton9
+    displayName: Ashley Sutton
+    deleted: false
+  - id: 2c6b00e2-4e18-4df5-ae3e-8c3e3a8da965
+    type: user
+    name: autumn_wilcox7
+    fullyQualifiedName: autumn_wilcox7
+    displayName: Autumn Wilcox
+    deleted: false
+  - id: a352bac0-7f12-406c-a772-88df4147c56f
+    type: user
+    name: brian_nelson1
+    fullyQualifiedName: brian_nelson1
+    displayName: Brian Nelson
+    deleted: false
+  - id: 121ed7cb-ad82-4366-93fd-67a734b3ee2c
+    type: user
+    name: caitlin_ewing5
+    fullyQualifiedName: caitlin_ewing5
+    displayName: Caitlin Ewing
+    deleted: false
+  - id: f31e39f2-c27a-4453-b387-07ef1caecff7
+    type: user
+    name: charles_wilson0
+    fullyQualifiedName: charles_wilson0
+    displayName: Charles Wilson
+    deleted: false
+  - id: 39adb50a-0f33-41e1-8ebd-bfbda9e87f1a
+    type: user
+    name: christopher_weaver0
+    fullyQualifiedName: christopher_weaver0
+    displayName: Christopher Weaver
+    deleted: false
+  - id: 63769fe8-efdc-4865-8954-03686844547e
+    type: user
+    name: cody_crawford2
+    fullyQualifiedName: cody_crawford2
+    displayName: Cody Crawford
+    deleted: false
+  - id: d02bc01c-6767-4bbc-84f8-14de2cdf5d89
+    type: user
+    name: colin_ho2
+    fullyQualifiedName: colin_ho2
+    displayName: Colin Ho
+    deleted: false
+childrenCount: 0
+userCount: 12
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []
