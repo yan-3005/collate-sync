@@ -1,0 +1,94 @@
+name: metrics_aggregated
+fullyQualifiedName: sample_data.ecommerce_db.shopify.metrics_aggregated
+description: Real-time aggregated metrics from Trino
+tableType: Regular
+columns:
+  - name: metric_id
+    dataType: BIGINT
+    dataTypeDisplay: bigint
+    description: Unique metric identifier
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.metrics_aggregated.metric_id
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: metric_name
+    dataType: VARCHAR
+    dataLength: 200
+    dataTypeDisplay: varchar
+    description: Name of the metric
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.metrics_aggregated.metric_name
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: metric_value
+    dataType: DOUBLE
+    dataTypeDisplay: double
+    description: Aggregated metric value
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.metrics_aggregated.metric_value
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: aggregation_window
+    dataType: VARCHAR
+    dataLength: 50
+    dataTypeDisplay: varchar
+    description: "Time window for aggregation (15min, 1hour, etc.)"
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.metrics_aggregated.aggregation_window
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: timestamp
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: Metric timestamp
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.metrics_aggregated.timestamp
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+tableConstraints:
+  - constraintType: PRIMARY_KEY
+    columns:
+      - metric_id
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed

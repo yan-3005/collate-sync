@@ -1,0 +1,145 @@
+name: dim_location
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location
+description: The dimension table contains metrics about your Shopify POS. This table
+  contains one row per Shopify POS location. You can use this table to generate a
+  list of the Shopify POS locations or you can join the table with the sales table
+  to measure sales performance.
+tableType: Regular
+columns:
+  - name: location_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.location_id
+    tags: []
+    constraint: PRIMARY_KEY
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: shop_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the store. This column is a foreign key reference to the
+      shop_id column in the dim_shop table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.shop_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: name
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "Name of the POS location as provided by the merchant. For example,\
+      \ 150 Elgin Street or Downtown Boutique."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.name
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: address
+    dataType: STRUCT
+    dataTypeDisplay: "struct<street_name:varchar(24),zipcode:int,city:varchar(100),country:struct<country_code:int,\
+      \ name:varchar(100)>>"
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.address
+    tags: []
+    children:
+      - name: street_name
+        dataType: VARCHAR
+        dataLength: 24
+        dataTypeDisplay: VARCHAR(24)
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.address.street_name
+        tags: []
+        children: []
+      - name: zipcode
+        dataType: INT
+        dataTypeDisplay: int
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.address.zipcode
+        tags: []
+        children: []
+      - name: city
+        dataType: VARCHAR
+        dataLength: 100
+        dataTypeDisplay: VARCHAR(100)
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.address.city
+        tags: []
+        children: []
+      - name: country
+        dataType: STRUCT
+        dataTypeDisplay: "struct<country_code:int, country_name:varchar(100)>"
+        fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.address.country
+        tags: []
+        children:
+          - name: country_code
+            dataType: INT
+            dataTypeDisplay: INT
+            fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.address.country.country_code
+            tags: []
+            children: []
+          - name: country_name
+            dataType: VARCHAR
+            dataLength: 100
+            dataTypeDisplay: VARCHAR(100)
+            fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_location.address.country.country_name
+            tags: []
+            children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+schemaDefinition: "CREATE TABLE dim_location(location_id NUMERIC PRIMARY KEY, shop_id\
+  \ NUMERIC)"
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+sourceUrl: http://localhost:8080/dim_location
+domains: []
+dataProducts: []
+lifeCycle:
+  created:
+    timestamp: 1771162756137
+    accessedBy:
+      id: 12467551-1f07-43ab-8eac-d220459bf6e4
+      type: user
+      fullyQualifiedName: anthony_wall4
+      href: http://localhost:8585/api/v1/users/c8d3e1f1-3419-40f4-804d-6c76d5887307
+  updated:
+    timestamp: 1771162756138
+    accessedByAProcess: Alice
+  accessed:
+    timestamp: 1771162756138
+    accessedByAProcess: David
+processedLineage: false
+entityStatus: Unprocessed

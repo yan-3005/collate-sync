@@ -1,0 +1,77 @@
+name: sales
+fullyQualifiedName: sample_data.ecommerce_db.shopify.sales
+description: Sales data
+tableType: Regular
+columns:
+  - name: SKU
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: Article SKU
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.sales.SKU
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: Quantity
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: Quantity of SKU
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.sales.Quantity
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+sourceUrl: https://www.glue.com/sales
+domains: []
+dataProducts: []
+lifeCycle:
+  created:
+    timestamp: 1769780356145
+    accessedByAProcess: Alice
+  updated:
+    timestamp: 1769866756145
+    accessedByAProcess: Bob
+  accessed:
+    timestamp: 1770039556145
+    accessedByAProcess: Charlie
+processedLineage: false
+entityStatus: Unprocessed

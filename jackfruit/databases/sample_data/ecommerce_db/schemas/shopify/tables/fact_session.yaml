@@ -1,0 +1,398 @@
+name: fact_session
+fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session
+description: "This fact table contains information about the visitors to your online\
+  \ store. This table has one row per session, where one session can contain many\
+  \ page views. If you use Urchin Traffic Module (UTM) parameters in marketing campaigns,\
+  \ then you can use this table to track how many customers they direct to your store."
+tableType: Regular
+columns:
+  - name: derived_session_token
+    dataType: VARCHAR
+    dataLength: 200
+    dataTypeDisplay: varchar
+    description: The ID of the visitor session. This column is the primary key for
+      the table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.derived_session_token
+    tags: []
+    constraint: PRIMARY_KEY
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: shop_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the store. This column is a foreign key reference to the
+      shop_id column in the dim_shop table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.shop_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: session_duration
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The time that the visitor spent in your store during the session.
+      This value is the sum of the time spent on each page view (except for the last
+      page viewed) during the session. The maximum value is 1800 seconds (30 minutes).
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.session_duration
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: count_of_pageviews
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The number of pages viewed during the session.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.count_of_pageviews
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: session_started_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "The date (ISO 8601) and time (UTC) when this visitor session begins.\
+      \ It is the timestamp when the visitor first visits the store during this session.\
+      \ The format is YYYY-MM-DD HH:mm:ss (for example, 2016-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.session_started_at
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+  - name: session_token
+    dataType: VARCHAR
+    dataLength: 200
+    dataTypeDisplay: varchar
+    description: The ID of the session token that is created by the browser. A session
+      token expires after 30 minutes of inactivity.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.session_token
+    tags: []
+    ordinalPosition: 6
+    children: []
+    customMetrics: []
+  - name: user_token
+    dataType: VARCHAR
+    dataLength: 20
+    dataTypeDisplay: varchar
+    description: The unique token assigned to the user. A user token expires after
+      2 years of inactivity.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.user_token
+    tags: []
+    constraint: UNIQUE
+    ordinalPosition: 7
+    children: []
+    customMetrics: []
+  - name: landing_page_url
+    dataType: VARCHAR
+    dataLength: 1000
+    dataTypeDisplay: varchar
+    description: "The full URL of the first page visited during the session. For example,\
+      \ https://www.myshop.com/products/cool-tshirt?utm_source=Shop&utm_medium=...."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.landing_page_url
+    tags: []
+    ordinalPosition: 8
+    children: []
+    customMetrics: []
+  - name: exit_page_path
+    dataType: VARCHAR
+    dataLength: 1000
+    dataTypeDisplay: varchar
+    description: "The path portion of the URL of the last page that the visitor visited\
+      \ during the session. This field is the same as exit_page_url except that it\
+      \ doesn\\u2019t contain the name of the store or any parameters. For example,\
+      \ /products/cool-tshirt."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.exit_page_path
+    tags: []
+    ordinalPosition: 9
+    children: []
+    customMetrics: []
+  - name: exit_page_url
+    dataType: VARCHAR
+    dataLength: 1000
+    dataTypeDisplay: varchar
+    description: "The full URL of the last page that the visitor visited during the\
+      \ session. For example, https://www.myshop.com/products/cool-tshirt?utm_source=Shop&utm_medium=...."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.exit_page_url
+    tags: []
+    ordinalPosition: 10
+    children: []
+    customMetrics: []
+  - name: referrer_tld
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The top-level domain of the referring website. For example, if the\
+      \ hostname is www.facebook.com, then the referrer_tld is com."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.referrer_tld
+    tags: []
+    ordinalPosition: 11
+    children: []
+    customMetrics: []
+  - name: ua_browser
+    dataType: VARCHAR
+    dataLength: 200
+    dataTypeDisplay: varchar
+    description: "The name of the browser that the visitor used. For example, Mobile\
+      \ Safari, Chrome."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.ua_browser
+    tags: []
+    ordinalPosition: 12
+    children: []
+    customMetrics: []
+  - name: ua_raw
+    dataType: VARCHAR
+    dataLength: 2000
+    dataTypeDisplay: varchar
+    description: The string that identifies the user agent of the user. User agent
+      shows data about the operating system and device that a visitor uses to browse
+      your store.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.ua_raw
+    tags: []
+    ordinalPosition: 13
+    children: []
+    customMetrics: []
+  - name: count_of_orders_completed
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The number of orders created during the session.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.count_of_orders_completed
+    tags: []
+    ordinalPosition: 14
+    children: []
+    customMetrics: []
+  - name: completed_first_order_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "The date (ISO 8601) and time (UTC) when the visitor completes their\
+      \ first order during this session. Contains NULL if the visitor never completes\
+      \ an order during this session. The format is YYYY-MM-DD HH:mm:ss (for example,\
+      \ 2016-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.completed_first_order_at
+    tags: []
+    ordinalPosition: 15
+    children: []
+    customMetrics: []
+  - name: hit_first_checkout_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "The date (ISO 8601) and time (UTC) when the visitor first visits\
+      \ the checkout page during this session. Contains NULL if the visitor never\
+      \ visits the checkout page during the session. The format is YYYY-MM-DD HH:mm:ss\
+      \ (for example, 2016-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.hit_first_checkout_at
+    tags: []
+    ordinalPosition: 16
+    children: []
+    customMetrics: []
+  - name: started_first_checkout_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "The date (ISO 8601) and time (UTC) when the visitor first starts\
+      \ entering their information into the checkout fields. Contains NULL if the\
+      \ visitor never enters their information during the session. The format is YYYY-MM-DD\
+      \ HH:mm:ss (for example, 2016-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.started_first_checkout_at
+    tags: []
+    ordinalPosition: 17
+    children: []
+    customMetrics: []
+  - name: count_of_cart_additions
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "The number of items added to the cart during the session. For example,\
+      \ if a customer adds 5 t-shirts and 1 lipstick to their cart, and then removes\
+      \ one of the t-shirts, then the value in this column is 6."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.count_of_cart_additions
+    tags: []
+    ordinalPosition: 18
+    children: []
+    customMetrics: []
+  - name: count_of_distinct_products_added_to_cart
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "The number of distinct products added to the cart during the session.\
+      \ For example, if a customer adds 5 t-shirts and 1 lipstick are added to the\
+      \ cart, then the value in this column is 2."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.count_of_distinct_products_added_to_cart
+    tags: []
+    ordinalPosition: 19
+    children: []
+    customMetrics: []
+  - name: count_of_distinct_product_variants_added_to_cart
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "The number of distinct product variants added to the cart during\
+      \ the session. For example, if a customer adds 2 small and 3 large t-shirts\
+      \ and 1 lipstick to the cart, then the value in this column is 3."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.count_of_distinct_product_variants_added_to_cart
+    tags: []
+    ordinalPosition: 20
+    children: []
+    customMetrics: []
+  - name: had_error
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "True when an an error appears during the checkout that is not a\
+      \ payment error, False otherwise."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.had_error
+    tags: []
+    ordinalPosition: 21
+    children: []
+    customMetrics: []
+  - name: had_payment_error
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "True when a payment error occurs during the checkout, False otherwise."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.had_payment_error
+    tags: []
+    ordinalPosition: 22
+    children: []
+    customMetrics: []
+  - name: had_out_of_stock_warning
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "True when an out-of-stock warning appears on the checkout page,\
+      \ False otherwise."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.had_out_of_stock_warning
+    tags: []
+    ordinalPosition: 23
+    children: []
+    customMetrics: []
+  - name: had_credit_card_info_error
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "True when a payment error occurs because of a credit card error,\
+      \ False otherwise."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.had_credit_card_info_error
+    tags: []
+    ordinalPosition: 24
+    children: []
+    customMetrics: []
+  - name: had_discount
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "True when a checkout error occurs because of a discount error, False\
+      \ otherwise."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.had_discount
+    tags: []
+    ordinalPosition: 25
+    children: []
+    customMetrics: []
+  - name: had_free_shipping
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "True when the order has no shipping cost, False otherwise."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.had_free_shipping
+    tags: []
+    ordinalPosition: 26
+    children: []
+    customMetrics: []
+  - name: location_city
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The name of the city where the visitor is located. For example,\
+      \ Topeka."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.location_city
+    tags: []
+    ordinalPosition: 27
+    children: []
+    customMetrics: []
+  - name: location_region
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The name of the region, such as a province or state, where the visitor\
+      \ is located. For example, Kansas."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.location_region
+    tags: []
+    ordinalPosition: 28
+    children: []
+    customMetrics: []
+  - name: location_region_code
+    dataType: VARCHAR
+    dataLength: 200
+    dataTypeDisplay: varchar
+    description: "The code for the region, such as a province or state, where the\
+      \ visitor is located. For example, KS."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.location_region_code
+    tags: []
+    ordinalPosition: 29
+    children: []
+    customMetrics: []
+  - name: location_country
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The name of the country where the visitor is located. For example,\
+      \ United States."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.location_country
+    tags: []
+    ordinalPosition: 30
+    children: []
+    customMetrics: []
+  - name: location_country_code
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The two-digit ISO country code where the visitor is located. For\
+      \ example, US."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_session.location_country_code
+    tags: []
+    ordinalPosition: 31
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+sourceUrl: http://localhost:8080/fact_session
+domains: []
+dataProducts: []
+lifeCycle:
+  created:
+    timestamp: 1770298756144
+    accessedByAProcess: Alice
+  updated:
+    timestamp: 1770471556145
+    accessedByAProcess: Bob
+  accessed:
+    timestamp: 1770730756145
+    accessedByAProcess: Charlie
+processedLineage: false
+entityStatus: Unprocessed

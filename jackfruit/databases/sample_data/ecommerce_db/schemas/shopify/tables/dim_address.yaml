@@ -1,0 +1,221 @@
+name: dim_address
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address
+description: "This dimension table contains the billing and shipping addresses of\
+  \ customers. You can join this table with the sales table to generate lists of the\
+  \ billing and shipping addresses. Customers can enter their addresses more than\
+  \ once, so the same address can appear in more than one row in this table. This\
+  \ table contains one row per customer address."
+tableType: Regular
+columns:
+  - name: address_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: Unique identifier for the address.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.address_id
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: shop_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the store. This column is a foreign key reference to the
+      shop_id column in the dim_shop table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.shop_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: first_name
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: First name of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.first_name
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: last_name
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: Last name of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.last_name
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: address1
+    dataType: VARCHAR
+    dataLength: 500
+    dataTypeDisplay: varchar
+    description: "The first address line. For example, 150 Elgin St."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.address1
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+  - name: address2
+    dataType: VARCHAR
+    dataLength: 500
+    dataTypeDisplay: varchar
+    description: "The second address line. For example, Suite 800."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.address2
+    tags: []
+    ordinalPosition: 6
+    children: []
+    customMetrics: []
+  - name: company
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The name of the customer's business, if one exists."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.company
+    tags: []
+    ordinalPosition: 7
+    children: []
+    customMetrics: []
+  - name: city
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The name of the city. For example, Palo Alto."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.city
+    tags: []
+    ordinalPosition: 8
+    children: []
+    customMetrics: []
+  - name: region
+    dataType: VARCHAR
+    dataLength: 512
+    dataTypeDisplay: varchar
+    description: "The name of the region, such as a province or state, where the customer\
+      \ is located. For example, Ontario or New York. This column is the same as CustomerAddress.province\
+      \ in the Admin API."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.region
+    tags: []
+    ordinalPosition: 9
+    children: []
+    customMetrics: []
+  - name: zip
+    dataType: VARCHAR
+    dataLength: 10
+    dataTypeDisplay: varchar
+    description: "The ZIP or postal code. For example, 90210."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.zip
+    tags: []
+    ordinalPosition: 10
+    children: []
+    customMetrics:
+      - id: 099ea582-ade5-422f-8a77-98d2654dc004
+        name: CountOfLAZipCode
+        columnName: zip
+        expression: SELECT COUNT(zip) FROM dim_address WHERE zip LIKE '900%'
+        updatedAt: 1771488502612
+        updatedBy: admin
+      - id: 95a1b2a7-ac53-4483-b8c7-4b0ad8742b24
+        name: CountOfOrangeCountyZipCode
+        columnName: zip
+        expression: SELECT COUNT(zip) FROM dim_address WHERE zip LIKE '92%'
+        updatedAt: 1771488502657
+        updatedBy: admin
+  - name: country
+    dataType: VARCHAR
+    dataLength: 50
+    dataTypeDisplay: varchar
+    description: "The full name of the country. For example, Canada."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.country
+    tags: []
+    ordinalPosition: 11
+    children: []
+    customMetrics: []
+  - name: phone
+    dataType: VARCHAR
+    dataLength: 15
+    dataTypeDisplay: varchar
+    description: The phone number of the customer.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.phone
+    tags: []
+    ordinalPosition: 12
+    children: []
+    customMetrics:
+      - id: 7504263e-3a04-4374-8c10-4d34cb1dae9b
+        name: CountOfNonUsPhoneNumbers
+        columnName: phone
+        expression: SELECT COUNT(phone) FROM dim_address WHERE phone NOT LIKE '1%'
+        updatedAt: 1771488502692
+        updatedBy: admin
+tableConstraints:
+  - constraintType: PRIMARY_KEY
+    columns:
+      - address_id
+      - shop_id
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+schemaDefinition: "CREATE TABLE dim_address(address_id NUMERIC PRIMARY KEY, shop_id\
+  \ NUMERIC)"
+tags:
+  - tagFQN: PII.Sensitive
+    name: Sensitive
+    description: "PII which if lost, compromised, or disclosed without authorization,\
+      \ could result in substantial harm, embarrassment, inconvenience, or unfairness\
+      \ to an individual."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771488495773
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics:
+  - id: fc95ab86-482f-42e4-916c-56bd76d73c62
+    name: CountOfFRAddress
+    expression: SELECT COUNT(address_id) FROM dim_address WHERE country = 'FR'
+    updatedAt: 1771488502571
+    updatedBy: admin
+  - id: d1cc72ec-82d7-4b1d-b743-266613ba78db
+    name: CountOfUSAddress
+    expression: SELECT COUNT(address_id) FROM dim_address WHERE country = 'US'
+    updatedAt: 1771488502516
+    updatedBy: admin
+testSuite:
+  id: c36983e3-01b1-4da5-bf78-4e9a0182efff
+  type: testSuite
+  name: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  description: This is an executable test suite linked to an entity
+  displayName: sample_data.ecommerce_db.shopify.dim_address.testSuite
+  deleted: false
+sourceUrl: http://localhost:8080/dim_address
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
