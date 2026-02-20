@@ -1,0 +1,33 @@
+name: deletePet
+displayName: Delete pet by ID
+fullyQualifiedName: sample_api_service.pet.deletePet
+description: Delete pet by ID
+endpointURL: https://petstore3.swagger.io/#/pet/deletePet
+requestMethod: DELETE
+apiCollection:
+  id: 0c6afbe9-99c5-4a62-9b68-1d5d7cc0f3f7
+  type: apiCollection
+  name: pet
+  fullyQualifiedName: sample_api_service.pet
+  displayName: pet
+  deleted: false
+owners:
+  - id: c8d3e1f1-3419-40f4-804d-6c76d5887307
+    type: user
+    name: aaron_johnson0
+    fullyQualifiedName: aaron_johnson0
+    displayName: Aaron Johnson
+    deleted: false
+    inherited: true
+tags: []
+service:
+  id: 65559d33-7eee-464c-b606-37ad6e52cfc6
+  type: apiService
+  name: sample_api_service
+  fullyQualifiedName: sample_api_service
+  displayName: sample_api_service
+  deleted: false
+serviceType: Rest
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
