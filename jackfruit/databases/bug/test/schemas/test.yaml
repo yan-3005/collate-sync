@@ -1,0 +1,37 @@
+name: test
+fullyQualifiedName: bug.test.test
+dataProducts: []
+owners: []
+service:
+  id: a9ee9933-c7b2-4700-9853-683e2b618c33
+  type: databaseService
+  name: bug
+  fullyQualifiedName: bug
+  description: ""
+  displayName: bug
+  deleted: false
+serviceType: Mysql
+database:
+  id: ab09e027-7e5c-4642-9fdf-219172e1fcc7
+  type: database
+  name: test
+  fullyQualifiedName: bug.test
+  displayName: test
+  deleted: false
+tables:
+  - id: 8d9ccec7-eb71-4259-9ca9-3b764c739991
+    type: table
+    name: child
+    fullyQualifiedName: bug.test.test.child
+    displayName: child
+    deleted: false
+  - id: 9b6350a6-fc42-4c00-bf45-7a5a38cce674
+    type: table
+    name: parent
+    fullyQualifiedName: bug.test.test.parent
+    displayName: parent
+    deleted: false
+tags: []
+domains: []
+sourceHash: 5c746b92e72b14b50459c5c753c6fafe
+entityStatus: Unprocessed
