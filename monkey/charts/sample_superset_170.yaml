@@ -1,0 +1,41 @@
+name: 170
+displayName: Box plot
+fullyQualifiedName: sample_superset.170
+description: ""
+chartType: Bar
+sourceUrl: http://localhost:8088/superset/explore/?form_data=%7B%22slice_id%22%3A%20170%7D
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+dashboards:
+  - id: 80788e2c-6552-4e1f-a883-84ecb614b2f5
+    type: dashboard
+    name: 11
+    fullyQualifiedName: sample_superset.11
+    description: ""
+    displayName: FCC New Coder Survey 2018
+    deleted: false
+  - id: c9e34a3f-16f3-4300-8b06-7edca8518f65
+    type: dashboard
+    name: 34
+    fullyQualifiedName: sample_superset.34
+    description: ""
+    displayName: Unicode Test
+    deleted: false
+  - id: 9ce5d82c-1fe7-450b-bb50-443680e79da7
+    type: dashboard
+    name: 8
+    fullyQualifiedName: sample_superset.8
+    description: ""
+    displayName: Orders dashboard
+    deleted: false
+entityStatus: Unprocessed
