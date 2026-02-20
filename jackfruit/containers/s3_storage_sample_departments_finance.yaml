@@ -1,0 +1,77 @@
+name: finance
+fullyQualifiedName: s3_storage_sample.departments.finance
+displayName: Finance department
+description: Bucket containing finance department information
+owners: []
+service:
+  id: 1008bd4b-8160-414c-98ec-2eb21825068f
+  type: storageService
+  name: s3_storage_sample
+  fullyQualifiedName: s3_storage_sample
+  displayName: s3_storage_sample
+  deleted: false
+parent:
+  id: f1dcd19f-72fa-42e0-9ed8-52a9f239696f
+  type: container
+  name: departments
+  fullyQualifiedName: s3_storage_sample.departments
+  description: Bucket containing company department information
+  displayName: Company departments
+  deleted: false
+children:
+  - id: bc5fea69-cc11-4d1c-a044-c8c01740b335
+    type: container
+    name: expenditures
+    fullyQualifiedName: s3_storage_sample.departments.finance.expenditures
+    description: Bucket containing finance expenditures information
+    displayName: Expenditures for the current year
+    deleted: false
+dataModel:
+  isPartitioned: false
+  columns:
+    - name: department_id
+      dataType: NUMERIC
+      dataTypeDisplay: numeric
+      description: The ID of the department. This column is the primary key for this
+        table.
+      fullyQualifiedName: s3_storage_sample.departments.finance.department_id
+      tags: []
+      constraint: PRIMARY_KEY
+      ordinalPosition: 1
+      children: []
+    - name: budget_total_value
+      dataType: NUMERIC
+      dataTypeDisplay: numeric
+      description: The department's budget for the current year.
+      fullyQualifiedName: s3_storage_sample.departments.finance.budget_total_value
+      tags: []
+      ordinalPosition: 2
+      children: []
+    - name: notes
+      dataType: VARCHAR
+      dataLength: 100
+      dataTypeDisplay: varchar
+      description: Notes concerning sustainability for the budget.
+      fullyQualifiedName: s3_storage_sample.departments.finance.notes
+      tags: []
+      ordinalPosition: 3
+      children: []
+    - name: budget_executor
+      dataType: VARCHAR
+      dataTypeDisplay: varchar
+      description: The responsible finance lead for the budget execution
+      fullyQualifiedName: s3_storage_sample.departments.finance.budget_executor
+      tags: []
+      ordinalPosition: 4
+      children: []
+prefix: /departments/finance/
+numberOfObjects: 75.0
+size: 286720.0
+fileFormats:
+  - zip
+  - csv
+serviceType: S3
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

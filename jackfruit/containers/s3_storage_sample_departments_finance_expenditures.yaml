@@ -1,0 +1,70 @@
+name: expenditures
+fullyQualifiedName: s3_storage_sample.departments.finance.expenditures
+displayName: Expenditures for the current year
+description: Bucket containing finance expenditures information
+owners: []
+service:
+  id: 1008bd4b-8160-414c-98ec-2eb21825068f
+  type: storageService
+  name: s3_storage_sample
+  fullyQualifiedName: s3_storage_sample
+  displayName: s3_storage_sample
+  deleted: false
+parent:
+  id: 96384239-b13c-437e-920c-ac6de7763be8
+  type: container
+  name: finance
+  fullyQualifiedName: s3_storage_sample.departments.finance
+  description: Bucket containing finance department information
+  displayName: Finance department
+  deleted: false
+children: []
+dataModel:
+  isPartitioned: false
+  columns:
+    - name: department_id
+      dataType: NUMERIC
+      dataTypeDisplay: numeric
+      description: The ID of the department. This column is the primary key for this
+        table.
+      fullyQualifiedName: s3_storage_sample.departments.finance.expenditures.department_id
+      tags: []
+      constraint: PRIMARY_KEY
+      ordinalPosition: 1
+      children: []
+    - name: approved
+      dataType: BOOLEAN
+      dataTypeDisplay: boolean
+      description: Whether this was already approved by upper management
+      fullyQualifiedName: s3_storage_sample.departments.finance.expenditures.approved
+      tags: []
+      ordinalPosition: 2
+      children: []
+    - name: fraudulent_claims
+      dataType: BOOLEAN
+      dataTypeDisplay: boolean
+      description: Whether any claims were made for the expenditure at any point
+      fullyQualifiedName: s3_storage_sample.departments.finance.expenditures.fraudulent_claims
+      tags: []
+      ordinalPosition: 3
+      children: []
+    - name: total_value_for_current_month
+      dataType: NUMERIC
+      dataTypeDisplay: numeric
+      description: The current total value spent for the expenditure as of beginning
+        of the current month
+      fullyQualifiedName: s3_storage_sample.departments.finance.expenditures.total_value_for_current_month
+      tags: []
+      ordinalPosition: 4
+      children: []
+prefix: /departments/finance/expenditures-2023
+numberOfObjects: 10.0
+size: 65536.0
+fileFormats:
+  - zstd
+  - tsv
+serviceType: S3
+tags: []
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
