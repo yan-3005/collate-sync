@@ -1,0 +1,31 @@
+name: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.testSuite
+fullyQualifiedName: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.testSuite
+tests:
+  - id: 27ead60c-0a82-49c9-9f05-3c2a2aafc7a9
+    type: testCase
+    name: table_column_count_equals
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address.table_column_count_equals
+    description: test the number of column in table
+    displayName: table_column_count_equals
+    deleted: false
+pipelines: []
+serviceType: TestSuite
+owners: []
+basic: true
+basicEntityReference:
+  id: 608a573b-c048-4b4c-bde8-a34caddabdf5
+  type: table
+  name: dim___reserved__colon____reserved__arrow__address
+  fullyQualifiedName: sample_data.ecommerce_db.shopify.dim___reserved__colon____reserved__arrow__address
+summary:
+  success: 0
+  failed: 0
+  aborted: 0
+  queued: 0
+  total: 0
+  columnTestSummary: []
+testCaseResultSummary: []
+domains: []
+tags: []
+inherited: false
+reviewers: []
