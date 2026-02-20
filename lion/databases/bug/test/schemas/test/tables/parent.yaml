@@ -1,0 +1,90 @@
+name: parent
+fullyQualifiedName: bug.test.test.parent
+tableType: Regular
+columns:
+  - name: id
+    dataType: INT
+    dataLength: 1
+    dataTypeDisplay: int
+    fullyQualifiedName: bug.test.test.parent.id
+    tags: []
+    constraint: NOT_NULL
+    children: []
+    customMetrics: []
+  - name: keep_col
+    dataType: VARCHAR
+    dataLength: 50
+    dataTypeDisplay: varchar(50)
+    fullyQualifiedName: bug.test.test.parent.keep_col
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: random_col
+    dataType: VARCHAR
+    dataLength: 50
+    dataTypeDisplay: varchar(50)
+    fullyQualifiedName: bug.test.test.parent.random_col
+    tags: []
+    constraint: UNIQUE
+    children: []
+    customMetrics: []
+tableConstraints:
+  - constraintType: UNIQUE
+    columns:
+      - id
+owners: []
+databaseSchema:
+  id: c4737809-6449-4dc7-af88-4b0073e6f2fa
+  type: databaseSchema
+  name: test
+  fullyQualifiedName: bug.test.test
+  displayName: test
+  deleted: false
+database:
+  id: ab09e027-7e5c-4642-9fdf-219172e1fcc7
+  type: database
+  name: test
+  fullyQualifiedName: bug.test
+  displayName: test
+  deleted: false
+service:
+  id: a9ee9933-c7b2-4700-9853-683e2b618c33
+  type: databaseService
+  name: bug
+  fullyQualifiedName: bug
+  description: ""
+  displayName: bug
+  deleted: false
+serviceType: Mysql
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: columns
+      newValue: "[{\"name\":\"random_col\",\"dataType\":\"VARCHAR\",\"dataLength\"\
+        :50,\"dataTypeDisplay\":\"varchar(50)\",\"fullyQualifiedName\":\"bug.test.test.parent.random_col\"\
+        ,\"tags\":[],\"constraint\":\"UNIQUE\",\"children\":[]}]"
+  fieldsUpdated:
+    - name: columns.id.constraint
+      oldValue: UNIQUE
+      newValue: NOT_NULL
+  fieldsDeleted:
+    - name: tableConstraints
+      oldValue: "[{\"constraintType\":\"PRIMARY_KEY\",\"columns\":[\"drop_col\"]}]"
+    - name: columns
+      oldValue: "[{\"name\":\"drop_col\",\"dataType\":\"INT\",\"dataLength\":1,\"\
+        dataTypeDisplay\":\"int\",\"fullyQualifiedName\":\"bug.test.test.parent.drop_col\"\
+        ,\"tags\":[],\"constraint\":\"PRIMARY_KEY\",\"children\":[]}]"
+  previousVersion: 0.2
+  changeSummary: {}
+domains: []
+dataProducts: []
+sourceHash: 34b421103a498c20dec97a1dbd704651
+processedLineage: false
+entityStatus: Unprocessed
