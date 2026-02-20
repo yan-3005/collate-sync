@@ -1,0 +1,37 @@
+name: real_time_metrics
+displayName: Real-time Metrics Aggregation
+fullyQualifiedName: sample_airflow.real_time_metrics
+description: Real-time metrics aggregation pipeline running every 15 minutes
+dataProducts: []
+sourceUrl: http://localhost:8080/tree?dag_id=real_time_metrics
+tasks:
+  - name: metrics_aggregation_task
+    displayName: Metrics Aggregation Task
+    fullyQualifiedName: sample_airflow.real_time_metrics.metrics_aggregation_task
+    description: Airflow operator to aggregate streaming metrics
+    sourceUrl: http://localhost:8080/taskinstance/list/?_flt_3_dag_id=metrics_aggregation_task
+    downstreamTasks:
+      - assert_table_exists
+    taskType: PythonOperator
+    tags: []
+  - name: assert_table_exists
+    displayName: Assert Table Exists
+    fullyQualifiedName: sample_airflow.real_time_metrics.assert_table_exists
+    description: Assert if a table exists
+    sourceUrl: http://localhost:8080/taskinstance/list/?_flt_3_dag_id=assert_table_exists
+    downstreamTasks: []
+    taskType: HiveOperator
+    tags: []
+tags: []
+owners: []
+service:
+  id: 5cccdddc-1b0a-4613-86de-b9d224e5aa97
+  type: pipelineService
+  name: sample_airflow
+  fullyQualifiedName: sample_airflow
+  displayName: sample_airflow
+  deleted: false
+serviceType: Airflow
+scheduleInterval: '*/15 * * * *'
+domains: []
+entityStatus: Unprocessed
