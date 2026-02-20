@@ -1,0 +1,28 @@
+name: dbt_test_data_quality
+displayName: DBT Data Quality Tests
+fullyQualifiedName: sample_dbtcloud.dbt_test_data_quality
+description: DBT data quality testing pipeline - runs 4 times daily
+dataProducts: []
+sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_test_data_quality
+tasks:
+  - name: dbt_test_all
+    displayName: DBT Test All Models
+    fullyQualifiedName: sample_dbtcloud.dbt_test_data_quality.dbt_test_all
+    description: Execute comprehensive dbt tests across all models
+    sourceUrl: https://cloud.getdbt.com/deploy/123456/projects/654321/runs/dbt_test_data_quality
+    downstreamTasks: []
+    taskType: dbtTestTask
+    tags: []
+tags: []
+owners: []
+service:
+  id: b22201d1-32fb-4140-a70b-2a57f3348be8
+  type: pipelineService
+  name: sample_dbtcloud
+  fullyQualifiedName: sample_dbtcloud
+  displayName: sample_dbtcloud
+  deleted: false
+serviceType: DBTCloud
+scheduleInterval: 0 */6 * * *
+domains: []
+entityStatus: Unprocessed
