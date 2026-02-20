@@ -1,0 +1,78 @@
+teamType: Group
+name: Compute
+fullyQualifiedName: Compute
+parents:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+children: []
+users:
+  - id: 2485a914-6379-479c-a8fc-8755ad169e9e
+    type: user
+    name: andrea_reed7
+    fullyQualifiedName: andrea_reed7
+    displayName: Andrea Reed
+    deleted: false
+  - id: 6a0cff95-6514-458f-91f7-ed41ec52ea95
+    type: user
+    name: ashley_king5
+    fullyQualifiedName: ashley_king5
+    displayName: Ashley King
+    deleted: false
+  - id: a318707f-e879-46ef-8dfa-740238469617
+    type: user
+    name: bobby_johnson3
+    fullyQualifiedName: bobby_johnson3
+    displayName: Bobby Johnson
+    deleted: false
+  - id: 44e997aa-5559-4afc-b531-24d3bbabc008
+    type: user
+    name: brett_henry0
+    fullyQualifiedName: brett_henry0
+    displayName: Brett Henry
+    deleted: false
+  - id: f95f5bb9-e7db-40f0-81f7-56ff1d586cf1
+    type: user
+    name: candice_taylor7
+    fullyQualifiedName: candice_taylor7
+    displayName: Candice Taylor
+    deleted: false
+  - id: e7928f2b-cb1a-44f9-a0f5-91892bc54b7a
+    type: user
+    name: casey_cortez1
+    fullyQualifiedName: casey_cortez1
+    displayName: Casey Cortez
+    deleted: false
+  - id: f811f61a-900b-45f2-b823-b22f2ac7e0c7
+    type: user
+    name: christine_day7
+    fullyQualifiedName: christine_day7
+    displayName: Christine Day
+    deleted: false
+  - id: b000493b-5334-4604-8ad3-c9ef32ba6302
+    type: user
+    name: christopher_garza8
+    fullyQualifiedName: christopher_garza8
+    displayName: Christopher Garza
+    deleted: false
+childrenCount: 0
+userCount: 8
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []

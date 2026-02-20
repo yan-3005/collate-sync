@@ -1,0 +1,104 @@
+teamType: Group
+name: Applications
+fullyQualifiedName: Applications
+displayName: Applications
+description: This is Applications description.
+parents:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+children: []
+users:
+  - id: 29be5e4f-6c3b-4f25-bd94-b479e825f57f
+    type: user
+    name: angel_smith0
+    fullyQualifiedName: angel_smith0
+    displayName: Angel Smith
+    deleted: false
+  - id: 46d4e17e-0901-4244-b36a-5262c1b5397b
+    type: user
+    name: angela_kidd0
+    fullyQualifiedName: angela_kidd0
+    displayName: Angela Kidd
+    deleted: false
+  - id: 845d98ba-cba0-44d1-9c01-3eb04bb74f5a
+    type: user
+    name: barbara_lee0
+    fullyQualifiedName: barbara_lee0
+    displayName: Barbara Lee
+    deleted: false
+  - id: bdbb0887-d593-4624-b4f8-5fb47249597c
+    type: user
+    name: brian_dunlap9
+    fullyQualifiedName: brian_dunlap9
+    displayName: Brian Dunlap
+    deleted: false
+  - id: 6c31990c-2486-42a7-9639-508aa59535bc
+    type: user
+    name: brittany_wilson6
+    fullyQualifiedName: brittany_wilson6
+    displayName: Brittany Wilson
+    deleted: false
+  - id: 691d2ba5-1aa9-4185-b176-e42b5ab456b3
+    type: user
+    name: caleb_reyes5
+    fullyQualifiedName: caleb_reyes5
+    displayName: Caleb Reyes
+    deleted: false
+  - id: 1972a19c-d76f-4cd5-a4ad-19c97c3ca2f7
+    type: user
+    name: calvin_williams5
+    fullyQualifiedName: calvin_williams5
+    displayName: Calvin Williams
+    deleted: false
+  - id: f4dd1c0c-97fa-4ea7-b6b2-3cb777d6a61f
+    type: user
+    name: cameron_newman8
+    fullyQualifiedName: cameron_newman8
+    displayName: Cameron Newman
+    deleted: false
+  - id: d45261aa-8fa3-4889-8b7d-4c290e3af36a
+    type: user
+    name: chelsea_luna2
+    fullyQualifiedName: chelsea_luna2
+    displayName: Chelsea Luna
+    deleted: false
+  - id: 6cfc24a4-7ec0-4cf3-87fd-3ab837d37e0d
+    type: user
+    name: christopher_campbell7
+    fullyQualifiedName: christopher_campbell7
+    displayName: Christopher Campbell
+    deleted: false
+  - id: c5d74fb3-aaf1-4c6d-b85f-de68dc970af6
+    type: user
+    name: cindy_santiago7
+    fullyQualifiedName: cindy_santiago7
+    displayName: Cindy Santiago
+    deleted: false
+  - id: a9e6f241-8646-400a-8ead-beda681054fb
+    type: user
+    name: connor_kelly9
+    fullyQualifiedName: connor_kelly9
+    displayName: Connor Kelly
+    deleted: false
+childrenCount: 0
+userCount: 12
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []

@@ -1,0 +1,98 @@
+teamType: Organization
+name: Organization
+fullyQualifiedName: Organization
+displayName: Organization
+description: Organization under which all the other team hierarchy is created
+parents: []
+children:
+  - id: 1cb341f0-3e7a-4ec9-883c-f95bd5782d61
+    type: team
+    name: Applications
+    fullyQualifiedName: Applications
+    displayName: Applications
+    deleted: false
+  - id: 537f0b28-9ca9-4568-bd66-d21f9094cdea
+    type: team
+    name: Compute
+    fullyQualifiedName: Compute
+    displayName: Compute
+    deleted: false
+  - id: fde5a8d8-2893-436e-b8de-cce6c0863c18
+    type: team
+    name: Data
+    fullyQualifiedName: Data
+    displayName: Data
+    deleted: false
+  - id: e4b5cde4-18fb-46ea-a456-ae0691903ba5
+    type: team
+    name: DevOps
+    fullyQualifiedName: DevOps
+    displayName: DevOps
+    deleted: false
+  - id: ada9f03a-6594-4c40-be26-5681c7973360
+    type: team
+    name: Engineering
+    fullyQualifiedName: Engineering
+    displayName: Engineering
+    deleted: false
+  - id: 1e87de7f-9aee-4d31-8c7e-45b135360d5d
+    type: team
+    name: Finance
+    fullyQualifiedName: Finance
+    displayName: Finance
+    deleted: false
+  - id: b3dc4fe7-8fb6-4bbb-8c82-0f1a13824fb7
+    type: team
+    name: Legal
+    fullyQualifiedName: Legal
+    displayName: Legal
+    deleted: false
+  - id: 5ba3816e-113f-43a0-ba1b-46a66edb1fbb
+    type: team
+    name: Marketplace
+    fullyQualifiedName: Marketplace
+    displayName: Marketplace
+    deleted: false
+  - id: f3aebb4a-e7d9-4d74-b09a-ac9545ae9a37
+    type: team
+    name: Payments
+    fullyQualifiedName: Payments
+    displayName: Payments
+    deleted: false
+  - id: 390ede9c-d235-4c7f-8009-cf4119088ccd
+    type: team
+    name: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    fullyQualifiedName: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    displayName: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    deleted: false
+  - id: f43c852c-0588-47dd-803d-c703549b57f2
+    type: team
+    name: ram.balaji@getcollate.io
+    fullyQualifiedName: '"ram.balaji@getcollate.io"'
+    displayName: ram.balaji@getcollate.io
+    deleted: false
+users: []
+childrenCount: 11
+userCount: 102
+owns: []
+owners: []
+isJoinable: true
+defaultRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+inheritedRoles: []
+policies:
+  - id: 534039c8-bcd8-4edc-a595-ec8f921272cd
+    type: policy
+    name: OrganizationPolicy
+    fullyQualifiedName: OrganizationPolicy
+    description: Policy for all the users of an organization.
+    displayName: Organization Policy
+    deleted: false
+domains: []

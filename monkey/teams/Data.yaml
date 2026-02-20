@@ -1,0 +1,96 @@
+teamType: Group
+name: Data
+fullyQualifiedName: Data
+parents:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+children: []
+users:
+  - id: 21259dc3-fdf7-47e1-a58b-532164b595b1
+    type: user
+    name: adam.matthews2
+    fullyQualifiedName: '"adam.matthews2"'
+    displayName: Adam Matthews
+    deleted: false
+  - id: 8f494ae4-1a29-4972-b34a-7855b8d56a2d
+    type: user
+    name: alexander_jackson5
+    fullyQualifiedName: alexander_jackson5
+    displayName: Alexander Jackson
+    deleted: false
+  - id: 482d57b6-4096-478f-9f1e-e3173eccbdf2
+    type: user
+    name: andrew_rivas3
+    fullyQualifiedName: andrew_rivas3
+    displayName: Andrew Rivas
+    deleted: false
+  - id: a006256f-9da6-40fe-bcd1-a9a7a3e6773d
+    type: user
+    name: ashley_wagner9
+    fullyQualifiedName: ashley_wagner9
+    displayName: Ashley Wagner
+    deleted: false
+  - id: 4b2ac661-4ef6-4178-8f48-25a943eea0b9
+    type: user
+    name: barbara_gonzalez2
+    fullyQualifiedName: barbara_gonzalez2
+    displayName: Barbara Gonzalez
+    deleted: false
+  - id: 771a8999-6d03-460e-8679-c446cbd401f7
+    type: user
+    name: benjamin_martinez5
+    fullyQualifiedName: benjamin_martinez5
+    displayName: Benjamin Martinez
+    deleted: false
+  - id: f1770212-79cb-4dcd-a752-d523f3c74a60
+    type: user
+    name: carl_davis0
+    fullyQualifiedName: carl_davis0
+    displayName: Carl Davis
+    deleted: false
+  - id: 0b1fa298-9abb-44f7-a0b0-ec8c06162041
+    type: user
+    name: carol_wallace0
+    fullyQualifiedName: carol_wallace0
+    displayName: Carol Wallace
+    deleted: false
+  - id: db78017d-9266-47e1-ae75-31f2caaa86af
+    type: user
+    name: chad_gould1
+    fullyQualifiedName: chad_gould1
+    displayName: Chad Gould
+    deleted: false
+  - id: 1a27c17e-ff6a-4093-aa54-3fc89ce195b3
+    type: user
+    name: corey_carson6
+    fullyQualifiedName: corey_carson6
+    displayName: Corey Carson
+    deleted: false
+  - id: 5cba7d1e-088a-470e-8e98-1bf11aa69450
+    type: user
+    name: cynthia_meyer3
+    fullyQualifiedName: cynthia_meyer3
+    displayName: Cynthia Meyer
+    deleted: false
+childrenCount: 0
+userCount: 11
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []

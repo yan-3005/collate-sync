@@ -1,0 +1,95 @@
+teamType: Group
+name: Legal Admin
+fullyQualifiedName: Legal Admin
+parents:
+  - id: b3dc4fe7-8fb6-4bbb-8c82-0f1a13824fb7
+    type: team
+    name: Legal
+    fullyQualifiedName: Legal
+    displayName: Legal
+    deleted: false
+children: []
+users:
+  - id: e9240632-07c0-4baf-ab23-a664d85828a3
+    type: user
+    name: adam_rodriguez9
+    fullyQualifiedName: adam_rodriguez9
+    displayName: Adam Rodriguez
+    deleted: false
+  - id: 922eb2a0-7643-4206-97ef-cb1d73c181f5
+    type: user
+    name: alec_kane4
+    fullyQualifiedName: alec_kane4
+    displayName: Alec Kane
+    deleted: false
+  - id: 9600ba87-3807-4937-99b1-8332113391bf
+    type: user
+    name: anna_parker9
+    fullyQualifiedName: anna_parker9
+    displayName: Anna Parker
+    deleted: false
+  - id: ad56afd8-710d-4db9-8dfb-bc6dacdcdbf6
+    type: user
+    name: antonio_gallegos8
+    fullyQualifiedName: antonio_gallegos8
+    displayName: Antonio Gallegos
+    deleted: false
+  - id: f8695ac2-9f7a-4bfb-bf21-04f87d786288
+    type: user
+    name: ariana_shannon3
+    fullyQualifiedName: ariana_shannon3
+    displayName: Ariana Shannon
+    deleted: false
+  - id: 0dc3e4df-6b1b-44d2-a94a-6e456dcc2169
+    type: user
+    name: arthur_butler5
+    fullyQualifiedName: arthur_butler5
+    displayName: Arthur Butler
+    deleted: false
+  - id: 776c9dea-b874-4195-a0d0-e2bc5f0044b9
+    type: user
+    name: bobby_wright7
+    fullyQualifiedName: bobby_wright7
+    displayName: Bobby Wright
+    deleted: false
+  - id: 56392b1f-90cb-4c2b-8eeb-750c1295c21b
+    type: user
+    name: brittany_nelson5
+    fullyQualifiedName: brittany_nelson5
+    displayName: Brittany Nelson
+    deleted: false
+  - id: 590eabfc-8cd5-4213-ae03-9199378753c3
+    type: user
+    name: carol_morgan5
+    fullyQualifiedName: carol_morgan5
+    displayName: Carol Morgan
+    deleted: false
+  - id: 3685ed98-7b4c-4755-8b5a-7a9cb8fc6a57
+    type: user
+    name: cindy_tapia6
+    fullyQualifiedName: cindy_tapia6
+    displayName: Cindy Tapia
+    deleted: false
+  - id: 34454007-36f6-4caa-80b4-58753565f0a2
+    type: user
+    name: clinton_smith4
+    fullyQualifiedName: clinton_smith4
+    displayName: Clinton Smith
+    deleted: false
+childrenCount: 0
+userCount: 11
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []

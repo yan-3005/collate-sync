@@ -1,0 +1,104 @@
+teamType: Group
+name: Marketplace
+fullyQualifiedName: Marketplace
+displayName: Marketplace
+description: This is Marketplace description.
+parents:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+children: []
+users:
+  - id: 1a511abd-1a4e-442e-a63e-c59cd1c20def
+    type: user
+    name: amanda_bullock6
+    fullyQualifiedName: amanda_bullock6
+    displayName: Amanda Bullock
+    deleted: false
+  - id: 79127179-30af-4a3b-9f81-2c27fb9d6a58
+    type: user
+    name: amber_green0
+    fullyQualifiedName: amber_green0
+    displayName: Amber Green
+    deleted: false
+  - id: 51717353-f724-4a80-b446-6ea4f3dafb69
+    type: user
+    name: andrea_bartlett6
+    fullyQualifiedName: andrea_bartlett6
+    displayName: Andrea Bartlett
+    deleted: false
+  - id: 2f061cfc-46aa-4b7c-b7b3-e793f1f34f81
+    type: user
+    name: barbara_fox5
+    fullyQualifiedName: barbara_fox5
+    displayName: Barbara Fox
+    deleted: false
+  - id: ce7a6a31-ac4c-4619-865b-c6eaa9527e22
+    type: user
+    name: brandon_peterson0
+    fullyQualifiedName: brandon_peterson0
+    displayName: Brandon Peterson
+    deleted: false
+  - id: a488c6a4-7a3d-4609-a0dd-999e201b73c4
+    type: user
+    name: brandy_miller4
+    fullyQualifiedName: brandy_miller4
+    displayName: Brandy Miller
+    deleted: false
+  - id: 84da45db-d44f-4819-ad8b-042e1386bfdd
+    type: user
+    name: carolyn_davis7
+    fullyQualifiedName: carolyn_davis7
+    displayName: Carolyn Davis
+    deleted: false
+  - id: 7de06034-e286-4bbe-a5a7-7f51b344e001
+    type: user
+    name: cheryl_lopez5
+    fullyQualifiedName: cheryl_lopez5
+    displayName: Cheryl Lopez
+    deleted: false
+  - id: d28dc2c6-397c-407f-ad0a-c0c77772b6de
+    type: user
+    name: christopher_cole0
+    fullyQualifiedName: christopher_cole0
+    displayName: Christopher Cole
+    deleted: false
+  - id: e7cdecbf-f912-454e-a9e7-777368c9f49e
+    type: user
+    name: cole_bird3
+    fullyQualifiedName: cole_bird3
+    displayName: Cole Bird
+    deleted: false
+  - id: dea13c14-0ba1-4cb8-bbe6-a44db659b183
+    type: user
+    name: craig_owens0
+    fullyQualifiedName: craig_owens0
+    displayName: Craig Owens
+    deleted: false
+  - id: 3e636a58-56e3-49b7-8820-795577ef6877
+    type: user
+    name: cynthia_reynolds6
+    fullyQualifiedName: cynthia_reynolds6
+    displayName: Cynthia Reynolds
+    deleted: false
+childrenCount: 0
+userCount: 12
+owns: []
+owners: []
+isJoinable: true
+defaultRoles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+policies: []
+domains: []
