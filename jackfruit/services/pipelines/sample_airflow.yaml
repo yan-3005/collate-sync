@@ -1,0 +1,15 @@
+name: sample_airflow
+fullyQualifiedName: sample_airflow
+serviceType: Airflow
+tags: []
+pipelines: []
+connection:
+  config:
+    type: Airflow
+    hostPort: http://localhost:8080/
+    connection:
+      type: Backend
+    numberOfStatus: 10
+    supportsMetadataExtraction: true
+owners: []
+dataProducts: []
