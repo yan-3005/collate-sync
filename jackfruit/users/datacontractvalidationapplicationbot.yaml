@@ -1,0 +1,34 @@
+name: datacontractvalidationapplicationbot
+fullyQualifiedName: datacontractvalidationapplicationbot
+displayName: Data Contract Validation
+email: datacontractvalidationapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqKrn2ZSmD3xTRb8s2tQbt_D2L2nJNI88hNF_6SmGMOLIF8-8c5wRmhjoQgMrBgu5dhSNT_IvbxR9geD0dL6wpVljyrfEmm9v_i83pQ7JcDVm8uaUpyYDveYQ-R8DJ5VRMKrMIbYXPjnWMshsEzH0HiHbZ5qqmDGIH2ejLsslz7lFV_TTfJGeRgJ8Hsl4JkXybYgWZHSCBaq4krv_MT9-9-Iqwe-MVQi1GiW1QlWDShbfhPd_NOe1VdmNKdRF74ZHX0_mIjjrouJwhdhX9ea49lbDTg9732PpoBpuAqkcVAQ3MsJspZ9G7oXxEcLs1mgiWFZ-eppC0GsO7jUV2H6MQeJzTjs40FZEHP4T7H7c5rs6pPOfxjHOqlZoEybf_q13VDANfCcyolzL4JwKlIDfvi7DLIErt5jZyouldUPSoj46-QXfqLjWCIHyLdmGleDr30Ib5cfbcKIQb4gCV0bFITY88KalDtwlHmOMJHHmYe2o85EbMM01rEgqeSGKQEwHY03XdWZMODBSikHKsFzczH2SE2wIBmkEsRm36jn5OGTJjUOgXy8p0k6I7f-mI1l6f9DKmwPIW2K0nhRxNqx_-EY2tp3rrFUxXInXR3pjBbSWHx3AEIBHjnJuAVGszmg-qZw5A5CHItsPFAsz48K78gxDNwxD7J94egXMXpVR3FLSe1OC7PLeDvZVlr2xbH-oqnIRyLeK4QPKkf9turAcIbbq17JkiHlNDmaXzrpRGe5D3hJ1IqG4SZmOmVW7Xp6vP4RAUHjxWmIH6oq4xhfsvFoPOA-SAe9C_CAO3p1bEU5dIK_dX8joQqZrfUz8fBwlYb6bod-V4-FrFf6-YzG8gyNKEjAknfFQCF4ZPxmLZmVjoNlfVq_LLHBM7mx8QBH83vNHW6DU9t0c3bsWgrt2BGBl67N4yKi7W0bQYQ6aozqsAseYfLEt8z6Wtc1hC6iolIftKMBtgAjDpuhVXT9JuSF5qDUPmvZzoRKGQlSYn4bTDGKKV51RRAPEP58QU5_c9jSImlXKwb11TzrrrJxekljRSkZH2tNMFP2uovNSCgJaFZninztgsneONadiu8I73lj0Dgpv77sNPWzZHikNdKpGNBO1CMHrAwLkBArZIsOBmfSS7tUoIY3zdhLDK0pcWDk-di1DXxnndb2S0BYQgs0ODAUfKZelb1RIuYEkc-WxQYbtBGPMva4RF104YHqtu8K
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

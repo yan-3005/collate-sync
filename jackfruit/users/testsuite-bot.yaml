@@ -1,0 +1,44 @@
+name: testsuite-bot
+fullyQualifiedName: testsuite-bot
+email: testsuite-bot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpmBZCbQeuK-ZR87ZclW1ixSLkcyRvPZUVYu9Ca2HYPS-2rkV8Htu9xVxyChbMRRI-2eXDY246b9_gEnNl3ZBiVaMTL0HjN0X7waG2NpkPUucEnVjhL4moQgeTe3ZQfm9_HAqP2Jr_I6YmurkySCpMlJDakl3bgAXd9iLxZ9VKK9F-W6vW4QlUFO15nbcKPE0Rjb01l4PpwaCXzpAoV5NL3qPQBVwB1ks9wmFx0qAl7IQURCXiLfkLTyrk84uESuq_EiyCeNuKerP8akcN3VxqAuXR6hYs-ZeVqvl1XUrYawdnEfTdBKr6IhCSwFTBEzNmFob_l-dYGqCG8sI1xH3EGuMDjMthk0j2bQcfM7uZiE7R7hDS6uV6NmhaNm0Bd3O0zsDW1UF1pY5MTle6ja4JbmrEs47XJKfWrVqaoGtwjeiwmLGnrQzVw30n3tLq1Ovw6-0NL_QucMqU40bfvqvBbNKXGUBDY1P3IOngP6IcA81PumgyPRaC9l600JX3uH3k_5ekWPlyWWUnZ_5UVYesBm6GYvBTEQeYQu6v7A5IQcjAsRd5mYRAse2AFXwOqKwp2QR5Yk1KiFGvgYQfDlc8OBylOW0IYfuns5yB1xgQuM_CPE5bfcQxiWb95Y7mQptb1IqEupT46FPZ90KIe3KD-Fcn39TcMuPJwU-ozjLwfFhwIsHd07evqODro_SC0-2lMC1dkfJPZtpAd8iSQgWbT6Fdi_2lPiYSMl01raanl2ZfwAxkG7mfCblqcHsVQQFyj1NBai4RtQTwWJezNT8MogWk1oUm6VS6mJHgZYt8inI7FOTZ9VPIxcmh7APMNddSJHhdnO6GD0OfKmyOOfeBsG0Sd66cKKmDqcD8JRgLNgRo_Z6YY-V-5gzZbelLruVkFrttnW74FXj4hXoSWqSdBPso2F5rtBB1ksBSCo68mUsk-rbKUDhczGWBLC5DSkc8g6gpyKhdZ_pALsqxvg8JfQ7QQMbk_pDXALpLZSYhRQ_-WE7ZNTEGI06GEpUaBNyz4byAydeqMu7M4qOxoVd3Wcep5xG2XlpZjzowgjGvfTzQTlmBqoOOqe4niBpQ04LBl4JW
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 4.2
+  changeSummary: {}
+roles:
+  - id: eef45d04-78e3-4a41-8422-6a50123156b5
+    type: role
+    name: QualityBotRole
+    fullyQualifiedName: QualityBotRole
+    description: Role corresponding to a Quality bot.
+    displayName: Quality bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

@@ -1,0 +1,44 @@
+name: profiler-bot
+fullyQualifiedName: profiler-bot
+email: profiler-bot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpmBZCsXQb73V5HVENcyfGPcuagsaE5ASvNBA_a4n5NIitbQYtYWrWp3FP-XfxuIe_TCyE-AQTw3ROkkdGPl_7PKgbuzZw6NPEVFmo2Q3bPdSIbNeU46qoBLgGX8OUGC7P7d49B8Mwi5Jk0f__KP7wcp1SH9UMyPYvt4qvox0Qn2LiJyQKMT2f0BGVf34JpIgcMfPDUIc7Pdy_mGrGBNrhfd7Fcjrs4vgpr9qk_WeP6MmayjykLFOFYqo2Bh96XWcr7ZkKj6Y_jXtd3oq-9nqHfdMda8RUfPVo9nsysM1RfGueBYKBUNzgvyxW5X-h5UUwgbcExmsRlHu5m6M6uUFruIJmJR-MAoONkPsIAGORqyewepyvlEJu6AySuVcIJZDTLXVLnHhT-xz2WVE2sLwcwy0Qu4qXZeu2q4s2NWo3zq6kcXpcZ--pgJfk8c1ZPmWNGj-O6gIfQOu7AhFf9KNbRwY1o6pP-TWcCRpeNktDaWPz8ZEIXqABV1ylE_45IgGLsge4hoqGp1GhCl1BwtJQY2zT4YK5ve8ciuyh9faT586uveNVXANK43CfCZAWZTVxxVLr0flOmYeHEYiau8wR4VXqTemnmGQ6v2drLLu30-XSxX2dheP3MM5cVw573xqxJwF0R-KQD6O2f5J8H2yEte3NSNLuUl1ntygTnJIOBK50oFnCKr_4iYcp7s127UTtiSvqNo6B56iHX5RGRL1GHwBP3MJOTu8Xhfr_fy40rnvEELajbNdWIbGPzpJ3pjinrWEoGIr5-nLfVPl3aUIDFJEyoRJNPde-2nXO0LPvmS6JPFBAaew6da-YHVhBQ_vtNLUl4CioZVusofcoRwnA-JnbYr7n4dz4D-dQimfQAQdKH8YOx7WR0-qPj4qtMUot2s6S8tGwdpmacNPhK59N_BlxW7EgvVfYNeBHl7B3akg3aC93cXgruHxYHE0YdyQ-F6CBfbgYTifhLXeyUgGW1BM7M-Fmo6zUTJtG3Qo_7E9SaHyogR-wA5E7znVC_teGY2mE_yBV7R91JThqnicAvYk8FOWDbqEcGm-D_2eZdFirod-vaS1QwrsG5hQ8lQvEQBsa
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 4.2
+  changeSummary: {}
+roles:
+  - id: 27b24ca1-77c7-483a-98f9-e93249c94391
+    type: role
+    name: ProfilerBotRole
+    fullyQualifiedName: ProfilerBotRole
+    description: Role corresponding to a Profiler bot.
+    displayName: Profiler bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

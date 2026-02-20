@@ -1,0 +1,42 @@
+name: ram
+fullyQualifiedName: ram
+description: ""
+displayName: ram@test.com
+email: ram@test.com
+isBot: false
+isAdmin: true
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    password: $2a$12$Lua3fp8nQ6PRlQJbTCACsux/Bq55odGN/tMhOffl7tmMdg/Euxv7u
+  authType: BASIC
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+lastLoginTime: 1771327944186
+lastActivityTime: 1771331095441
+personaPreferences: []

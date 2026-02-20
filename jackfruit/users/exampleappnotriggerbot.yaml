@@ -1,0 +1,34 @@
+name: exampleappnotriggerbot
+fullyQualifiedName: exampleappnotriggerbot
+displayName: Example App No Trigger
+email: exampleappnotriggerbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLKj7QgVuII_MlzYHRktG0QILhY0e8aKLHhx1j0d3jQZVGqFtN59GQ-aPI6TengMoIwWTvUhOnBWwejW5hEbo3XEoGjfwAFliNSae4RWQksJddiSIXULAMXMCU99-wZhWlRckZ-H-qFTtaqln33GyzHoaHnyCQBvz7vNyKIyMrPYWRUAoxWhIHs9L-pUiumEYgyCJ3t2c8OvmMz4vfstSke1XxV54DgXdu9heHHFJzgm7gVlfXPykkpOZExtJaSuwnfNpK42bN3acql2fI6-XRVLpHAvH0bPYZzC7tuCRyOYbTMz5UsRmQyBagbTlEZMVtYNlGxi-4jxRoagkzLoOWhnYNz9TPjPN9VI6lnwSoPZ775PkwdQ5A4NkspsYtyWgWIPCGXGfxI7HXSm17iw-86T05HOv3a-IzRfEJIdtk8H3xvUrgSbCkk2x2_zp01Y4PE9h-0s1LLFbbCvT1pk2hvpWtG_LbTzZE4DgT1W4QZcHq3-B03SUxGmoELdwNlweKKI3uFIeer-IsWzdUM_Dxdg1VDOqqcu-ketdIULHphUZGHXQnUIAWcCLR6RQCEZFKRzGv6NC-Gab--SspcgBy7sckHf1IlXuw42PhNYkCEwUEWdtFygK2gcHgYJ18U02CTfPV__fE6hak4RwqmlcIVpVDvid3LT4XbQrbOEbmTV0snuQUJH2fcRc0xjE4NS0OCa8hI1Q3T622Ki7v6g0Id6yaDWHd51ETYQdiOaJ9KfoXPfnjd3DgM4yo7ZKl3ayjupEVCaVKMwCtbHNgRqY6Wleij8It5nV0Jiq5ahDqFcbAKOAYK407uCfCH4vD1_ZVXyqfiTaKbp00HZ4Auvz6hnZjJAq2aA9ZM4hSEndPji-PWhqTYCbncuFWCQmzRSEs65VfPw1aIHhFRpzODwpOqHn8sekPMEBFXBrCDo-sMEkbBXSTjadLP0qkS7oiFLUolJGyi3T7GSGFYQvOzhzMX6YFuDOFZxqPO1Duj5rpdJzR9KRskISV7Vg_CJ56-liO30m9IvTTCYcnsIrusmF81Uy-DXJeaZx5_ero0z1gFLwNnT3uAr_VeEwlOM2_FM7txVyy0-k1tdSHBjd_i4ixB5ZUk1vO6hBtWwI14VxKXmz4=
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

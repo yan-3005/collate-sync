@@ -1,0 +1,34 @@
+name: collateaiqualityagentapplicationbot
+fullyQualifiedName: collateaiqualityagentapplicationbot
+displayName: Collate AI Quality Agent
+email: collateaiqualityagentapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLJOeknmyfSdko3q8qV73tk3N4dDT8OkhUBjFA9ECU8eyh-6LplWAS6jLFFNMxSjglNruXMQ7c5wNhN-vDYdp0NdVHn08LrbD0N5J205tE2-G0qV6K-SxufQZMog6n-yIVTACwo3fS4_RBAkgQA2we4lO_-iBUYS4bxJez5rGz6ZjcCnzCz95kgSBgznfTeXaQZjU6oo-ZoXt3mocGS3zbC07zP0EpQBJh97RLKb0p-egLYXXS_FyH1GrMGtYVu6CG_f90rYuZ6VyvWpiIC7yeCurEQhdZ8n6Exkbz5XbPfnYi391guGo9D467lQI9XYf0mHT2vQeD2bP_5o076o2jO4Ew0cS5EjY2gSN6JnaLzoX0JsysdUqN1IpS5SUzL6otS34JgFXoKk38DiZOu7AN9-ro97TW-VMlhInKxoJOj8DPUeKco5H0SnssKWdHPvBBIB8GZf9a6dGj4a24b_hCFno-rxLAKXhtLbiJjM7iO99ohY_T-UjWJTthaykqYJBB1NtNeLafCM83aBtjKmf7IvELtywoUKCdXLdDsVuR7Oyemeb7W6ZPf5zCBuMH1JkCR07Dk3cbpz7mJ4gq0UNz6IFeUIifxp_9FhBdTO3JBZYSsuYLNA9s_nKxmYNcz6jSUeqcYJY2C-5MRZAAVEhWGJSaLkdTwmKQytrG8rYHkmoRlaZwzpb49MS4eXSmvpjpGMDiuEPcu9IKMlaT5FuXGgO5mSkllzwpdo7IPhug52XrlOSPIJTDHQHb80ALQ576lvMwZqSK8vuuntZrR_VbyHQLTWMBGSQ3_GxgZHBNsnSVZ2oGnCaOVy4XZ8KJhZvrrvS60pQG_dG9p-isv2H7tqEI_8zSqCClrZgsyCNhdXDDsj1FzxC_vCoRCb1sWC3KaAAEoDfJHnDSpsFgQiQmDd1VzW_bjin3_O1BvZj6wewde9h0LRGVkNVuAsf2QtX6ihpN75iF2iOKGriXFrcKYvs4rXYFxVGvs-36pojhYiBIYUpY3pOOWrqFdG9J1FWfmtcBkX5RKtGp2Op6sD1-vIqnDuhfuyZXkZvZULCfDFkUqZ9MqVmliWKJcKfLhSNjR-7GRI3Fl-ukHeoL-2M-Vtrzg78jDAMxZwYIvpJ_C-YJZf7nevDyZgGyF_1B2c1bIIoSFiN8KHP1E4scQY815EJl8z1GbJJgRYYJunukLx0XSaYZS-uPcxLiS2nk7EReP
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []
