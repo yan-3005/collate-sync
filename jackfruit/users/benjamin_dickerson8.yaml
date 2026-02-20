@@ -1,0 +1,29 @@
+name: benjamin_dickerson8
+fullyQualifiedName: benjamin_dickerson8
+displayName: Benjamin Dickerson
+email: benjamin_dickerson8@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: e4b5cde4-18fb-46ea-a456-ae0691903ba5
+    type: team
+    name: DevOps
+    fullyQualifiedName: DevOps
+    displayName: DevOps
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

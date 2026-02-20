@@ -1,0 +1,44 @@
+name: automatorapplicationbot
+fullyQualifiedName: automatorapplicationbot
+email: automatorapplicationbot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpmBZBb2P6souyu3B4XksOOms10LhMo8yJaa1_mnB1Rn5-FM-GqG2UE6AcwTiByzVd8u1XFUl2Ue38n9w_ivwl8I_F_BsRAom7hBxIfcTMOnfpF02BcZgcnDMfPPkUTVRam6T3oy3j9ueNu1kqhtdkUph2IcXm7QSjCDp90ov_wa-MRei-wZNKftaMQAwDGUm7-a3zdUO9BCsccJL9mRthHRq6SwZQVNV-xdc7lzu27S-0cOxUA6nEjUz8ppn-57k5-lIHI9XpGhgEJCRbSRfT0RUAwboFJAjje7qCGagI1ZTgrZp1qrKvp74Lo_58O9msn56_edEzq0fIdTCOH417hyUn03u6gNRRov6QmoVbOoML1_VUdc9HlfcVWkFbH62dUGLBRLlKFizwY7W3MOTbQSHT3pSvv_qXcrb5C-l8z_DNBNHXCHvFM22WGRL8SFU1mqci-uVDjWfW5g4ZkrLjybMBPKNcsRwogfoPP6irbxHkkUnuwRX6Q6YJi0zlPGK9980yDvUkC2FcifK1A-Y3XrLBBu1X3_Ical8cpuhnxG7YOYCTua6JSQcfhZ_aGD6vLzR3QVf67w1oiwwgwYEGUs91nuDK92z1Bn9jR6ysdBZ76y45pqN6E1h-1sMTaBvBNyOx0bZsXUQ5CU4tP_HI5K_c_7DCMDP2-fY5NDbtiRRAtkpjjxfPRBOs12ij3nH16DSg-CW-j7iHXdRaUV5WbME9psgyEsC6kprcNp7mqBAfqfRCkKac3UspDzdo6XZOfmJDDfpgig-2439DhDLqXpbqOcX4pzpNb095n1kxaTfvrEc-QSz8mQ1PsW4ge_GO0Ij5ZPrJGHhA8RR6wfE7w-_IewHfg13b12BGLs0MRrSouSKJJ2ZKc-OtvwkloMPMa7jVJ4bKjTxhKMWoeIBWW8SnfF8fKFlrBsp04Y0U6yvQCTZdGaqRu8_u5g5KxJaMSqNp9-4FOdJwg8HN6fWRYEZU21GtUbcJjKgJPVA6g_41c10VA-IQGKu_hiGRKWymhFrdcdVTDCD3K3D0rS78jJCkgOLOKGAmsnxcts3jymENtR2dZThOrGQIdjBT1YifLYoOj-KcLek7cSokEjcGlzK68NlF31ARnETbKKfBi0zJvHAqQ236SheO2ffdrx1I9AUD5YoHxZYL7SMqH6jzuRsLtA==
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 2.0
+  changeSummary: {}
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

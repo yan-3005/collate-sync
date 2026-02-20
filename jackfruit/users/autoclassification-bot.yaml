@@ -1,0 +1,44 @@
+name: autoclassification-bot
+fullyQualifiedName: autoclassification-bot
+email: autoclassification-bot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpmBZC8VUjYQKnacpSIJ3l2pP_TJ7hDSudLlvozW9fTAaig_umkszV5bh003lDd524ih1Fy3sqHS6NSFJqULkMkZRjQV9Kytx3q4hK366gF9HbH3UHyTFRoNFgG2PrxA5t2lnozj4pPMugPpDCB5gpcBGS6np7rCQfn2AQeMWcy5qsH64vadcQZhdcAynnNxcaljp_M8OGG6Bhsrf0koqPV4nbsedFtGJ34bdNzxNzEydPipkFuRTN_gHnP8Di4JZcZq5944SFa70gjDIf3mEDdEkvULF6vjdD731wcANSEUeuDw73dRY6esu7SFPu1T8cnEfG8ySZpd3Fn6BX_2dUQ788TpBenivmFgqmkfaVPOJy_7qKuDPIpB1RXPmeVkFPewrTLS5hSNv1MDXNGe68EN0VeVYiVhaNEzxv75iINHqh8rHV1zQN0j0d1EnVvW5fA0G7qTyZp55ihP630OQwE6RZW-v9ZNxT3oEQOU-loCfBBVhsGV4jhlSbQ3T6iOLrBINsXu8hqFKavoi-PVLugFIJNaEjCrVLvO5siuBK2mIBUzzYeW7Vwg_DZmAumY6a279q3_hKhgo1laVf2DM9YwAqguAe0QxQT5Rd6bcyrcYKNXQni2JnShVZRZ6LE9jnCKTrOLQW2ciw0jGzIzf2yQm8BRTrZoQaAXwZYsixINOBhq_rZ9l4FxroVYh08D2TJ0YkIKrlyZ-oX1qgdbr4T7uvzKy8NqydZQaUQUCDhnu3Zmgx0s4HGoSlDUwRuYVcO_RjAvY-wy2wuck5K3_LiMvlqyqfUJN_JFu3PMuXK-y8qVuf9NqUoHZ__RW9PwwEebb6gPA66GGoIMYfVZWeTQYmMai7lSV3JqP11574cXaahJMFQnmOoTWTU4IPy8KW7NwB5uUsQtNogOWF7QIq4rgnLaghrbDmvg5474TpQ5wCefXberdsujJD5NRymXUijyyInlzk2j_1H3oZq2Wzx3BGaXXGBZW2bdihU14dEBGjnDABz-74zKU3xdyJIfWlADifC62SmshASXt_Bz2uxf3SDHCmp1-SkIrG0RFwInkFO-BR8uTa8EERJ0U18tEs3LJgLsBOAgUO-if3wI0kTd9lMgSG4R8NfGMnnxLl4-c1YcWqgjT_0L2hJLaAN7NQQcoz9qlT4KNvX7rJ8ReC9OIoog==
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 4.2
+  changeSummary: {}
+roles:
+  - id: 6f59bf07-7c1c-4b41-bee2-cee83a0df1f5
+    type: role
+    name: AutoClassificationBotRole
+    fullyQualifiedName: AutoClassificationBotRole
+    description: Role corresponding to a Auto Classification bot.
+    displayName: Auto Classification bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

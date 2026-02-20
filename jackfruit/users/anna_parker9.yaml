@@ -1,0 +1,29 @@
+name: anna_parker9
+fullyQualifiedName: anna_parker9
+displayName: Anna Parker
+email: anna_parker9@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: 7ea38247-50db-427f-9dc6-7fc8c8348eeb
+    type: team
+    name: Legal Admin
+    fullyQualifiedName: Legal Admin
+    displayName: Legal Admin
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

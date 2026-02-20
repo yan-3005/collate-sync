@@ -1,0 +1,29 @@
+name: caitlin_wilkins0
+fullyQualifiedName: caitlin_wilkins0
+displayName: Caitlin Wilkins
+email: caitlin_wilkins0@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: 94b6df21-7da6-443f-9949-4a7d11754175
+    type: team
+    name: Accounting
+    fullyQualifiedName: Accounting
+    displayName: Accounting
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

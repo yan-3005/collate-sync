@@ -1,0 +1,38 @@
+name: test.self
+fullyQualifiedName: '"test.self"'
+displayName: Test Self
+email: test.self@getcollate.io
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: 390ede9c-d235-4c7f-8009-cf4119088ccd
+    type: team
+    name: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    fullyQualifiedName: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    description: ""
+    displayName: face9c4e-1b50-41d3-b404-d4d2432a5be3
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.2
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+isEmailVerified: true
+domains: []
+lastLoginTime: 1771430389298
+lastActivityTime: 1771430584455
+personaPreferences: []
