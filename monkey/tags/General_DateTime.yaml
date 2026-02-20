@@ -1,0 +1,61 @@
+name: DateTime
+fullyQualifiedName: General.DateTime
+description: Absolute or relative dates or periods or times smaller than a day.
+classification:
+  id: 6c8a8f38-9f49-40ad-b8ce-5f557da28c33
+  type: classification
+  name: General
+  fullyQualifiedName: General
+  description: "Category describing generic data types, such as `DateTime`, `Location`,\
+    \ or `BankNumber`"
+  displayName: General
+  deleted: false
+children: []
+usageCount: 0
+deprecated: false
+provider: system
+disabled: false
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+owners: []
+reviewers: []
+entityStatus: Unprocessed
+recognizers:
+  - id: 47138966-833b-4684-aa1b-bb6f029622fb
+    name: DateRecognizer
+    displayName: Date Recognizer
+    description: Recognize date using regex.
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      name: DateRecognizer
+      type: predefined
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: content
+  - id: 5625a249-d2cd-4901-b3c2-0714e1f5974a
+    name: date_time
+    displayName: Date time column name
+    description: A regex recognizer for column names
+    enabled: true
+    isSystemDefault: true
+    recognizerConfig:
+      type: pattern
+      context: []
+      patterns:
+        - name: date_time_pattern_0
+          regex: ^.*(date|_at|dt).*$
+          score: 0.6
+      regexFlags:
+        dotAll: true
+        multiline: true
+        ignoreCase: true
+      supportedLanguage: en
+    confidenceThreshold: 0.6
+    exceptionList: []
+    version: 0.1
+    target: column_name
+autoClassificationEnabled: true
+autoClassificationPriority: 50
