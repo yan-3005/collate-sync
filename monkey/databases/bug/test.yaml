@@ -1,0 +1,25 @@
+name: test
+fullyQualifiedName: bug.test
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: a9ee9933-c7b2-4700-9853-683e2b618c33
+  type: databaseService
+  name: bug
+  fullyQualifiedName: bug
+  description: ""
+  displayName: bug
+  deleted: false
+serviceType: Mysql
+databaseSchemas:
+  - id: c4737809-6449-4dc7-af88-4b0073e6f2fa
+    type: databaseSchema
+    name: test
+    fullyQualifiedName: bug.test.test
+    displayName: test
+    deleted: false
+default: false
+domains: []
+sourceHash: e391afc4a22ab473e2f182860e556ea4
+entityStatus: Unprocessed
