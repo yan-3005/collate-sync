@@ -1,0 +1,42 @@
+name: 34
+displayName: Unicode Test
+fullyQualifiedName: sample_superset.34
+description: ""
+dashboardType: Dashboard
+sourceUrl: http://localhost:808/superset/dashboard/unicode-test/
+charts:
+  - id: 76726d4a-543f-44a5-a47e-cb039c2da788
+    type: chart
+    name: 161
+    fullyQualifiedName: sample_superset.161
+    description: ""
+    displayName: Birth in France by department in 2016
+    deleted: false
+  - id: 3589d9e5-55c3-46d0-b93d-ac25dcb937bd
+    type: chart
+    name: 170
+    fullyQualifiedName: sample_superset.170
+    description: ""
+    displayName: Box plot
+    deleted: false
+  - id: 3c23b909-c4dc-47dd-8ef8-212974482cb5
+    type: chart
+    name: 180
+    fullyQualifiedName: sample_superset.180
+    description: ""
+    displayName: Boy Name Cloud
+    deleted: false
+dataModels: []
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

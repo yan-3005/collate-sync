@@ -1,0 +1,28 @@
+name: 45
+displayName: USA Births Names
+fullyQualifiedName: sample_superset.45
+description: ""
+dashboardType: Dashboard
+sourceUrl: http://localhost:808/superset/dashboard/births/
+charts:
+  - id: 3c23b909-c4dc-47dd-8ef8-212974482cb5
+    type: chart
+    name: 180
+    fullyQualifiedName: sample_superset.180
+    description: ""
+    displayName: Boy Name Cloud
+    deleted: false
+dataModels: []
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+entityStatus: Unprocessed

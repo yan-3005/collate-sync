@@ -1,0 +1,49 @@
+name: orders
+displayName: Orders Dashboard
+fullyQualifiedName: sample_looker.orders
+description: This is a sample Dashboard for Looker
+dashboardType: Dashboard
+sourceUrl: http://localhost:808/looker/dashboard/8/
+charts:
+  - id: dc03bafb-355e-4ae9-b951-dabe1da10891
+    type: chart
+    name: chart_3
+    fullyQualifiedName: sample_looker.chart_3
+    description: This is a sample Chart for Looker
+    displayName: ✈️ Chart 3
+    deleted: false
+  - id: 56c9a8e0-d6eb-4495-b3d7-1c547178e26b
+    type: chart
+    name: chart_4
+    fullyQualifiedName: sample_looker.chart_4
+    description: This is a sample Chart for Looker
+    displayName: Chart 4
+    deleted: false
+dataModels:
+  - id: 18b36924-bae5-41ac-887d-42ce19d22c20
+    type: dashboardDataModel
+    name: operations
+    fullyQualifiedName: sample_looker.model.operations
+    description: Operations Explore from Sample Data
+    displayName: Operations
+    deleted: false
+  - id: 4e5e8d67-5039-4bef-833f-84bbc0114ebe
+    type: dashboardDataModel
+    name: orders
+    fullyQualifiedName: sample_looker.model.orders
+    description: Orders explore from Sample Data
+    displayName: Orders
+    deleted: false
+owners: []
+tags: []
+service:
+  id: 78b5454b-4f82-447e-8d7f-4081e5cdce8d
+  type: dashboardService
+  name: sample_looker
+  fullyQualifiedName: sample_looker
+  displayName: sample_looker
+  deleted: false
+serviceType: Looker
+domains: []
+dataProducts: []
+entityStatus: Unprocessed
