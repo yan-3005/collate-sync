@@ -1,0 +1,217 @@
+name: fact_order
+fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order
+description: "The orders table contains information about each order in your store.\
+  \ Although this table is good for generating order lists and joining with the dim_customer,\
+  \ use the sales table instead for computing financial or other metrics."
+tableType: Regular
+columns:
+  - name: order_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "Unique numeric identifier for the order across Shopify stores. In\
+      \ your Shopify admin, this ID is used internally. Most merchants are familiar\
+      \ with the other ID that appears on orders in the Shopify admin. This ID can\
+      \ be found in the Name column."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.order_id
+    tags: []
+    constraint: PRIMARY_KEY
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: api_client_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the API client that called the Shopify API. This column
+      is a foreign key reference to the api_client_id column in the dim_api_client
+      table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.api_client_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: billing_address_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.billing_address_id
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: customer_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the customer. This column is a foreign key reference to
+      the customer_id column in the dim_customer table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.customer_id
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: location_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.location_id
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+  - name: shipping_address_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.shipping_address_id
+    tags: []
+    ordinalPosition: 6
+    children: []
+    customMetrics: []
+  - name: shop_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the store. This column is a foreign key reference to the
+      shop_id column in the dim.shop table.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.shop_id
+    tags: []
+    ordinalPosition: 7
+    children: []
+    customMetrics: []
+  - name: user_id
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: The ID of the staff member who created the order. This column is
+      a foreign key reference to the ID in the dim_staff table. This column applies
+      to Shopify POS orders and to orders that were converted from draft orders.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.user_id
+    tags: []
+    ordinalPosition: 8
+    children: []
+    customMetrics: []
+  - name: name
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: "The identifier of the order that the merchant and customer sees.\
+      \ This is the ID that appears on the order in the Shopify admin. For example,\
+      \ #1001. By default, this identifier is unique to one store. If you have multiple\
+      \ stores, then use the order_id column to guarantee uniqueness across multiple\
+      \ stores."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.name
+    tags: []
+    ordinalPosition: 9
+    children: []
+    customMetrics: []
+  - name: total_price
+    dataType: NUMERIC
+    dataTypeDisplay: numeric
+    description: "The total price of the order, including shipping and taxes. This\
+      \ column includes gift card sales, but does not include returns. This value\
+      \ may not be accurate for API-imported orders. Do not use this column for financial\
+      \ calculations. Instead, use the total_price column in the sales table."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.total_price
+    tags: []
+    ordinalPosition: 10
+    children: []
+    customMetrics: []
+  - name: discount_code
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: The discount code that was applied to the order.
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.discount_code
+    tags: []
+    ordinalPosition: 11
+    children: []
+    customMetrics: []
+  - name: processed_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "The date (ISO 8601) and time (UTC) when the order was created. The\
+      \ format is YYYY-MM-DD HH:mm:ss (for example, 2016-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.processed_at
+    tags: []
+    ordinalPosition: 12
+    children: []
+    customMetrics: []
+  - name: canceled_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "If the order was canceled, then this column contains the date (ISO\
+      \ 8601) and time (UTC) when the order was canceled. The format is YYYY-MM-DD\
+      \ HH:mm:ss (for example, 2016-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.canceled_at
+    tags: []
+    ordinalPosition: 13
+    children: []
+    customMetrics: []
+  - name: deleted_at
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: "If the order was deleted, then this column contains the date (ISO\
+      \ 8601) and time (UTC) when the order was deleted. The format is YYYY-MM-DD\
+      \ HH:mm:ss (for example, 2016-02-05 17:04:01)."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.deleted_at
+    tags: []
+    ordinalPosition: 14
+    children: []
+    customMetrics: []
+  - name: test
+    dataType: BOOLEAN
+    dataTypeDisplay: boolean
+    description: "True when the order is a test order, False otherwise."
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_order.test
+    tags: []
+    ordinalPosition: 15
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+sourceUrl: http://localhost:8080/fact_order
+domains: []
+dataProducts: []
+lifeCycle:
+  created:
+    timestamp: 1770298756144
+    accessedByAProcess: Alice
+  updated:
+    timestamp: 1770298756144
+    accessedByAProcess: Bob
+  accessed:
+    timestamp: 1770385156144
+    accessedByAProcess: Charlie
+processedLineage: false
+entityStatus: Unprocessed

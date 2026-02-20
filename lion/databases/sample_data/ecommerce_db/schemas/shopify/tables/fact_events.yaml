@@ -1,0 +1,103 @@
+name: fact_events
+fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_events
+description: Event fact table from Trino warehouse for real-time analytics
+tableType: Regular
+columns:
+  - name: event_id
+    dataType: BIGINT
+    dataTypeDisplay: bigint
+    description: Unique event identifier
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_events.event_id
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: user_id
+    dataType: BIGINT
+    dataTypeDisplay: bigint
+    description: User who triggered the event
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_events.user_id
+    tags: []
+    ordinalPosition: 2
+    children: []
+    customMetrics: []
+  - name: event_type
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: Type of event
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_events.event_type
+    tags: []
+    ordinalPosition: 3
+    children: []
+    customMetrics: []
+  - name: event_data
+    dataType: JSON
+    dataTypeDisplay: json
+    description: Event payload in JSON format
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_events.event_data
+    tags: []
+    ordinalPosition: 4
+    children: []
+    customMetrics: []
+  - name: event_timestamp
+    dataType: TIMESTAMP
+    dataTypeDisplay: timestamp
+    description: When the event occurred
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_events.event_timestamp
+    tags: []
+    ordinalPosition: 5
+    children: []
+    customMetrics: []
+  - name: session_id
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar
+    description: Session identifier
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.fact_events.session_id
+    tags: []
+    ordinalPosition: 6
+    children: []
+    customMetrics: []
+tableConstraints:
+  - constraintType: PRIMARY_KEY
+    columns:
+      - event_id
+owners: []
+databaseSchema:
+  id: 4a2045a7-3e62-4b80-99a7-a68d376aa4d0
+  type: databaseSchema
+  name: shopify
+  fullyQualifiedName: sample_data.ecommerce_db.shopify
+  description: This **mock** database contains schema related to shopify sales and
+    orders with related dimension tables.
+  displayName: shopify
+  deleted: false
+database:
+  id: 32fa9bbe-a15b-4dbd-ac3c-beee8562d7bb
+  type: database
+  name: ecommerce_db
+  fullyQualifiedName: sample_data.ecommerce_db
+  description: This **mock** database contains schemas related to shopify sales and
+    orders with related dimension tables.
+  displayName: ecommerce_db
+  deleted: false
+service:
+  id: 7c35d4ce-d0b7-4ce9-aaf7-96c1c819e0d2
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+tags: []
+joins:
+  startDate: 2026-01-21
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
