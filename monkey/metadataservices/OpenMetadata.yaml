@@ -1,0 +1,66 @@
+name: OpenMetadata
+fullyQualifiedName: OpenMetadata
+displayName: OpenMetadata Service
+serviceType: OpenMetadata
+description: Service Used for creating OpenMetadata Ingestion Pipelines.
+connection:
+  config:
+    type: OpenMetadata
+    hostPort: http://host.docker.internal:8585/api
+    verifySSL: no-ssl
+    apiVersion: v1
+    clusterName: openmetadata
+    includeTags: true
+    authProvider: openmetadata
+    includeTeams: true
+    includeUsers: true
+    limitRecords: 1000
+    includePolicy: true
+    includeTables: true
+    includeTopics: true
+    elasticsSearch:
+      type: elasticsearch
+      config:
+        scheme: http
+        es_host: localhost
+        es_port: 9200
+        es_password: ""
+        es_username: ""
+    securityConfig:
+      jwtToken: eyJraWQiOiJHYjM4OWEtOWY3Ni1nZGpzLWE5MmotMDI0MmJrOTQzNTYiLCJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcGVuLW1ldGFkYXRhLm9yZyIsInN1YiI6ImluZ2VzdGlvbi1ib3QiLCJyb2xlcyI6WyJJbmdlc3Rpb25Cb3RSb2xlIl0sImVtYWlsIjoiaW5nZXN0aW9uLWJvdEBvcGVuLW1ldGFkYXRhLm9yZyIsImlzQm90Ijp0cnVlLCJ0b2tlblR5cGUiOiJCT1QiLCJ1c2VybmFtZSI6ImluZ2VzdGlvbi1ib3QiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJpbmdlc3Rpb24tYm90IiwiaWF0IjoxNzcxMTY0MDgwLCJleHAiOm51bGx9.1yGMtTRW-uN_kD0YlODBhENu8baQOf3cgQpnqeTlBUsk2E9F3QRmFpMELs2DUfxZdvl_chHpJgPO1gEnAuO2MIYgXOPooY-s-vkNBYMbSwPv7l8d-oWnFFwu3t553yL4UnJjfPUl8OliqAvkLEEQOvb3N7WA11MF6R_XHRowGN035TiGoMdD2rwXjeZqUSJjJjT4cWqY9ZMxG63_70mnlD4w6i-iY0aWEtxSfqFg4bQiz2CQMg41I4xHknI7rYL-otciBEgeGU6vFabGxD95tbvOHIvSIYQDWjxPrnGc4x9NP5-pzXpIacmlr4nA7ZXDETlOvhcQcZg0Utt_WkNTNg
+    includeMlModels: true
+    includePipelines: true
+    includeDashboards: true
+    includeGlossaryTerms: true
+    secretsManagerLoader: noop
+    forceEntityOverwriting: false
+    secretsManagerProvider: db
+    storeServiceConnection: true
+    enableVersionValidation: true
+    includeDatabaseServices: true
+    includePipelineServices: true
+    includeMessagingServices: true
+    supportsDataInsightExtraction: true
+    supportsElasticSearchReindexingExtraction: true
+pipelines:
+  - id: 8e8dfb97-9258-4468-bfd0-12f48f4d5267
+    type: ingestionPipeline
+    name: CollateAIApplication
+    fullyQualifiedName: OpenMetadata.CollateAIApplication
+    displayName: Collate AI Documentation Agent
+    deleted: false
+  - id: 6ef8c8ef-e751-49a0-8ebb-124a57fb92ec
+    type: ingestionPipeline
+    name: CollateAIQualityAgentApplication
+    fullyQualifiedName: OpenMetadata.CollateAIQualityAgentApplication
+    displayName: Collate AI Quality Agent
+    deleted: false
+  - id: 3c9df504-f32a-4d7e-9e96-ce6a4698c24e
+    type: ingestionPipeline
+    name: CollateAITierAgentApplication
+    fullyQualifiedName: OpenMetadata.CollateAITierAgentApplication
+    displayName: Collate AI Tier Agent
+    deleted: false
+tags: []
+owners: []
+provider: system
