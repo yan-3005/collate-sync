@@ -1,0 +1,14 @@
+name: sample_looker
+fullyQualifiedName: sample_looker
+serviceType: Looker
+connection:
+  config:
+    type: Looker
+    clientId: admin
+    hostPort: https://looker.com/
+    clientSecret: fernet:gAAAAABplsTncH8RFSKfdDfdCgpHAZnPiGmXh3j_2lfa5Ujeu4GgG3ALDVZ5xE2l2m29stlg42Uxs0_qhwSKTtoG6cLxemCQhw==
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
