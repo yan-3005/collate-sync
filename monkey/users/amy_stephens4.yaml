@@ -1,0 +1,29 @@
+name: amy_stephens4
+fullyQualifiedName: amy_stephens4
+displayName: Amy Stephens
+email: amy_stephens4@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: 7abc2d80-0fd1-47ef-a891-fc3c6ce8e071
+    type: team
+    name: Merger & Acquisitions
+    fullyQualifiedName: Merger & Acquisitions
+    displayName: Merger & Acquisitions
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

@@ -1,0 +1,29 @@
+name: andrew_rivas3
+fullyQualifiedName: andrew_rivas3
+displayName: Andrew Rivas
+email: andrew_rivas3@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: fde5a8d8-2893-436e-b8de-cce6c0863c18
+    type: team
+    name: Data
+    fullyQualifiedName: Data
+    displayName: Data
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

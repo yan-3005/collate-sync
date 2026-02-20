@@ -1,0 +1,34 @@
+name: aichatapplicationbot
+fullyQualifiedName: aichatapplicationbot
+displayName: AskCollate
+email: aichatapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLKjqnfFhw6ZegAJF8HYgbDWweCt6OrvA-CqFfLuEFM1WgPwEwuwKGGkwrqoqUXMFcZSGZn6AKXt-U6iWUvrfGp561w-maWZ8Vs6RUsMpjfBiTit36-8fuIzYskUATFdTg1v_axZkR_-fmfvNs1a6cTnOOg26XOW1I7hwD6ryd4dtw0DiIAoIdKpFivvh8ATj-Brx8lVnb_SgE9jzqPpVObSdR2VRQsSn23iqYIprFcayB6BuVe5YnYoSxyCw15Ba5brMbd3aM4sp9XfPmjAW2Erf0-8Y1hZGXMrCbmJf6J-SSSasPZMLa_6kaEuYAZo8gkepCtHhP81CWwHN_CvX7UsM9rGVb8XptQmMXlllxoic_JhsOcPqfkjJuqASszMLRPjeHNCf4gRVHgI7NM9lGZpqXlL1pqwQ-rNcKKrMjzu0P-3aCZ02UtJ_qP7-eQrzsL5MrZ6hDtBTXzVAKFp5t-bBHBbc2jkA7713YEDsqXRh8hxPWLlnBr-PvE-68bFIJaUVxLDdOeus6hA3ek7bW3jpWq8cuxj6lP-1Y_65UncRBmreGnDYkw4XtQ8_0KmwMB9lTZ_mZc7dPA-K3TlKIMvgRQ5KNdMx4c6l5T84vmZJfmTTduzoN_A2M8abM0gqFFCNgatYBmK5FAMaejxgVTJUUmihPV6VBeZjVo2fWrFQkdODsKFvoaQWb1s53DP8ZL2Sjq8IyV9pqtfzcKJCj-zyDZxlKb6LI64pp-vGjN5ohWqxWKhuzvQUxvmELWDdS3NO6j0vztDNWWhP3TT4uVQwYXMwXQc1Ay-aOvhJ7n_03Y53sGkN-7IsjHQcS6i5bz4n3Dgs_vkizD-_4KzWmqCOnJAhRpn1mfEeHC2KtbQOLHEuy_YOJ_RgM96J6xu0B_ztqAEJFuGBKMRO1j7Fo1Nk-3sbXDjSDfiFjjIBmH6TrS6ckO40m-52AcGCFebe5ELu89K6R2wzmkyaykQqpF7uXO2YXMbJLKmC4qGIs5tuA81oJ97PkMgQFUuuwCGWURtPbQuBkj2sGA7k08BRn01RzAxGRgo_xUlU9HwkMdi-97gwfWKCnBqclIktwRlsEbwkx3vkefIRv43LVLG4OrMg==
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

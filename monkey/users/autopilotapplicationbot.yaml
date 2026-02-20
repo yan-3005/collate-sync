@@ -1,0 +1,42 @@
+name: autopilotapplicationbot
+fullyQualifiedName: autopilotapplicationbot
+displayName: AutoPilot
+email: autopilotapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqKr5B3dGajI3K1g8rH_cbxuDb-T7-FCvVQoZzc1Fr_w-1J9WWl8FO4dDQj8sFJXO830ijleMFEx3NNShkayvKnfW8kZDY22MimJpGXfab2koekPxUNTBDr_tO-cZU6gfmPRnbimg2HFIh3I7clKAtwm_0tTLDsXU5xMC379uLhfPLkFkzeQCIIC2FpJuMHBumX7wOJQIVnWzgPnnnzW33ljwhzfH1RLuxBbMj_ny_HpXzshIoxVpAKgqAnnhD5MD6kc4bW4_kqFbegxZtJMMhZEyL2Cy9GssXtrx--G25hIkH1ND9rhgujSyZeMHO7UrTjaPrL4KjNwcG-vV36tsE37NC2RxDHZyOIaKMrJRug6b7691CcGMajWbstPazRjCiEwNA4qBeZI39h_KAcajiPd7WNJ50YVbWQNQPrhOauExj55l9G13MwtwIHqUh-plR6JnD_5AZyDY_ymP6Cg42m6Q7eqn8-NsgEIuzgOoNxOAtYeRUmUlB4u7OMtc67erdfrI4MwRLXqnDkKWev7ZXw-rCcnhbPRT2mYI81Z0gj_toIvN_GLJyXnVdr-O6AYqqsoj54v22n8uqKppPGeFSmdf9nO5SBxBZ86qX54AWL1uq_DlJ34Gpt4LUb37tVh6gE64uh7grKf4Cjg_qjzQ1dtEUVI5B5Hc8ltgj7uYk3oHdQgrpLAl9FqvcEyo5yM-2vHtkFeY_89XHo1XO0d970GdG6VjyBSVmeNLBaUr4eY0ltrgm0ZvXwhNlkgKiVtH3ZLUlPm-1ZFFCSKJMHBcQW6zaYICD_KzXq3SGt0nUOgzXMLgxCF9n71-s6qOOShadm5ZMGba_P8so4l4kVEI-09UGzsm2kKvbiCwpe0sUATYhRD5A3XTkLZFpTt9bqD1Kke2GucoqPnIWgGtJeyGM9543q1eRaq-zzR2oa0gtUu8kIrlZj-iZLBMmy6a__L3VaXuCdhdvOZT1Q8PZWaq9X-ZPBgSkUd3L0kZesdJ-CZqDhSpGvvYq9PV_EMr7h_e_xP5cgGPzFK4qFoirzVqqbpUSVcFxpIbhsRiLfxLZBVotZUfATEZydqrk39rGzS6UXYeffIm51Vt_w9SmBjto6k8e9k7d9p-BZWxYSz2efO9zw=
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns:
+  - id: 281f3b16-ed2f-4302-b3e0-b333c3002a83
+    type: workflowDefinition
+    name: AutoPilotWorkflow
+    fullyQualifiedName: AutoPilotWorkflow
+    description: "Whenever a new Service is created, the relevant pipelines will automatically\
+      \ be created, deployed and run."
+    displayName: Auto Pilot Workflow
+    deleted: false
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

@@ -1,0 +1,34 @@
+name: cachewarmupapplicationbot
+fullyQualifiedName: cachewarmupapplicationbot
+displayName: Cache Warmup
+email: cachewarmupapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqKrALpXdCQOK7bSHKesESS_U8rwBySjGTCw8LkieBKGjRZvox0m2afxO1B6MVcWyNQgBJgvEzmXK1jB8SQR-4UDZie8mhfw4GNkGvM3RAmca5d45iTbdKrTgMKti36H3LzjvJ6Beg9RXWbQCL5H1xhhNJXFj1G2Sgbnl0mm1nBALXu1fdr7aZqAMeovEYk4J6flfVJr07tePckAMR0RHl6ArnAcJAAP8i_xeRH5_G9Nq_ThtNg1PC-l-Mt-k6PMHGGxfJrxws5S6rEHpwWjz0NVo56WLfoECteJmGg9tBAuXVFzczkRNOkeVQzEHff6kcq65Kn2BSR2AafZ8d1o5Ukz50LxttDTGP3c5o7M-9tIHm4F9KJrHhEYtqlD5X1DLGxcGsWTDsloIB_MIAWnYHAhHuk9XHVUUge7qLy-Im5DlppLpXuqS0opopUuwQ28bsyM6iX2bwBqoe-KM-1OSWPz9gR-Fsw2FF6003M22pD1oLnS0yHpR92C9w76Tw7DwMr0gBAynqqX18SL9njx7SFuSLvl2Rf_wLfXWbQCNBqNaVSrUza808qzHg-ZR-mEbpKH_ncaU4tlu14xnPPA7_9OoC-As8qTh-O7FlFEefNcU5PfqpSGdcpVP8Xl6tEhSYNU_gTw0SKax4pAot7Pf4h-VUtVqngkafzx61lQAMRvwGTnN_XlgWxXIwREEASTse4aJI1cASEWUlflbtClBNHZmDYA48oAXVREulSgNFWAMKUWpNlBAUPYMiugjiYfcDGvNWUJrCslaQvvNoBfzC_S_XrxSAkIrXG5C_IHcFC6syDocwYBvVdn7LN3ceEQ67gAYMMISplUq24dFo29tB1bpz0Or043VuoHqIuawbfARccIM8V8ZKVmSiWx1WHDHNYjyZMr00eH4zsion7MMN9RGGHGa4hec4YZHglj4fn9vOJI-UbjZdIhzweiJI9L7qfBeuQ5Vsb1IMdyIhidsOTBMcZ_LPNlkkpGpSm8JsbwxYMH8sn8vY8n83Rs_EJwupuWVkllTdNs9OOm7AadLLiMoSr3nx49nKdIrWDfkap3PgUmoHG4ZSFOHIalWrzygjjaeM-sEab-sIimG6V736twWgLO9M21HR4xDBt9FPQKsyBeMfjNaf80bQFIf6p7olSs
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []
