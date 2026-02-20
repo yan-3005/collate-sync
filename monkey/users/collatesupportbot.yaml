@@ -1,0 +1,34 @@
+name: collatesupportbot
+fullyQualifiedName: collatesupportbot
+displayName: Support
+email: collatesupportbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLKtMAAJ02FIC0oCoxi4d70Os_hj7H5NfUR3SYmFm9R4CHEbagxmAxHKXM40GYUA2wYvjR8ESDr2YxtKXjnZvjUBJgleArhpAKII6Jff5HixJWIncKSo4lYcmp3WU7eWA8CU9ME12zSS7LO9UPWA1-iemBLUA5X4XyIdMKyxXiZ-XKF_K9kaQoP9cbFsdcWMTO1YcOSYR8rDTdT1sldSEIXZPl0Z4F7WHdASxMEiSCRnc0PDCGSzEpol67kOz31OI0wXgkKEUWY-F6-Tk7wxGnER2ZfGRIUsTudwnDvcDq0L0xwuUd6SwYVhXpNCgOUWpm2SCePgU8tZkXJuMKCY_IjXFRNktMAPUs5aZJuwHmK2_iaG3f_Olmihqb_o4ZHGgjujedxj6n85XyUIYCRI4KemfqneCW4L4gsTPggHmGmIewjcFc0Z6b1HYF2CHwV_M5VgSH-y_9JdK2IqQV64xFTddEhuySvpDQPSb0XAMxOursiuHgZGZZ2NkTkkQgg9FQcRk4m-VS6w4lYlwMc0Aiy9Ist9pBx_9q2nj2raTnjfbfg32zrJGdskj_iK6b_v55bCzRPyAMl8gnykH_N3CodpGQjDF98xyy0q52XMfpBFkuPvmIONip4Qq-zFpgdLvHeCJ9QI56X9EQ3w-KLIMxc98kVufh84dknbizjxStHklHFD-PBXew_T2CwDfEV37bAC7nF77AEiVzKgpe9G0KGaYM22XsG1PfVP48TWdu1ss6L-7oZvKiwkMUW7kl0KypfRl54u9h-ZsjjANctSPURAWEJ-cBxWGFSYIG-TDSWuqxBxAMlgBWaAi6Nhg41Vh7OCFSKA4lvsEzhdyfn9ofRWQlueNNMqag93SpI-fvnYIG9TQVYoSb5C1TA3mYCmdes_YAYiZLWYUFY5Ui7t7YjytMSJgilqETZ-q0k9GPj3Sh1it7NasO3dh6eibn35JrqYiC9RHyT_vhTv9lED5PGcKykY50lyF2jWDZK7IiFv6vJznr_qacc0JVX1FbXoUxlTTnfCD0rkvKMSH_gLFU2MF5xFNYOtxBDT0RynXFvRwDsZCtijIVl-ODMtGdVZK0h
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

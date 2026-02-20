@@ -1,0 +1,30 @@
+name: courtney_duncan1
+fullyQualifiedName: courtney_duncan1
+displayName: Courtney Duncan
+email: courtney_duncan1@gmail.com
+isBot: false
+isAdmin: false
+allowImpersonation: false
+teams:
+  - id: f3aebb4a-e7d9-4d74-b09a-ac9545ae9a37
+    type: team
+    name: Payments
+    fullyQualifiedName: Payments
+    description: This is Payments description.
+    displayName: Payments
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles: []
+inheritedRoles:
+  - id: e35e3baa-ad82-457a-b45a-34cbbd6c1c46
+    type: role
+    name: DataConsumer
+    fullyQualifiedName: DataConsumer
+    description: Users with Data Consumer role use different data assets for their
+      day to day work.
+    displayName: Data Consumer
+    deleted: false
+domains: []
+personaPreferences: []

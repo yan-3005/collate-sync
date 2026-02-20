@@ -1,0 +1,34 @@
+name: metadataexporterapplicationbot
+fullyQualifiedName: metadataexporterapplicationbot
+displayName: Metadata Exporter
+email: metadataexporterapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLJf_TP5McxQjbGQLsOp9gjRblfZIYomgKPmw_82LKMCNyj1sXdFdLM1IMGvbvV0zQbv_9LPkbLHo2jeFK53AMi21DKHT5GoMiyzkKt5EL9D--MzYKxQZZpFN5_sJFxHpuGLrAoJAxc4iuFVPp_p9tFeQe8Pckl77vACEbznVn0Uta8dCFtP_jYn1j46WU0GhgjHEQ_qfF-5r5U67h19ZnTyl20L3li6o9ciCddg-RnaDZGMRk_xnJ4Wd8lHjWwmJsYdtnOFjUp8xR1KIRSAzCEXkz7U9zu2j022j_NXl-K6be6J0C5n50xV8ZAQ9RwGHsj8mnAHNqGFjXB9w-eF08umD-jpX4YAhhxRLikwFn_i3oc2ZLOEG_549iQ4nb1D4guPE0Xwf_yr_DeJWyAIVjMR4dZlue5yxHa7F03LHtwDLKk7T_rpTnCjmuYH_amZUiYsJyJYKysEGUXKh5Db4Q_WfWmFNR6Zu1zvtbz_jdGDzUMSxqk1yGXH_riouvLxUKC5KIrW0691Aczb1nQy4RZqNhy3ff1Dim3mX9QKOWngLs_jR4U1j0FJIf4HG5RRTnMswkNMn4DqU6n0voCrSJxFSvZ8jxQUrz6goEsOdkfz9JbRAOQc9OAvHpVttRK21ljsSmFo-x-DspL4Mejqv9zqe22CBheCsh9Gbcd80HEVJv9m5Ehzn0GvgvHDBsh8iqEpmcbzSWU39jDVrcG1g14iG5UAhD52NQXnuvDFzgMnM4VYPltmIom3pwQ1i9UYDb8_IRpORZ0uadyTIuvDSXnTgTUPfhbuN7SyltJ5JlLRejpO01wmUSyuKKPbUaf4kYfmewKsbky_hzIKqcjJ41sjy3BnC-bDA7T7f-8W9IhqBtbPPlHU7bkZA7hE8Rs8QFaVvYyiqHlJ56BIgorvzcz95QvamVVM62Q4NfY9o7itTRGI-WTyL3OlAx6-Guax0LjikbWvQHr9zcd9X0abp_viM0yTlb04cWYB-Oi8vJNoZVpAzttHIIU606XtO7Oo7nth0epQ8N1AY9tjfjV63eDKh0AkemHnbVYs7_KFgAL9PMRAlo_JpwX9IZGVhkGB5DQiLeWWya_yH5aMYzCQVfjyKGC3tj4U-cMfhvGXqUmISJrKn4IogsQ8wxNUADBHvqFnqg6JDyPoQ0i3y5GTadVJw==
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

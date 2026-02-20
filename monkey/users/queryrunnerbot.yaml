@@ -1,0 +1,34 @@
+name: queryrunnerbot
+fullyQualifiedName: queryrunnerbot
+displayName: Query Runner
+email: queryrunnerbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLKXXptLX5ZHwJ3p4Hmnfx87-d1dQukwCQfrjyVXvJgW728cyP638oGfouMmnU3Q-3XNAkFG0a0sZWeNVlKy_iE5ugYD_Q3N1uBFz0svwJxjqtLIFxDVj2XBX3aWzgJB2kS9sbBziGQvSMNZfF3fMN2ai7AP-rFBk_LIa1yKxbKESimWJ4BTE_2kG07w43keMZTSaqv4ip-GFK-cy6tx1eeNCtAsiCxs7cD8uiFKvuCGx8gqDwYLQHsRZ3J6-lP0FDrYGKz7WTX8Yqi31vnC8MqGOd1adrfD5mj03cOPyp5QyfqwgVcdCL0FJFNxizXLjacg5WFUqbpyvC8XiE2vRhDUWtYpWp0GkowjW7L5hf29DTTDnI7bHARYbYuu-AQ4sioWxi1jtFG2XJ2fEKLCfebRhFqcujnvoPqKth-7Rv_NaZ1tFNC8-IcHO25TM_4n4iCCQfYiFQ-2jNMBn_E9R1Iy0E6L2jBKTaVqyXMtx8qVW0_V5Esfp3_qFJ7cVQhrlPv1QgR3gPLjWnr3MO3iAvEAb69cSNash0yyZVWcVfotzW3A0oBiVpExp119JJpsQDNWC98JZky_c_WFeVK7I5hi6LIcpRzBkHGf2PmQCyD4j2NFUgFwl41-rztTQHwkSZL8Ob-z6Wnjy8cZcef9y8lzDabCRFKyL03734G5tfpdo5E9gnsRiMLiUkQTlt8HsAeP8-kniLRatF7kgK2uj3WianprnNaLHGorm50LMhlje7CpcXi2ZJXo-P_5W5c8Iq5XBEt3IPHOUiXgjhsRWvJ3QzzWx4PHtZt__PY3PPUDODXEWd8OjFLkTX_AFJBGmN_uk5QOR5lryoPPeuNbo1Bj9Z0el0KTgv8Dlc9-cQOrpKL4cuRSuzMQbeYWHWmFUl_lqLuxxBlN6-QZrp_5TasoxpwMCqxG6mvPSY7CPtwUMN6_OAHPiVI6Zge2XToix5EiONwBz0YDB80UB94oWx-fWZKIjQc12u0c40GXpF2lw2ta2wynCDd1M3LIUbJNejOYwEWVXkLDZpRsy7J4SCFp1DN1BYFX6Au9kJaqKypGwc=
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

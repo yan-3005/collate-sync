@@ -1,0 +1,34 @@
+name: telemetryapplicationbot
+fullyQualifiedName: telemetryapplicationbot
+displayName: Telemetry
+email: telemetryapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqLK1Ker0vquc3RWxooSOvBpEMpMOxeOdKZIPU5oeKskX51wD2TGAnvuoe1r70ZjMVYykxx_RVqrv4u2lhuH7B-KLyWfAxSC8oDOzi-gW1mDsU46vG942YCC-TtxRdwlm5n1tTRmKcEWQeggWDVCNwDZdPzRaiV2CACrkmu0F7F525D4ESnSL38W0GFPzLrxaX_uv6gtrmSnaOnTFSl-VjBHTH2lLrVw9CEQeljN489mOCHQT83RH0sFx4mNYtG-ayKosk3mQqqCrxvuCtpNZ92iF7t024M26dtltmO0hsYVRL0byO5nDnUx2nRJEU0ji4QFSOrXp7QjOFFryc-jEtRX3MdA2xWWOjRZBtPJShz24787e-ozl-CGHZh0ikN_Yp2BAsRw2DRKX4AINOVDK3Apep-9unLCqs6kspRM61pTn_4i8YMtOk807mUYyeqAtCL7wQn0cebUfbA7oQJoyECuQLFGC81jP1AChj2rS6TreYz7kPCJH3d4UG_ifKJYcNf-VT7APhm3wPynpnzvXJcPbAkASe6AcE8RgRBzGDMK_0a9ClhhuUY1ow9S0huCFSDbJ6SDF25shOlZpxH5FuV_d3-9fkdbsKA9jKJ722fV6_UTfePRzXzyHgpOOeSFfo_EG3QeJ25zP1UNQE1GkJpt007zUkhep2bMNva4jiwrRD_IGEOmFpWD9O5BYNJ5rbV2JANZ18BywoJyz6Bwk2xnIcRIwfWaLZO5x3x6mHtlq5OZ6a33K73NXyy7rrDad40UOcZQc9wq81r7fV2r4-4iqz_emU5_zDSJeubS1XNWoYkBgybkYono8KVEKVhAFEhj1v9akRZlXtywGjhOxKUddUgW5FtLmo6CUpQ-sPaf_0GkxgxOI0XcmydRy2E365jNoBQ5i2TJ3_xAptIGk7Rr62T9SsZXGCitSJ_U-bjZG5SsVQm_44clR7GaRA1-LTjhhTgCtrpv9QgZOZUxlO39pe52RbxYfQR-8E0UJsizK1ebOmWP8AWZ0-Qv0knPbztVbIlM3SUWlS8K-DVdAs_aCRa5YomI13aDOAynvQBJps-Z-lTHBkQ19rhxu6ph_SjIJMVeFAUwpLtuhUQ5ad7NezNJDHXRpGo7EgN8UAWxWKg=
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

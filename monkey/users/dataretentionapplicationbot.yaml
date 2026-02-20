@@ -1,0 +1,34 @@
+name: dataretentionapplicationbot
+fullyQualifiedName: dataretentionapplicationbot
+displayName: Data Retention
+email: dataretentionapplicationbot@openmetadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABplqKrlDceMPa7huyHSjVZ0UaCmVEgXN4_n5sIqPCjS47rwZnHsTmnZw9BOnLtvGnoI9mTBpSxYO9VvUIVcycr6J53idCNmJqs2IO6uAucOGDcyc10YJz-D_-uX8M1JxHxziOzen0U6JvXrvJex_YWoiKdUhGnjk4WuH1iIVJQAxCWfG4LDXkgVyMllkyOzxLPiYRiteyvIABnRnp_tH2T_am5E_zD_AdFH_A7IWbxD1hdo1YCZFkYs1FxlaSur5VlSR1bkSY4jMVM60BQw5dx_kAAnk0-DOff8u8UNvbKSaEpXnyAhxOEf-QCgKTaSICzmJyuQNxImkwXt5KzA1_CaSkei9O2sdkuqS02mAsNHgOlLg4yfkxSvsR9sNB5DIM_v2cVhRG4X_G45UwxRybdQl8ttFn2hqfyzvxk7ZRpfNnlQb0YJyPiZBV0l8zj8wiy6F-I7Zt-oiYxEZQYwvq9oFCxt7Y133Maf9ADieVA1ES6c0iIQ42Uk4fGzEuQ27p0VTQUeI5h8MPq-ZlLLse99lgwKtwNHRzNGI00BERJ418TSVkmDxvF1IoxylQge8bFrizGDCk12ruoXIbvedkxlfp8fcXt9Ca1VbSpemr10SImxkeaaW5jAGmQ-GVAQtHon_DSqF7CiBh39gbNeokNwWWQ8DQkWUK2WDp92umABf4nYn286bvFbn56GdfA0QFDOknXhupjqYSdZa_45fI0DtIvi_iQAlv1sT9MK7X2kr0V40iQKDm4aXX1ha38fCPpYVvLzf34UGM3lT5Jj5_Mfu69sDtVQKKngfai1xgpgN5tmceVIxa5AvQPU4EPlQuuUE6ddSgSKo3R6QdLUJKHlBiMweG9UqFiG6lrt1YdXWdSpWVOsbLgwDBwpv3QBxydflaeDbm0ngg3GMRIIN1KumQFnu6vaq2q7KW1KIwSz6qkuxP7xP9XqDgK8upEBF5r-l1iVdW0dP6XzoNXx7mEg3tDXg-oQZAsOWpAjiPMBJMqq37IaCV2hqxPKxFNZJZGyxL0wB0TLXUUbed78l8egN4egwb5qcWs8CfKSx3AzPGAClKlysdRrai8bRlI41lVmHUuC084LIMlS-GTasCRETGtizNDLzKmdlyD33OZ-EmiDHuUrNTAA7yw0DKAfu_hQ5Ba
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+roles:
+  - id: badf8618-e8af-4677-b3c3-3989bec85f00
+    type: role
+    name: ApplicationBotRole
+    fullyQualifiedName: ApplicationBotRole
+    description: Role corresponding to a Application bot.
+    displayName: Application bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []

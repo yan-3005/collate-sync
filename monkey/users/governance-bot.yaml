@@ -1,0 +1,44 @@
+name: governance-bot
+fullyQualifiedName: governance-bot
+email: governance-bot@open-metadata.org
+isBot: true
+isAdmin: false
+allowImpersonation: false
+authenticationMechanism:
+  config:
+    JWTToken: fernet:gAAAAABpmBZCfMM8Y5KyHTXZEbsOjZ_txSMZjux8H1KhTRecoyNRycAB_yIzsO9GY9V5pgCsObe86n6MWEYnHIv3xHKazv_j88z-ke8wBoDHRBtEdeD9JAK6Vg0isVnEp2cO6ejRqRX3BrIFJh15PSBqfS3C7pYLiQTDA7IxwqkHmbsXtNr5GivYLhfL0rE7QpEq_CZ9qP2GKgOybEGRkEtsdlH5GRFn7FqYB-Zjkq4xLU7BBPAmmmZ9W48hhE6Dl6ElM9UVrusvOzJvWAa025TTX1G1VHEVLK-uZvML1IkPwp60HOEq5iKfmLrU2TcMTmxmGPGyb3-0NhtYtIq7TZnEi-ohRu36RUY1j1lw23SR7oqmS_qkNWftf3TxaOf_XXRBybMNNWFDJx1JfsZu8aTGwenGLVvaRF3tk7J72bVrEGQEs9bmd4aoi4QMrTtpP0Hx-iHCsc6LYrvacYE49GmZYxoWjskI2mtC6fv2zXXTBMD3iB36iylZHmMkQaHyZnl9CZdKbIR56iFjUbZaUhb61Mbr748OhbNu_UDf2ZOckb8x5Pb_SzKTAdZcGn06MCtn7cLCQQIfOoizDAwc3FR3yShESn_Pivt5-DDqBvEA_r9J3ujRhpqEH8zvEujhwNjoGUcs_PZ9dT6spXavfzIB2bdx_WevYtObDVR6J4Qtm4RVMjwRlsA-Xk1kK6VRNU2dyOX7MVa7NiS-re8Aev_dTLfngHyyMM0oCcy_OfjElRqXYV1XNeMRN18zeNRWsJ5m30g_XcWrb-Xi8JvSFF_53GoN2AlvoHTDQjsT_IgxT50XWygRxP2W7CtKBzeN3YBevnP0pYIiIH_bFN4duHipXF8yF_CkAB1hb6hZsq15Sd4F3ak0wSKFDDqoOgtduKkI1OQhpJFdAOeLVXWc1WZFccnAc3kuXydEnyfZnoozZdzjZIe_OsewfBzsU0Xpgvv0-UGJ8gCvwR9_NOXGo7tGOY6bqJHteKH4t1eG9UIbLPfyD1B0ki6AAEk_Xtfc9aoS3WapUs8i3jVKToB2EaCXeykpRbdQHIDo7PC3ZdCnnWiJOB84z9dRFn8CB4LdFxYZOx8d239l
+    JWTTokenExpiry: Unlimited
+  authType: JWT
+teams:
+  - id: 4a62b2d5-83eb-4d90-a56e-3431b1463923
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: teams
+      oldValue: "[{\"id\":\"4a62b2d5-83eb-4d90-a56e-3431b1463923\",\"type\":\"team\"\
+        ,\"name\":\"Organization\",\"fullyQualifiedName\":\"Organization\",\"description\"\
+        :\"Organization under which all the other team hierarchy is created\",\"displayName\"\
+        :\"Organization\",\"deleted\":false}]"
+  previousVersion: 4.2
+  changeSummary: {}
+roles:
+  - id: abd94973-90ec-4702-a6bd-0f237392a869
+    type: role
+    name: GovernanceBotRole
+    fullyQualifiedName: GovernanceBotRole
+    description: Role corresponding to a Governance bot.
+    displayName: Governance Bot role
+    deleted: false
+inheritedRoles: []
+domains: []
+personaPreferences: []
