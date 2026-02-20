@@ -1,0 +1,48 @@
+name: 197
+displayName: Arcs
+fullyQualifiedName: sample_superset.197
+description: ""
+chartType: Other
+sourceUrl: http://localhost:8088/superset/explore/?form_data=%7B%22slice_id%22%3A%20197%7D
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+dashboards:
+  - id: 80788e2c-6552-4e1f-a883-84ecb614b2f5
+    type: dashboard
+    name: 11
+    fullyQualifiedName: sample_superset.11
+    description: ""
+    displayName: FCC New Coder Survey 2018
+    deleted: false
+  - id: cbb1dfed-9777-451c-b2a3-2de6808d8bbd
+    type: dashboard
+    name: 12
+    fullyQualifiedName: sample_superset.12
+    description: ""
+    displayName: Misc Charts
+    deleted: false
+  - id: 9ce5d82c-1fe7-450b-bb50-443680e79da7
+    type: dashboard
+    name: 8
+    fullyQualifiedName: sample_superset.8
+    description: ""
+    displayName: Orders dashboard
+    deleted: false
+  - id: 981fd2f3-307b-4087-9fc6-6ff72cdea4a9
+    type: dashboard
+    name: 9
+    fullyQualifiedName: sample_superset.9
+    description: ""
+    displayName: COVID Vaccine Dashboard
+    deleted: false
+entityStatus: Unprocessed

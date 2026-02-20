@@ -1,0 +1,48 @@
+name: 127
+displayName: Are you an ethnic minority in your city?
+fullyQualifiedName: sample_superset.127
+description: ""
+chartType: Other
+sourceUrl: http://localhost:8088/superset/explore/?form_data=%7B%22slice_id%22%3A%20127%7D
+owners: []
+tags: []
+service:
+  id: 030e1103-e57e-41d9-aede-8956f7743365
+  type: dashboardService
+  name: sample_superset
+  fullyQualifiedName: sample_superset
+  displayName: sample_superset
+  deleted: false
+serviceType: Superset
+domains: []
+dataProducts: []
+dashboards:
+  - id: 30f0a084-a386-4b67-84e8-27717c3e828f
+    type: dashboard
+    name: 10
+    fullyQualifiedName: sample_superset.10
+    description: ""
+    displayName: deck.gl Demo
+    deleted: false
+  - id: cbb1dfed-9777-451c-b2a3-2de6808d8bbd
+    type: dashboard
+    name: 12
+    fullyQualifiedName: sample_superset.12
+    description: ""
+    displayName: Misc Charts
+    deleted: false
+  - id: 754a10a7-ba94-40fd-a315-4ae9b6208978
+    type: dashboard
+    name: 33
+    fullyQualifiedName: sample_superset.33
+    description: ""
+    displayName: Slack Dashboard
+    deleted: false
+  - id: a67482b6-164a-4fae-b55b-d768bf79d0d9
+    type: dashboard
+    name: 51
+    fullyQualifiedName: sample_superset.51
+    description: ""
+    displayName: Video Game Sales
+    deleted: false
+entityStatus: Unprocessed
