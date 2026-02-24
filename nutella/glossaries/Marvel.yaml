@@ -1,5 +1,6 @@
 name: Marvel
 fullyQualifiedName: Marvel
+displayName: Marvel Heroes
 description: <p>Marvel</p>
 reviewers: []
 owners:
@@ -12,6 +13,14 @@ owners:
 usageCount: 0
 tags: []
 termCount: 1
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: displayName
+      newValue: Marvel Heroes
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.7
+  changeSummary: {}
 provider: user
 mutuallyExclusive: false
 dataProducts: []
