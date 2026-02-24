@@ -1,0 +1,33 @@
+name: SpiderMan
+displayName: ""
+description: <p>SpiderMan</p>
+style: {}
+fullyQualifiedName: Marvel.SpiderMan
+synonyms: []
+glossary:
+  id: 93afd6fa-0349-4215-b1f5-5248ad5fa876
+  type: glossary
+  name: Marvel
+  fullyQualifiedName: Marvel
+  description: <p>Marvel</p>
+  displayName: Marvel Heroes
+  deleted: false
+children: []
+relatedTerms: []
+references: []
+reviewers: []
+owners:
+  - id: c0421655-1efc-480e-9282-62d36024968b
+    type: user
+    name: admin
+    fullyQualifiedName: admin
+    displayName: admin
+    deleted: false
+usageCount: 0
+tags: []
+entityStatus: Approved
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0
