@@ -1,6 +1,6 @@
 name: GitTerm1
 displayName: Gittttt
-description: <p>GitTerm Rocket</p>
+description: <p>GitTerm Rocket League Ragnarok</p>
 style: {}
 fullyQualifiedName: GitsyncGlossary.GitTerm1
 synonyms:
@@ -50,10 +50,10 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: <p>GitTerm1</p>
-      newValue: <p>GitTerm Rocket</p>
+      oldValue: <p>GitTerm Rocket League</p>
+      newValue: <p>GitTerm Rocket League Ragnarok</p>
   fieldsDeleted: []
-  previousVersion: 0.2
+  previousVersion: 0.3
   changeSummary: {}
 entityStatus: In Review
 provider: user
