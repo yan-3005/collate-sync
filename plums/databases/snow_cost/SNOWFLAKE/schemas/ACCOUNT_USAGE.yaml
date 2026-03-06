@@ -1,0 +1,917 @@
+name: ACCOUNT_USAGE
+fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE
+dataProducts: []
+owners: []
+service:
+  id: dd68ef55-06e7-4f43-9697-31e37b4559a9
+  type: databaseService
+  name: snow_cost
+  fullyQualifiedName: snow_cost
+  description: ""
+  displayName: snow_cost
+  deleted: false
+serviceType: Snowflake
+database:
+  id: 64f3b8c9-797f-4213-a79d-346a8cddc4fd
+  type: database
+  name: SNOWFLAKE
+  fullyQualifiedName: snow_cost.SNOWFLAKE
+  displayName: SNOWFLAKE
+  deleted: false
+tables:
+  - id: 6df31594-f064-4cc8-8cd1-e5acda80f78b
+    type: table
+    name: AGGREGATE_ACCESS_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.AGGREGATE_ACCESS_HISTORY
+    displayName: AGGREGATE_ACCESS_HISTORY
+    deleted: false
+  - id: 5ca9bd76-cecc-4cef-98b1-98ba2f2bc70e
+    type: table
+    name: AGGREGATE_QUERY_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.AGGREGATE_QUERY_HISTORY
+    displayName: AGGREGATE_QUERY_HISTORY
+    deleted: false
+  - id: b8f50278-ef78-4607-bb61-7ead69377f87
+    type: table
+    name: AGGREGATION_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.AGGREGATION_POLICIES
+    displayName: AGGREGATION_POLICIES
+    deleted: false
+  - id: cb8d8865-f9cb-414c-af86-f060b50a3778
+    type: table
+    name: ALERT_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.ALERT_HISTORY
+    displayName: ALERT_HISTORY
+    deleted: false
+  - id: 8ee7acaa-9711-41a7-85ee-31354cf79aa8
+    type: table
+    name: ANOMALIES_DAILY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.ANOMALIES_DAILY
+    displayName: ANOMALIES_DAILY
+    deleted: false
+  - id: af41f492-7d28-4b08-98a4-c2560627765f
+    type: table
+    name: APPLICATION_DAILY_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.APPLICATION_DAILY_USAGE_HISTORY
+    displayName: APPLICATION_DAILY_USAGE_HISTORY
+    deleted: false
+  - id: b6b3f299-afff-4db4-bd82-9d3737f5640b
+    type: table
+    name: APPLICATION_SPECIFICATIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.APPLICATION_SPECIFICATIONS
+    displayName: APPLICATION_SPECIFICATIONS
+    deleted: false
+  - id: 404adbbe-acab-402b-95dd-8d045c1107f7
+    type: table
+    name: APPLICATION_SPECIFICATION_STATUS_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.APPLICATION_SPECIFICATION_STATUS_HISTORY
+    displayName: APPLICATION_SPECIFICATION_STATUS_HISTORY
+    deleted: false
+  - id: 3e0c5bb3-8e4f-40be-a990-2d9d2c8ada5b
+    type: table
+    name: ARCHIVE_STORAGE_DATA_RETRIEVAL_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.ARCHIVE_STORAGE_DATA_RETRIEVAL_USAGE_HISTORY
+    displayName: ARCHIVE_STORAGE_DATA_RETRIEVAL_USAGE_HISTORY
+    deleted: false
+  - id: 2beff874-1244-4d0a-992e-788f87efe06e
+    type: table
+    name: AUTOMATIC_CLUSTERING_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.AUTOMATIC_CLUSTERING_HISTORY
+    displayName: AUTOMATIC_CLUSTERING_HISTORY
+    deleted: false
+  - id: baeb6f9a-cfca-4ef9-8b46-08b8aaa51b7a
+    type: table
+    name: BLOCK_STORAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.BLOCK_STORAGE_HISTORY
+    displayName: BLOCK_STORAGE_HISTORY
+    deleted: false
+  - id: 184b51dc-3311-4179-bb2e-1a25e223d1db
+    type: table
+    name: BLOCK_STORAGE_SNAPSHOTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.BLOCK_STORAGE_SNAPSHOTS
+    displayName: BLOCK_STORAGE_SNAPSHOTS
+    deleted: false
+  - id: bdee1849-29af-48b4-9403-8c02514baeeb
+    type: table
+    name: BUDGET_DETAILS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.BUDGET_DETAILS
+    displayName: BUDGET_DETAILS
+    deleted: false
+  - id: 59a964b4-a62b-4f97-b1df-095dfe6333f3
+    type: table
+    name: CALLER_GRANTS_TO_ROLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CALLER_GRANTS_TO_ROLES
+    displayName: CALLER_GRANTS_TO_ROLES
+    deleted: false
+  - id: b6013292-3dc8-48af-abc7-87220c1120b1
+    type: table
+    name: CLASSES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CLASSES
+    displayName: CLASSES
+    deleted: false
+  - id: b5b22cfc-eabd-43a1-bdec-13aa4a90be6d
+    type: table
+    name: CLASS_INSTANCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CLASS_INSTANCES
+    displayName: CLASS_INSTANCES
+    deleted: false
+  - id: 43c488f0-f9de-4bcb-bc8e-285cd9ca07eb
+    type: table
+    name: COLUMNS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.COLUMNS
+    displayName: COLUMNS
+    deleted: false
+  - id: 43f8e895-0696-4908-8192-a3f3de1cb0b9
+    type: table
+    name: COLUMN_QUERY_PRUNING_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.COLUMN_QUERY_PRUNING_HISTORY
+    displayName: COLUMN_QUERY_PRUNING_HISTORY
+    deleted: false
+  - id: 49ed8bc3-3ffa-420d-98f4-955e1c7f4235
+    type: table
+    name: COMPLETE_TASK_GRAPHS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.COMPLETE_TASK_GRAPHS
+    displayName: COMPLETE_TASK_GRAPHS
+    deleted: false
+  - id: 7a465634-6e7b-4ed9-ac69-2c3a6fccca23
+    type: table
+    name: COMPUTE_POOLS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.COMPUTE_POOLS
+    displayName: COMPUTE_POOLS
+    deleted: false
+  - id: 5554791f-56bc-4b29-875f-8351e848e195
+    type: table
+    name: CONTACTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CONTACTS
+    displayName: CONTACTS
+    deleted: false
+  - id: 9a2ab5fd-0594-4a68-bea9-bb4fae8fd9f6
+    type: table
+    name: CONTACT_REFERENCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CONTACT_REFERENCES
+    displayName: CONTACT_REFERENCES
+    deleted: false
+  - id: 5c38362c-74ad-4869-bb6d-d0ac2c4a15c5
+    type: table
+    name: COPY_FILES_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.COPY_FILES_HISTORY
+    displayName: COPY_FILES_HISTORY
+    deleted: false
+  - id: 4757deee-d07e-4212-ae94-e758f8b963c4
+    type: table
+    name: COPY_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.COPY_HISTORY
+    displayName: COPY_HISTORY
+    deleted: false
+  - id: e514fc14-8b31-457e-9a2d-abd7c462c5c1
+    type: table
+    name: CORTEX_ANALYST_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CORTEX_ANALYST_USAGE_HISTORY
+    displayName: CORTEX_ANALYST_USAGE_HISTORY
+    deleted: false
+  - id: 0ddc214d-edad-4cb3-b4bc-b40d1d82d595
+    type: table
+    name: CORTEX_DOCUMENT_PROCESSING_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CORTEX_DOCUMENT_PROCESSING_USAGE_HISTORY
+    displayName: CORTEX_DOCUMENT_PROCESSING_USAGE_HISTORY
+    deleted: false
+  - id: 9e3b48b4-0266-47a7-8619-5cbd80aede4b
+    type: table
+    name: CORTEX_FINE_TUNING_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CORTEX_FINE_TUNING_USAGE_HISTORY
+    displayName: CORTEX_FINE_TUNING_USAGE_HISTORY
+    deleted: false
+  - id: 0f45e3f2-12ae-49ab-9271-1f757dc34b58
+    type: table
+    name: CORTEX_FUNCTIONS_QUERY_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CORTEX_FUNCTIONS_QUERY_USAGE_HISTORY
+    displayName: CORTEX_FUNCTIONS_QUERY_USAGE_HISTORY
+    deleted: false
+  - id: a96e9b04-4d13-4a8b-af17-1705a52fbeff
+    type: table
+    name: CORTEX_FUNCTIONS_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CORTEX_FUNCTIONS_USAGE_HISTORY
+    displayName: CORTEX_FUNCTIONS_USAGE_HISTORY
+    deleted: false
+  - id: 930dc11d-eea5-45a2-ab83-ef0b75e8b6b2
+    type: table
+    name: CORTEX_PROVISIONED_THROUGHPUT_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CORTEX_PROVISIONED_THROUGHPUT_USAGE_HISTORY
+    displayName: CORTEX_PROVISIONED_THROUGHPUT_USAGE_HISTORY
+    deleted: false
+  - id: bb41d3d9-e14b-4c54-95c8-efb612a0f70b
+    type: table
+    name: CORTEX_SEARCH_DAILY_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CORTEX_SEARCH_DAILY_USAGE_HISTORY
+    displayName: CORTEX_SEARCH_DAILY_USAGE_HISTORY
+    deleted: false
+  - id: 677da3f5-5ad6-4569-a4c3-0b9f816cdcf8
+    type: table
+    name: CORTEX_SEARCH_SERVING_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CORTEX_SEARCH_SERVING_USAGE_HISTORY
+    displayName: CORTEX_SEARCH_SERVING_USAGE_HISTORY
+    deleted: false
+  - id: 7bb65050-566b-4f80-b5a5-98934e13eef6
+    type: table
+    name: CREDENTIALS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.CREDENTIALS
+    displayName: CREDENTIALS
+    deleted: false
+  - id: 35f2736a-78b6-4526-a8e9-fccfec04dd8b
+    type: table
+    name: DATABASES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DATABASES
+    displayName: DATABASES
+    deleted: false
+  - id: a2e39561-51eb-4304-8df1-fb58e85a50f8
+    type: table
+    name: DATABASE_REPLICATION_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DATABASE_REPLICATION_USAGE_HISTORY
+    displayName: DATABASE_REPLICATION_USAGE_HISTORY
+    deleted: false
+  - id: 1f3b4f6a-a53b-4470-a9c0-52b0f3d67fc2
+    type: table
+    name: DATABASE_STORAGE_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DATABASE_STORAGE_USAGE_HISTORY
+    displayName: DATABASE_STORAGE_USAGE_HISTORY
+    deleted: false
+  - id: a72ba8dd-eb27-4459-8a61-52b57023d7df
+    type: table
+    name: DATA_CLASSIFICATION_LATEST
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DATA_CLASSIFICATION_LATEST
+    displayName: DATA_CLASSIFICATION_LATEST
+    deleted: false
+  - id: 0a1e33b5-e3b5-4c41-8d25-6cdd7e9552ac
+    type: table
+    name: DATA_METRIC_FUNCTION_EXPECTATIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DATA_METRIC_FUNCTION_EXPECTATIONS
+    displayName: DATA_METRIC_FUNCTION_EXPECTATIONS
+    deleted: false
+  - id: 8a365780-0491-44f0-a3fa-9b3436c2042e
+    type: table
+    name: DATA_METRIC_FUNCTION_REFERENCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DATA_METRIC_FUNCTION_REFERENCES
+    displayName: DATA_METRIC_FUNCTION_REFERENCES
+    deleted: false
+  - id: d7155c05-02ea-43b5-ad23-b805cbf54f92
+    type: table
+    name: DATA_QUALITY_MONITORING_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DATA_QUALITY_MONITORING_USAGE_HISTORY
+    displayName: DATA_QUALITY_MONITORING_USAGE_HISTORY
+    deleted: false
+  - id: 85479535-2d36-42ce-9b9e-647d019a7aa1
+    type: table
+    name: DATA_TRANSFER_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DATA_TRANSFER_HISTORY
+    displayName: DATA_TRANSFER_HISTORY
+    deleted: false
+  - id: 050d32f2-65a3-4726-81d2-d39b1dc8c79c
+    type: table
+    name: DBT_PROJECT_EXECUTION_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DBT_PROJECT_EXECUTION_HISTORY
+    displayName: DBT_PROJECT_EXECUTION_HISTORY
+    deleted: false
+  - id: ebc81ab1-ea53-467c-8858-61fae1fbca21
+    type: table
+    name: DOCUMENT_AI_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DOCUMENT_AI_USAGE_HISTORY
+    displayName: DOCUMENT_AI_USAGE_HISTORY
+    deleted: false
+  - id: f0873fa8-2758-4823-95b3-282ecb07ab37
+    type: table
+    name: DYNAMIC_TABLE_REFRESH_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.DYNAMIC_TABLE_REFRESH_HISTORY
+    displayName: DYNAMIC_TABLE_REFRESH_HISTORY
+    deleted: false
+  - id: fd0f166d-ebb7-4f50-a2ac-13fb9eca3014
+    type: table
+    name: ELEMENT_TYPES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.ELEMENT_TYPES
+    displayName: ELEMENT_TYPES
+    deleted: false
+  - id: 37860cb6-9cd4-485c-b24b-bc1a0bca335a
+    type: table
+    name: EVENT_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.EVENT_USAGE_HISTORY
+    displayName: EVENT_USAGE_HISTORY
+    deleted: false
+  - id: 890425a0-a0d1-4c67-ae93-60ce9b59b7c5
+    type: table
+    name: EXTERNAL_ACCESS_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.EXTERNAL_ACCESS_HISTORY
+    displayName: EXTERNAL_ACCESS_HISTORY
+    deleted: false
+  - id: ace8fdd5-c6de-446f-b5f9-56adfaaa6a88
+    type: table
+    name: FEATURE_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.FEATURE_POLICIES
+    displayName: FEATURE_POLICIES
+    deleted: false
+  - id: 14b2c97d-622e-41f4-b487-7e895edb8736
+    type: table
+    name: FIELDS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.FIELDS
+    displayName: FIELDS
+    deleted: false
+  - id: 732f74a8-e862-474c-899b-cf7a12eaca37
+    type: table
+    name: FILE_FORMATS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.FILE_FORMATS
+    displayName: FILE_FORMATS
+    deleted: false
+  - id: f671fd82-2e5d-4d5f-8385-bbe7b0f707ce
+    type: table
+    name: FUNCTIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.FUNCTIONS
+    displayName: FUNCTIONS
+    deleted: false
+  - id: 7feea6e9-36e8-405c-b8db-0779a2114f04
+    type: table
+    name: GRANTS_TO_ROLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.GRANTS_TO_ROLES
+    displayName: GRANTS_TO_ROLES
+    deleted: false
+  - id: 48a89f49-aabb-497c-a90c-f35ae20453fa
+    type: table
+    name: GRANTS_TO_USERS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.GRANTS_TO_USERS
+    displayName: GRANTS_TO_USERS
+    deleted: false
+  - id: cc5eb5e7-7d4c-449e-84b3-001cd8870c93
+    type: table
+    name: HYBRID_TABLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.HYBRID_TABLES
+    displayName: HYBRID_TABLES
+    deleted: false
+  - id: de9777e9-b802-497a-a7bb-03737d0da98d
+    type: table
+    name: HYBRID_TABLE_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.HYBRID_TABLE_USAGE_HISTORY
+    displayName: HYBRID_TABLE_USAGE_HISTORY
+    deleted: false
+  - id: 3d61fd06-0749-43c5-b8d1-961e9a27f838
+    type: table
+    name: ICEBERG_STORAGE_OPTIMIZATION_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.ICEBERG_STORAGE_OPTIMIZATION_HISTORY
+    displayName: ICEBERG_STORAGE_OPTIMIZATION_HISTORY
+    deleted: false
+  - id: e5865e58-9897-4274-9be3-147b1630bb80
+    type: table
+    name: INDEXES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.INDEXES
+    displayName: INDEXES
+    deleted: false
+  - id: 2e5b128e-065c-4ccc-b6fa-8b7ad1899752
+    type: table
+    name: INDEX_COLUMNS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.INDEX_COLUMNS
+    displayName: INDEX_COLUMNS
+    deleted: false
+  - id: 660e00a9-3b8e-4a80-8fcc-82b6b56ab276
+    type: table
+    name: INGRESS_NETWORK_ACCESS_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.INGRESS_NETWORK_ACCESS_HISTORY
+    displayName: INGRESS_NETWORK_ACCESS_HISTORY
+    deleted: false
+  - id: c648aff1-0b29-43b5-80f1-b0a1f0679727
+    type: table
+    name: INTERNAL_DATA_TRANSFER_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.INTERNAL_DATA_TRANSFER_HISTORY
+    displayName: INTERNAL_DATA_TRANSFER_HISTORY
+    deleted: false
+  - id: 9081f280-7ce1-4dd7-a288-cbd515f538da
+    type: table
+    name: INTERNAL_STAGE_NETWORK_ACCESS_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.INTERNAL_STAGE_NETWORK_ACCESS_HISTORY
+    displayName: INTERNAL_STAGE_NETWORK_ACCESS_HISTORY
+    deleted: false
+  - id: bcdc20de-5cc0-4f40-9a9f-e766b19f8e66
+    type: table
+    name: JOIN_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.JOIN_POLICIES
+    displayName: JOIN_POLICIES
+    deleted: false
+  - id: 73ef6ccb-e197-4321-9dcc-bc5015ebf678
+    type: table
+    name: LOAD_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.LOAD_HISTORY
+    displayName: LOAD_HISTORY
+    deleted: false
+  - id: 051c2966-fef2-46e7-a7a4-d60a545a14a1
+    type: table
+    name: LOCK_WAIT_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.LOCK_WAIT_HISTORY
+    displayName: LOCK_WAIT_HISTORY
+    deleted: false
+  - id: a1293f18-fb31-4fa2-9300-359af804f41b
+    type: table
+    name: LOGIN_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.LOGIN_HISTORY
+    displayName: LOGIN_HISTORY
+    deleted: false
+  - id: e05cd8ec-5e3c-47c1-9e7b-035a0a6cd62b
+    type: table
+    name: MASKING_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.MASKING_POLICIES
+    displayName: MASKING_POLICIES
+    deleted: false
+  - id: 2eeffe2e-1260-4da8-89fb-3263ef8b2f3b
+    type: table
+    name: MATERIALIZED_VIEW_REFRESH_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.MATERIALIZED_VIEW_REFRESH_HISTORY
+    displayName: MATERIALIZED_VIEW_REFRESH_HISTORY
+    deleted: false
+  - id: 369ccdc3-d82e-4e4c-a9bb-ac152da347f3
+    type: table
+    name: METERING_DAILY_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.METERING_DAILY_HISTORY
+    displayName: METERING_DAILY_HISTORY
+    deleted: false
+  - id: 98829f7d-4cd2-4835-bb69-d54b823d425a
+    type: table
+    name: METERING_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.METERING_HISTORY
+    displayName: METERING_HISTORY
+    deleted: false
+  - id: f3730bcb-56e7-4d4d-9a48-f9727205a74e
+    type: table
+    name: NETWORK_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.NETWORK_POLICIES
+    displayName: NETWORK_POLICIES
+    deleted: false
+  - id: 4e7fcf2e-4aa1-47e8-96ef-a70ad993114d
+    type: table
+    name: NETWORK_RULES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.NETWORK_RULES
+    displayName: NETWORK_RULES
+    deleted: false
+  - id: 6c52ed8b-38ce-4a99-8d74-e3cd26ebffa7
+    type: table
+    name: NETWORK_RULE_REFERENCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.NETWORK_RULE_REFERENCES
+    displayName: NETWORK_RULE_REFERENCES
+    deleted: false
+  - id: 52969a8f-fe64-4f79-b1a5-4e996935ea47
+    type: table
+    name: NOTEBOOKS_CONTAINER_RUNTIME_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.NOTEBOOKS_CONTAINER_RUNTIME_HISTORY
+    displayName: NOTEBOOKS_CONTAINER_RUNTIME_HISTORY
+    deleted: false
+  - id: a2270487-d3bd-4ac2-9943-4a0fd5335669
+    type: table
+    name: OBJECT_ACCESS_REQUEST_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.OBJECT_ACCESS_REQUEST_HISTORY
+    displayName: OBJECT_ACCESS_REQUEST_HISTORY
+    deleted: false
+  - id: 49cedc20-fc3a-4b03-b048-b5672be751bd
+    type: table
+    name: OBJECT_DEPENDENCIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.OBJECT_DEPENDENCIES
+    displayName: OBJECT_DEPENDENCIES
+    deleted: false
+  - id: 40aee0b9-902b-4517-b380-fabc2fe34465
+    type: table
+    name: ONLINE_FEATURE_TABLE_REFRESH_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.ONLINE_FEATURE_TABLE_REFRESH_HISTORY
+    displayName: ONLINE_FEATURE_TABLE_REFRESH_HISTORY
+    deleted: false
+  - id: 1a0adef5-200f-45e8-ace7-ec04e7ab16fd
+    type: table
+    name: OPENFLOW_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.OPENFLOW_USAGE_HISTORY
+    displayName: OPENFLOW_USAGE_HISTORY
+    deleted: false
+  - id: 6f9bd1c1-52c1-4313-b816-90e5617048e3
+    type: table
+    name: OUTBOUND_PRIVATELINK_ENDPOINTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.OUTBOUND_PRIVATELINK_ENDPOINTS
+    displayName: OUTBOUND_PRIVATELINK_ENDPOINTS
+    deleted: false
+  - id: e2c2c0d2-5032-4648-a405-6f2936166ba9
+    type: table
+    name: PASSWORD_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.PASSWORD_POLICIES
+    displayName: PASSWORD_POLICIES
+    deleted: false
+  - id: 11440f84-8de1-4598-a691-778cb68617e5
+    type: table
+    name: PIPES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.PIPES
+    displayName: PIPES
+    deleted: false
+  - id: 6a5e612a-b022-4165-9448-463fa9c3f478
+    type: table
+    name: PIPE_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.PIPE_USAGE_HISTORY
+    displayName: PIPE_USAGE_HISTORY
+    deleted: false
+  - id: 14755908-b872-46da-9208-31e17d907744
+    type: table
+    name: POLICY_REFERENCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.POLICY_REFERENCES
+    displayName: POLICY_REFERENCES
+    deleted: false
+  - id: 4bbf2261-b8be-44fd-823f-8968895dae08
+    type: table
+    name: PRIVACY_BUDGETS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.PRIVACY_BUDGETS
+    displayName: PRIVACY_BUDGETS
+    deleted: false
+  - id: ae7e9230-1540-42b0-bc87-0f799c56fce2
+    type: table
+    name: PRIVACY_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.PRIVACY_POLICIES
+    displayName: PRIVACY_POLICIES
+    deleted: false
+  - id: d75fcb27-fa3e-4b36-bfcf-4d14d178b53f
+    type: table
+    name: PROCEDURES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.PROCEDURES
+    displayName: PROCEDURES
+    deleted: false
+  - id: dd14a89d-a9ac-4d3e-86b8-ffe9116386de
+    type: table
+    name: PROJECTION_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.PROJECTION_POLICIES
+    displayName: PROJECTION_POLICIES
+    deleted: false
+  - id: d918b32b-30d4-4d1f-af8c-46cf882e7e3e
+    type: table
+    name: QUERY_ACCELERATION_ELIGIBLE
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.QUERY_ACCELERATION_ELIGIBLE
+    displayName: QUERY_ACCELERATION_ELIGIBLE
+    deleted: false
+  - id: e0b05a86-a539-4177-91fe-d0d94ecc43b6
+    type: table
+    name: QUERY_ACCELERATION_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.QUERY_ACCELERATION_HISTORY
+    displayName: QUERY_ACCELERATION_HISTORY
+    deleted: false
+  - id: 69e501e0-441b-4fd9-9099-93476a0d48bd
+    type: table
+    name: QUERY_ATTRIBUTION_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.QUERY_ATTRIBUTION_HISTORY
+    displayName: QUERY_ATTRIBUTION_HISTORY
+    deleted: false
+  - id: e8533163-d8d4-4d2b-9f4f-d6fd2cb9460a
+    type: table
+    name: QUERY_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.QUERY_HISTORY
+    displayName: QUERY_HISTORY
+    deleted: false
+  - id: 7f7724a2-6b1f-433d-8086-b7fc49e55090
+    type: table
+    name: QUERY_INSIGHTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.QUERY_INSIGHTS
+    displayName: QUERY_INSIGHTS
+    deleted: false
+  - id: 62eb7e85-357b-45d3-93fc-0b09197897a0
+    type: table
+    name: REFERENTIAL_CONSTRAINTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.REFERENTIAL_CONSTRAINTS
+    displayName: REFERENTIAL_CONSTRAINTS
+    deleted: false
+  - id: 7f526065-295f-4e80-bab7-273e7a8763b5
+    type: table
+    name: REPLICATION_GROUPS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.REPLICATION_GROUPS
+    displayName: REPLICATION_GROUPS
+    deleted: false
+  - id: 901a2bb8-6029-458e-ad20-642b015b931d
+    type: table
+    name: REPLICATION_GROUP_REFRESH_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.REPLICATION_GROUP_REFRESH_HISTORY
+    displayName: REPLICATION_GROUP_REFRESH_HISTORY
+    deleted: false
+  - id: 2b5b6c04-fd3f-4512-8d44-d8514f8541cf
+    type: table
+    name: REPLICATION_GROUP_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.REPLICATION_GROUP_USAGE_HISTORY
+    displayName: REPLICATION_GROUP_USAGE_HISTORY
+    deleted: false
+  - id: 7f4f33dd-dbb1-4920-8544-bc35df5f09a4
+    type: table
+    name: REPLICATION_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.REPLICATION_USAGE_HISTORY
+    displayName: REPLICATION_USAGE_HISTORY
+    deleted: false
+  - id: c649b5ef-3e3e-46dc-8f93-34f3f42c6cd2
+    type: table
+    name: RESOURCE_MONITORS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.RESOURCE_MONITORS
+    displayName: RESOURCE_MONITORS
+    deleted: false
+  - id: d9bd67c7-0fa5-4160-a087-a293e6a82bec
+    type: table
+    name: ROLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.ROLES
+    displayName: ROLES
+    deleted: false
+  - id: cf434ce7-be29-49a0-929d-2239355d5b59
+    type: table
+    name: ROW_ACCESS_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.ROW_ACCESS_POLICIES
+    displayName: ROW_ACCESS_POLICIES
+    deleted: false
+  - id: 001624f3-1226-42c2-9743-6806197035fd
+    type: table
+    name: SCHEMATA
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SCHEMATA
+    displayName: SCHEMATA
+    deleted: false
+  - id: 99fae4d9-2bad-48d0-83e0-7097c11f3733
+    type: table
+    name: SEARCH_OPTIMIZATION_BENEFITS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEARCH_OPTIMIZATION_BENEFITS
+    displayName: SEARCH_OPTIMIZATION_BENEFITS
+    deleted: false
+  - id: 840f7f71-9fd4-47bb-b841-b2077c69efd4
+    type: table
+    name: SEARCH_OPTIMIZATION_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEARCH_OPTIMIZATION_HISTORY
+    displayName: SEARCH_OPTIMIZATION_HISTORY
+    deleted: false
+  - id: 2dfdeeac-6a7c-47da-a4af-ac808a4210ec
+    type: table
+    name: SECRETS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SECRETS
+    displayName: SECRETS
+    deleted: false
+  - id: 6a71dd1a-6235-4c43-802a-73abe463ba5f
+    type: table
+    name: SEMANTIC_DIMENSIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEMANTIC_DIMENSIONS
+    displayName: SEMANTIC_DIMENSIONS
+    deleted: false
+  - id: 004468a9-0c80-4833-a12e-b73d5ed70bb4
+    type: table
+    name: SEMANTIC_FACTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEMANTIC_FACTS
+    displayName: SEMANTIC_FACTS
+    deleted: false
+  - id: 15a88a84-aab5-4b0b-bafa-0c40895698b7
+    type: table
+    name: SEMANTIC_METRICS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEMANTIC_METRICS
+    displayName: SEMANTIC_METRICS
+    deleted: false
+  - id: d287d3a7-4f9a-4451-bf63-28f7685e5a6a
+    type: table
+    name: SEMANTIC_RELATIONSHIPS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEMANTIC_RELATIONSHIPS
+    displayName: SEMANTIC_RELATIONSHIPS
+    deleted: false
+  - id: e2b64159-4b39-41dd-accb-ab120f143b5f
+    type: table
+    name: SEMANTIC_TABLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEMANTIC_TABLES
+    displayName: SEMANTIC_TABLES
+    deleted: false
+  - id: 24250d27-6762-4d5b-b599-ca027000e7fd
+    type: table
+    name: SEMANTIC_VIEWS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEMANTIC_VIEWS
+    displayName: SEMANTIC_VIEWS
+    deleted: false
+  - id: 4d240f3b-3cb0-401b-8096-cbc599b41ab1
+    type: table
+    name: SEQUENCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SEQUENCES
+    displayName: SEQUENCES
+    deleted: false
+  - id: f067268c-e62b-4fe4-8477-cc914466b143
+    type: table
+    name: SERVERLESS_ALERT_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SERVERLESS_ALERT_HISTORY
+    displayName: SERVERLESS_ALERT_HISTORY
+    deleted: false
+  - id: ef35b4bf-3ad1-40a6-a519-50dba373760e
+    type: table
+    name: SERVERLESS_FLEX_TASK_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SERVERLESS_FLEX_TASK_HISTORY
+    displayName: SERVERLESS_FLEX_TASK_HISTORY
+    deleted: false
+  - id: 384ee71a-ab1b-4a2d-9d5b-92c4f0b08aec
+    type: table
+    name: SERVERLESS_TASK_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SERVERLESS_TASK_HISTORY
+    displayName: SERVERLESS_TASK_HISTORY
+    deleted: false
+  - id: 60d370ba-afe0-4b7e-8a6b-8229ec865c23
+    type: table
+    name: SERVICES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SERVICES
+    displayName: SERVICES
+    deleted: false
+  - id: 0e65804d-eb9c-470d-a070-63b655443929
+    type: table
+    name: SESSIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SESSIONS
+    displayName: SESSIONS
+    deleted: false
+  - id: 9204c763-af11-40c7-9e02-8c0448cb12b2
+    type: table
+    name: SESSION_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SESSION_POLICIES
+    displayName: SESSION_POLICIES
+    deleted: false
+  - id: ed9d78c1-e2ab-43bf-b452-ebda129198da
+    type: table
+    name: SNAPSHOTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNAPSHOTS
+    displayName: SNAPSHOTS
+    deleted: false
+  - id: 459d9fd2-0c50-441c-a8ea-e7b892b70f56
+    type: table
+    name: SNAPSHOT_OPERATION_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNAPSHOT_OPERATION_HISTORY
+    displayName: SNAPSHOT_OPERATION_HISTORY
+    deleted: false
+  - id: 9f9e8018-8950-4cd3-b1ff-4a76f25c91ed
+    type: table
+    name: SNAPSHOT_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNAPSHOT_POLICIES
+    displayName: SNAPSHOT_POLICIES
+    deleted: false
+  - id: ff9fca18-9433-4055-887f-661f3823b8af
+    type: table
+    name: SNAPSHOT_SETS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNAPSHOT_SETS
+    displayName: SNAPSHOT_SETS
+    deleted: false
+  - id: 6392e964-8421-4e19-99fa-ae744d3298a2
+    type: table
+    name: SNAPSHOT_STORAGE_USAGE
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNAPSHOT_STORAGE_USAGE
+    displayName: SNAPSHOT_STORAGE_USAGE
+    deleted: false
+  - id: 64d6f77a-6143-46b0-9411-574a27e907dc
+    type: table
+    name: SNOWPARK_CONTAINER_SERVICES_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNOWPARK_CONTAINER_SERVICES_HISTORY
+    displayName: SNOWPARK_CONTAINER_SERVICES_HISTORY
+    deleted: false
+  - id: 23dbf7c0-3da8-46ba-8861-8bfe9e916461
+    type: table
+    name: SNOWPIPE_STREAMING_CHANNEL_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNOWPIPE_STREAMING_CHANNEL_HISTORY
+    displayName: SNOWPIPE_STREAMING_CHANNEL_HISTORY
+    deleted: false
+  - id: 3b7483ab-1682-4fdd-aabb-84b804e80831
+    type: table
+    name: SNOWPIPE_STREAMING_CLIENT_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNOWPIPE_STREAMING_CLIENT_HISTORY
+    displayName: SNOWPIPE_STREAMING_CLIENT_HISTORY
+    deleted: false
+  - id: 58f94a53-e431-4de8-b8fd-b85084ead127
+    type: table
+    name: SNOWPIPE_STREAMING_FILE_MIGRATION_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SNOWPIPE_STREAMING_FILE_MIGRATION_HISTORY
+    displayName: SNOWPIPE_STREAMING_FILE_MIGRATION_HISTORY
+    deleted: false
+  - id: d12b323e-ab51-4d84-940a-8a6220f6ebf5
+    type: table
+    name: SPCS_EGRESS_ACCESS_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.SPCS_EGRESS_ACCESS_HISTORY
+    displayName: SPCS_EGRESS_ACCESS_HISTORY
+    deleted: false
+  - id: 5f9a193b-079b-4442-ac9c-d8e74fdbfd61
+    type: table
+    name: STAGES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.STAGES
+    displayName: STAGES
+    deleted: false
+  - id: 6abdcdf8-1076-4aa2-a4f0-79abbbdf73d3
+    type: table
+    name: STAGE_STORAGE_USAGE_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.STAGE_STORAGE_USAGE_HISTORY
+    displayName: STAGE_STORAGE_USAGE_HISTORY
+    deleted: false
+  - id: 020449ad-36d5-4215-8150-c1cc896ca4af
+    type: table
+    name: STORAGE_LIFECYCLE_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.STORAGE_LIFECYCLE_POLICIES
+    displayName: STORAGE_LIFECYCLE_POLICIES
+    deleted: false
+  - id: bf3bd49a-cd95-4e1b-8245-1384ff236eee
+    type: table
+    name: STORAGE_LIFECYCLE_POLICY_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.STORAGE_LIFECYCLE_POLICY_HISTORY
+    displayName: STORAGE_LIFECYCLE_POLICY_HISTORY
+    deleted: false
+  - id: e7c3f96a-ad8b-4269-a64a-9bb6607cd698
+    type: table
+    name: STORAGE_USAGE
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.STORAGE_USAGE
+    displayName: STORAGE_USAGE
+    deleted: false
+  - id: 722c6892-502f-4d7a-9b1c-b1ebd4d16559
+    type: table
+    name: TABLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TABLES
+    displayName: TABLES
+    deleted: false
+  - id: 11acb8b9-e21b-4d22-9824-ee8a650dab3d
+    type: table
+    name: TABLE_CONSTRAINTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TABLE_CONSTRAINTS
+    displayName: TABLE_CONSTRAINTS
+    deleted: false
+  - id: e5b6270b-fb12-4e26-8e53-181ca066ac03
+    type: table
+    name: TABLE_DML_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TABLE_DML_HISTORY
+    displayName: TABLE_DML_HISTORY
+    deleted: false
+  - id: 97d25431-18d3-44dd-ba44-10be2809e1b4
+    type: table
+    name: TABLE_PRUNING_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TABLE_PRUNING_HISTORY
+    displayName: TABLE_PRUNING_HISTORY
+    deleted: false
+  - id: f20d6409-6dbd-46c3-9991-3e362d917180
+    type: table
+    name: TABLE_QUERY_PRUNING_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TABLE_QUERY_PRUNING_HISTORY
+    displayName: TABLE_QUERY_PRUNING_HISTORY
+    deleted: false
+  - id: e03c4ff8-b83d-48e6-b070-1a5b5d486c16
+    type: table
+    name: TABLE_STORAGE_METRICS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TABLE_STORAGE_METRICS
+    displayName: TABLE_STORAGE_METRICS
+    deleted: false
+  - id: 599bb2df-d45b-44ec-9c2e-2c7c3c0d56f7
+    type: table
+    name: TAGS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TAGS
+    displayName: TAGS
+    deleted: false
+  - id: c9628061-b808-4651-9d7e-2bed215623d2
+    type: table
+    name: TAG_REFERENCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TAG_REFERENCES
+    displayName: TAG_REFERENCES
+    deleted: false
+  - id: eb86b72e-3e1a-4a2e-9d00-12a1860837c4
+    type: table
+    name: TASK_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TASK_HISTORY
+    displayName: TASK_HISTORY
+    deleted: false
+  - id: b6833ea9-7906-4dd1-81a3-5334c5cab0a6
+    type: table
+    name: TASK_VERSIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TASK_VERSIONS
+    displayName: TASK_VERSIONS
+    deleted: false
+  - id: 12354cf0-53dc-44eb-90e1-e3bc536fa354
+    type: table
+    name: TRUST_CENTER_FINDINGS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.TRUST_CENTER_FINDINGS
+    displayName: TRUST_CENTER_FINDINGS
+    deleted: false
+  - id: 210156c8-db14-49bc-9555-83df27ac9b55
+    type: table
+    name: USERS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.USERS
+    displayName: USERS
+    deleted: false
+  - id: 143edb6e-951e-492c-9b49-0d547f0a6f24
+    type: table
+    name: VIEWS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.VIEWS
+    displayName: VIEWS
+    deleted: false
+  - id: e71b5d16-69b0-49d7-a27b-c2331710a052
+    type: table
+    name: WAREHOUSE_EVENTS_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.WAREHOUSE_EVENTS_HISTORY
+    displayName: WAREHOUSE_EVENTS_HISTORY
+    deleted: false
+  - id: c464ad22-5a6f-473b-83a7-5d1e19695e9e
+    type: table
+    name: WAREHOUSE_LOAD_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.WAREHOUSE_LOAD_HISTORY
+    displayName: WAREHOUSE_LOAD_HISTORY
+    deleted: false
+  - id: 25beddff-c4d8-4ebf-b426-a0ca34710858
+    type: table
+    name: WAREHOUSE_METERING_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE.WAREHOUSE_METERING_HISTORY
+    displayName: WAREHOUSE_METERING_HISTORY
+    deleted: false
+tags:
+  - tagFQN: Ayush.Test
+    name: Test
+    displayName: Test
+    description: <p>Test</p>
+    style: {}
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedBy: admin
+sourceUrl: https://app.snowflake.com/fmfahqk/gi58232/#/data/databases/SNOWFLAKE/schemas/ACCOUNT_USAGE
+domains: []
+sourceHash: 08af142d166cb8560320fb693541da50
+entityStatus: Unprocessed

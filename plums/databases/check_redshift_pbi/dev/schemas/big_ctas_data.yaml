@@ -1,0 +1,33 @@
+name: big_ctas_data
+fullyQualifiedName: check_redshift_pbi.dev.big_ctas_data
+dataProducts: []
+owners: []
+service:
+  id: a3b05d3d-c60d-44fe-83cc-7188fb834a13
+  type: databaseService
+  name: check_redshift_pbi
+  fullyQualifiedName: check_redshift_pbi
+  description: ""
+  displayName: check_redshift_pbi
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5b24b962-c5da-40cb-8337-cafa3b99990f
+  type: database
+  name: dev
+  fullyQualifiedName: check_redshift_pbi.dev
+  displayName: dev
+  deleted: false
+tables: []
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: false
+      newValue: true
+  fieldsDeleted: []
+  previousVersion: 0.1
+domains: []
+sourceHash: 1d0f547697e88530572b8d1e1cd76f42
+entityStatus: Unprocessed

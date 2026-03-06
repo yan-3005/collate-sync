@@ -1,0 +1,73 @@
+name: dbt_tmontiel
+fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel
+dataProducts: []
+owners: []
+service:
+  id: a3b05d3d-c60d-44fe-83cc-7188fb834a13
+  type: databaseService
+  name: check_redshift_pbi
+  fullyQualifiedName: check_redshift_pbi
+  description: ""
+  displayName: check_redshift_pbi
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5b24b962-c5da-40cb-8337-cafa3b99990f
+  type: database
+  name: dev
+  fullyQualifiedName: check_redshift_pbi.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 7a45d67d-d772-4a47-a0b4-049f08a2b2ca
+    type: table
+    name: category_sales_percentage
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel.category_sales_percentage
+    displayName: category_sales_percentage
+    deleted: false
+  - id: 1b1129f3-7187-4b40-a68b-9f2ac21dab67
+    type: table
+    name: my_first_dbt_model
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel.my_first_dbt_model
+    displayName: my_first_dbt_model
+    deleted: false
+  - id: 81592049-4e44-47a0-a172-6b1769d07651
+    type: table
+    name: my_second_dbt_model
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel.my_second_dbt_model
+    displayName: my_second_dbt_model
+    deleted: false
+  - id: da61bfcd-97dd-408a-b62e-955801792f54
+    type: table
+    name: products_by_most_price_changes_with_avg_review
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel.products_by_most_price_changes_with_avg_review
+    displayName: products_by_most_price_changes_with_avg_review
+    deleted: false
+  - id: 2878f38c-d99b-4937-a48f-3c122ed9c534
+    type: table
+    name: quarterly_returned_orders_percentage
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel.quarterly_returned_orders_percentage
+    displayName: quarterly_returned_orders_percentage
+    deleted: false
+  - id: 4f7c80af-ab62-4566-8e67-df280949b5f2
+    type: table
+    name: returned_orders_percentage_by_quarter
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel.returned_orders_percentage_by_quarter
+    displayName: returned_orders_percentage_by_quarter
+    deleted: false
+  - id: 950d95e3-1270-4404-9808-a9772c40116b
+    type: table
+    name: top_5_product_categories_market_share
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel.top_5_product_categories_market_share
+    displayName: top_5_product_categories_market_share
+    deleted: false
+  - id: 8b9d9f61-33be-4623-90dd-86926aac48ee
+    type: table
+    name: top_5_products_by_sales
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel.top_5_products_by_sales
+    displayName: top_5_products_by_sales
+    deleted: false
+tags: []
+domains: []
+sourceHash: af13d923114d2d2c4c6708a5e7ad017d
+entityStatus: Unprocessed

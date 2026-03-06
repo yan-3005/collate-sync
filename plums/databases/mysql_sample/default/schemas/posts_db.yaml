@@ -1,0 +1,92 @@
+name: posts_db
+fullyQualifiedName: mysql_sample.default.posts_db
+description: <p>Posts DB Schema</p>
+dataProducts: []
+owners:
+  - id: 68ee0b0f-eec7-4381-9c96-ac552caa618d
+    type: user
+    name: ram.balaji
+    fullyQualifiedName: '"ram.balaji"'
+    description: ""
+    displayName: Ram Narayan Balaji
+    deleted: false
+service:
+  id: b3aeca5a-81c6-4016-a65e-31183c56d2f0
+  type: databaseService
+  name: mysql_sample
+  fullyQualifiedName: mysql_sample
+  displayName: mysql_sample
+  deleted: false
+serviceType: Mysql
+database:
+  id: e44c6cf8-bd2a-4b91-bd0c-07f4f5c27917
+  type: database
+  name: default
+  fullyQualifiedName: mysql_sample.default
+  displayName: default
+  deleted: false
+tables:
+  - id: ccc21094-596a-499a-8bb9-79e1940341ec
+    type: table
+    name: Categories
+    fullyQualifiedName: mysql_sample.default.posts_db.Categories
+    description: "This table stores categories for posts, allowing users to organize\
+      \ and classify content effectively. By utilizing this structure, users can easily\
+      \ filter and retrieve posts based on specific categories, enhancing content\
+      \ discoverability and user experience."
+    displayName: Categories
+    deleted: false
+  - id: 8fd355f5-603d-41d3-92f6-244f6150a97a
+    type: table
+    name: Comments
+    fullyQualifiedName: mysql_sample.default.posts_db.Comments
+    description: "This table stores user comments on posts, capturing details such\
+      \ as the comment text, associated post and user IDs, and the timestamp of creation,\
+      \ enabling analysis of user engagement and feedback on content."
+    displayName: Comments
+    deleted: false
+  - id: 5562b53e-96f8-4561-a566-b7eac8015f61
+    type: table
+    name: PostTags
+    fullyQualifiedName: mysql_sample.default.posts_db.PostTags
+    description: <p>Post Tags Table</p>
+    displayName: PostTags
+    deleted: false
+  - id: 40dcfade-4504-424e-ab56-d7eadf117e70
+    type: table
+    name: Posts
+    fullyQualifiedName: mysql_sample.default.posts_db.Posts
+    description: <p>Posts Table</p>
+    displayName: Posts
+    deleted: false
+  - id: 81fa8fec-ef42-4d3b-b755-cb9c0fde3395
+    type: table
+    name: Profiles
+    fullyQualifiedName: mysql_sample.default.posts_db.Profiles
+    displayName: Profiles
+    deleted: false
+  - id: e67395e8-abc4-4616-8a81-bf94a2aeaf89
+    type: table
+    name: Tags
+    fullyQualifiedName: mysql_sample.default.posts_db.Tags
+    displayName: Tags
+    deleted: false
+  - id: a1b14e15-682d-4094-a42e-9d9a71883798
+    type: table
+    name: Users
+    fullyQualifiedName: mysql_sample.default.posts_db.Users
+    description: <p>Users Table</p>
+    displayName: Users
+    deleted: false
+tags: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: description
+      newValue: <p>Posts DB Schema</p>
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.3
+  changeSummary: {}
+sourceUrl: https://localhost:3306/posts_db
+domains: []
+entityStatus: Unprocessed

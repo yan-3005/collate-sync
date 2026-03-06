@@ -1,0 +1,99 @@
+name: test_schema
+fullyQualifiedName: Trino_service.test_catalog.test_schema
+dataProducts: []
+owners: []
+service:
+  id: 03aca61a-c7bb-48c0-94e1-8cfdc05c44f0
+  type: databaseService
+  name: Trino_service
+  fullyQualifiedName: Trino_service
+  description: ""
+  displayName: Trino_service
+  deleted: false
+serviceType: Trino
+database:
+  id: 0abaf531-dbea-491f-aca5-8ddfb0b4c537
+  type: database
+  name: test_catalog
+  fullyQualifiedName: Trino_service.test_catalog
+  displayName: test_catalog
+  deleted: false
+tables:
+  - id: 7176df34-5795-4faa-977e-c81adf92e3bf
+    type: table
+    name: customer_summary
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.customer_summary
+    displayName: customer_summary
+    deleted: false
+  - id: 987ec279-b93c-44dd-b5d8-43b4c5215feb
+    type: table
+    name: customer_view
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.customer_view
+    description: new description for testing reverse metadata3
+    displayName: customer_view
+    deleted: false
+  - id: 93cff7b0-98a5-4c01-9ccb-60c4c1c3d563
+    type: table
+    name: customers
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.customers
+    description: Yet another new description for testing audit logs
+    displayName: customers
+    deleted: false
+  - id: b9650355-637e-4f9c-bef1-fd4b55cda3bf
+    type: table
+    name: orders
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.orders
+    description: this is a test table showing orders' details
+    displayName: orders
+    deleted: false
+  - id: 0b499e95-6e00-440b-a5dc-aa945a6d05a6
+    type: table
+    name: product_sales
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.product_sales
+    displayName: product_sales
+    deleted: false
+  - id: 9fb74778-d1f0-41f6-aa5f-334e761bd6f8
+    type: table
+    name: products
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.products
+    displayName: products
+    deleted: false
+  - id: 6539a209-74f9-408f-a9f2-b12081a582c6
+    type: table
+    name: test_view
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.test_view
+    displayName: test_view
+    deleted: false
+  - id: 7f547a3e-16a6-4250-bbf3-49f4cd334ab8
+    type: table
+    name: trino_queries_view
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.trino_queries_view
+    displayName: trino_queries_view
+    deleted: false
+  - id: fee6d8c8-5bf9-4571-8fd3-bcf4dbf92af9
+    type: table
+    name: users
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.users
+    description: "Tabla que almacena la información de usuarios del sistema, incluyendo\
+      \ datos de identificación, nombres y contacto por correo electrónico. Esta tabla\
+      \ constituye el registro maestro de usuarios y es fundamental para la gestió\
+      n de identidades y accesos en la plataforma."
+    displayName: users
+    deleted: false
+  - id: 6c012d65-6266-4a6e-baa4-e86992125c6a
+    type: table
+    name: v1_branded_app_crud
+    fullyQualifiedName: Trino_service.test_catalog.test_schema.v1_branded_app_crud
+    displayName: v1_branded_app_crud
+    deleted: false
+tags: []
+domains:
+  - id: 868ace94-2e9d-4087-80df-0649485043fe
+    type: domain
+    name: 1.12.0- release
+    fullyQualifiedName: '"1.12.0- release"'
+    description: <p>1.12.0- release</p>
+    displayName: 1.12.0- release
+    inherited: true
+sourceHash: b8c90058476e0aaeb6af7efafb0ca297
+entityStatus: Unprocessed

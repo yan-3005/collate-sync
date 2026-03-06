@@ -1,0 +1,31 @@
+name: mt_schema
+fullyQualifiedName: test_red_120.dev.mt_schema
+dataProducts: []
+owners: []
+service:
+  id: 9eb1cb58-bbfb-4ae7-bce2-2eb6451e9e45
+  type: databaseService
+  name: test_red_120
+  fullyQualifiedName: test_red_120
+  description: ""
+  displayName: test_red_120
+  deleted: false
+serviceType: Redshift
+database:
+  id: 2f7b9b8f-a08e-436e-8472-ff4cf37268f7
+  type: database
+  name: dev
+  fullyQualifiedName: test_red_120.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 6c4401ff-ee45-4be0-97c2-9b9f06b5d57d
+    type: table
+    name: employees
+    fullyQualifiedName: test_red_120.dev.mt_schema.employees
+    displayName: employees
+    deleted: false
+tags: []
+domains: []
+sourceHash: af35752769ebf2f6a669b955fd9dcff1
+entityStatus: Unprocessed

@@ -1,0 +1,31 @@
+name: hk_schema
+fullyQualifiedName: hk_red_saas.dev.hk_schema
+dataProducts: []
+owners: []
+service:
+  id: 97ae44b5-de87-4474-a2e9-3d812448db87
+  type: databaseService
+  name: hk_red_saas
+  fullyQualifiedName: hk_red_saas
+  description: ""
+  displayName: hk_red_saas
+  deleted: false
+serviceType: Redshift
+database:
+  id: 07609a52-814b-41e5-91d9-b2fcbbb93881
+  type: database
+  name: dev
+  fullyQualifiedName: hk_red_saas.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 14502139-acff-4484-9f74-fa3ad39c2d65
+    type: table
+    name: sample_table
+    fullyQualifiedName: hk_red_saas.dev.hk_schema.sample_table
+    displayName: sample_table
+    deleted: false
+tags: []
+domains: []
+sourceHash: 1ef415ae619c4a3d40b39ae3d8221bd3
+entityStatus: Unprocessed

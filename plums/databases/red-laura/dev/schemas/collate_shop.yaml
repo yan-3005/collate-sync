@@ -1,0 +1,133 @@
+name: collate_shop
+fullyQualifiedName: red-laura.dev.collate_shop
+dataProducts: []
+owners: []
+service:
+  id: ee6c7994-85dd-4e31-89f9-8616bcaef32b
+  type: databaseService
+  name: red-laura
+  fullyQualifiedName: red-laura
+  description: ""
+  displayName: red-laura
+  deleted: false
+serviceType: Redshift
+database:
+  id: e61ccbe4-2654-4f70-9977-9bed701d5c20
+  type: database
+  name: dev
+  fullyQualifiedName: red-laura.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 922f5512-5259-403c-a829-97baa647cd59
+    type: table
+    name: customer360
+    fullyQualifiedName: red-laura.dev.collate_shop.customer360
+    description: "Comprehensive customer analytics view that provides a 360-degree\
+      \ profile of each customer in the Collate Shop system. Aggregates customer demographic\
+      \ information, transactional behavior, and purchasing patterns from multiple\
+      \ source tables (customers, orders, order_items, products) to enable customer\
+      \ segmentation, lifetime value analysis, and targeted marketing strategies.\
+      \ This view supports customer retention initiatives, revenue forecasting, and\
+      \ sustainability tracking through eco-product purchase metrics."
+    displayName: customer360
+    deleted: false
+  - id: 145580b0-fc61-4d7a-9bb8-ed84797fb519
+    type: table
+    name: customer_v0
+    fullyQualifiedName: red-laura.dev.collate_shop.customer_v0
+    description: "Customer view (version 0) containing core customer identification\
+      \ and personal information. This view provides a curated subset of customer\
+      \ data from the raw_customers source table, exposing essential fields for customer\
+      \ identification and basic demographic information used across business operations\
+      \ and analytics."
+    displayName: customer_v0
+    deleted: false
+  - id: c4b2acda-4d51-4d5e-8197-9830b4e53eca
+    type: table
+    name: customers
+    fullyQualifiedName: red-laura.dev.collate_shop.customers
+    description: "Consolidated customer master table containing key customer information\
+      \ and behavioral metrics. This table aggregates customer identification details\
+      \ with their order history and lifetime value calculations, serving as the primary\
+      \ source for customer analytics and segmentation."
+    displayName: customers
+    deleted: false
+  - id: 45d14640-4678-4c5b-ba3e-eedeb9684b6b
+    type: table
+    name: order_items
+    fullyQualifiedName: red-laura.dev.collate_shop.order_items
+    description: "Contains individual line items for each customer order, representing\
+      \ the detailed breakdown of products purchased within each order. This transactional\
+      \ table captures quantity, pricing, and product information for every item included\
+      \ in an order, enabling order fulfillment, revenue calculation, and inventory\
+      \ management processes."
+    displayName: order_items
+    deleted: false
+  - id: 9001819f-504b-4319-83c0-9aa181d4dae8
+    type: table
+    name: orders
+    fullyQualifiedName: red-laura.dev.collate_shop.orders
+    description: "Core transactional table capturing customer orders and their associated\
+      \ payment breakdowns. This table tracks each order's lifecycle status and provides\
+      \ detailed payment information across multiple payment methods including credit\
+      \ cards, coupons, bank transfers, and gift cards. Essential for revenue reporting,\
+      \ order fulfillment processes, and financial reconciliation."
+    displayName: orders
+    deleted: false
+  - id: f2da3d72-4bbb-4c2c-85ef-d0acdfc75b06
+    type: table
+    name: products
+    fullyQualifiedName: red-laura.dev.collate_shop.products
+    description: "Master product catalog table containing core product information\
+      \ for the collate shop e-commerce platform. This table stores the complete inventory\
+      \ of products available for sale, including product identifiers, names, categorization,\
+      \ sustainability attributes, and pricing information. Serves as the primary\
+      \ reference for product data across sales, inventory, and reporting systems."
+    displayName: products
+    deleted: false
+  - id: 58ae2395-3f72-4635-b3cd-82cff51284fe
+    type: table
+    name: raw_customers
+    fullyQualifiedName: red-laura.dev.collate_shop.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: 3b91b03f-0811-49d1-a333-b85e9ce396c7
+    type: table
+    name: raw_orders
+    fullyQualifiedName: red-laura.dev.collate_shop.raw_orders
+    description: "Raw transactional data capturing all customer orders placed in the\
+      \ e-commerce shop. This table serves as the source of truth for order events\
+      \ and contains unprocessed order records including order identification, customer\
+      \ linkage, order timing, and fulfillment status. Used as the foundation for\
+      \ downstream order analytics, reporting, and business intelligence."
+    displayName: raw_orders
+    deleted: false
+  - id: a5fd70ca-45d0-4970-8f02-9720bda65caa
+    type: table
+    name: raw_payments
+    fullyQualifiedName: red-laura.dev.collate_shop.raw_payments
+    displayName: raw_payments
+    deleted: false
+  - id: 3288a59a-b3e8-48ab-84b5-d69320108814
+    type: table
+    name: stg_customers
+    fullyQualifiedName: red-laura.dev.collate_shop.stg_customers
+    displayName: stg_customers
+    deleted: false
+  - id: e9ab9d81-8392-460c-ac3e-9550ef72ba90
+    type: table
+    name: stg_orders
+    fullyQualifiedName: red-laura.dev.collate_shop.stg_orders
+    displayName: stg_orders
+    deleted: false
+  - id: 01e076e6-c0fb-4bcb-b0e5-fa0ab914c2ae
+    type: table
+    name: stg_payments
+    fullyQualifiedName: red-laura.dev.collate_shop.stg_payments
+    displayName: stg_payments
+    deleted: false
+tags: []
+domains: []
+sourceHash: da1de42bedf7d2f5a7416abd21ea6d28
+entityStatus: Unprocessed

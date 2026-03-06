@@ -1,0 +1,79 @@
+name: demo_dbt_jaffle
+fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle
+dataProducts: []
+owners: []
+service:
+  id: a3b05d3d-c60d-44fe-83cc-7188fb834a13
+  type: databaseService
+  name: check_redshift_pbi
+  fullyQualifiedName: check_redshift_pbi
+  description: ""
+  displayName: check_redshift_pbi
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5b24b962-c5da-40cb-8337-cafa3b99990f
+  type: database
+  name: dev
+  fullyQualifiedName: check_redshift_pbi.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 36d24115-212d-4995-957e-51b4a8387502
+    type: table
+    name: customers
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.customers
+    displayName: customers
+    deleted: false
+  - id: 7bee234f-d09d-48af-8a05-014e61c44228
+    type: table
+    name: customers_clean
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.customers_clean
+    displayName: customers_clean
+    deleted: false
+  - id: 577551cd-e403-4470-bec4-78f248ca2f3b
+    type: table
+    name: orders
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.orders
+    displayName: orders
+    deleted: false
+  - id: 339551f7-8f40-4776-93f2-1f0f7b6b7094
+    type: table
+    name: raw_customers
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: 3f4d7d0c-06de-4584-8785-bf67ea9682b2
+    type: table
+    name: raw_orders
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: 08380c5f-7eb8-49e0-aa15-d0243ecba7d4
+    type: table
+    name: raw_payments
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.raw_payments
+    displayName: raw_payments
+    deleted: false
+  - id: 4ecc85ec-c03c-470f-a015-db1b6fe0d949
+    type: table
+    name: stg_customers
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.stg_customers
+    displayName: stg_customers
+    deleted: false
+  - id: b0bee7af-da98-4dca-9b0e-bd485d215c7f
+    type: table
+    name: stg_orders
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.stg_orders
+    displayName: stg_orders
+    deleted: false
+  - id: fd0c16e1-f8d5-4ee6-abe9-186eef3b51cd
+    type: table
+    name: stg_payments
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle.stg_payments
+    displayName: stg_payments
+    deleted: false
+tags: []
+domains: []
+sourceHash: e2842717c5cfcae2a7adf9d3c9cacca6
+entityStatus: Unprocessed

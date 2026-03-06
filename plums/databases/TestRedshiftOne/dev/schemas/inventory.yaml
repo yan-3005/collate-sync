@@ -1,0 +1,37 @@
+name: inventory
+fullyQualifiedName: TestRedshiftOne.dev.inventory
+dataProducts: []
+owners: []
+service:
+  id: 5f20ba3b-b2af-4584-a64c-8bd683dfdc15
+  type: databaseService
+  name: TestRedshiftOne
+  fullyQualifiedName: TestRedshiftOne
+  description: ""
+  displayName: TestRedshiftOne
+  deleted: false
+serviceType: Redshift
+database:
+  id: e7d5c2a2-05a8-44de-9331-a1cd358f6910
+  type: database
+  name: dev
+  fullyQualifiedName: TestRedshiftOne.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 601ef115-669e-4211-aabb-22266dfa243a
+    type: table
+    name: categories
+    fullyQualifiedName: TestRedshiftOne.dev.inventory.categories
+    displayName: categories
+    deleted: false
+  - id: ce7e5383-80f7-4547-addb-f5522cd4623e
+    type: table
+    name: products
+    fullyQualifiedName: TestRedshiftOne.dev.inventory.products
+    displayName: products
+    deleted: false
+tags: []
+domains: []
+sourceHash: a8e0d033fd386076e54729f22c2df62b
+entityStatus: Unprocessed

@@ -1,0 +1,38 @@
+name: testschema
+fullyQualifiedName: BigqueryProd2.open-metadata-beta.testschema
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 2329fcec-cba1-4dd5-91be-9e7a3820a1ca
+  type: database
+  name: open-metadata-beta
+  fullyQualifiedName: BigqueryProd2.open-metadata-beta
+  displayName: open-metadata-beta
+  deleted: false
+tables:
+  - id: c89211cf-f724-46f0-9e36-4fc07f19dd45
+    type: table
+    name: test_replication
+    fullyQualifiedName: BigqueryProd2.open-metadata-beta.testschema.test_replication
+    displayName: test_replication
+    deleted: false
+  - id: 014e2024-3d28-4e40-9411-083e67e91d62
+    type: table
+    name: testtable
+    fullyQualifiedName: BigqueryProd2.open-metadata-beta.testschema.testtable
+    displayName: testtable
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=open-metadata-beta&ws=!1m4!1m3!3m2!1sopen-metadata-beta!2stestschema
+domains: []
+sourceHash: 9a4d70ad9e65b47d70da7b54340ac5e3
+entityStatus: Unprocessed

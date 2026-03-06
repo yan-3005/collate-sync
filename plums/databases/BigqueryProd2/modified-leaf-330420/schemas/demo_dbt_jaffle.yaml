@@ -1,0 +1,81 @@
+name: demo_dbt_jaffle
+fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 197a4195-9e15-4b93-8bf4-fdf57225f455
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: BigqueryProd2.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: baa0d784-a96b-4ef9-bfcb-a62558712508
+    type: table
+    name: customers
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.customers
+    description: <p>This table contains customer info</p>
+    displayName: customers
+    deleted: false
+  - id: 7cd8e736-ff09-472e-9e7e-93cc3ef76415
+    type: table
+    name: customers_clean
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.customers_clean
+    displayName: customers_clean
+    deleted: false
+  - id: edb115fc-ca62-4fc5-a2fc-ea3c89fb664a
+    type: table
+    name: orders
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.orders
+    displayName: orders
+    deleted: false
+  - id: 9df03dbc-87fc-4cc8-86c2-07001d75c80f
+    type: table
+    name: raw_customers
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: 17322c37-e7f9-42b9-9f40-df06c1cd0fad
+    type: table
+    name: raw_orders
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: 0cd416ca-cb36-495b-8921-0da88f684db1
+    type: table
+    name: raw_payments
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.raw_payments
+    displayName: raw_payments
+    deleted: false
+  - id: 1ca454ee-d435-46cc-8763-0ff3c5efd002
+    type: table
+    name: stg_customers
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.stg_customers
+    displayName: stg_customers
+    deleted: false
+  - id: beb57b14-89b8-422d-835e-cc09c5bb0966
+    type: table
+    name: stg_orders
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.stg_orders
+    displayName: stg_orders
+    deleted: false
+  - id: ca3d557a-7b0f-482f-9e35-ac8b8eb63869
+    type: table
+    name: stg_payments
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle.stg_payments
+    displayName: stg_payments
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sdemo_dbt_jaffle
+domains: []
+sourceHash: ec3540f6b8f7b6ccf766249e84544df2
+entityStatus: Unprocessed

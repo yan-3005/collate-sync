@@ -1,0 +1,72 @@
+name: HK_SCHEMA
+fullyQualifiedName: hktest.HK_DB.HK_SCHEMA
+dataProducts: []
+owners: []
+service:
+  id: 14237eb5-c32e-404b-9420-070103f86f4b
+  type: databaseService
+  name: hktest
+  fullyQualifiedName: hktest
+  description: ""
+  displayName: hktest
+  deleted: false
+serviceType: Snowflake
+database:
+  id: 63985dcb-5670-4004-b534-e088dfdc07a6
+  type: database
+  name: HK_DB
+  fullyQualifiedName: hktest.HK_DB
+  displayName: HK_DB
+  deleted: false
+tables:
+  - id: 47cdb59b-1c12-48bd-98f1-3ef00837b59e
+    type: table
+    name: A
+    fullyQualifiedName: hktest.HK_DB.HK_SCHEMA.A
+    description: <p>hk1</p>
+    displayName: A
+    deleted: false
+  - id: 11eaa44f-cdc2-474e-b023-f89432048a7e
+    type: table
+    name: B
+    fullyQualifiedName: hktest.HK_DB.HK_SCHEMA.B
+    description: ""
+    displayName: B
+    deleted: false
+  - id: 4808536e-ce46-4122-8b40-825430e24ac0
+    type: table
+    name: C
+    fullyQualifiedName: hktest.HK_DB.HK_SCHEMA.C
+    description: ""
+    displayName: C
+    deleted: false
+  - id: 03967835-b96b-4165-b493-8e66e424bb51
+    type: table
+    name: D
+    fullyQualifiedName: hktest.HK_DB.HK_SCHEMA.D
+    description: "<p>Tabla de dimensión que almacena información de entidades o elementos\
+      \ categorizados con sus nombres, categorías y fechas de creación. Esta tabla\
+      \ sirve como repositorio maestro para el seguimiento temporal de elementos y\
+      \ su clasificación, permitiendo análisis históricos y organizacionales. edw</p>"
+    displayName: D
+    deleted: false
+  - id: 11849fec-7ceb-4ef9-b080-e8b1774d4840
+    type: table
+    name: TEST_VIEW
+    fullyQualifiedName: hktest.HK_DB.HK_SCHEMA.TEST_VIEW
+    description: Vista que proporciona acceso simplificado a los identificadores y
+      nombres de los registros de la tabla D. Esta vista facilita consultas básicas
+      de identificación y nomenclatura de entidades sin necesidad de acceder directamente
+      a la tabla base.
+    displayName: TEST_VIEW
+    deleted: false
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.2
+sourceUrl: https://app.snowflake.com/tshirvw/ve46548/#/data/databases/HK_DB/schemas/HK_SCHEMA
+domains: []
+sourceHash: 4721091324456c443898a8567cbeaac9
+entityStatus: Approved

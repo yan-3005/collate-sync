@@ -1,0 +1,182 @@
+name: COLLATE_SHOP
+fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP
+description: Collate e-commerce
+dataProducts: []
+owners: []
+service:
+  id: 2c6969a7-2da9-438f-a831-90887f08520d
+  type: databaseService
+  name: snwf_tom_collate_shop
+  fullyQualifiedName: snwf_tom_collate_shop
+  description: ""
+  displayName: snwf_tom_collate_shop
+  deleted: false
+serviceType: Snowflake
+database:
+  id: 85868cb2-e76f-40fe-b7bb-aa8268f08e56
+  type: database
+  name: CUSTOMERS
+  fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS
+  description: Updated database description
+  displayName: CUSTOMERS
+  deleted: false
+tables:
+  - id: ba6e9607-c0fa-4a54-b3d1-c6f4e70c759e
+    type: table
+    name: CUSTOMER360
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER360
+    displayName: CUSTOMER360
+    deleted: false
+  - id: b050c7d4-76f4-4a9a-990f-702302845cd8
+    type: table
+    name: CUSTOMERS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMERS
+    description: new 'description'
+    displayName: CUSTOMERS
+    deleted: false
+  - id: 9d7affdd-9882-409b-a716-44fb986e71df
+    type: table
+    name: CUSTOMER_LIFETIME_VALUE
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_LIFETIME_VALUE
+    displayName: CUSTOMER_LIFETIME_VALUE
+    deleted: false
+  - id: 56c14ed6-9235-4554-a8b6-bd5d6b88b11d
+    type: table
+    name: CUSTOMER_V0
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V0
+    displayName: CUSTOMER_V0
+    deleted: false
+  - id: a5342d4c-89b8-4bed-b7ab-016d113d52c2
+    type: table
+    name: CUSTOMER_V1
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V1
+    displayName: CUSTOMER_V1
+    deleted: false
+  - id: 8961fae9-bbe5-45e8-950b-fbc81c9bc966
+    type: table
+    name: CUSTOMER_V2
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V2
+    displayName: CUSTOMER_V2
+    deleted: false
+  - id: 007d406e-faf2-4159-9da3-27f9fea9ff72
+    type: table
+    name: CUSTOMER_V3
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V3
+    displayName: CUSTOMER_V3
+    deleted: false
+  - id: af146d6c-6ab2-49c8-ae86-9b2d9ea11651
+    type: table
+    name: CUSTOMER_V4
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V4
+    displayName: CUSTOMER_V4
+    deleted: false
+  - id: a1c7cd42-cdbc-49e2-9034-a75c02b0e45a
+    type: table
+    name: CUSTOMER_V5
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V5
+    displayName: CUSTOMER_V5
+    deleted: false
+  - id: 018b4ff2-f8bc-4c59-b949-49e5449c4fed
+    type: table
+    name: CUSTOMER_V6
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V6
+    displayName: CUSTOMER_V6
+    deleted: false
+  - id: dedef41c-ded7-42bc-bbf9-95f3de0d3c43
+    type: table
+    name: CUSTOMER_V7
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V7
+    displayName: CUSTOMER_V7
+    deleted: false
+  - id: 621c299b-ac29-466b-92b2-e3c2418ecc6b
+    type: table
+    name: CUSTOMER_V8
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V8
+    displayName: CUSTOMER_V8
+    deleted: false
+  - id: a1595807-2378-470e-af0a-cb2229cec3e0
+    type: table
+    name: CUSTOMER_V9
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.CUSTOMER_V9
+    displayName: CUSTOMER_V9
+    deleted: false
+  - id: 00532daf-511e-4f19-965f-2dad64bdde0a
+    type: table
+    name: LTV_SUMMARY
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.LTV_SUMMARY
+    displayName: LTV_SUMMARY
+    deleted: false
+  - id: bd32086a-0293-49f8-b8b3-830aecfdebd4
+    type: table
+    name: ORDERS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.ORDERS
+    description: DEMO ORDERS
+    displayName: ORDERS
+    deleted: false
+  - id: 355d142c-00d5-41df-9b82-24846769a0f6
+    type: table
+    name: ORDER_ITEMS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.ORDER_ITEMS
+    displayName: ORDER_ITEMS
+    deleted: false
+  - id: ffbd5a9c-dcbd-43e6-9c5a-a1aa7d9d9387
+    type: table
+    name: PRODUCTS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.PRODUCTS
+    displayName: PRODUCTS
+    deleted: false
+  - id: a6f2e0b5-deab-482a-8b5f-8532ddbcf687
+    type: table
+    name: PRODUCT_PERFORMANCE
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.PRODUCT_PERFORMANCE
+    displayName: PRODUCT_PERFORMANCE
+    deleted: false
+  - id: a57213ae-c461-424b-b24f-0fcc1efcf046
+    type: table
+    name: RAW_CUSTOMERS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.RAW_CUSTOMERS
+    description: RAW CUSTOMERS
+    displayName: RAW_CUSTOMERS
+    deleted: false
+  - id: e346e9fc-979e-4a80-8753-7f67860f958d
+    type: table
+    name: RAW_ORDERS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.RAW_ORDERS
+    displayName: RAW_ORDERS
+    deleted: false
+  - id: 1d92f9bc-2e7c-4abe-a996-87fe08746167
+    type: table
+    name: RAW_PAYMENTS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.RAW_PAYMENTS
+    displayName: RAW_PAYMENTS
+    deleted: false
+  - id: b01f0cb7-bc83-464c-8487-4f6bc9aa4403
+    type: table
+    name: STG_CUSTOMERS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.STG_CUSTOMERS
+    displayName: STG_CUSTOMERS
+    deleted: false
+  - id: 5b737e7d-92c5-4f1c-8c8c-960b6bf1abe9
+    type: table
+    name: STG_ORDERS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.STG_ORDERS
+    displayName: STG_ORDERS
+    deleted: false
+  - id: 1a76edbd-eed6-452b-9671-f4503704f85f
+    type: table
+    name: STG_PAYMENTS
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP.STG_PAYMENTS
+    displayName: STG_PAYMENTS
+    deleted: false
+tags:
+  - tagFQN: GENERAL.Person
+    name: Person
+    description: SNOWFLAKE TAG VALUE
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771859149893
+sourceUrl: https://app.snowflake.com/fmfahqk/gi58232/#/data/databases/CUSTOMERS/schemas/COLLATE_SHOP
+domains: []
+sourceHash: 30394ba444b19dac0f3d399d35c4e1ff
+entityStatus: Unprocessed

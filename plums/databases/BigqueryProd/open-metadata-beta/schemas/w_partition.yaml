@@ -1,0 +1,34 @@
+name: w_partition
+fullyQualifiedName: BigqueryProd.open-metadata-beta.w_partition
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: a3b0e343-5bc4-4333-b1c5-44bb1dfab21f
+  type: databaseService
+  name: BigqueryProd
+  fullyQualifiedName: BigqueryProd
+  displayName: BigqueryProd
+  deleted: true
+serviceType: BigQuery
+database:
+  id: 4217c8ae-15bf-433c-b4f5-d0fa5cb541bd
+  type: database
+  name: open-metadata-beta
+  fullyQualifiedName: BigqueryProd.open-metadata-beta
+  displayName: open-metadata-beta
+  deleted: true
+tables: []
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: false
+      newValue: true
+  fieldsDeleted: []
+  previousVersion: 0.1
+sourceUrl: https://console.cloud.google.com/bigquery?project=open-metadata-beta&ws=!1m4!1m3!3m2!1sopen-metadata-beta!2sw_partition
+domains: []
+sourceHash: 8c8786fa9695b50e11cf4930c1f0d9da
+entityStatus: Unprocessed

@@ -1,0 +1,242 @@
+name: test
+fullyQualifiedName: red-pere.dev.test
+dataProducts: []
+owners: []
+service:
+  id: 34bdf347-0d56-435a-9989-b0eaed43af8f
+  type: databaseService
+  name: red-pere
+  fullyQualifiedName: red-pere
+  description: ""
+  displayName: red-pere
+  deleted: false
+serviceType: Redshift
+database:
+  id: 8c2fbaaa-22f9-41c7-ae3a-9beca80cd162
+  type: database
+  name: dev
+  fullyQualifiedName: red-pere.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 5369b979-b2bc-40a8-ae3c-76057307d3ce
+    type: table
+    name: actor
+    fullyQualifiedName: red-pere.dev.test.actor
+    displayName: actor
+    deleted: false
+  - id: 44866d94-c895-4544-bfc1-758a1fab435d
+    type: table
+    name: actor_from_sp
+    fullyQualifiedName: red-pere.dev.test.actor_from_sp
+    displayName: actor_from_sp
+    deleted: false
+  - id: 6b91ee4a-6a8d-44e4-b7e9-2d20ceccd09f
+    type: table
+    name: actor_from_sp_3
+    fullyQualifiedName: red-pere.dev.test.actor_from_sp_3
+    displayName: actor_from_sp_3
+    deleted: false
+  - id: dfac3362-94ac-41fc-a792-756c97c459d1
+    type: table
+    name: ca_table2
+    fullyQualifiedName: red-pere.dev.test.ca_table2
+    displayName: ca_table2
+    deleted: false
+  - id: bca95b60-ad6d-469c-8f83-520db4fc2771
+    type: table
+    name: customer_data_json
+    fullyQualifiedName: red-pere.dev.test.customer_data_json
+    displayName: customer_data_json
+    deleted: false
+  - id: 0f5c6dc7-1199-4aa4-bcea-c020e0264914
+    type: table
+    name: customer_products
+    fullyQualifiedName: red-pere.dev.test.customer_products
+    displayName: customer_products
+    deleted: false
+  - id: fca7a27d-ef79-475c-ac13-dc022bdd1163
+    type: table
+    name: customers
+    fullyQualifiedName: red-pere.dev.test.customers
+    displayName: customers
+    deleted: false
+  - id: 842b17fd-e873-4ad9-8822-cf6fc7de056f
+    type: table
+    name: employees
+    fullyQualifiedName: red-pere.dev.test.employees
+    displayName: employees
+    deleted: false
+  - id: 330c43cd-6549-4587-ba98-efccde7d4d65
+    type: table
+    name: employees_no_sc
+    fullyQualifiedName: red-pere.dev.test.employees_no_sc
+    displayName: employees_no_sc
+    deleted: false
+  - id: 7bcc42dc-4c05-4118-b72e-112e2bf29302
+    type: table
+    name: employees_no_sc_view
+    fullyQualifiedName: red-pere.dev.test.employees_no_sc_view
+    displayName: employees_no_sc_view
+    deleted: false
+  - id: 84e7c631-d5c2-4f5f-ad61-ec319ab0a65a
+    type: table
+    name: film
+    fullyQualifiedName: red-pere.dev.test.film
+    displayName: film
+    deleted: false
+  - id: aec32d1c-b265-41d1-9a08-115445dc9406
+    type: table
+    name: film_actor
+    fullyQualifiedName: red-pere.dev.test.film_actor
+    displayName: film_actor
+    deleted: false
+  - id: a49eb024-726d-4f18-82bb-1d463d1a646e
+    type: table
+    name: landmarks
+    fullyQualifiedName: red-pere.dev.test.landmarks
+    displayName: landmarks
+    deleted: false
+  - id: 95c20a71-aa55-4c80-aa48-a13bbe32c69b
+    type: table
+    name: language
+    fullyQualifiedName: red-pere.dev.test.language
+    displayName: language
+    deleted: false
+  - id: 4a26868a-3abe-40ba-993c-3572e047c80e
+    type: table
+    name: large_view
+    fullyQualifiedName: red-pere.dev.test.large_view
+    displayName: large_view
+    deleted: false
+  - id: 853006a7-9586-4149-8735-e8a4fdbfd49a
+    type: table
+    name: large_view_test
+    fullyQualifiedName: red-pere.dev.test.large_view_test
+    displayName: large_view_test
+    deleted: false
+  - id: fea123a0-9a3a-49ee-a30b-16a920aacc87
+    type: table
+    name: longgg_view
+    fullyQualifiedName: red-pere.dev.test.longgg_view
+    displayName: longgg_view
+    deleted: false
+  - id: f8854966-ba09-408a-a089-8a236def387d
+    type: table
+    name: longgg_view_new
+    fullyQualifiedName: red-pere.dev.test.longgg_view_new
+    displayName: longgg_view_new
+    deleted: false
+  - id: a668d94a-d4b4-4ef7-8d82-9bcdc62b4461
+    type: table
+    name: new_view
+    fullyQualifiedName: red-pere.dev.test.new_view
+    displayName: new_view
+    deleted: false
+  - id: 426f06e0-e281-4506-bd92-0d2f3135c454
+    type: table
+    name: new_view_1
+    fullyQualifiedName: red-pere.dev.test.new_view_1
+    displayName: new_view_1
+    deleted: false
+  - id: b05b3c55-9827-4976-9178-517c52d194e1
+    type: table
+    name: newtable_old
+    fullyQualifiedName: red-pere.dev.test.newtable_old
+    displayName: newtable_old
+    deleted: false
+  - id: 229e3105-1230-45fc-94e3-7a3142610feb
+    type: table
+    name: orders
+    fullyQualifiedName: red-pere.dev.test.orders
+    displayName: orders
+    deleted: false
+  - id: d96ffad5-4e9f-416d-a9e9-03ea2a4b4d66
+    type: table
+    name: products
+    fullyQualifiedName: red-pere.dev.test.products
+    displayName: products
+    deleted: false
+  - id: 771ca21c-9bd9-4e2c-abf6-4131ca8c3d7b
+    type: table
+    name: raw_orders2
+    fullyQualifiedName: red-pere.dev.test.raw_orders2
+    displayName: raw_orders2
+    deleted: false
+  - id: b8ea62e5-be58-4d5c-9ca7-e87853542307
+    type: table
+    name: s_customer
+    fullyQualifiedName: red-pere.dev.test.s_customer
+    displayName: s_customer
+    deleted: false
+  - id: 5a7f1cb6-0d78-4c27-a202-88e0c108dcd9
+    type: table
+    name: s_orderdetails
+    fullyQualifiedName: red-pere.dev.test.s_orderdetails
+    displayName: s_orderdetails
+    deleted: false
+  - id: 65552c45-0590-46d4-93d0-f35f02c1c0d8
+    type: table
+    name: s_orders
+    fullyQualifiedName: red-pere.dev.test.s_orders
+    displayName: s_orders
+    deleted: false
+  - id: 6a9cb2bb-cd6a-461f-a6f7-4545e65badbe
+    type: table
+    name: s_sales
+    fullyQualifiedName: red-pere.dev.test.s_sales
+    displayName: s_sales
+    deleted: false
+  - id: 566a9392-f776-4d2e-9fb1-4b6311183ad2
+    type: table
+    name: sales_second
+    fullyQualifiedName: red-pere.dev.test.sales_second
+    displayName: sales_second
+    deleted: false
+  - id: 82334c66-c510-4425-b41c-5ea30f187154
+    type: table
+    name: sample_more_table
+    fullyQualifiedName: red-pere.dev.test.sample_more_table
+    displayName: sample_more_table
+    deleted: false
+  - id: 0fe4d2ed-4e03-4b9b-aaef-1620e965226d
+    type: table
+    name: sample_table
+    fullyQualifiedName: red-pere.dev.test.sample_table
+    description: This is a sample table storing user data.
+    displayName: sample_table
+    deleted: false
+  - id: c2788487-c645-458b-a990-dbb93a6f9a9a
+    type: table
+    name: sensitive_customers
+    fullyQualifiedName: red-pere.dev.test.sensitive_customers
+    displayName: sensitive_customers
+    deleted: false
+  - id: 15991ba7-88af-4cce-8ade-14429e58cbfa
+    type: table
+    name: table_constraints
+    fullyQualifiedName: red-pere.dev.test.table_constraints
+    displayName: table_constraints
+    deleted: false
+  - id: eb98f03d-e44a-4500-8553-825b04676e31
+    type: table
+    name: test_user
+    fullyQualifiedName: red-pere.dev.test.test_user
+    displayName: test_user
+    deleted: false
+  - id: 3cc6e8bd-acc4-473f-a1e1-cb1638d74935
+    type: table
+    name: test_user_new
+    fullyQualifiedName: red-pere.dev.test.test_user_new
+    displayName: test_user_new
+    deleted: false
+  - id: b50981fe-b666-45b3-a74a-022b3e64aced
+    type: table
+    name: vw_film_actor_info
+    fullyQualifiedName: red-pere.dev.test.vw_film_actor_info
+    displayName: vw_film_actor_info
+    deleted: false
+tags: []
+domains: []
+sourceHash: 40d13eaf3f90a532a0ce8aba85d050c7
+entityStatus: Unprocessed

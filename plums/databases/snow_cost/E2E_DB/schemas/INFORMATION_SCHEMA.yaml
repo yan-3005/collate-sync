@@ -1,0 +1,348 @@
+name: INFORMATION_SCHEMA
+fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA
+description: Views describing the contents of schemas in this database
+dataProducts: []
+owners: []
+service:
+  id: dd68ef55-06e7-4f43-9697-31e37b4559a9
+  type: databaseService
+  name: snow_cost
+  fullyQualifiedName: snow_cost
+  description: ""
+  displayName: snow_cost
+  deleted: false
+serviceType: Snowflake
+database:
+  id: 196e6d43-1fae-48ff-a69b-aa2b7a3b06d8
+  type: database
+  name: E2E_DB
+  fullyQualifiedName: snow_cost.E2E_DB
+  displayName: E2E_DB
+  deleted: false
+tables:
+  - id: 0cd85477-950f-416f-9d37-2252ed60d4e2
+    type: table
+    name: APPLICABLE_ROLES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.APPLICABLE_ROLES
+    displayName: APPLICABLE_ROLES
+    deleted: false
+  - id: ebbf7d09-3cd4-45fc-8a38-b0866a4fa467
+    type: table
+    name: APPLICATION_SPECIFICATIONS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.APPLICATION_SPECIFICATIONS
+    displayName: APPLICATION_SPECIFICATIONS
+    deleted: false
+  - id: 80e803a1-6921-4135-a445-63a90040cdde
+    type: table
+    name: CLASSES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.CLASSES
+    displayName: CLASSES
+    deleted: false
+  - id: 30c95fc2-c2d8-4ada-9ad6-f1577b36737b
+    type: table
+    name: CLASS_INSTANCES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.CLASS_INSTANCES
+    displayName: CLASS_INSTANCES
+    deleted: false
+  - id: fdb5bfc9-ad61-43c9-ba26-1c8b2273b0c5
+    type: table
+    name: CLASS_INSTANCE_FUNCTIONS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.CLASS_INSTANCE_FUNCTIONS
+    displayName: CLASS_INSTANCE_FUNCTIONS
+    deleted: false
+  - id: 9bc67dd1-bb88-454e-b393-5242e10c007c
+    type: table
+    name: CLASS_INSTANCE_PROCEDURES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.CLASS_INSTANCE_PROCEDURES
+    displayName: CLASS_INSTANCE_PROCEDURES
+    deleted: false
+  - id: 63af2df2-39aa-4e93-9691-03629ae03106
+    type: table
+    name: COLUMNS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.COLUMNS
+    displayName: COLUMNS
+    deleted: false
+  - id: fc504ba9-4fe1-4fef-aaf3-18ced93d0e34
+    type: table
+    name: CORTEX_SEARCH_SERVICES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.CORTEX_SEARCH_SERVICES
+    displayName: CORTEX_SEARCH_SERVICES
+    deleted: false
+  - id: f8d6c025-2df5-4e39-9845-eb395998386e
+    type: table
+    name: CORTEX_SEARCH_SERVICE_SCORING_PROFILES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.CORTEX_SEARCH_SERVICE_SCORING_PROFILES
+    displayName: CORTEX_SEARCH_SERVICE_SCORING_PROFILES
+    deleted: false
+  - id: 8250a6d9-b568-4625-983e-ce01af771ee4
+    type: table
+    name: CURRENT_PACKAGES_POLICY
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.CURRENT_PACKAGES_POLICY
+    displayName: CURRENT_PACKAGES_POLICY
+    deleted: false
+  - id: 97d1cffa-9474-45b8-91b9-dc345b9e8c1b
+    type: table
+    name: DATABASES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.DATABASES
+    displayName: DATABASES
+    deleted: false
+  - id: 9d2cd14f-b580-4fb5-b20a-3383eeba716b
+    type: table
+    name: ELEMENT_TYPES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.ELEMENT_TYPES
+    displayName: ELEMENT_TYPES
+    deleted: false
+  - id: 0e17ef27-3f45-451e-99e0-c696d4901b6c
+    type: table
+    name: ENABLED_ROLES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.ENABLED_ROLES
+    displayName: ENABLED_ROLES
+    deleted: false
+  - id: 88667e27-e103-43e8-9f15-ce31d43372a0
+    type: table
+    name: EVENT_TABLES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.EVENT_TABLES
+    displayName: EVENT_TABLES
+    deleted: false
+  - id: cfc9ef67-7087-484f-af50-dd9f366ec6a6
+    type: table
+    name: FIELDS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.FIELDS
+    displayName: FIELDS
+    deleted: false
+  - id: dfb0df34-b2e9-4bdc-afee-9a2e84f3def0
+    type: table
+    name: FILE_FORMATS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.FILE_FORMATS
+    displayName: FILE_FORMATS
+    deleted: false
+  - id: dcce7eb1-ec21-4c87-a1ec-46394dada75a
+    type: table
+    name: FUNCTIONS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.FUNCTIONS
+    displayName: FUNCTIONS
+    deleted: false
+  - id: 3606ab18-3bda-4531-8a40-bef41ffef0af
+    type: table
+    name: GIT_REPOSITORIES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.GIT_REPOSITORIES
+    displayName: GIT_REPOSITORIES
+    deleted: false
+  - id: 56b2eb1b-6e52-4db1-9195-b66b482ec06c
+    type: table
+    name: HYBRID_TABLES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.HYBRID_TABLES
+    displayName: HYBRID_TABLES
+    deleted: false
+  - id: 06c99f65-6aa9-4458-a389-4588923c7d92
+    type: table
+    name: INDEXES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.INDEXES
+    displayName: INDEXES
+    deleted: false
+  - id: 528113b1-a0b6-4d9f-adc6-ca8b75d393ef
+    type: table
+    name: INDEX_COLUMNS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.INDEX_COLUMNS
+    displayName: INDEX_COLUMNS
+    deleted: false
+  - id: 8cbb7934-3829-428f-b5e9-0fe24a163811
+    type: table
+    name: INFORMATION_SCHEMA_CATALOG_NAME
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.INFORMATION_SCHEMA_CATALOG_NAME
+    displayName: INFORMATION_SCHEMA_CATALOG_NAME
+    deleted: false
+  - id: 62d9768b-7ad0-497e-b166-7c9eb8ae4002
+    type: table
+    name: LOAD_HISTORY
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.LOAD_HISTORY
+    displayName: LOAD_HISTORY
+    deleted: false
+  - id: c84c4ef2-0547-464f-bc9f-0974191b36ec
+    type: table
+    name: MODEL_VERSIONS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.MODEL_VERSIONS
+    displayName: MODEL_VERSIONS
+    deleted: false
+  - id: aa6cc9fb-9740-48bd-9e82-f0a7fc2abec7
+    type: table
+    name: NOTEBOOKS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.NOTEBOOKS
+    displayName: NOTEBOOKS
+    deleted: false
+  - id: c3c53f54-c491-44a8-96fe-4544b08564aa
+    type: table
+    name: OBJECT_PRIVILEGES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.OBJECT_PRIVILEGES
+    displayName: OBJECT_PRIVILEGES
+    deleted: false
+  - id: ba796121-3d5e-47df-8d4a-c1e9dfcb2a9d
+    type: table
+    name: PACKAGES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.PACKAGES
+    displayName: PACKAGES
+    deleted: false
+  - id: 1ed2eb09-e49d-4fee-a103-2b1996d0dbf4
+    type: table
+    name: PIPES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.PIPES
+    displayName: PIPES
+    deleted: false
+  - id: 126f1b3b-c5b1-4473-88c3-2012cbf7bb24
+    type: table
+    name: PROCEDURES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.PROCEDURES
+    displayName: PROCEDURES
+    deleted: false
+  - id: 5fe0c9a2-ac12-4ee4-977c-1ca5c4c78b83
+    type: table
+    name: REFERENTIAL_CONSTRAINTS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS
+    displayName: REFERENTIAL_CONSTRAINTS
+    deleted: false
+  - id: 2a705525-581a-4b7e-996e-3ecd36f7b4e4
+    type: table
+    name: REPLICATION_DATABASES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.REPLICATION_DATABASES
+    displayName: REPLICATION_DATABASES
+    deleted: false
+  - id: 6fe1c2ac-854f-4b87-83e1-2b1745ecf6b3
+    type: table
+    name: REPLICATION_GROUPS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.REPLICATION_GROUPS
+    displayName: REPLICATION_GROUPS
+    deleted: false
+  - id: 69646eba-2bb5-43e4-947e-36498a75672e
+    type: table
+    name: SCHEMATA
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SCHEMATA
+    displayName: SCHEMATA
+    deleted: false
+  - id: 861acab3-c4e1-4425-b7b8-5244a1a09fdb
+    type: table
+    name: SEMANTIC_DIMENSIONS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SEMANTIC_DIMENSIONS
+    displayName: SEMANTIC_DIMENSIONS
+    deleted: false
+  - id: b3f9d39d-8b4b-4811-8fee-61d8dbf1efc3
+    type: table
+    name: SEMANTIC_FACTS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SEMANTIC_FACTS
+    displayName: SEMANTIC_FACTS
+    deleted: false
+  - id: b32cddc1-d182-4edc-a13f-6517b635a2a0
+    type: table
+    name: SEMANTIC_METRICS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SEMANTIC_METRICS
+    displayName: SEMANTIC_METRICS
+    deleted: false
+  - id: c6d05cad-d945-4279-a2b3-0ecfdef77644
+    type: table
+    name: SEMANTIC_RELATIONSHIPS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SEMANTIC_RELATIONSHIPS
+    displayName: SEMANTIC_RELATIONSHIPS
+    deleted: false
+  - id: 17e55c1b-dac5-48ff-9f31-8f59978cb29f
+    type: table
+    name: SEMANTIC_TABLES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SEMANTIC_TABLES
+    displayName: SEMANTIC_TABLES
+    deleted: false
+  - id: 1f6d06f6-9d75-43c9-b9b5-e882074f4dba
+    type: table
+    name: SEMANTIC_VIEWS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SEMANTIC_VIEWS
+    displayName: SEMANTIC_VIEWS
+    deleted: false
+  - id: 7fdf01da-6867-454b-8807-ffa60e6e0880
+    type: table
+    name: SEQUENCES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SEQUENCES
+    displayName: SEQUENCES
+    deleted: false
+  - id: e6f72869-e229-48a5-8c0e-40943fad222d
+    type: table
+    name: SERVICES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SERVICES
+    displayName: SERVICES
+    deleted: false
+  - id: 4e71f9f5-5089-445f-9152-0225d3ede028
+    type: table
+    name: SNAPSHOTS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SNAPSHOTS
+    displayName: SNAPSHOTS
+    deleted: false
+  - id: 223240d1-b4e8-49bc-a8e3-921d26caa01d
+    type: table
+    name: SNAPSHOT_POLICIES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SNAPSHOT_POLICIES
+    displayName: SNAPSHOT_POLICIES
+    deleted: false
+  - id: 30e88b72-b08f-4cc7-8589-28eea7332945
+    type: table
+    name: SNAPSHOT_SETS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.SNAPSHOT_SETS
+    displayName: SNAPSHOT_SETS
+    deleted: false
+  - id: 0be674f2-a51a-4745-9a15-a556036387d8
+    type: table
+    name: STAGES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.STAGES
+    displayName: STAGES
+    deleted: false
+  - id: 2a6f67a8-1b70-4894-9d4f-65366c6a9f49
+    type: table
+    name: STREAMLITS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.STREAMLITS
+    displayName: STREAMLITS
+    deleted: false
+  - id: 5e27a6eb-0661-4c56-a413-f6be8235a2df
+    type: table
+    name: TABLES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.TABLES
+    displayName: TABLES
+    deleted: false
+  - id: 2af41216-152d-42e2-9586-872da23317f0
+    type: table
+    name: TABLE_CONSTRAINTS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.TABLE_CONSTRAINTS
+    displayName: TABLE_CONSTRAINTS
+    deleted: false
+  - id: 1dcb4590-c498-48ea-9fc4-943495140ebc
+    type: table
+    name: TABLE_PRIVILEGES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.TABLE_PRIVILEGES
+    displayName: TABLE_PRIVILEGES
+    deleted: false
+  - id: 31f86b4d-951a-4661-827c-e8b6c168c0c8
+    type: table
+    name: TABLE_STORAGE_METRICS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.TABLE_STORAGE_METRICS
+    displayName: TABLE_STORAGE_METRICS
+    deleted: false
+  - id: 28ab6e1d-bf4e-4f59-9242-001082edf80e
+    type: table
+    name: USAGE_PRIVILEGES
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.USAGE_PRIVILEGES
+    displayName: USAGE_PRIVILEGES
+    deleted: false
+  - id: 5caa00d7-c07d-4bde-8368-bfc965f9da96
+    type: table
+    name: VIEWS
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA.VIEWS
+    displayName: VIEWS
+    deleted: false
+tags:
+  - tagFQN: Ayush.Test
+    name: Test
+    displayName: Test
+    description: <p>Test</p>
+    style: {}
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedBy: admin
+sourceUrl: https://app.snowflake.com/fmfahqk/gi58232/#/data/databases/E2E_DB/schemas/INFORMATION_SCHEMA
+domains: []
+sourceHash: 8b6f9fb4ce517426ff27753599afaded
+entityStatus: Unprocessed

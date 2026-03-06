@@ -1,0 +1,32 @@
+name: schema4
+fullyQualifiedName: BigqueryProd2.modified-leaf-330420.schema4
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 197a4195-9e15-4b93-8bf4-fdf57225f455
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: BigqueryProd2.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: ca073328-f6c1-4bc0-b001-fa30ffa17efd
+    type: table
+    name: schema4tab2
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.schema4.schema4tab2
+    displayName: schema4tab2
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sschema4
+domains: []
+sourceHash: 70fd74c1fdff20967ea4a516ff2bcbc8
+entityStatus: Unprocessed
