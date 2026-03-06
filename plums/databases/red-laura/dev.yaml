@@ -1,0 +1,25 @@
+name: dev
+fullyQualifiedName: red-laura.dev
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: ee6c7994-85dd-4e31-89f9-8616bcaef32b
+  type: databaseService
+  name: red-laura
+  fullyQualifiedName: red-laura
+  description: ""
+  displayName: red-laura
+  deleted: false
+serviceType: Redshift
+databaseSchemas:
+  - id: fb8c2c3f-85a7-44c6-be76-d569947f009b
+    type: databaseSchema
+    name: collate_shop
+    fullyQualifiedName: red-laura.dev.collate_shop
+    displayName: collate_shop
+    deleted: false
+default: false
+domains: []
+sourceHash: 058379093afbc32a6027fa2d94291cad
+entityStatus: Unprocessed

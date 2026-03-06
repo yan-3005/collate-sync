@@ -1,0 +1,44 @@
+name: default
+fullyQualifiedName: Cypress.default
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 4e872884-bc9d-4244-9750-6c150d8a193d
+  type: databaseService
+  name: Cypress
+  fullyQualifiedName: Cypress
+  description: ""
+  displayName: Cypress
+  deleted: false
+serviceType: Mysql
+databaseSchemas:
+  - id: dbfce5c2-8e20-46da-a966-da41ddc486e2
+    type: databaseSchema
+    name: cypress_integrations_test_db
+    fullyQualifiedName: Cypress.default.cypress_integrations_test_db
+    displayName: cypress_integrations_test_db
+    deleted: false
+  - id: 0b51fee1-cd88-48f3-8c13-6f5cbd1e4e07
+    type: databaseSchema
+    name: mysql
+    fullyQualifiedName: Cypress.default.mysql
+    displayName: mysql
+    deleted: false
+  - id: 30fc203a-f97a-4e72-988b-25c0eac440d0
+    type: databaseSchema
+    name: openmetadata
+    fullyQualifiedName: Cypress.default.openmetadata
+    displayName: openmetadata
+    deleted: false
+default: false
+domains:
+  - id: 7c09ff9f-c6df-41a4-aa52-d51d115f1414
+    type: domain
+    name: Engineering
+    fullyQualifiedName: Engineering
+    description: <p>Engineering</p>
+    displayName: Engineering
+    inherited: true
+sourceHash: 03fba59d38529708b1fa92e69e7138a2
+entityStatus: Unprocessed

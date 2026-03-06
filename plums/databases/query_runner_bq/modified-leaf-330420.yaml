@@ -1,0 +1,27 @@
+name: modified-leaf-330420
+fullyQualifiedName: query_runner_bq.modified-leaf-330420
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 4f2bcb64-18b7-407d-baa9-831e329b5b97
+  type: databaseService
+  name: query_runner_bq
+  fullyQualifiedName: query_runner_bq
+  description: ""
+  displayName: query_runner_bq
+  deleted: false
+serviceType: BigQuery
+databaseSchemas:
+  - id: 3051dee2-6b0c-48ee-bf39-85d4aa4ec48a
+    type: databaseSchema
+    name: hk_test
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test
+    description: ""
+    displayName: hk_test
+    deleted: false
+default: false
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420
+domains: []
+sourceHash: a1bba2d2e72110866c0f74d95d7fd4d3
+entityStatus: Unprocessed

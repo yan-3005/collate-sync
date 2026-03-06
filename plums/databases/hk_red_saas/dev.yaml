@@ -1,0 +1,41 @@
+name: dev
+fullyQualifiedName: hk_red_saas.dev
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 97ae44b5-de87-4474-a2e9-3d812448db87
+  type: databaseService
+  name: hk_red_saas
+  fullyQualifiedName: hk_red_saas
+  description: ""
+  displayName: hk_red_saas
+  deleted: false
+serviceType: Redshift
+databaseSchemas:
+  - id: 26c24e7c-26a5-4d82-ac27-9efbe0d5484a
+    type: databaseSchema
+    name: collate_shop
+    fullyQualifiedName: hk_red_saas.dev.collate_shop
+    displayName: collate_shop
+    deleted: false
+  - id: 5b16a1c6-4e66-42d2-995d-a1381295bdc2
+    type: databaseSchema
+    name: hk_schema
+    fullyQualifiedName: hk_red_saas.dev.hk_schema
+    displayName: hk_schema
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: extension
+      newValue: "[{\"databaseIntCp\":777}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+default: false
+extension:
+  databaseIntCp: 777
+domains: []
+sourceHash: 49d1f33d52effecc3b48b7e554d8413d
+entityStatus: Unprocessed

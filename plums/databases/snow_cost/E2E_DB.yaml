@@ -1,0 +1,36 @@
+name: E2E_DB
+fullyQualifiedName: snow_cost.E2E_DB
+dataProducts: []
+tags:
+  - tagFQN: Ayush.Test
+    name: Test
+    displayName: Test
+    description: <p>Test</p>
+    style: {}
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedBy: admin
+owners: []
+service:
+  id: dd68ef55-06e7-4f43-9697-31e37b4559a9
+  type: databaseService
+  name: snow_cost
+  fullyQualifiedName: snow_cost
+  description: ""
+  displayName: snow_cost
+  deleted: false
+serviceType: Snowflake
+databaseSchemas:
+  - id: a0aa0d95-24b2-4680-b9f7-8b03e1ef9fd8
+    type: databaseSchema
+    name: INFORMATION_SCHEMA
+    fullyQualifiedName: snow_cost.E2E_DB.INFORMATION_SCHEMA
+    description: Views describing the contents of schemas in this database
+    displayName: INFORMATION_SCHEMA
+    deleted: false
+default: false
+sourceUrl: https://app.snowflake.com/fmfahqk/gi58232/#/data/databases/E2E_DB
+domains: []
+sourceHash: 490388ea74a19dfa0c82e72e923425a3
+entityStatus: Unprocessed

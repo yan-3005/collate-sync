@@ -1,0 +1,131 @@
+name: modified-leaf-330420
+fullyQualifiedName: BigqueryProd2.modified-leaf-330420
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+databaseSchemas:
+  - id: 4d568203-0591-4b28-b1e2-928a78d46fb1
+    type: databaseSchema
+    name: Bronze
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.Bronze
+    description: New description for BQ schema
+    displayName: Bronze
+    deleted: false
+  - id: bdb63314-4487-4ed9-b7e3-73924415c645
+    type: databaseSchema
+    name: Gold
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.Gold
+    description: ""
+    displayName: Gold
+    deleted: false
+  - id: 9e7832ec-e20b-4d6e-babe-10c88e8a463a
+    type: databaseSchema
+    name: Silver
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.Silver
+    description: ""
+    displayName: Silver
+    deleted: false
+  - id: 877b8330-0931-4c7b-844e-7336d5b518b9
+    type: databaseSchema
+    name: dbt_jaffle
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.dbt_jaffle
+    description: "Hello there, it's the description"
+    displayName: dbt_jaffle
+    deleted: false
+  - id: 133c25a1-d509-4d30-986e-5959c166fbd1
+    type: databaseSchema
+    name: demo_dbt_jaffle
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.demo_dbt_jaffle
+    description: ""
+    displayName: demo_dbt_jaffle
+    deleted: false
+  - id: 94d6b4ce-a8e2-490a-930c-16a90911bc81
+    type: databaseSchema
+    name: do_not_touch
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.do_not_touch
+    description: demo schema desc
+    displayName: do_not_touch
+    deleted: false
+  - id: 0922a1ee-234d-4c6a-9942-a8c30ca23266
+    type: databaseSchema
+    name: fivetran_lapdog_arbitrary_staging
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.fivetran_lapdog_arbitrary_staging
+    description: ""
+    displayName: fivetran_lapdog_arbitrary_staging
+    deleted: false
+  - id: d0ee6fda-36d4-4ee6-9d7f-96de745fc3bc
+    type: databaseSchema
+    name: fivetran_metadata
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.fivetran_metadata
+    description: ""
+    displayName: fivetran_metadata
+    deleted: false
+  - id: 7ed166c6-2a05-4e7d-9367-3a3e65809ccb
+    type: databaseSchema
+    name: imri_test
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.imri_test
+    description: <p>test description.</p>
+    displayName: imri_test
+    deleted: false
+  - id: f3027d08-dfb2-4e4e-9b65-5adb8f861f79
+    type: databaseSchema
+    name: pere_test
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test
+    description: ""
+    displayName: pere_test
+    deleted: false
+  - id: b2f8f7e9-f19e-4f93-a7d6-8856d3e460cb
+    type: databaseSchema
+    name: schema10
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.schema10
+    description: <p>test edit desc</p>
+    displayName: schema10
+    deleted: false
+  - id: 3b01f796-41b3-4fc3-bd1f-8799e66dee3d
+    type: databaseSchema
+    name: schema4
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.schema4
+    description: ""
+    displayName: schema4
+    deleted: false
+  - id: 350e50d4-4a60-4f6a-8e96-32a93763dc0a
+    type: databaseSchema
+    name: sdoh_cms_dual_eligible_enrollment
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment
+    description: ""
+    displayName: sdoh_cms_dual_eligible_enrollment
+    deleted: false
+  - id: e6f27c89-6716-447b-bb9e-92fb8981f9e6
+    type: databaseSchema
+    name: stackoverflow
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow
+    description: ""
+    displayName: stackoverflow
+    deleted: false
+  - id: e8967cc1-aac2-45fb-8259-e24d14996b36
+    type: databaseSchema
+    name: test_omd
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.test_omd
+    description: ""
+    displayName: test_omd
+    deleted: false
+  - id: 76ca5bbc-91ed-486d-bd6c-3789247b154c
+    type: databaseSchema
+    name: test_project_2
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.test_project_2
+    description: ""
+    displayName: test_project_2
+    deleted: false
+default: false
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420
+domains: []
+sourceHash: 1971f3d1b8564bdc1f1d1d821b0b2a81
+entityStatus: Unprocessed

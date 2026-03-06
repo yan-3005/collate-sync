@@ -1,0 +1,34 @@
+name: modified-leaf-330420
+fullyQualifiedName: hk_hr_bq.modified-leaf-330420
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: e4d0f50f-f683-4261-8ca5-f529de34bf4b
+  type: databaseService
+  name: hk_hr_bq
+  fullyQualifiedName: hk_hr_bq
+  description: ""
+  displayName: hk_hr_bq
+  deleted: false
+serviceType: BigQuery
+databaseSchemas:
+  - id: 64294366-a3e4-48c8-a0e6-7c47b8f0ec72
+    type: databaseSchema
+    name: hk_test
+    fullyQualifiedName: hk_hr_bq.modified-leaf-330420.hk_test
+    description: ""
+    displayName: hk_test
+    deleted: false
+default: false
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420
+domains:
+  - id: 7c09ff9f-c6df-41a4-aa52-d51d115f1414
+    type: domain
+    name: Engineering
+    fullyQualifiedName: Engineering
+    description: <p>Engineering</p>
+    displayName: Engineering
+    inherited: true
+sourceHash: 752dbe87510152648847554d00ae6f69
+entityStatus: Unprocessed

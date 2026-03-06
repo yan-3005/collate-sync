@@ -1,0 +1,49 @@
+name: dev
+fullyQualifiedName: check_redshift_pbi.dev
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: a3b05d3d-c60d-44fe-83cc-7188fb834a13
+  type: databaseService
+  name: check_redshift_pbi
+  fullyQualifiedName: check_redshift_pbi
+  description: ""
+  displayName: check_redshift_pbi
+  deleted: false
+serviceType: Redshift
+databaseSchemas:
+  - id: bdeb0093-2501-492d-a312-ba49acf6dbbf
+    type: databaseSchema
+    name: bigquery_db_beta_demo_dbt_jaffle
+    fullyQualifiedName: check_redshift_pbi.dev.bigquery_db_beta_demo_dbt_jaffle
+    displayName: bigquery_db_beta_demo_dbt_jaffle
+    deleted: false
+  - id: dbe8dcac-00cc-4b3b-8fa9-10d071391731
+    type: databaseSchema
+    name: dbt_jaffle
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle
+    displayName: dbt_jaffle
+    deleted: false
+  - id: a796a44a-5ce1-4daa-ac48-4d7f356a30be
+    type: databaseSchema
+    name: dbt_tmontiel
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_tmontiel
+    displayName: dbt_tmontiel
+    deleted: false
+  - id: 6c1fafe3-4ce6-4caf-9050-3e010cd70cb7
+    type: databaseSchema
+    name: demo_dbt_jaffle
+    fullyQualifiedName: check_redshift_pbi.dev.demo_dbt_jaffle
+    displayName: demo_dbt_jaffle
+    deleted: false
+  - id: 1513a77b-7570-4da8-9c92-019ff2ab2063
+    type: databaseSchema
+    name: shoes_retail
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail
+    displayName: shoes_retail
+    deleted: false
+default: false
+domains: []
+sourceHash: 23df5de92632e51e55ed48ee2725bdff
+entityStatus: Unprocessed

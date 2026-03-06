@@ -1,0 +1,25 @@
+name: dev
+fullyQualifiedName: test_red_120.dev
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 9eb1cb58-bbfb-4ae7-bce2-2eb6451e9e45
+  type: databaseService
+  name: test_red_120
+  fullyQualifiedName: test_red_120
+  description: ""
+  displayName: test_red_120
+  deleted: false
+serviceType: Redshift
+databaseSchemas:
+  - id: 1925e3fd-7f2a-46a8-80fa-d90551bd64f4
+    type: databaseSchema
+    name: mt_schema
+    fullyQualifiedName: test_red_120.dev.mt_schema
+    displayName: mt_schema
+    deleted: false
+default: false
+domains: []
+sourceHash: 5f585918d580c96bcfa9dbed92900935
+entityStatus: Unprocessed

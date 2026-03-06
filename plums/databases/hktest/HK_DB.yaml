@@ -1,0 +1,55 @@
+name: HK_DB
+fullyQualifiedName: hktest.HK_DB
+dataProducts: []
+tags:
+  - tagFQN: Tier.Tier1
+    name: Tier1
+    description: |-
+      **Critical Source of Truth business data assets of an organization**
+
+      - Used in critical metrics and dashboards to drive business and product decisions
+
+      - Used in critical compliance reporting to regulators, govt entities, and third party
+
+      - Used in brand or revenue impacting online user-facing experiences (search results, advertisement, promotions, and experimentation)
+
+      - Other high impact use, such as ML models and fraud detection
+
+      - Source used to derive other critical Tier-1 datasets
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1772775498570
+    appliedBy: ram.balaji
+impersonatedBy: governance-bot
+owners: []
+service:
+  id: 14237eb5-c32e-404b-9420-070103f86f4b
+  type: databaseService
+  name: hktest
+  fullyQualifiedName: hktest
+  description: ""
+  displayName: hktest
+  deleted: false
+serviceType: Snowflake
+databaseSchemas:
+  - id: 6799df21-ec63-4032-ab21-b1b423cc1041
+    type: databaseSchema
+    name: HK_SCHEMA
+    fullyQualifiedName: hktest.HK_DB.HK_SCHEMA
+    displayName: HK_SCHEMA
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Unprocessed
+      newValue: In Review
+  fieldsDeleted: []
+  previousVersion: 0.2
+  changeSummary: {}
+default: false
+sourceUrl: https://app.snowflake.com/tshirvw/ve46548/#/data/databases/HK_DB
+domains: []
+sourceHash: 8bd68becfac5c6bf3a7a53e77c24cc97
+entityStatus: In Review

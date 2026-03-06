@@ -1,0 +1,42 @@
+name: SNOWFLAKE
+fullyQualifiedName: snow_cost.SNOWFLAKE
+dataProducts: []
+tags:
+  - tagFQN: Ayush.Test
+    name: Test
+    displayName: Test
+    description: <p>Test</p>
+    style: {}
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedBy: admin
+owners: []
+service:
+  id: dd68ef55-06e7-4f43-9697-31e37b4559a9
+  type: databaseService
+  name: snow_cost
+  fullyQualifiedName: snow_cost
+  description: ""
+  displayName: snow_cost
+  deleted: false
+serviceType: Snowflake
+databaseSchemas:
+  - id: f3e9feed-23de-4d0a-b5ba-0ae7a319b63f
+    type: databaseSchema
+    name: ACCOUNT_USAGE
+    fullyQualifiedName: snow_cost.SNOWFLAKE.ACCOUNT_USAGE
+    displayName: ACCOUNT_USAGE
+    deleted: false
+  - id: eae98167-84b5-4a9e-b749-aa3c923f926a
+    type: databaseSchema
+    name: INFORMATION_SCHEMA
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA
+    description: Views describing the contents of schemas in this database
+    displayName: INFORMATION_SCHEMA
+    deleted: false
+default: false
+sourceUrl: https://app.snowflake.com/fmfahqk/gi58232/#/data/databases/SNOWFLAKE
+domains: []
+sourceHash: 4d98965af74c5ca11da69d97eef4db92
+entityStatus: Unprocessed
