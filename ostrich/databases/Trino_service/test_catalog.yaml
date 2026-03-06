@@ -1,0 +1,44 @@
+name: test_catalog
+fullyQualifiedName: Trino_service.test_catalog
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 03aca61a-c7bb-48c0-94e1-8cfdc05c44f0
+  type: databaseService
+  name: Trino_service
+  fullyQualifiedName: Trino_service
+  description: ""
+  displayName: Trino_service
+  deleted: false
+serviceType: Trino
+databaseSchemas:
+  - id: 0789215f-41af-4841-ba5e-df11d4ad66cf
+    type: databaseSchema
+    name: information_schema
+    fullyQualifiedName: Trino_service.test_catalog.information_schema
+    displayName: information_schema
+    deleted: false
+  - id: d18c275d-a4e5-4739-81fb-6e51d6566405
+    type: databaseSchema
+    name: system
+    fullyQualifiedName: Trino_service.test_catalog.system
+    displayName: system
+    deleted: false
+  - id: 1144c175-d6ae-4dd6-a5a1-52eeee33855b
+    type: databaseSchema
+    name: test_schema
+    fullyQualifiedName: Trino_service.test_catalog.test_schema
+    displayName: test_schema
+    deleted: false
+default: false
+domains:
+  - id: 868ace94-2e9d-4087-80df-0649485043fe
+    type: domain
+    name: 1.12.0- release
+    fullyQualifiedName: '"1.12.0- release"'
+    description: <p>1.12.0- release</p>
+    displayName: 1.12.0- release
+    inherited: true
+sourceHash: 04949a529010a4cdea570bc3690b88b3
+entityStatus: Unprocessed

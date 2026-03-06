@@ -1,0 +1,46 @@
+name: demo
+fullyQualifiedName: DatabricksProd.demo
+dataProducts: []
+tags:
+  - tagFQN: beedd.sdaaaaa
+    name: sdaaaaa
+    description: DATABRICKS TAG
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+  - tagFQN: sdaaaaa.sdaaaaa
+    name: sdaaaaa
+    description: DATABRICKS TAG
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+  - tagFQN: testing.NONE
+    name: NONE
+    description: DATABRICKS TAG
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+owners: []
+service:
+  id: 10a64b1b-8d56-4a0b-9b52-a0d42da457d9
+  type: databaseService
+  name: DatabricksProd
+  fullyQualifiedName: DatabricksProd
+  description: ""
+  displayName: DatabricksProd
+  deleted: false
+serviceType: Databricks
+databaseSchemas:
+  - id: 618fe580-9760-46c6-ba44-5bb172a83d66
+    type: databaseSchema
+    name: 1_table_10k_ctas
+    fullyQualifiedName: DatabricksProd.demo.1_table_10k_ctas
+    displayName: 1_table_10k_ctas
+    deleted: false
+default: false
+domains: []
+sourceHash: 9d5cbf1940ab0e25a6b86164f6032a9c
+entityStatus: Unprocessed

@@ -1,0 +1,31 @@
+name: dev
+fullyQualifiedName: TestRedshiftOne.dev
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 5f20ba3b-b2af-4584-a64c-8bd683dfdc15
+  type: databaseService
+  name: TestRedshiftOne
+  fullyQualifiedName: TestRedshiftOne
+  description: ""
+  displayName: TestRedshiftOne
+  deleted: false
+serviceType: Redshift
+databaseSchemas:
+  - id: ff9090b5-39fa-4687-9c6c-431a81ed0029
+    type: databaseSchema
+    name: inventory
+    fullyQualifiedName: TestRedshiftOne.dev.inventory
+    displayName: inventory
+    deleted: false
+  - id: 16a2c4fd-747a-4646-a81e-16bf09e8b41d
+    type: databaseSchema
+    name: sales
+    fullyQualifiedName: TestRedshiftOne.dev.sales
+    displayName: sales
+    deleted: false
+default: false
+domains: []
+sourceHash: 4801e5aa02ed63009dcd5fd861e458a5
+entityStatus: Unprocessed

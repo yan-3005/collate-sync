@@ -1,0 +1,35 @@
+name: ecommerce_db
+fullyQualifiedName: sample_data.ecommerce_db
+description: This **mock** database contains schemas related to shopify sales and
+  orders with related dimension tables.
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 10f033f9-e817-4b48-960c-2e55a53d6d02
+  type: databaseService
+  name: sample_data
+  fullyQualifiedName: sample_data
+  displayName: sample_data
+  deleted: false
+serviceType: BigQuery
+databaseSchemas:
+  - id: 1ddde3ed-964e-4edf-82ba-c3cf850a5b93
+    type: databaseSchema
+    name: shopify
+    fullyQualifiedName: sample_data.ecommerce_db.shopify
+    description: This **mock** database contains schema related to shopify sales and
+      orders with related dimension tables.
+    displayName: shopify
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: entityStatus
+      newValue: Unprocessed
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+default: false
+domains: []
+entityStatus: Unprocessed

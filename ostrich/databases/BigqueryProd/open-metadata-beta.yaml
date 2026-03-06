@@ -1,0 +1,27 @@
+name: open-metadata-beta
+fullyQualifiedName: BigqueryProd.open-metadata-beta
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: a3b0e343-5bc4-4333-b1c5-44bb1dfab21f
+  type: databaseService
+  name: BigqueryProd
+  fullyQualifiedName: BigqueryProd
+  displayName: BigqueryProd
+  deleted: true
+serviceType: BigQuery
+databaseSchemas: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: false
+      newValue: true
+  fieldsDeleted: []
+  previousVersion: 0.1
+default: false
+sourceUrl: https://console.cloud.google.com/bigquery?project=open-metadata-beta
+domains: []
+sourceHash: 852310dd7c34a4d5ae45be7b9a38e50c
+entityStatus: Unprocessed

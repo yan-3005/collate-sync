@@ -1,0 +1,28 @@
+name: dev
+fullyQualifiedName: Redshift Keshav 2.dev
+displayName: ""
+description: ""
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 90dbea1b-b50b-4348-9f7f-3fda7226c81a
+  type: databaseService
+  name: Redshift Keshav 2
+  fullyQualifiedName: Redshift Keshav 2
+  description: <p>new desc</p>
+  displayName: Redshift Keshav 2
+  deleted: false
+serviceType: Redshift
+databaseSchemas:
+  - id: 03f5030f-5cce-45e1-bb3b-15c840191060
+    type: databaseSchema
+    name: dbt_production
+    fullyQualifiedName: Redshift Keshav 2.dev.dbt_production
+    description: <p>new description - reverse metadata test - should fail</p>
+    displayName: dbt_production
+    deleted: false
+default: false
+sourceUrl: ""
+domains: []
+entityStatus: Unprocessed

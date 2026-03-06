@@ -1,0 +1,27 @@
+name: default
+fullyQualifiedName: Glue.default
+description: This **mock** database contains tables related to the Glue service
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 13587720-4ffb-42d5-9aae-6870ad1cce01
+  type: databaseService
+  name: Glue
+  fullyQualifiedName: Glue
+  displayName: Glue
+  deleted: true
+serviceType: Glue
+databaseSchemas: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: false
+      newValue: true
+  fieldsDeleted: []
+  previousVersion: 0.2
+default: false
+sourceUrl: https://www.glue.com/default
+domains: []
+entityStatus: Unprocessed

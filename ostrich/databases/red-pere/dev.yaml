@@ -1,0 +1,36 @@
+name: dev
+fullyQualifiedName: red-pere.dev
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 34bdf347-0d56-435a-9989-b0eaed43af8f
+  type: databaseService
+  name: red-pere
+  fullyQualifiedName: red-pere
+  description: ""
+  displayName: red-pere
+  deleted: false
+serviceType: Redshift
+databaseSchemas:
+  - id: ff198a3e-841b-4778-aee3-a5deb0d06029
+    type: databaseSchema
+    name: dbt_jaffle
+    fullyQualifiedName: red-pere.dev.dbt_jaffle
+    displayName: dbt_jaffle
+    deleted: false
+  - id: 7f6df34c-9eaa-45c4-83dd-030732872aff
+    type: databaseSchema
+    name: test
+    fullyQualifiedName: red-pere.dev.test
+    displayName: test
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+default: false
+domains: []
+sourceHash: faba91b526d4812f628aa930295de775
+entityStatus: Unprocessed

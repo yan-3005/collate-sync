@@ -1,0 +1,28 @@
+name: HK_DB
+fullyQualifiedName: query_runner_snow.HK_DB
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: f6568751-db8f-4a89-926a-a9062cee113d
+  type: databaseService
+  name: query_runner_snow
+  fullyQualifiedName: query_runner_snow
+  description: ""
+  displayName: query_runner_snow
+  deleted: true
+serviceType: Snowflake
+databaseSchemas: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: false
+      newValue: true
+  fieldsDeleted: []
+  previousVersion: 0.3
+default: false
+sourceUrl: https://app.snowflake.com/fmfahqk/gi58232/#/data/databases/HK_DB
+domains: []
+sourceHash: 4c16c910b0af5ce8fa15f5486300dc1e
+entityStatus: Unprocessed

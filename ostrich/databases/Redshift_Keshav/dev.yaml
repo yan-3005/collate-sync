@@ -1,0 +1,52 @@
+name: dev
+fullyQualifiedName: Redshift Keshav.dev
+displayName: ""
+description: <p>new desc</p>
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 20eff402-2323-4b54-a831-d40f411f88ee
+  type: databaseService
+  name: Redshift Keshav
+  fullyQualifiedName: Redshift Keshav
+  description: ""
+  displayName: Redshift Keshav
+  deleted: false
+serviceType: Redshift
+databaseSchemas:
+  - id: 70f77cfe-aa80-4a44-9cbf-7e234385cb99
+    type: databaseSchema
+    name: dbt_production
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production
+    description: ""
+    displayName: dbt_production
+    deleted: false
+  - id: c260470a-3834-4313-b5d5-680ac42fbc82
+    type: databaseSchema
+    name: dbt_production_jaffle_shop
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_jaffle_shop
+    description: ""
+    displayName: dbt_production_jaffle_shop
+    deleted: false
+  - id: de85e0d8-f52a-4180-8344-b4c852d0259c
+    type: databaseSchema
+    name: dbt_production_marketing
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_marketing
+    description: ""
+    displayName: dbt_production_marketing
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: description
+      oldValue: ""
+      newValue: <p>new desc</p>
+  fieldsDeleted: []
+  previousVersion: 0.2
+  changeSummary: {}
+default: false
+sourceUrl: ""
+domains: []
+sourceHash: bda0ecfbbe3f7efc718d1421b124d754
+entityStatus: Unprocessed

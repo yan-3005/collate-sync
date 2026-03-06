@@ -1,0 +1,28 @@
+name: CUSTOMERS
+fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS
+description: Updated database description
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 2c6969a7-2da9-438f-a831-90887f08520d
+  type: databaseService
+  name: snwf_tom_collate_shop
+  fullyQualifiedName: snwf_tom_collate_shop
+  description: ""
+  displayName: snwf_tom_collate_shop
+  deleted: false
+serviceType: Snowflake
+databaseSchemas:
+  - id: 335cfdd8-79e0-4009-953d-c8940e90a273
+    type: databaseSchema
+    name: COLLATE_SHOP
+    fullyQualifiedName: snwf_tom_collate_shop.CUSTOMERS.COLLATE_SHOP
+    description: Collate e-commerce
+    displayName: COLLATE_SHOP
+    deleted: false
+default: false
+sourceUrl: https://app.snowflake.com/fmfahqk/gi58232/#/data/databases/CUSTOMERS
+domains: []
+sourceHash: 46d25361c901a3ca591b7254f84fbad0
+entityStatus: Unprocessed

@@ -1,0 +1,25 @@
+name: demo-test-cat
+fullyQualifiedName: DatabricksProd.demo-test-cat
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: 10a64b1b-8d56-4a0b-9b52-a0d42da457d9
+  type: databaseService
+  name: DatabricksProd
+  fullyQualifiedName: DatabricksProd
+  description: ""
+  displayName: DatabricksProd
+  deleted: false
+serviceType: Databricks
+databaseSchemas:
+  - id: 878cb48a-d667-47aa-8689-d6def0a7db42
+    type: databaseSchema
+    name: test-schema
+    fullyQualifiedName: DatabricksProd.demo-test-cat.test-schema
+    displayName: test-schema
+    deleted: false
+default: false
+domains: []
+sourceHash: dc38622ba1cafe661830ea8e16c37b58
+entityStatus: Unprocessed

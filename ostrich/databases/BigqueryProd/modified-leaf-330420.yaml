@@ -1,0 +1,27 @@
+name: modified-leaf-330420
+fullyQualifiedName: BigqueryProd.modified-leaf-330420
+dataProducts: []
+tags: []
+owners: []
+service:
+  id: a3b0e343-5bc4-4333-b1c5-44bb1dfab21f
+  type: databaseService
+  name: BigqueryProd
+  fullyQualifiedName: BigqueryProd
+  displayName: BigqueryProd
+  deleted: true
+serviceType: BigQuery
+databaseSchemas: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: false
+      newValue: true
+  fieldsDeleted: []
+  previousVersion: 0.1
+default: false
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420
+domains: []
+sourceHash: d1920eaf7a162ce67158d010b147e634
+entityStatus: Unprocessed
