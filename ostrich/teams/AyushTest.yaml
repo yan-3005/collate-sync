@@ -1,0 +1,55 @@
+teamType: Group
+name: AyushTest
+fullyQualifiedName: AyushTest
+displayName: AyushTestPermission
+description: ""
+parents:
+  - id: 3d815172-4702-4a6b-993d-dd2bb3fc4096
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: Organization under which all the other team hierarchy is created
+    displayName: Organization
+    deleted: false
+children: []
+users:
+  - id: e8f61fae-7630-4764-9ee0-e33dc249257c
+    type: user
+    name: ayush.shah
+    fullyQualifiedName: '"ayush.shah"'
+    description: ""
+    displayName: ayush.shah
+    deleted: false
+  - id: 1aa03ca9-be4a-4842-8727-4437bda4fde8
+    type: user
+    name: ayushshah
+    fullyQualifiedName: ayushshah
+    description: ""
+    displayName: ayushshah
+    deleted: false
+childrenCount: 0
+userCount: 2
+owns: []
+owners: []
+isJoinable: false
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: domains
+      newValue: "[{\"id\":\"868ace94-2e9d-4087-80df-0649485043fe\",\"type\":\"domain\"\
+        ,\"name\":\"1.12.0- release\",\"fullyQualifiedName\":\"\\\"1.12.0- release\\\
+        \"\",\"description\":\"<p>1.12.0- release</p>\",\"displayName\":\"1.12.0-\
+        \ release\"}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.3
+  changeSummary: {}
+defaultRoles: []
+inheritedRoles: []
+policies: []
+domains:
+  - id: 868ace94-2e9d-4087-80df-0649485043fe
+    type: domain
+    name: 1.12.0- release
+    fullyQualifiedName: '"1.12.0- release"'
+    description: <p>1.12.0- release</p>
+    displayName: 1.12.0- release
