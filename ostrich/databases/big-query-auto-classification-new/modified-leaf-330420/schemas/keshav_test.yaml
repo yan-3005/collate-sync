@@ -1,0 +1,39 @@
+name: keshav_test
+fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.keshav_test
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 82441fdd-6bd7-4145-a7f4-005e5986d5d4
+  type: databaseService
+  name: big-query-auto-classification-new
+  fullyQualifiedName: big-query-auto-classification-new
+  description: ""
+  displayName: big-query-auto-classification-new
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 7e1a74b8-2afc-4e14-a69e-bb968301dd7e
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 89e401d4-8b93-421c-a45c-93424cc072a4
+    type: table
+    name: nested_numeric_table
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.keshav_test.nested_numeric_table
+    displayName: nested_numeric_table
+    deleted: false
+  - id: d15142d4-b90b-45d9-8266-8f4fcbd128c0
+    type: table
+    name: recored_with_numeric
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.keshav_test.recored_with_numeric
+    displayName: recored_with_numeric
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2skeshav_test
+domains: []
+sourceHash: 3d6f6e5226934f1c099f69057e7b71d1
+entityStatus: Unprocessed

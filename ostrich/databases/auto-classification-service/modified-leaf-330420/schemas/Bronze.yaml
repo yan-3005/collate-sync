@@ -1,0 +1,113 @@
+name: Bronze
+fullyQualifiedName: auto-classification-service.modified-leaf-330420.Bronze
+description: New description
+dataProducts: []
+owners:
+  - id: 96488878-73f2-4f97-8d9e-a20001acbc9c
+    type: user
+    name: rohit.jain
+    fullyQualifiedName: '"rohit.jain"'
+    description: ""
+    displayName: Rohit Jain
+    deleted: false
+service:
+  id: bce6d773-1dfd-42b9-8903-cdd5b5e6c0d4
+  type: databaseService
+  name: auto-classification-service
+  fullyQualifiedName: auto-classification-service
+  description: ""
+  displayName: auto-classification-service
+  deleted: false
+serviceType: BigQuery
+database:
+  id: afb80d67-8236-487e-bc60-9f924cc589df
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: auto-classification-service.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 2b8e55ab-0345-42c3-a31c-3707ec84f7f6
+    type: table
+    name: orders
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.Bronze.orders
+    description: New table description
+    displayName: orders
+    deleted: false
+  - id: 937df72a-de44-45a3-8a81-4b163f82b553
+    type: table
+    name: products
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.Bronze.products
+    displayName: products
+    deleted: false
+  - id: b7f5847d-6356-4069-bda4-996a5ca6faae
+    type: table
+    name: users
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.Bronze.users
+    displayName: users
+    deleted: false
+tags:
+  - tagFQN: Glow Glossary.TestReviewerTerm
+    name: TestReviewerTerm
+    displayName: ""
+    description: <p>Demovaagdga updated</p>
+    style: {}
+    source: Glossary
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771825244072
+    appliedBy: rohit.jain
+  - tagFQN: Tier.Tier1
+    name: Tier1
+    description: |-
+      **Critical Source of Truth business data assets of an organization**
+
+      - Used in critical metrics and dashboards to drive business and product decisions
+
+      - Used in critical compliance reporting to regulators, govt entities, and third party
+
+      - Used in brand or revenue impacting online user-facing experiences (search results, advertisement, promotions, and experimentation)
+
+      - Other high impact use, such as ML models and fraud detection
+
+      - Source used to derive other critical Tier-1 datasets
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1771825244101
+    appliedBy: rohit.jain
+  - tagFQN: newlable.newlablevalue
+    name: newlablevalue
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771506984481
+  - tagFQN: test.reverse metadata test
+    name: reverse metadata test
+    description: SNOWFLAKE TAG VALUE
+    source: Classification
+    labelType: Derived
+    state: Confirmed
+    appliedBy: admin
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: domains
+      newValue: "[{\"id\":\"868ace94-2e9d-4087-80df-0649485043fe\",\"type\":\"domain\"\
+        ,\"name\":\"1.12.0- release\",\"fullyQualifiedName\":\"\\\"1.12.0- release\\\
+        \"\",\"description\":\"<p>1.12.0- release</p>\",\"displayName\":\"1.12.0-\
+        \ release\"}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.3
+  changeSummary: {}
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sBronze
+domains:
+  - id: 868ace94-2e9d-4087-80df-0649485043fe
+    type: domain
+    name: 1.12.0- release
+    fullyQualifiedName: '"1.12.0- release"'
+    description: <p>1.12.0- release</p>
+    displayName: 1.12.0- release
+sourceHash: 8b4db14418d26c219282360d1ca3d6ef
+entityStatus: Unprocessed

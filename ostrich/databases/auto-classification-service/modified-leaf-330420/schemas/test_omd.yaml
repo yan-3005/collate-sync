@@ -1,0 +1,262 @@
+name: test_omd
+fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: bce6d773-1dfd-42b9-8903-cdd5b5e6c0d4
+  type: databaseService
+  name: auto-classification-service
+  fullyQualifiedName: auto-classification-service
+  description: ""
+  displayName: auto-classification-service
+  deleted: false
+serviceType: BigQuery
+database:
+  id: afb80d67-8236-487e-bc60-9f924cc589df
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: auto-classification-service.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: fc670014-6d49-460d-ad85-199b1ded7b6e
+    type: table
+    name: Demo Table 1
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.Demo
+      Table 1
+    displayName: Demo Table 1
+    deleted: false
+  - id: 2a92377b-6643-44d3-9459-241ba0d3de4d
+    type: table
+    name: Demo Table 2
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.Demo
+      Table 2
+    displayName: Demo Table 2
+    deleted: false
+  - id: ccadfd7b-8941-4ea0-b5af-1184ea86cc1f
+    type: table
+    name: Demo Table 3
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.Demo
+      Table 3
+    displayName: Demo Table 3
+    deleted: false
+  - id: 20eeec96-082d-4cca-a3f4-5af6ec281f96
+    type: table
+    name: ca_table1
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.ca_table1
+    description: New description for ca_table1
+    displayName: ca_table1
+    deleted: false
+  - id: 34334eb0-89ad-4433-85c4-016f1ca5697b
+    type: table
+    name: ca_table2
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.ca_table2
+    displayName: ca_table2
+    deleted: false
+  - id: 7a9a99eb-a7c9-4242-88a3-776a9fdf5ee6
+    type: table
+    name: clone_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.clone_table
+    displayName: clone_table
+    deleted: false
+  - id: 301a15b3-77fd-4afb-8f92-1d19b86364ec
+    type: table
+    name: cluster_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.cluster_table
+    displayName: cluster_table
+    deleted: false
+  - id: 6be40c78-37a5-4499-9586-39f07f81fb3f
+    type: table
+    name: cluster_table_new
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.cluster_table_new
+    displayName: cluster_table_new
+    deleted: false
+  - id: 990055c1-8424-4104-b7b2-6dc065f2da59
+    type: table
+    name: customer_products
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.customer_products
+    displayName: customer_products
+    deleted: false
+  - id: ec5dae30-6008-4d2d-9124-541b8da1d773
+    type: table
+    name: customers
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.customers
+    displayName: customers
+    deleted: false
+  - id: 121bc008-d300-41ae-9239-18545157bab5
+    type: table
+    name: external_partitioned
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.external_partitioned
+    displayName: external_partitioned
+    deleted: false
+  - id: 6ac7d8ab-2850-4c12-b1bb-bd938be75798
+    type: table
+    name: external_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.external_table
+    displayName: external_table
+    deleted: false
+  - id: 6bd34334-1291-4a14-b617-8193ad1cd57a
+    type: table
+    name: funky_users
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.funky_users
+    displayName: funky_users
+    deleted: false
+  - id: d195f180-9249-4f50-8701-39f3a1da0d19
+    type: table
+    name: icebeag_tbl
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.icebeag_tbl
+    displayName: icebeag_tbl
+    deleted: false
+  - id: 30768920-3f91-4048-8701-d51682dbb370
+    type: table
+    name: milan-test1
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.milan-test1
+    displayName: milan-test1
+    deleted: false
+  - id: 3e38b5fc-4482-446f-8825-2334ba72c5a8
+    type: table
+    name: mytable
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.mytable
+    displayName: mytable
+    deleted: false
+  - id: af400135-abad-408b-99ef-c961b570a9bd
+    type: table
+    name: new_orders
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.new_orders
+    displayName: new_orders
+    deleted: false
+  - id: d47d6058-fcbf-4f93-868f-e4c156aa7812
+    type: table
+    name: new_user
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.new_user
+    displayName: new_user
+    deleted: false
+  - id: c4f15b58-a4e0-4ab8-9ea9-1be79e9599b5
+    type: table
+    name: new_user_copy
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.new_user_copy
+    displayName: new_user_copy
+    deleted: false
+  - id: 34ae4733-eb02-4752-a01d-69898cec9cc0
+    type: table
+    name: new_user_cts
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.new_user_cts
+    displayName: new_user_cts
+    deleted: false
+  - id: eea5a9f7-3019-4e00-9e6c-67dea273e9b7
+    type: table
+    name: newtable
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.newtable
+    description: a table that expires in 2023
+    displayName: newtable
+    deleted: false
+  - id: f6bf4758-c7d4-4367-8b66-17b3f1a8fcd6
+    type: table
+    name: orders
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.orders
+    displayName: orders
+    deleted: false
+  - id: 7ae76765-bc18-4a5c-972d-6ac8c0ac2347
+    type: table
+    name: part_test1
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.part_test1
+    displayName: part_test1
+    deleted: false
+  - id: 61578fc2-bb8d-4dce-b4cb-56649f88725d
+    type: table
+    name: part_test2
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.part_test2
+    displayName: part_test2
+    deleted: false
+  - id: 3b7cf35f-bcb5-41e5-9ddc-4593a5797a45
+    type: table
+    name: part_test3
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.part_test3
+    displayName: part_test3
+    deleted: false
+  - id: 179e8884-44aa-45b9-82d8-0f014cd52891
+    type: table
+    name: part_test4
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.part_test4
+    displayName: part_test4
+    deleted: false
+  - id: c4950ac8-6e08-403f-8ff7-8c9a2705dee7
+    type: table
+    name: part_test5
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.part_test5
+    displayName: part_test5
+    deleted: false
+  - id: 724ec396-3640-4757-93f1-b330a72538f6
+    type: table
+    name: products
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.products
+    displayName: products
+    deleted: false
+  - id: 9e609498-b42a-459b-9ef7-90c3aa98cfcd
+    type: table
+    name: table_constraints
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.table_constraints
+    displayName: table_constraints
+    deleted: false
+  - id: 1aaf96a1-788e-445f-b10b-72ca0022acee
+    type: table
+    name: table_from_sp
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.table_from_sp
+    displayName: table_from_sp
+    deleted: false
+  - id: bb1e3a28-aa10-4cd8-8644-bff9f44f4f8a
+    type: table
+    name: table_from_sp_2
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.table_from_sp_2
+    displayName: table_from_sp_2
+    deleted: false
+  - id: 101da014-5223-4696-b08c-50cda8b09e9c
+    type: table
+    name: table_from_sp_3
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.table_from_sp_3
+    displayName: table_from_sp_3
+    deleted: false
+  - id: 9cc1bec4-36db-47dd-952a-7e0d08bccd5f
+    type: table
+    name: table_from_sp_99
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.table_from_sp_99
+    displayName: table_from_sp_99
+    deleted: false
+  - id: e8e249f5-2651-4730-b288-fe8c22b67483
+    type: table
+    name: test_arr
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.test_arr
+    displayName: test_arr
+    deleted: false
+  - id: 67d41c94-4e28-417a-af3c-03f4144bda30
+    type: table
+    name: test_geography_column
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.test_geography_column
+    displayName: test_geography_column
+    deleted: false
+  - id: 0fc4c76d-75a4-48a3-8cf4-4cccb8840e92
+    type: table
+    name: test_replication
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.test_omd.test_replication
+    displayName: test_replication
+    deleted: false
+tags:
+  - tagFQN: color.red
+    name: red
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771507135253
+  - tagFQN: pii.sensitive
+    name: sensitive
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771507135253
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2stest_omd
+domains: []
+sourceHash: 2ca81a6be59fff14c3654a8509691d6b
+entityStatus: Unprocessed

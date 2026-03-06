@@ -1,0 +1,299 @@
+name: dbt_jaffle
+fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle
+description: "Hello there, it's the description"
+dataProducts: []
+owners: []
+service:
+  id: bce6d773-1dfd-42b9-8903-cdd5b5e6c0d4
+  type: databaseService
+  name: auto-classification-service
+  fullyQualifiedName: auto-classification-service
+  description: ""
+  displayName: auto-classification-service
+  deleted: false
+serviceType: BigQuery
+database:
+  id: afb80d67-8236-487e-bc60-9f924cc589df
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: auto-classification-service.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 464ccb69-7572-4717-bb0f-607fafa6c724
+    type: table
+    name: MATERIALIZED_VIEW_TEST
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.MATERIALIZED_VIEW_TEST
+    displayName: MATERIALIZED_VIEW_TEST
+    deleted: false
+  - id: 0d4648ae-5ab1-4049-9b7a-27b0b0c5c1bc
+    type: table
+    name: METADATA_HISTORY_COLLATE
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.METADATA_HISTORY_COLLATE
+    displayName: METADATA_HISTORY_COLLATE
+    deleted: false
+  - id: 4b8ded7e-7ec6-4da0-861d-d97ec2a5b824
+    type: table
+    name: METADATA_HISTORY_COLLATE_tmp
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.METADATA_HISTORY_COLLATE_tmp
+    displayName: METADATA_HISTORY_COLLATE_tmp
+    deleted: false
+  - id: 64c16c55-1613-4b48-b708-7165fc4ac71d
+    type: table
+    name: Person
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.Person
+    displayName: Person
+    deleted: false
+  - id: db6a59ad-0dec-4696-be0d-3021af67e283
+    type: table
+    name: augcustomers
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.augcustomers
+    displayName: augcustomers
+    deleted: false
+  - id: eeee2939-ac2f-42bf-a6c5-e11c0d8e911b
+    type: table
+    name: augcustomers2
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.augcustomers2
+    displayName: augcustomers2
+    deleted: false
+  - id: c3a5cedf-62e4-4e1e-87b5-dcd03f1c08d4
+    type: table
+    name: cust_orders_20220910
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.cust_orders_20220910
+    displayName: cust_orders_20220910
+    deleted: false
+  - id: e44dfb6b-bfd5-4137-9767-d674027b39ce
+    type: table
+    name: cust_orders_20220911
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.cust_orders_20220911
+    displayName: cust_orders_20220911
+    deleted: false
+  - id: 346486a6-2810-4088-95c2-672bfae1c187
+    type: table
+    name: cust_orders_20220912
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.cust_orders_20220912
+    displayName: cust_orders_20220912
+    deleted: false
+  - id: de06a1ac-a0c8-469c-a853-880483f66c0c
+    type: table
+    name: customers
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.customers
+    displayName: customers
+    deleted: false
+  - id: 2b7daf50-5248-4b4c-ba9a-53a373f4c90e
+    type: table
+    name: customers_20240816
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.customers_20240816
+    displayName: customers_20240816
+    deleted: false
+  - id: b68effa3-abb2-4ceb-ba88-4c56c9da08d0
+    type: table
+    name: customers_copied
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.customers_copied
+    displayName: customers_copied
+    deleted: false
+  - id: 0d55d9aa-2dc3-4bd1-8190-d023486ba1e8
+    type: table
+    name: customers_date
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.customers_date
+    displayName: customers_date
+    deleted: false
+  - id: 41ff1c0a-bea5-401a-85cf-8095d35cb9a6
+    type: table
+    name: customers_datestr
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.customers_datestr
+    displayName: customers_datestr
+    deleted: false
+  - id: 1741a80d-28b7-4e84-8861-0edfe52561dd
+    type: table
+    name: customers_datetime
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.customers_datetime
+    displayName: customers_datetime
+    deleted: false
+  - id: 3e7ad507-4f02-4b58-80cc-e4f0c868bfb6
+    type: table
+    name: customers_view_copied
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.customers_view_copied
+    displayName: customers_view_copied
+    deleted: false
+  - id: 903b6514-575e-49d4-b8a7-0fb15bae9efa
+    type: table
+    name: customlineage
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.customlineage
+    displayName: customlineage
+    deleted: false
+  - id: e7f8eb57-ce84-402c-9195-3b0a9d7bb7f7
+    type: table
+    name: driver_metrics_vw
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.driver_metrics_vw
+    displayName: driver_metrics_vw
+    deleted: false
+  - id: ecea7305-3143-4a4a-9680-29b34df6ece3
+    type: table
+    name: drivers
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.drivers
+    displayName: drivers
+    deleted: false
+  - id: 586e3f65-ba30-4d17-be9f-93f96d666f8d
+    type: table
+    name: drivers_one
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.drivers_one
+    displayName: drivers_one
+    deleted: false
+  - id: 62a9bb8a-761d-460b-9f67-572733f20372
+    type: table
+    name: interge_range_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.interge_range_table
+    displayName: interge_range_table
+    deleted: false
+  - id: 69002406-9873-441c-a5c7-2e3bba2bd5af
+    type: table
+    name: linege_test
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.linege_test
+    displayName: linege_test
+    deleted: false
+  - id: c58df71a-1650-45fe-890a-bc1e788bc3ae
+    type: table
+    name: orders
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.orders
+    displayName: orders
+    deleted: false
+  - id: ef65d600-c502-4a25-adc5-f6ffad443473
+    type: table
+    name: orders_new
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.orders_new
+    displayName: orders_new
+    deleted: false
+  - id: c0f08fbc-f223-4e12-908b-c44d0b5ec58d
+    type: table
+    name: partition_table_1
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.partition_table_1
+    displayName: partition_table_1
+    deleted: false
+  - id: b9f2e421-4334-4eb3-9562-190b9d3cc1c6
+    type: table
+    name: partition_table_1_day
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.partition_table_1_day
+    displayName: partition_table_1_day
+    deleted: false
+  - id: 323455af-cdc3-4be2-90e1-ed3a02442bf6
+    type: table
+    name: partition_table_1_month
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.partition_table_1_month
+    displayName: partition_table_1_month
+    deleted: false
+  - id: 4a38d253-af54-45f6-8500-41695e00fd33
+    type: table
+    name: partition_table_2_PARTITIONDATE
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.partition_table_2_PARTITIONDATE
+    displayName: partition_table_2_PARTITIONDATE
+    deleted: false
+  - id: d16e1a8f-97bc-466d-9413-de1cdc22c597
+    type: table
+    name: partition_table_3_RANGE
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.partition_table_3_RANGE
+    displayName: partition_table_3_RANGE
+    deleted: false
+  - id: 99c556b4-76d4-4f70-ac2b-6b57a3ed9f64
+    type: table
+    name: partition_table_timestamp
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.partition_table_timestamp
+    displayName: partition_table_timestamp
+    deleted: false
+  - id: 297adc1d-b14c-4960-92cb-59d5bce13b45
+    type: table
+    name: partition_table_timestamp_trunc
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.partition_table_timestamp_trunc
+    displayName: partition_table_timestamp_trunc
+    deleted: false
+  - id: abfa17b7-78fc-40b4-8bd6-3694ef61104c
+    type: table
+    name: personsx
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.personsx
+    displayName: personsx
+    deleted: false
+  - id: 79723f85-bdb6-44ac-aac3-1eb0869ad24d
+    type: table
+    name: raw_customers
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: 57747cfe-c329-4f6a-b4b0-765e1ff19721
+    type: table
+    name: raw_orders
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: 151ab47c-3ce7-49ac-8ca9-c74d587f5d1b
+    type: table
+    name: raw_payments
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.raw_payments
+    displayName: raw_payments
+    deleted: false
+  - id: 94e7b46a-3038-4881-bb98-519243d087e8
+    type: table
+    name: sample_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.sample_table
+    displayName: sample_table
+    deleted: false
+  - id: 5305c289-dd2c-4416-8d1a-618eb08bfd5d
+    type: table
+    name: stg_customers
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.stg_customers
+    displayName: stg_customers
+    deleted: false
+  - id: 57456da6-76d6-4c13-b31b-b4ddbd6217cc
+    type: table
+    name: stg_orders
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.stg_orders
+    displayName: stg_orders
+    deleted: false
+  - id: d4139968-db4c-460c-af1f-d781348c71fd
+    type: table
+    name: stg_payments
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.stg_payments
+    displayName: stg_payments
+    deleted: false
+  - id: 2cda64fe-e8c4-4217-bc49-d35a098d63a4
+    type: table
+    name: tag_test_one
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.tag_test_one
+    displayName: tag_test_one
+    deleted: false
+  - id: fdd03294-d82b-4bef-8d0c-f4b240a20c7c
+    type: table
+    name: tag_test_two
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.tag_test_two
+    displayName: tag_test_two
+    deleted: false
+  - id: c8cb2a16-690a-480a-b7c2-6bade661ac1c
+    type: table
+    name: test_order
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.test_order
+    displayName: test_order
+    deleted: false
+  - id: bb2ddad9-80c6-44f3-a6d0-3b0c9654a4de
+    type: table
+    name: test_view
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.dbt_jaffle.test_view
+    displayName: test_view
+    deleted: false
+tags:
+  - tagFQN: test.testcheck
+    name: testcheck
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771506984488
+  - tagFQN: test2.asd
+    name: asd
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771506984488
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sdbt_jaffle
+domains: []
+sourceHash: 2dd230689fbe78ad92d178b1b0a07189
+entityStatus: Unprocessed

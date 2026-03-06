@@ -1,0 +1,34 @@
+name: do_not_touch
+fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.do_not_touch
+description: demo schema desc
+dataProducts: []
+owners: []
+service:
+  id: e00aa3ce-791c-4bf5-b54d-f23325649cae
+  type: databaseService
+  name: big-query-auto-classification
+  fullyQualifiedName: big-query-auto-classification
+  description: ""
+  displayName: big-query-auto-classification
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 365a6a1e-fc9f-406c-a917-df7041dda875
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: fcd33a1a-6d4b-4180-a779-5bb70452f6fa
+    type: table
+    name: exclude_table
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.do_not_touch.exclude_table
+    description: demo table description
+    displayName: exclude_table
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sdo_not_touch
+domains: []
+sourceHash: 5d4394742a67cc7efd8e7563ca36661d
+entityStatus: Unprocessed

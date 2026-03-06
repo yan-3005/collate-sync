@@ -1,0 +1,102 @@
+name: imri_test
+fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test
+description: <p>test description.</p>
+dataProducts: []
+owners: []
+service:
+  id: bce6d773-1dfd-42b9-8903-cdd5b5e6c0d4
+  type: databaseService
+  name: auto-classification-service
+  fullyQualifiedName: auto-classification-service
+  description: ""
+  displayName: auto-classification-service
+  deleted: false
+serviceType: BigQuery
+database:
+  id: afb80d67-8236-487e-bc60-9f924cc589df
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: auto-classification-service.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 945dc6de-0efc-4534-a4b6-043cbe7e84b0
+    type: table
+    name: imri_users
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.imri_users
+    description: <p>new desc for table</p>
+    displayName: imri_users
+    deleted: false
+  - id: 53a8cc49-20b3-4f29-b388-cab9d11ae85d
+    type: table
+    name: materialized_view_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.materialized_view_table
+    description: new description
+    displayName: materialized_view_table
+    deleted: false
+  - id: ba993860-1594-41ad-95de-030609fc8255
+    type: table
+    name: partitioned_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.partitioned_table
+    description: new description
+    displayName: partitioned_table
+    deleted: false
+  - id: d6ed94a4-2e8d-4d18-93d8-88f2be72faa0
+    type: table
+    name: regular table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.regular
+      table
+    displayName: regular table
+    deleted: false
+  - id: 66caeedb-755a-4f00-ae19-bea7d525187a
+    type: table
+    name: regular_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.regular_table
+    description: new description
+    displayName: regular_table
+    deleted: false
+  - id: e8b06a8e-a3f3-4aea-ad43-5273c6377815
+    type: table
+    name: users
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.users
+    displayName: users
+    deleted: false
+  - id: 86a0eed9-43a7-4fbf-9c52-50f906382f4c
+    type: table
+    name: view table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.view
+      table
+    description: new description
+    displayName: view table
+    deleted: false
+  - id: 077faac2-ad46-4b0d-a554-dbb29eec4e0d
+    type: table
+    name: view_table
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.view_table
+    displayName: view_table
+    deleted: false
+  - id: cb51c900-d0db-4948-9709-fe53ce970431
+    type: table
+    name: vw
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.imri_test.vw
+    displayName: vw
+    deleted: false
+tags:
+  - tagFQN: nonsensitive.nonsensitive
+    name: nonsensitive
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771507089913
+  - tagFQN: person.person
+    name: person
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771507089913
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2simri_test
+domains: []
+sourceHash: 8aaa76aaeb599c383e3a30683af5abaa
+entityStatus: Unprocessed

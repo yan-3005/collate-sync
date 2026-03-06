@@ -1,0 +1,87 @@
+name: fivetran_metadata
+fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: bce6d773-1dfd-42b9-8903-cdd5b5e6c0d4
+  type: databaseService
+  name: auto-classification-service
+  fullyQualifiedName: auto-classification-service
+  description: ""
+  displayName: auto-classification-service
+  deleted: false
+serviceType: BigQuery
+database:
+  id: afb80d67-8236-487e-bc60-9f924cc589df
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: auto-classification-service.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 029d0374-28a1-4ef9-a711-f7bcba49eb4e
+    type: table
+    name: account
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.account
+    displayName: account
+    deleted: false
+  - id: cbcf9743-46f5-41dc-a6d9-43b542585a45
+    type: table
+    name: connector
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.connector
+    displayName: connector
+    deleted: false
+  - id: dda32576-0f5c-464f-beb1-d0fb650bdcf9
+    type: table
+    name: connector_type
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.connector_type
+    displayName: connector_type
+    deleted: false
+  - id: c5186e65-ec8f-42ca-8f2d-83c2b0c12236
+    type: table
+    name: destination
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.destination
+    displayName: destination
+    deleted: false
+  - id: c7aa61b2-3647-443b-8e15-700bfb1eeef3
+    type: table
+    name: incremental_mar
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.incremental_mar
+    displayName: incremental_mar
+    deleted: false
+  - id: 38fee9bf-3e13-4fba-936d-6e766b5882be
+    type: table
+    name: log
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.log
+    displayName: log
+    deleted: false
+  - id: 4312fe9a-832f-462e-bdea-59d96804837f
+    type: table
+    name: resource_membership
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.resource_membership
+    displayName: resource_membership
+    deleted: false
+  - id: b04e3d1b-c80f-4c60-a34e-a7ebf79819b7
+    type: table
+    name: role
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.role
+    displayName: role
+    deleted: false
+  - id: fd9c65ef-aa27-487a-a98a-c033f7d2ea1b
+    type: table
+    name: role_permission
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.role_permission
+    displayName: role_permission
+    deleted: false
+  - id: beb652ff-b9d3-47f8-922b-581532df49ce
+    type: table
+    name: user
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.fivetran_metadata.user
+    displayName: user
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sfivetran_metadata
+domains: []
+sourceHash: 34ff47a87ef99d4b70b9c0caa1b4d05f
+entityStatus: Unprocessed

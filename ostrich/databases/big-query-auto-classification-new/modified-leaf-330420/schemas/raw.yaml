@@ -1,0 +1,63 @@
+name: raw
+fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.raw
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 82441fdd-6bd7-4145-a7f4-005e5986d5d4
+  type: databaseService
+  name: big-query-auto-classification-new
+  fullyQualifiedName: big-query-auto-classification-new
+  description: ""
+  displayName: big-query-auto-classification-new
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 7e1a74b8-2afc-4e14-a69e-bb968301dd7e
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 3e852d54-21a8-487d-8ca0-1fb8bd53dd7c
+    type: table
+    name: raw_customers
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.raw.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: cc7b3257-19f3-4e39-b0d6-6330b68c4224
+    type: table
+    name: raw_items
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.raw.raw_items
+    displayName: raw_items
+    deleted: false
+  - id: 3d529cc4-64b2-44dd-b013-1c63a909a45b
+    type: table
+    name: raw_orders
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.raw.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: 3fb80d7f-0c7b-4200-9c18-e13488af8475
+    type: table
+    name: raw_products
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.raw.raw_products
+    displayName: raw_products
+    deleted: false
+  - id: b554144b-ca39-49ee-a356-f567f796d811
+    type: table
+    name: raw_stores
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.raw.raw_stores
+    displayName: raw_stores
+    deleted: false
+  - id: 0112ea17-270d-49b7-89ed-8823ab8c101f
+    type: table
+    name: raw_supplies
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.raw.raw_supplies
+    displayName: raw_supplies
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sraw
+domains: []
+sourceHash: 46bb729669f62fbe53ea3167b63229ee
+entityStatus: Unprocessed

@@ -1,0 +1,67 @@
+name: dbt_jaffle
+fullyQualifiedName: BigqueryProd.modified-leaf-330420.dbt_jaffle
+description: "Hello there, it's the description"
+dataProducts:
+  - id: 52726a58-32bf-4767-966f-e7220efe70e2
+    type: dataProduct
+    name: dp-1
+    fullyQualifiedName: dp-1
+    description: <p>data product 1</p>
+    displayName: Data Product 1
+owners:
+  - id: 0e267b26-5faf-41de-af87-ef5e256d95e6
+    type: user
+    name: temp
+    fullyQualifiedName: temp
+    description: <p>Temp user to test soft deleted user behaviour</p>
+    displayName: Temp user
+    deleted: false
+service:
+  id: a3b0e343-5bc4-4333-b1c5-44bb1dfab21f
+  type: databaseService
+  name: BigqueryProd
+  fullyQualifiedName: BigqueryProd
+  displayName: BigqueryProd
+  deleted: true
+serviceType: BigQuery
+database:
+  id: 72a61114-f300-480a-a5f7-11fd156c7eb4
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: BigqueryProd.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: true
+tables: []
+tags:
+  - tagFQN: test.testcheck
+    name: testcheck
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+  - tagFQN: test2.asd
+    name: asd
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: false
+      newValue: true
+  fieldsDeleted: []
+  previousVersion: 0.3
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sdbt_jaffle
+domains:
+  - id: 7c09ff9f-c6df-41a4-aa52-d51d115f1414
+    type: domain
+    name: Engineering
+    fullyQualifiedName: Engineering
+    description: <p>Engineering</p>
+    displayName: Engineering
+sourceHash: 16f8017360f21b9b9ff9d3183668fb74
+entityStatus: Unprocessed

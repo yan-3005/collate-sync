@@ -1,0 +1,275 @@
+name: sdoh_cms_dual_eligible_enrollment
+fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: e00aa3ce-791c-4bf5-b54d-f23325649cae
+  type: databaseService
+  name: big-query-auto-classification
+  fullyQualifiedName: big-query-auto-classification
+  description: ""
+  displayName: big-query-auto-classification
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 365a6a1e-fc9f-406c-a917-df7041dda875
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 07116ac9-ad7c-4bdb-a751-fbd9669c4686
+    type: table
+    name: asd
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.asd
+    description: 'TES DESCRIPTION '
+    displayName: asd
+    deleted: false
+  - id: f9d1db9a-83c0-487b-a903-99d6c4dad921
+    type: table
+    name: bytes_tables
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.bytes_tables
+    displayName: bytes_tables
+    deleted: false
+  - id: c192d4a9-67da-4cce-add0-7ec0c075dd34
+    type: table
+    name: dual_eligible_enrollment_by_county_and_program
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.dual_eligible_enrollment_by_county_and_program
+    description: "This document presents counts of Medicare-Medicaid dual enrollees\
+      \ (including those in Medicare Savings Programs), by eligibility type, who were\
+      \ enrolled in a given month (to be continuously updated on a quarterly basis).\_\
+      \ They include numbers of individuals at both the state and county level.\_\
+      \  Note that these are monthly snapshots and are inherently lower than ever-enrolled\
+      \ counts which include persons enrolled at any time during a calendar year.\_\
+      \ The underlying source data are the Medicare Modernization Act (MMA) data that\
+      \ states submit to CMS on an at-least monthly basis. These data are subject\
+      \ to retroactive adjustment.  Analyses were conducted within the Chronic Condition\
+      \ Data Warehouse (CCW) environment.\_\_ For more information on identifying\
+      \ dually eligible beneficiaries within CMS data, please refer to the following\
+      \ website: https://www.cms.gov/Medicare-Medicaid-Coordination/Medicare-and-Medicaid-Coordination/Medicare-Medicaid-Coordination-Office/Downloads/MMCO_Definition_of_Dual_Eligible.pdf."
+    displayName: dual_eligible_enrollment_by_county_and_program
+    deleted: false
+  - id: 8d82c27a-ef9e-4cf7-89eb-75487cd73fc7
+    type: table
+    name: dual_eligible_enrollment_by_county_and_program_new
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.dual_eligible_enrollment_by_county_and_program_new
+    displayName: dual_eligible_enrollment_by_county_and_program_new
+    deleted: false
+  - id: acaf57da-bb9d-44a4-abad-7d0dde2859d3
+    type: table
+    name: ingestion_partition_table
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.ingestion_partition_table
+    displayName: ingestion_partition_table
+    deleted: false
+  - id: 5dc29f9c-7770-4703-ba0e-faed15b2aaba
+    type: table
+    name: nested_struct
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.nested_struct
+    displayName: nested_struct
+    deleted: false
+  - id: 70a3abcb-88c3-49d4-a796-34e0128ec7c8
+    type: table
+    name: nested_struct_partition
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.nested_struct_partition
+    displayName: nested_struct_partition
+    deleted: false
+  - id: 97760bcb-4434-4440-9c4b-cb1dcc320c02
+    type: table
+    name: new_cities
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.new_cities
+    displayName: new_cities
+    deleted: false
+  - id: 5891af0b-ae21-4b59-97e5-87aca2cfc358
+    type: table
+    name: new_cities_nine
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.new_cities_nine
+    displayName: new_cities_nine
+    deleted: false
+  - id: 6988e8f3-6c50-4526-8a4d-74fb20463c52
+    type: table
+    name: new_cities_view
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.new_cities_view
+    displayName: new_cities_view
+    deleted: false
+  - id: 16286033-2e32-47bd-ae54-b057974e9875
+    type: table
+    name: new_cities_view22
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.new_cities_view22
+    displayName: new_cities_view22
+    deleted: false
+  - id: 3db907fb-975d-43a1-b14f-65db7bacb8ad
+    type: table
+    name: new_cities_zero_eleven
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.new_cities_zero_eleven
+    displayName: new_cities_zero_eleven
+    deleted: false
+  - id: eca8dcdf-9d82-4949-9f32-12deb48639a7
+    type: table
+    name: new_cities_zeroeleven_view
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.new_cities_zeroeleven_view
+    displayName: new_cities_zeroeleven_view
+    deleted: false
+  - id: d2f8727c-5159-460f-a6e7-bb14c38df784
+    type: table
+    name: newtable
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.newtable
+    displayName: newtable
+    deleted: false
+  - id: 7b853968-0984-4b3d-9884-e212ca98ce20
+    type: table
+    name: newtable_partition_ingestion_time
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.newtable_partition_ingestion_time
+    displayName: newtable_partition_ingestion_time
+    deleted: false
+  - id: 23e37c71-5fe5-4267-8110-9662631f3886
+    type: table
+    name: newtable_test
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.newtable_test
+    displayName: newtable_test
+    deleted: false
+  - id: c4516aa5-d9f7-403c-adf3-5d691fab249f
+    type: table
+    name: newview
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.newview
+    displayName: newview
+    deleted: false
+  - id: 910cb736-67e1-4b18-a895-ecae36af1648
+    type: table
+    name: non_partitioned_newtable
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.non_partitioned_newtable
+    displayName: non_partitioned_newtable
+    deleted: false
+  - id: 0de32837-5ca0-4c53-b79f-17bb491392cf
+    type: table
+    name: overflow_table
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.overflow_table
+    displayName: overflow_table
+    deleted: false
+  - id: 60081cd8-9fb0-424c-b878-17bc32541be4
+    type: table
+    name: range_partition
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.range_partition
+    displayName: range_partition
+    deleted: false
+  - id: 4f50af13-805f-48a6-bd98-f68a7c9952fe
+    type: table
+    name: record_table
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.record_table
+    displayName: record_table
+    deleted: false
+  - id: 22e1c41a-822b-4bab-a2a4-813d9ce146b5
+    type: table
+    name: repeated_nested_struct_array
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.repeated_nested_struct_array
+    displayName: repeated_nested_struct_array
+    deleted: false
+  - id: 23ec009a-b282-42ab-b977-d2979d6d56e5
+    type: table
+    name: repeated_record
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.repeated_record
+    displayName: repeated_record
+    deleted: false
+  - id: 9d6ab337-fd53-4710-ace6-7fa25e72b4cf
+    type: table
+    name: repeated_record_multiple
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.repeated_record_multiple
+    displayName: repeated_record_multiple
+    deleted: false
+  - id: 38e8600c-0a3b-4eab-b885-ee3443bd3abe
+    type: table
+    name: repeated_record_simple
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.repeated_record_simple
+    displayName: repeated_record_simple
+    deleted: false
+  - id: fd18721c-6f3b-44c2-86b4-d86822e82c15
+    type: table
+    name: repeated_record_simple_partitioned
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.repeated_record_simple_partitioned
+    displayName: repeated_record_simple_partitioned
+    deleted: false
+  - id: 5499fead-ccf9-4e35-90e9-2def518140b2
+    type: table
+    name: repeated_struct_array
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.repeated_struct_array
+    displayName: repeated_struct_array
+    deleted: false
+  - id: 4262cd91-f2ca-4d47-bb24-a250e8f7d2b1
+    type: table
+    name: repeated_struct_partitioned
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.repeated_struct_partitioned
+    displayName: repeated_struct_partitioned
+    deleted: false
+  - id: 1e0b6d40-9cc0-4c14-bfe1-36e9252ab35e
+    type: table
+    name: struct_table
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.struct_table
+    displayName: struct_table
+    deleted: false
+  - id: db5d087d-c1da-4582-a3a7-81a0a457f399
+    type: table
+    name: test_data_type
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_data_type
+    displayName: test_data_type
+    deleted: false
+  - id: 573cc4ca-e3d3-40b7-bb93-5722f8dec4a2
+    type: table
+    name: test_ingestion_partitiondate
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_ingestion_partitiondate
+    displayName: test_ingestion_partitiondate
+    deleted: false
+  - id: 4658d2ee-04bf-405a-934c-79faf3d8b36a
+    type: table
+    name: test_ingestion_time
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_ingestion_time
+    displayName: test_ingestion_time
+    deleted: false
+  - id: 9e337d2b-a0f3-43b9-8a86-85fbea443f27
+    type: table
+    name: test_ingestion_time_diff
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_ingestion_time_diff
+    displayName: test_ingestion_time_diff
+    deleted: false
+  - id: 1955935c-4773-4394-86bf-460cc73a1690
+    type: table
+    name: test_partition_new_table
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_partition_new_table
+    displayName: test_partition_new_table
+    deleted: false
+  - id: 405d87ee-7e37-4689-b27e-37a43b6cd7f4
+    type: table
+    name: test_policy_tags
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_policy_tags
+    displayName: test_policy_tags
+    deleted: false
+  - id: 67bad648-0576-4ec4-b9e7-9c7f9367a8c7
+    type: table
+    name: test_time_unit
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_time_unit
+    displayName: test_time_unit
+    deleted: false
+  - id: 0455f43a-fd59-4b57-9e03-663851ea1f3b
+    type: table
+    name: test_unnest
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_unnest
+    displayName: test_unnest
+    deleted: false
+  - id: febaddf2-4985-4ff6-a3be-681204a6d75c
+    type: table
+    name: test_unnest2
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.sdoh_cms_dual_eligible_enrollment.test_unnest2
+    displayName: test_unnest2
+    deleted: false
+tags:
+  - tagFQN: label_1.value_1
+    name: value_1
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771398011067
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2ssdoh_cms_dual_eligible_enrollment
+domains: []
+sourceHash: 5a11930463577efc8bacc47614a52147
+entityStatus: Unprocessed
