@@ -1,0 +1,45 @@
+name: Silver
+fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.Silver
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 82441fdd-6bd7-4145-a7f4-005e5986d5d4
+  type: databaseService
+  name: big-query-auto-classification-new
+  fullyQualifiedName: big-query-auto-classification-new
+  description: ""
+  displayName: big-query-auto-classification-new
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 7e1a74b8-2afc-4e14-a69e-bb968301dd7e
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 8e201ca2-8ffe-4fc1-a601-aa88f6e277f0
+    type: table
+    name: orders
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.Silver.orders
+    displayName: orders
+    deleted: false
+  - id: 77ae3305-9152-479a-bb63-93287536f985
+    type: table
+    name: products
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.Silver.products
+    displayName: products
+    deleted: false
+  - id: f1714eb2-80f2-4886-9cce-6d4902bb9745
+    type: table
+    name: users
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.Silver.users
+    displayName: users
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sSilver
+domains: []
+sourceHash: 9f2db078f1719129e2367d160b4d9b32
+entityStatus: Unprocessed

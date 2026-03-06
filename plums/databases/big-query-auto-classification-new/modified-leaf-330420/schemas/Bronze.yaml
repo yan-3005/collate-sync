@@ -1,0 +1,53 @@
+name: Bronze
+fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.Bronze
+description: New description
+dataProducts: []
+owners: []
+service:
+  id: 82441fdd-6bd7-4145-a7f4-005e5986d5d4
+  type: databaseService
+  name: big-query-auto-classification-new
+  fullyQualifiedName: big-query-auto-classification-new
+  description: ""
+  displayName: big-query-auto-classification-new
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 7e1a74b8-2afc-4e14-a69e-bb968301dd7e
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: a2602a1e-5d56-4182-a5ef-79ac6d68b982
+    type: table
+    name: orders
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.Bronze.orders
+    description: New table description
+    displayName: orders
+    deleted: false
+  - id: e0243e88-9651-477c-95bb-b09ec448f17e
+    type: table
+    name: products
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.Bronze.products
+    displayName: products
+    deleted: false
+  - id: f9c0feba-0b68-423c-8c8e-e7ab92a29325
+    type: table
+    name: users
+    fullyQualifiedName: big-query-auto-classification-new.modified-leaf-330420.Bronze.users
+    displayName: users
+    deleted: false
+tags:
+  - tagFQN: newlable.newlablevalue
+    name: newlablevalue
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedAt: 1771421074090
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sBronze
+domains: []
+sourceHash: 979b328c5c95f178c9e663b9fdfc8138
+entityStatus: Unprocessed

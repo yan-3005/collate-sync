@@ -1,0 +1,63 @@
+name: raw
+fullyQualifiedName: auto-classification-service.modified-leaf-330420.raw
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: bce6d773-1dfd-42b9-8903-cdd5b5e6c0d4
+  type: databaseService
+  name: auto-classification-service
+  fullyQualifiedName: auto-classification-service
+  description: ""
+  displayName: auto-classification-service
+  deleted: false
+serviceType: BigQuery
+database:
+  id: afb80d67-8236-487e-bc60-9f924cc589df
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: auto-classification-service.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 18be8158-e1e3-496c-8f0e-deabe6879b11
+    type: table
+    name: raw_customers
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.raw.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: 92a93063-b3b9-459a-9b7c-abd8f06da2e3
+    type: table
+    name: raw_items
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.raw.raw_items
+    displayName: raw_items
+    deleted: false
+  - id: 52a9aa10-7a7a-4bf8-9b35-240e59b5c55e
+    type: table
+    name: raw_orders
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.raw.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: 067e66c6-e36c-49ab-8133-c00c315492b8
+    type: table
+    name: raw_products
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.raw.raw_products
+    displayName: raw_products
+    deleted: false
+  - id: b90dea51-cc6c-4309-8cd5-bccb8333240b
+    type: table
+    name: raw_stores
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.raw.raw_stores
+    displayName: raw_stores
+    deleted: false
+  - id: 9cdd8437-7c86-4d09-8a40-cacb4d1be9b8
+    type: table
+    name: raw_supplies
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.raw.raw_supplies
+    displayName: raw_supplies
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sraw
+domains: []
+sourceHash: bfe63e2fb3ce5cf45c3505b073c82a0f
+entityStatus: Unprocessed

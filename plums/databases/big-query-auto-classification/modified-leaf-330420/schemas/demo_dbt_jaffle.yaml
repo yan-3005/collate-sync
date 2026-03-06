@@ -1,0 +1,135 @@
+name: demo_dbt_jaffle
+fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: e00aa3ce-791c-4bf5-b54d-f23325649cae
+  type: databaseService
+  name: big-query-auto-classification
+  fullyQualifiedName: big-query-auto-classification
+  description: ""
+  displayName: big-query-auto-classification
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 365a6a1e-fc9f-406c-a917-df7041dda875
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 66d5dafd-161b-44ac-ae08-2d5465cf3fe4
+    type: table
+    name: customers
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.customers
+    displayName: customers
+    deleted: false
+  - id: d11616a9-5020-46d9-a3ea-c731d35bd4b1
+    type: table
+    name: customers_clean
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.customers_clean
+    displayName: customers_clean
+    deleted: false
+  - id: 8b6d840b-cd03-4d25-b009-d49f68fd80e8
+    type: table
+    name: locations
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.locations
+    displayName: locations
+    deleted: false
+  - id: 38748b57-5402-4262-8f46-06a556c0c503
+    type: table
+    name: metricflow_time_spine
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.metricflow_time_spine
+    displayName: metricflow_time_spine
+    deleted: false
+  - id: b0e093c2-6473-4815-8c5f-33f278cba0c8
+    type: table
+    name: order_items
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.order_items
+    displayName: order_items
+    deleted: false
+  - id: 53b00994-53ab-439e-ae81-7a05c8409439
+    type: table
+    name: orders
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.orders
+    displayName: orders
+    deleted: false
+  - id: 726bc61f-a8eb-4c24-9700-9a32f9aea4b8
+    type: table
+    name: products
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.products
+    displayName: products
+    deleted: false
+  - id: 721144ab-bbd3-49a9-bac1-81d5385a1247
+    type: table
+    name: raw_customers
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: f7c7a54f-0629-4a67-8fb6-233d2dbbf240
+    type: table
+    name: raw_orders
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: 08a29b07-711f-48e6-803e-a7f4b98bb4fc
+    type: table
+    name: raw_payments
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.raw_payments
+    displayName: raw_payments
+    deleted: false
+  - id: 2a737c4c-d4ae-4256-997a-25e65252eace
+    type: table
+    name: stg_customers
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.stg_customers
+    displayName: stg_customers
+    deleted: false
+  - id: 4349f77e-ec9f-462d-b2f0-65c6bb6f0215
+    type: table
+    name: stg_locations
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.stg_locations
+    displayName: stg_locations
+    deleted: false
+  - id: 09b09ef3-c5be-46bc-a16e-581306b7aed4
+    type: table
+    name: stg_order_items
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.stg_order_items
+    displayName: stg_order_items
+    deleted: false
+  - id: ac08d411-6945-4a2a-b074-78f9205d59a4
+    type: table
+    name: stg_orders
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.stg_orders
+    displayName: stg_orders
+    deleted: false
+  - id: 2b70fa33-27d7-4de0-950b-af2fc1dcfcad
+    type: table
+    name: stg_payments
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.stg_payments
+    displayName: stg_payments
+    deleted: false
+  - id: 3193a27f-82d9-4c30-a788-06cf24e0d4c9
+    type: table
+    name: stg_products
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.stg_products
+    displayName: stg_products
+    deleted: false
+  - id: 589d25c7-3b4c-47de-8529-2781fc572f6b
+    type: table
+    name: stg_supplies
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.stg_supplies
+    displayName: stg_supplies
+    deleted: false
+  - id: ede480bd-b3ca-434b-accd-f2a1870ef037
+    type: table
+    name: supplies
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.demo_dbt_jaffle.supplies
+    displayName: supplies
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sdemo_dbt_jaffle
+domains: []
+sourceHash: 6892aec011b6dc65b81b085dec6a1c8c
+entityStatus: Unprocessed

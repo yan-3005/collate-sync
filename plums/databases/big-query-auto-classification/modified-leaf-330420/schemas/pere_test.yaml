@@ -1,0 +1,87 @@
+name: pere_test
+fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: e00aa3ce-791c-4bf5-b54d-f23325649cae
+  type: databaseService
+  name: big-query-auto-classification
+  fullyQualifiedName: big-query-auto-classification
+  description: ""
+  displayName: big-query-auto-classification
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 365a6a1e-fc9f-406c-a917-df7041dda875
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 7bd8a0e4-6126-4d43-b602-373d81f219a3
+    type: table
+    name: external_pere
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.external_pere
+    displayName: external_pere
+    deleted: false
+  - id: a5668056-b283-4860-992d-86188f07c417
+    type: table
+    name: external_pere2
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.external_pere2
+    displayName: external_pere2
+    deleted: false
+  - id: e1fabd60-d592-4eb1-80ce-6d7503750808
+    type: table
+    name: external_pere_mult
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.external_pere_mult
+    displayName: external_pere_mult
+    deleted: false
+  - id: 19bd89d3-50f1-4cb5-b213-51fc40158341
+    type: table
+    name: external_pere_parquet
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.external_pere_parquet
+    displayName: external_pere_parquet
+    deleted: false
+  - id: 8d41eca6-9228-4961-9c48-0b689c44a1f9
+    type: table
+    name: test_cluster
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.test_cluster
+    displayName: test_cluster
+    deleted: false
+  - id: 2a64f46d-1500-4973-ad15-80f5d36ef0c0
+    type: table
+    name: test_normal
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.test_normal
+    displayName: test_normal
+    deleted: false
+  - id: 99a8c416-694f-42bf-b25e-c98ca242d0b2
+    type: table
+    name: test_partition
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.test_partition
+    displayName: test_partition
+    deleted: false
+  - id: 42f4d648-7bfd-4c0e-83f0-a7e0e372dfb6
+    type: table
+    name: test_partition_filter
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.test_partition_filter
+    displayName: test_partition_filter
+    deleted: false
+  - id: 64ad5e0e-244d-4066-8097-bef83ac2fcc5
+    type: table
+    name: test_partition_filter_mult
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.test_partition_filter_mult
+    displayName: test_partition_filter_mult
+    deleted: false
+  - id: f4dcf818-af5b-4112-837a-55e3ba68d021
+    type: table
+    name: your_table
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.pere_test.your_table
+    displayName: your_table
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2spere_test
+domains: []
+sourceHash: a32ad4a8d33b52f91b23fdbca597f86e
+entityStatus: Unprocessed

@@ -1,0 +1,33 @@
+name: Gold
+fullyQualifiedName: auto-classification-service.modified-leaf-330420.Gold
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: bce6d773-1dfd-42b9-8903-cdd5b5e6c0d4
+  type: databaseService
+  name: auto-classification-service
+  fullyQualifiedName: auto-classification-service
+  description: ""
+  displayName: auto-classification-service
+  deleted: false
+serviceType: BigQuery
+database:
+  id: afb80d67-8236-487e-bc60-9f924cc589df
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: auto-classification-service.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 067ab6ec-26c3-44d1-9e54-ff8943a39122
+    type: table
+    name: user_order_summary
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.Gold.user_order_summary
+    displayName: user_order_summary
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sGold
+domains: []
+sourceHash: 1632cdb4fbc41e088e0d02ed7957a06f
+entityStatus: Unprocessed

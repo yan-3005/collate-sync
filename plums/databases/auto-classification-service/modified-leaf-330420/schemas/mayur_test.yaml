@@ -1,0 +1,45 @@
+name: mayur_test
+fullyQualifiedName: auto-classification-service.modified-leaf-330420.mayur_test
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: bce6d773-1dfd-42b9-8903-cdd5b5e6c0d4
+  type: databaseService
+  name: auto-classification-service
+  fullyQualifiedName: auto-classification-service
+  description: ""
+  displayName: auto-classification-service
+  deleted: false
+serviceType: BigQuery
+database:
+  id: afb80d67-8236-487e-bc60-9f924cc589df
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: auto-classification-service.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 7eaf7fb9-fecf-4e39-bfc0-c8f6cac92dc7
+    type: table
+    name: region_country_capital
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.mayur_test.region_country_capital
+    displayName: region_country_capital
+    deleted: false
+  - id: bc47e092-c3de-4b56-8357-ee65189ed4f3
+    type: table
+    name: region_country_capital2
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.mayur_test.region_country_capital2
+    displayName: region_country_capital2
+    deleted: false
+  - id: 8b2f9040-9391-4f8e-a0e3-68a264146a35
+    type: table
+    name: region_country_capital_clone
+    fullyQualifiedName: auto-classification-service.modified-leaf-330420.mayur_test.region_country_capital_clone
+    displayName: region_country_capital_clone
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2smayur_test
+domains: []
+sourceHash: d27d9eebe602199dcb5c253b5e49d66d
+entityStatus: Unprocessed

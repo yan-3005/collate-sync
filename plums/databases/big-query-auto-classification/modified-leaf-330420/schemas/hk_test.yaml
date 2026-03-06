@@ -1,0 +1,87 @@
+name: hk_test
+fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: e00aa3ce-791c-4bf5-b54d-f23325649cae
+  type: databaseService
+  name: big-query-auto-classification
+  fullyQualifiedName: big-query-auto-classification
+  description: ""
+  displayName: big-query-auto-classification
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 365a6a1e-fc9f-406c-a917-df7041dda875
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: a5288772-ed39-4ac2-beab-8c74e32293ad
+    type: table
+    name: addresses
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.addresses
+    displayName: addresses
+    deleted: false
+  - id: 3db92007-b33d-4c9e-9410-6c89e6c0628b
+    type: table
+    name: customers
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.customers
+    displayName: customers
+    deleted: false
+  - id: 290ef0b7-e689-4837-a461-5fce2e256de6
+    type: table
+    name: employees
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.employees
+    displayName: employees
+    deleted: false
+  - id: cc120268-0bbc-4224-a77e-203905695019
+    type: table
+    name: order_items
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.order_items
+    displayName: order_items
+    deleted: false
+  - id: 7b119d1a-170b-4355-8d04-a9153be5e1b5
+    type: table
+    name: orders
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.orders
+    displayName: orders
+    deleted: false
+  - id: 0c625bb6-6241-4ca1-90c7-62ab0d919490
+    type: table
+    name: payments
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.payments
+    displayName: payments
+    deleted: false
+  - id: 9ef06c5e-9843-4914-adc5-80068fe149ea
+    type: table
+    name: product_inventory
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.product_inventory
+    displayName: product_inventory
+    deleted: false
+  - id: 0ea0e1b1-8278-4f03-88c1-6d9688133a74
+    type: table
+    name: products
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.products
+    displayName: products
+    deleted: false
+  - id: fbf5d2f9-c6f1-46b1-a8d7-9941e79900bb
+    type: table
+    name: sample_customers
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.sample_customers
+    displayName: sample_customers
+    deleted: false
+  - id: da6e9c66-4bf5-4be3-889f-fc272d4b1db7
+    type: table
+    name: sample_table
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.hk_test.sample_table
+    displayName: sample_table
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2shk_test
+domains: []
+sourceHash: 1450c81681ab00f1899fd507819e10d7
+entityStatus: Unprocessed

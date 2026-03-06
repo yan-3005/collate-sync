@@ -1,0 +1,27 @@
+name: fivetran_lapdog_arbitrary_staging
+fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.fivetran_lapdog_arbitrary_staging
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: e00aa3ce-791c-4bf5-b54d-f23325649cae
+  type: databaseService
+  name: big-query-auto-classification
+  fullyQualifiedName: big-query-auto-classification
+  description: ""
+  displayName: big-query-auto-classification
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 365a6a1e-fc9f-406c-a917-df7041dda875
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables: []
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sfivetran_lapdog_arbitrary_staging
+domains: []
+sourceHash: eb627361d66ca6e18bdcdb79f5367fe7
+entityStatus: Unprocessed

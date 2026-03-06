@@ -1,0 +1,69 @@
+name: mt_test
+fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.mt_test
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: e00aa3ce-791c-4bf5-b54d-f23325649cae
+  type: databaseService
+  name: big-query-auto-classification
+  fullyQualifiedName: big-query-auto-classification
+  description: ""
+  displayName: big-query-auto-classification
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 365a6a1e-fc9f-406c-a917-df7041dda875
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: big-query-auto-classification.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: f4ef6d6c-8f03-4727-8c5c-3b3169cc8575
+    type: table
+    name: dataflow_customers
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.mt_test.dataflow_customers
+    displayName: dataflow_customers
+    deleted: false
+  - id: 3ceb40ec-aec3-43b4-a678-613860dfa8ca
+    type: table
+    name: df-bq-job-table-003
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.mt_test.df-bq-job-table-003
+    displayName: df-bq-job-table-003
+    deleted: false
+  - id: d9a2d182-554c-4df8-8352-341bb360b516
+    type: table
+    name: df-bq-job-table-004
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.mt_test.df-bq-job-table-004
+    displayName: df-bq-job-table-004
+    deleted: false
+  - id: 1f9d03b2-7529-4793-9771-5cfa39692791
+    type: table
+    name: df-bq-job-table-005
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.mt_test.df-bq-job-table-005
+    displayName: df-bq-job-table-005
+    deleted: false
+  - id: 00594e2f-a42b-4b69-a737-bc2199fe8e39
+    type: table
+    name: df-bq-job-table-006-users
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.mt_test.df-bq-job-table-006-users
+    displayName: df-bq-job-table-006-users
+    deleted: false
+  - id: 7d4d5c7f-0f11-4d77-9870-f92b7242a7c7
+    type: table
+    name: df-bq-job-table-009-users
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.mt_test.df-bq-job-table-009-users
+    displayName: df-bq-job-table-009-users
+    deleted: false
+  - id: 23497282-eb5f-42b7-bbaa-32dfa5e085e5
+    type: table
+    name: df-bq-job-table-011-users
+    fullyQualifiedName: big-query-auto-classification.modified-leaf-330420.mt_test.df-bq-job-table-011-users
+    displayName: df-bq-job-table-011-users
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2smt_test
+domains: []
+sourceHash: 45574449a8bc6c399743267469c80e7c
+entityStatus: Unprocessed

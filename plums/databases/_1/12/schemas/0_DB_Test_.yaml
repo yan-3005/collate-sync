@@ -1,0 +1,36 @@
+name: test_project_2
+fullyQualifiedName: '"1.12.0 DB Test".modified-leaf-330420.test_project_2'
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: a785166e-3773-43d2-9736-0de6192c4137
+  type: databaseService
+  name: 1.12.0 DB Test
+  fullyQualifiedName: '"1.12.0 DB Test"'
+  description: ""
+  displayName: 1.12.0 DB Test
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 163a0648-8fb4-470b-a2dc-03a667982b8e
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: '"1.12.0 DB Test".modified-leaf-330420'
+  displayName: modified-leaf-330420
+  deleted: false
+tables: []
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: true
+      newValue: false
+  fieldsDeleted: []
+  previousVersion: 0.2
+  changeSummary: {}
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2stest_project_2
+domains: []
+sourceHash: 0717203de855bd4d5c0ff21c32d356b1
+entityStatus: Unprocessed
