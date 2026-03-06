@@ -1,0 +1,102 @@
+name: query_runner_bq
+fullyQualifiedName: query_runner_bq
+serviceType: BigQuery
+description: ""
+connection:
+  config:
+    type: BigQuery
+    scheme: bigquery
+    hostPort: bigquery.googleapis.com
+    costPerTB: 6.25
+    credentials:
+      gcpConfig:
+        type: service_account
+        authUri: https://accounts.google.com/o/oauth2/auth
+        clientId: 112732782865529894463
+        tokenUri: https://oauth2.googleapis.com/token
+        projectId: modified-leaf-330420
+        privateKey: fernet:gAAAAABpqiY6R6NOw9jmyJJoiStK3y6hSfg0iSQLNRw4ZH2X1e47-Qm6uuZKc4ljY99UzfZ1R7vRvVJVjLYMcKNhvyTixU0OSmlatqoVI1QT5VmkfZM28Xv6dXOkMT9orTZBDIxIY6Fy6a4Zmm6iqHFNbu42h3UqHfLR7E_WcKffxGjZj0epgF0=
+        clientEmail: test-openmetadata@modified-leaf-330420.iam.gserviceaccount.com
+        privateKeyId: 29ea18f61a73e4820c61c48f0a112d45677a36ae
+        clientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/test-openmetadata%40modified-leaf-330420.iam.gserviceaccount.com
+        authProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      gcpImpersonateServiceAccount:
+        lifetime: 3600
+    usageLocation: us
+    billingProjectId: modified-leaf-330420
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    taxonomyLocation: us
+    includePolicyTags: true
+    taxonomyProjectID: []
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes: []
+      includes:
+        - hk_test
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes: []
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    sampleDataStorageConfig:
+      config:
+        prefix: ""
+        bucketName: ""
+        overwriteData: true
+        storageConfig:
+          assumeRoleSessionName: OpenMetadataSession
+        filePathPattern: "{service_name}/{database_name}/{database_schema_name}/{table_name}/sample_data.parquet"
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: fb765454-bc58-46af-b942-4dfe588820d1
+    type: ingestionPipeline
+    name: 37f093f1-d20e-4ec3-b011-a97a09445dcf
+    fullyQualifiedName: query_runner_bq.37f093f1-d20e-4ec3-b011-a97a09445dcf
+    displayName: Usage Agent
+    deleted: false
+  - id: 0b5d536e-34d7-42df-9eb3-f1bf2466e050
+    type: ingestionPipeline
+    name: 5b363a69-94a2-4ad5-9357-e089548fabb6
+    fullyQualifiedName: query_runner_bq.5b363a69-94a2-4ad5-9357-e089548fabb6
+    displayName: Lineage Agent
+    deleted: false
+  - id: 8bc6ccfd-8ee6-4739-979c-f889f5c63524
+    type: ingestionPipeline
+    name: 6f448f65-dbf2-486c-a12d-2f22a89b4164
+    fullyQualifiedName: query_runner_bq.6f448f65-dbf2-486c-a12d-2f22a89b4164
+    displayName: AutoClassification Agent
+    deleted: false
+  - id: 6f642a3a-6271-4d04-b83a-61eaf2bfed5e
+    type: ingestionPipeline
+    name: 746aa4d6-5222-4e6e-ae11-84ebd06e2d3d
+    fullyQualifiedName: query_runner_bq.746aa4d6-5222-4e6e-ae11-84ebd06e2d3d
+    displayName: Metadata Agent
+    deleted: false
+  - id: 9ac7f3e9-ba1a-4a22-852f-15398d88c2ac
+    type: ingestionPipeline
+    name: f6fd7ef3-58cd-4f61-acad-415a916eac7c
+    fullyQualifiedName: query_runner_bq.f6fd7ef3-58cd-4f61-acad-415a916eac7c
+    displayName: Profiler Agent
+    deleted: false
+tags: []
+owners:
+  - id: 273d742e-0f33-40ff-aca0-38a378c53c25
+    type: user
+    name: himanshu
+    fullyQualifiedName: himanshu
+    description: ""
+    displayName: himanshu
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

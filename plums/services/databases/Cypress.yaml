@@ -1,0 +1,78 @@
+name: Cypress
+fullyQualifiedName: Cypress
+serviceType: Mysql
+description: ""
+connection:
+  config:
+    type: Mysql
+    scheme: mysql+pymysql
+    authType:
+      password: fernet:gAAAAABpqiY6fzWk2CyDpoB7SFlzpRo5fhb8Zf_pV4npt0pIQXwRcJb3hLc0vrjTloxsgxtyD_pUPKjlSpF_1CWFgWqzkZ7d2Z0V8DmK1H1tQW3x24WhPdaKj8mCoBcJm3mEVbm-gOqCSpa1ESuJuebMKsQNsCe2bg==
+    hostPort: cypress-integration-mysql-db.cvxcerjcdlpi.us-east-2.rds.amazonaws.com:3306
+    username: openmetadata_user
+    useSlowLogs: false
+    supportsDataDiff: true
+    supportsProfiler: true
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+        - ^performance_schema$
+      includes: []
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes: []
+      includes: []
+    supportsDBTExtraction: true
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+pipelines:
+  - id: 3eea7c97-4e9d-4f73-9dc6-7e996eb8a0b5
+    type: ingestionPipeline
+    name: 5e483edc-f0a8-428e-aad7-58725e3ad1e8
+    fullyQualifiedName: Cypress.5e483edc-f0a8-428e-aad7-58725e3ad1e8
+    displayName: Metadata Agent
+    deleted: false
+  - id: 44390192-dbcc-4d2a-8bfc-99bf0285e541
+    type: ingestionPipeline
+    name: 93738301-75b7-4f69-88f8-65c9b131ecc5
+    fullyQualifiedName: Cypress.93738301-75b7-4f69-88f8-65c9b131ecc5
+    displayName: Auto Classification Agent
+    deleted: false
+tags: []
+owners:
+  - id: 24e994de-b4ea-4ae4-83da-69f48670ab15
+    type: user
+    name: eugenio.donaque
+    fullyQualifiedName: '"eugenio.donaque"'
+    description: ""
+    displayName: eugenio.donaque
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: domains
+      newValue: "[{\"id\":\"7c09ff9f-c6df-41a4-aa52-d51d115f1414\",\"type\":\"domain\"\
+        ,\"name\":\"Engineering\",\"fullyQualifiedName\":\"Engineering\",\"description\"\
+        :\"<p>Engineering</p>\",\"displayName\":\"Engineering\"}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: Unprocessed
+dataProducts: []
+domains:
+  - id: 7c09ff9f-c6df-41a4-aa52-d51d115f1414
+    type: domain
+    name: Engineering
+    fullyQualifiedName: Engineering
+    description: <p>Engineering</p>
+    displayName: Engineering
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

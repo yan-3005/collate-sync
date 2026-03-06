@@ -1,0 +1,83 @@
+name: Redshift Keshav
+fullyQualifiedName: Redshift Keshav
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6h0OTFuJnqOlgX4wB986H3_RfpnHDhd77ZhsV3CGi7HrWfFDIOyyzW91kBtYTiIapz98KHLOJd-JZ5oCZ6BSNEDzjhWKbVLv_MzCxYMM1QuBzVvDK4YN5uugD9gRm_a2QWsP6G8mHrXsyjFDJ4Pob_w==
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes: []
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    sampleDataStorageConfig:
+      config:
+        prefix: ""
+        bucketName: ""
+        overwriteData: true
+        storageConfig:
+          assumeRoleSessionName: OpenMetadataSession
+        filePathPattern: "{service_name}/{database_name}/{database_schema_name}/{table_name}/sample_data.parquet"
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 0f442953-83c5-4fde-8c74-f2489ae71784
+    type: ingestionPipeline
+    name: 382acb78-c6d7-446c-a7c3-b1bdd2db729c
+    fullyQualifiedName: Redshift Keshav.382acb78-c6d7-446c-a7c3-b1bdd2db729c
+    displayName: Metadata Agent
+    deleted: false
+  - id: 3309417c-bd9a-405b-914a-902d6433930e
+    type: ingestionPipeline
+    name: a7683982-a2c3-43a0-a5b7-4d5c701190fd
+    fullyQualifiedName: Redshift Keshav.a7683982-a2c3-43a0-a5b7-4d5c701190fd
+    displayName: Redshift Keshav_autoClassification
+    deleted: false
+  - id: d262e3f2-c09f-43d0-bd6f-6b084d757aaa
+    type: ingestionPipeline
+    name: edfd87c1-d428-4a3f-a0f2-bc726aaea749
+    fullyQualifiedName: Redshift Keshav.edfd87c1-d428-4a3f-a0f2-bc726aaea749
+    displayName: Redshift_Keshav_lineage_lLO7PAuv
+    deleted: false
+  - id: 696292f1-6d24-4742-8d2c-fd07640b3688
+    type: ingestionPipeline
+    name: f062959e-864d-4aac-832a-d40925d68261
+    fullyQualifiedName: Redshift Keshav.f062959e-864d-4aac-832a-d40925d68261
+    displayName: Redshift_Keshav_profiler_q6ESLcDg
+    deleted: false
+tags: []
+owners:
+  - id: 78260c88-265f-4d4a-8bd7-391b42ed207c
+    type: user
+    name: keshav.mohta
+    fullyQualifiedName: '"keshav.mohta"'
+    description: ""
+    displayName: Keshav Mohta
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

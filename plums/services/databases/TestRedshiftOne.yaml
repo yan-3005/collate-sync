@@ -1,0 +1,62 @@
+name: TestRedshiftOne
+fullyQualifiedName: TestRedshiftOne
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY65xYZO4v2pSZT_WgUYshzP4LMTi_PAG0fZBh6EBt5RvvGj2lajfcVqcOn9DrWALuQ7F6QD2JqrkIVPOhCiuRCUD-q5edRsiCJVpQxCzKj__DhBtjm8edeO87y68tlmEGjjO_yBnXkwWrAskLWhxNSJw==
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - sales
+        - inventory
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: a55b8971-2db4-46c6-b3df-ca1547031016
+    type: ingestionPipeline
+    name: 30b359cd-ee70-42f6-8e46-d710ea6c6b4f
+    fullyQualifiedName: TestRedshiftOne.30b359cd-ee70-42f6-8e46-d710ea6c6b4f
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: e70b99f3-9fbf-4b36-af6c-10f5f9e2e379
+    type: user
+    name: suman
+    fullyQualifiedName: suman
+    description: ""
+    displayName: suman
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

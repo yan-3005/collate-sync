@@ -1,0 +1,89 @@
+name: red-pere
+fullyQualifiedName: red-pere
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6_w4PJi1IzVkqqvx_-xGFtYp2By9dRBDclWeAzvq-jZMjuvVXEY44Dtt9Cs4Zp6rrsBLJm-EjMxbvMw-cj05M4ZFTEjXnodLHan2O01FcbC6xeIjbexDHpBnvTBjpbEwe
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - dbt_jaffle
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    sampleDataStorageConfig:
+      config:
+        prefix: ""
+        bucketName: ""
+        overwriteData: true
+        storageConfig:
+          assumeRoleSessionName: OpenMetadataSession
+        filePathPattern: "{service_name}/{database_name}/{database_schema_name}/{table_name}/sample_data.parquet"
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 47090837-51e1-4ff0-a2b5-a5296999cbfb
+    type: ingestionPipeline
+    name: 136d77a2-c7af-491d-8a26-87926cc62087
+    fullyQualifiedName: red-pere.136d77a2-c7af-491d-8a26-87926cc62087
+    displayName: Profiler Agent
+    deleted: false
+  - id: 3f3a6c4f-0398-4688-893e-9e8a0f006cdb
+    type: ingestionPipeline
+    name: 51d99307-d88d-48de-9eaf-dce066dd89da
+    fullyQualifiedName: red-pere.51d99307-d88d-48de-9eaf-dce066dd89da
+    displayName: Lineage Agent
+    deleted: false
+  - id: b5d5b205-b972-416a-ac2a-a71914318f3d
+    type: ingestionPipeline
+    name: b6896ebf-fe37-4aed-b0e8-00f3aa9dec35
+    fullyQualifiedName: red-pere.b6896ebf-fe37-4aed-b0e8-00f3aa9dec35
+    displayName: AutoClassification Agent
+    deleted: false
+  - id: f16a01ea-f2ce-46d1-90cb-f69764bab0d7
+    type: ingestionPipeline
+    name: bac48f9b-1f31-47c0-9b1a-324a4ce7f722
+    fullyQualifiedName: red-pere.bac48f9b-1f31-47c0-9b1a-324a4ce7f722
+    displayName: Metadata Agent
+    deleted: false
+  - id: 9e94656f-c183-40ef-b60e-c261c768aead
+    type: ingestionPipeline
+    name: feeade94-4275-4dea-9214-92ae79addc47
+    fullyQualifiedName: red-pere.feeade94-4275-4dea-9214-92ae79addc47
+    displayName: Usage Agent
+    deleted: false
+tags: []
+owners:
+  - id: 949b2e1a-8bd9-431a-9c1c-5e764f069664
+    type: user
+    name: pmbrull
+    fullyQualifiedName: pmbrull
+    displayName: pmbrull
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

@@ -1,0 +1,79 @@
+name: snwf_tom_collate_shop
+fullyQualifiedName: snwf_tom_collate_shop
+serviceType: Snowflake
+description: ""
+connection:
+  config:
+    type: Snowflake
+    scheme: snowflake
+    account: FMFAHQK-GI58232
+    username: TOMAS
+    warehouse: COMPUTE_WH
+    creditCost: 3.3
+    privateKey: fernet:gAAAAABpqiY6cfeZJgpQfdeOUFzQlkQ_1rCWObwF1RfI6zdgVk6um7usNBsN6CcLIdtn4KlHUjXdHU-8ApWVt19gCyi5m3OU6jqcfXcAWZ6fdVrVqNma5VYHhQO8bhx3TBhJcW77VFVi77Gy3ZBIomTB0wIH-Tepug==
+    includeStages: false
+    includeStreams: false
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    accountUsageSchema: SNOWFLAKE.ACCOUNT_USAGE
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - COLLATE_SHOP
+    snowflakeSourceHost: app.snowflake.com
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^snowflake$
+      includes:
+        - CUSTOMERS
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    clientSessionKeepAlive: false
+    includeTransientTables: true
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    snowflakePrivatekeyPassphrase: fernet:gAAAAABpqiY6clcwy_ZBVd9YwQPxqrkjONRSq39_RfGfm--bBIqOhEn-uHgHd3vT-VN13A0JYg5EVw3UsfA5V2xjteFk8r094P3-xZi0E8u1Vira2-ADdsHOoJrdJLcoLorBi6K37I1G9WtY3ClJ_e56qJG4S_nKzOWqJdbIFYAl5zyf_NYUnZM=
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: a0a7abe0-4f37-40e9-9695-b73f5b54c916
+    type: ingestionPipeline
+    name: 1d0a9b90-4f37-4de1-a609-367f29a5cb54
+    fullyQualifiedName: snwf_tom_collate_shop.1d0a9b90-4f37-4de1-a609-367f29a5cb54
+    displayName: Lineage Agent
+    deleted: false
+  - id: 08ca5f36-bf0e-4449-b36a-cae3d510877c
+    type: ingestionPipeline
+    name: 4ca8b5f3-4c24-4c44-8863-063fed0b9f15
+    fullyQualifiedName: snwf_tom_collate_shop.4ca8b5f3-4c24-4c44-8863-063fed0b9f15
+    displayName: Usage Agent
+    deleted: false
+  - id: 6a1696e5-6cf0-4318-a511-3e1bc781cf69
+    type: ingestionPipeline
+    name: 68c64c4a-5eee-4048-a3a3-5b3c926eff6c
+    fullyQualifiedName: snwf_tom_collate_shop.68c64c4a-5eee-4048-a3a3-5b3c926eff6c
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: 2eb9518d-f284-4c5d-b786-2cea3d6f1797
+    type: user
+    name: tomas
+    fullyQualifiedName: tomas
+    description: ""
+    displayName: tomas
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

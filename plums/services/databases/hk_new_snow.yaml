@@ -1,0 +1,65 @@
+name: hk_new_snow
+fullyQualifiedName: hk_new_snow
+serviceType: Snowflake
+description: ""
+connection:
+  config:
+    type: Snowflake
+    scheme: snowflake
+    account: mfymmyj-jd45287
+    password: fernet:gAAAAABpqiY62OFli0NKAWIj24ayo2xFhOGHOzYQB3Xr4NonvcIP8BpJLSiTODwTuow1rda6WMe8G39lm5YR4me9a1Nec5BGMgHlPBardrvDjLsiVkLu89rL_Dh8Tb0-ntNJiW1xQlCp
+    username: Himanshu
+    warehouse: COMPUTE_WH
+    creditCost: 3.3
+    includeStages: false
+    includeStreams: false
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    accountUsageSchema: SNOWFLAKE.ACCOUNT_USAGE
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes: []
+    snowflakeSourceHost: app.snowflake.com
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^snowflake$
+      includes:
+        - hk_db
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    clientSessionKeepAlive: false
+    includeTransientTables: true
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 0b1a1b92-9455-47d4-804c-51b21f3330e1
+    type: ingestionPipeline
+    name: 602219da-99f7-48b2-a82a-96ea145f7546
+    fullyQualifiedName: hk_new_snow.602219da-99f7-48b2-a82a-96ea145f7546
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: 273d742e-0f33-40ff-aca0-38a378c53c25
+    type: user
+    name: himanshu
+    fullyQualifiedName: himanshu
+    description: ""
+    displayName: himanshu
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

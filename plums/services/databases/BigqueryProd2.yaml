@@ -1,0 +1,52 @@
+name: BigqueryProd2
+fullyQualifiedName: BigqueryProd2
+serviceType: BigQuery
+connection:
+  config:
+    type: BigQuery
+    scheme: bigquery
+    hostPort: bigquery.googleapis.com
+    costPerTB: 6.25
+    credentials:
+      gcpConfig:
+        type: service_account
+        authUri: https://accounts.google.com/o/oauth2/auth
+        clientId: 107770670410857670935
+        tokenUri: https://oauth2.googleapis.com/token
+        projectId: modified-leaf-330420
+        privateKey: fernet:gAAAAABpqiY6h1fgnYQY33Ejd8bZwp4Bv-Ca0PHv_cp9k1mkRNAQUC7jykHnkWBIYto8JrvZYZmoAkgWSfBXslQxEdI1BKqhq3elb7KTOtXHwCTJDcVvBBIupt8VtBL8X4dXGc93t6q6EUuy-g7F-LdhyZQhsO4XtniQcxcq2oOH46PkmWgeoKA=
+        clientEmail: minimum-bigquery-permission@modified-leaf-330420.iam.gserviceaccount.com
+        privateKeyId: e86955209ae9e05da631085d832bc33b89bcbe9c
+        authProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+    usageLocation: us
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    taxonomyLocation: us
+    includePolicyTags: true
+    supportsQueryComment: true
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 93e35ce3-89ac-4c39-bdf9-a6fc21c6813c
+    type: ingestionPipeline
+    name: 12ed0a3a-05f1-43a8-868c-59319370082b
+    fullyQualifiedName: BigqueryProd2.12ed0a3a-05f1-43a8-868c-59319370082b
+    displayName: BigqueryProd2_metadata_YDty1msR
+    deleted: false
+tags: []
+owners: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: connection
+      oldValue: '"old-encrypted-value"'
+      newValue: '"new-encrypted-value"'
+  fieldsDeleted: []
+  previousVersion: 0.1
+entityStatus: Unprocessed
+dataProducts: []

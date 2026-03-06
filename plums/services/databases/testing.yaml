@@ -1,0 +1,74 @@
+name: testing
+fullyQualifiedName: testing
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6DGi0L8PJdiatJxIbg1KgYKBB5KjhotPJ_0kpjmbRn6qO4pSA6Frw-VBhkoTllr5xX3mkL8lf1PJtIEvzLzykcT3AQ2dP77EhpjVKuiwtKzY=
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - hk_schema
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 7fe19915-f627-4261-b916-c1655d9e651d
+    type: ingestionPipeline
+    name: 3e384d41-14b4-4958-ac37-7d5dfb87d428
+    fullyQualifiedName: testing.3e384d41-14b4-4958-ac37-7d5dfb87d428
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: 273d742e-0f33-40ff-aca0-38a378c53c25
+    type: user
+    name: himanshu
+    fullyQualifiedName: himanshu
+    description: ""
+    displayName: himanshu
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: connection
+      oldValue: '"old-encrypted-value"'
+      newValue: '"new-encrypted-value"'
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 53137086-a5bf-4047-8d31-16d97eaa9440
+  type: ingestionRunner
+  name: HybridRunnerTestEngg
+  fullyQualifiedName: HybridRunnerTestEngg
+  deleted: false
+  inherited: false

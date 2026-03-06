@@ -1,0 +1,73 @@
+name: red-laura
+fullyQualifiedName: red-laura
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6HgHyesnq2Z3RC-DxFINSm8M_5MzyjWyiPT-zw6Bd2KOM7ymDt_tE5ngJp3wtIqho5yQdpTgN32AeFzy3WFqli1lyISSczcfmn458bge8lvZNlLUnU8pXZRVzFKvhuhNi
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - collate_shop
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 18a5bd0d-5de0-4509-b3cd-3c4a7483cb92
+    type: ingestionPipeline
+    name: 4c77b9e8-f165-473f-a570-0123e0dd1861
+    fullyQualifiedName: red-laura.4c77b9e8-f165-473f-a570-0123e0dd1861
+    displayName: Usage Agent
+    deleted: false
+  - id: b4ba0032-5817-455e-a536-126b639b6e7c
+    type: ingestionPipeline
+    name: c44f3126-fd15-4d9c-bf4d-8f9bc8a762ac
+    fullyQualifiedName: red-laura.c44f3126-fd15-4d9c-bf4d-8f9bc8a762ac
+    displayName: Lineage Agent
+    deleted: false
+  - id: 3dc0ee59-912b-4dd2-a6a9-960061926d3b
+    type: ingestionPipeline
+    name: eeb1227c-4a61-496a-88e6-5c575c288932
+    fullyQualifiedName: red-laura.eeb1227c-4a61-496a-88e6-5c575c288932
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: a9e57259-6ebd-480d-9eb6-368f34b427d7
+    type: user
+    name: laura.cabello
+    fullyQualifiedName: '"laura.cabello"'
+    description: ""
+    displayName: laura.cabello
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

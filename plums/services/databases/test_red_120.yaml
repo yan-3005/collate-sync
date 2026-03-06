@@ -1,0 +1,79 @@
+name: test_red_120
+fullyQualifiedName: test_red_120
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6evt-Ifb07TnN1_xsFoKvPZKJMr4sPMkOJW1puX8ksYOuZ-qRD_5vPS9qjNpul2DgnI0MjElju7gkGl_rFrjC5J_nFM5lBQqolV6ulKi27Km6mEulXbiOXByPBYmTS1RZ9Fz8B72ppCG_fps4vht3gQ==
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - mt_schema
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 1777f3b1-49cb-423d-bcfd-c0c8d6c32412
+    type: ingestionPipeline
+    name: 0f1d4187-c419-4ab5-b7b6-3806f35d06d1
+    fullyQualifiedName: test_red_120.0f1d4187-c419-4ab5-b7b6-3806f35d06d1
+    displayName: Lineage Agent
+    deleted: false
+  - id: 7cc164cd-d22f-4b2f-b65b-173f2d907e07
+    type: ingestionPipeline
+    name: 7d45ea97-e12d-42ba-bf56-89c2907fcc7b
+    fullyQualifiedName: test_red_120.7d45ea97-e12d-42ba-bf56-89c2907fcc7b
+    displayName: test_red_120_profiler_DScth3V6
+    deleted: false
+  - id: 225c7407-d0bb-4588-87a2-3782fa580a77
+    type: ingestionPipeline
+    name: 9876fbe6-7c18-4a6c-9543-2c573872b716
+    fullyQualifiedName: test_red_120.9876fbe6-7c18-4a6c-9543-2c573872b716
+    displayName: Usage Agent
+    deleted: false
+  - id: 0e5dad45-a4ab-4446-a86e-d80b76ae552b
+    type: ingestionPipeline
+    name: e63ee723-d516-4808-b85a-835c6336838e
+    fullyQualifiedName: test_red_120.e63ee723-d516-4808-b85a-835c6336838e
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: dcf44732-945c-4fe4-bf5a-31389e3802c1
+    type: user
+    name: mayur
+    fullyQualifiedName: mayur
+    description: ""
+    displayName: mayur
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner
