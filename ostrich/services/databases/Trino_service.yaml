@@ -1,0 +1,71 @@
+name: Trino_service
+fullyQualifiedName: Trino_service
+serviceType: Trino
+description: ""
+connection:
+  config:
+    type: Trino
+    scheme: trino
+    catalog: test_catalog
+    authType:
+      password: fernet:gAAAAABpqmXAVsT10tAAeOksdTxm4G-FY--t6Q_GIDOF_rhCkmPvV80V_ZKULHvRm3QVufjQQNRw7njCqkS8MJWdf_JJVqy0GngmZhZfKtkWb66CrMkaOcHcksVpljk_1LKYWtjUX7ruQreWlmds4AscluHPVfZ20w==
+    hostPort: ometa-free-cluster.trino.galaxy.starburst.io:443
+    username: tofoyiv524@recutv.com
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    queryHistoryTable: '"system"."runtime"."queries"'
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes: []
+      includes: []
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes: []
+      includes: []
+    supportsDBTExtraction: true
+    sampleDataStorageConfig:
+      config:
+        prefix: ""
+        bucketName: ""
+        overwriteData: true
+        storageConfig:
+          assumeRoleSessionName: OpenMetadataSession
+        filePathPattern: "{service_name}/{database_name}/{database_schema_name}/{table_name}/sample_data.parquet"
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+impersonatedBy: governance-bot
+owners:
+  - id: e70b99f3-9fbf-4b36-af6c-10f5f9e2e379
+    type: user
+    name: suman
+    fullyQualifiedName: suman
+    description: ""
+    displayName: suman
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Unprocessed
+      newValue: In Review
+  fieldsDeleted: []
+  previousVersion: 0.2
+  changeSummary: {}
+entityStatus: In Review
+dataProducts: []
+domains:
+  - id: 868ace94-2e9d-4087-80df-0649485043fe
+    type: domain
+    name: 1.12.0- release
+    fullyQualifiedName: '"1.12.0- release"'
+    description: <p>1.12.0- release</p>
+    displayName: 1.12.0- release
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

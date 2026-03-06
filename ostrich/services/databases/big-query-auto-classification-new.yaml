@@ -1,0 +1,83 @@
+name: big-query-auto-classification-new
+fullyQualifiedName: big-query-auto-classification-new
+serviceType: BigQuery
+description: ""
+connection:
+  config:
+    type: BigQuery
+    scheme: bigquery
+    hostPort: bigquery.googleapis.com
+    costPerTB: 6.25
+    credentials:
+      gcpConfig:
+        type: service_account
+        authUri: https://accounts.google.com/o/oauth2/auth
+        clientId: 107770670410857670935
+        tokenUri: https://oauth2.googleapis.com/token
+        projectId:
+          - modified-leaf-330420
+        privateKey: fernet:gAAAAABpqiY6mc37zuZTn8vEjqjLj2NsiYT26UW7sYhUW2Sprdy8qaU6eO8BwAVVZMciEarfu76Isqn_bHs--MO5EQMsLctlQ8048DPRkEPuaHo_19oOXxJuzgpZe4gqQUbLxQcGilidkdk_ADjlG3V5VN8sQOKikgRHOWnNiq7uRDsbMteXsi14ykqvdPwgewSLPjv8DqFY
+        clientEmail: minimum-bigquery-permission@modified-leaf-330420.iam.gserviceaccount.com
+        privateKeyId: e86955209ae9e05da631085d832bc33b89bcbe9c
+        authProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      gcpImpersonateServiceAccount:
+        lifetime: 3600
+    usageLocation: us
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    taxonomyLocation: us
+    includePolicyTags: true
+    taxonomyProjectID: []
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes: []
+      includes: []
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes: []
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 51de3284-1527-4378-a9df-5991249865f2
+    type: ingestionPipeline
+    name: 10e5fa3c-00cd-489f-a132-eb8246f1ace7
+    fullyQualifiedName: big-query-auto-classification-new.10e5fa3c-00cd-489f-a132-eb8246f1ace7
+    displayName: big-query-auto-classification-new_metadata_8ci2I7lR
+    deleted: false
+  - id: 0c4f278c-010d-4fac-ae73-aa7bc98cd375
+    type: ingestionPipeline
+    name: 2b0f87ea-209a-45eb-af1c-a2dbe6422da2
+    fullyQualifiedName: big-query-auto-classification-new.2b0f87ea-209a-45eb-af1c-a2dbe6422da2
+    displayName: Metadata Agent
+    deleted: false
+  - id: 737e9a86-afc9-4ac3-81ec-07384fe9efe4
+    type: ingestionPipeline
+    name: b816f2df-55de-4446-a149-dfd89d02aee2
+    fullyQualifiedName: big-query-auto-classification-new.b816f2df-55de-4446-a149-dfd89d02aee2
+    displayName: big-query-auto-classification-new_autoClassification
+    deleted: false
+tags: []
+owners:
+  - id: 96488878-73f2-4f97-8d9e-a20001acbc9c
+    type: user
+    name: rohit.jain
+    fullyQualifiedName: '"rohit.jain"'
+    description: ""
+    displayName: Rohit Jain
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

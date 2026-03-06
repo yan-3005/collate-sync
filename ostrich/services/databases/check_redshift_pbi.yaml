@@ -1,0 +1,60 @@
+name: check_redshift_pbi
+fullyQualifiedName: check_redshift_pbi
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6clGdGZvorT9xvd0q8x6kcw94T43Ial7D-szhywXHbV42q59zob422XZNxr9KSBWTKFb5yW5rALqanA5U5kP0DsUlRwufdJgdvqh3ZBjhoiB_zjUeybAmZD-oAfT7Ftt8xxIH9USvxLT5AmwBEk0Pzg==
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes: []
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: fd7eb4d9-3758-4653-a5f3-8439362c4b75
+    type: ingestionPipeline
+    name: 35daf8ff-2a48-4a09-9d58-2d92bf348077
+    fullyQualifiedName: check_redshift_pbi.35daf8ff-2a48-4a09-9d58-2d92bf348077
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: 80ebea8a-483f-4aa6-adb0-6e339a6bdc82
+    type: user
+    name: harsh.soni
+    fullyQualifiedName: '"harsh.soni"'
+    description: ""
+    displayName: harsh.soni
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

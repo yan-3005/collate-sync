@@ -1,0 +1,104 @@
+name: 1.12.0 DB Test
+fullyQualifiedName: '"1.12.0 DB Test"'
+serviceType: BigQuery
+description: ""
+connection:
+  config:
+    type: BigQuery
+    scheme: bigquery
+    hostPort: bigquery.googleapis.com
+    costPerTB: 6.25
+    credentials:
+      gcpConfig:
+        type: service_account
+        authUri: https://accounts.google.com/o/oauth2/auth
+        clientId: 107770670410857670935
+        tokenUri: https://oauth2.googleapis.com/token
+        projectId:
+          - modified-leaf-330420
+        privateKey: fernet:gAAAAABpqiY6XVazVRKu_In21UM1KGKLaiDe43OmML2aE6mQyjIeCxXHrveEm76-qyPx5bS_cuSoepjnSMHIGhiBDWw9vK07iuBUUicq-_QyZQKRATD2eblzh7728k0XnrzX9cNZgHX1UCKKrr-fhqN5XHxHOazSvte5Pa-QEAqz-zrwGsXNZ2Q=
+        clientEmail: minimum-bigquery-permission@modified-leaf-330420.iam.gserviceaccount.com
+        privateKeyId: e86955209ae9e05da631085d832bc33b89bcbe9c
+        authProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      gcpImpersonateServiceAccount:
+        lifetime: 3600
+    usageLocation: us
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    taxonomyLocation: us
+    includePolicyTags: true
+    taxonomyProjectID: []
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes: []
+      includes: []
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes: []
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: e9f63544-7201-4fe1-8437-6e3c8a007076
+    type: ingestionPipeline
+    name: 3676a321-07e2-408c-8a8f-4574d17b0966
+    fullyQualifiedName: '"1.12.0 DB Test".3676a321-07e2-408c-8a8f-4574d17b0966'
+    displayName: Lineage Agent
+    deleted: false
+  - id: 6e43281b-877c-4257-95ec-c0bd79b3c2b6
+    type: ingestionPipeline
+    name: 6ec8e6e6-13f9-4602-8634-3306290143e4
+    fullyQualifiedName: '"1.12.0 DB Test".6ec8e6e6-13f9-4602-8634-3306290143e4'
+    displayName: 1_12_0_DB_Test_metadata_gPL583dV
+    deleted: false
+  - id: 53319f83-4619-4646-90a3-99394eb989c6
+    type: ingestionPipeline
+    name: 6f7274e1-1337-46a7-acae-d758335b413c
+    fullyQualifiedName: '"1.12.0 DB Test".6f7274e1-1337-46a7-acae-d758335b413c'
+    displayName: 1.12.0 DB Test_autoClassification
+    deleted: false
+  - id: 802af5a7-d082-4d71-885d-1b08e87a114f
+    type: ingestionPipeline
+    name: b925c768-bfcf-48b4-9709-f9e6b6c80f35
+    fullyQualifiedName: '"1.12.0 DB Test".b925c768-bfcf-48b4-9709-f9e6b6c80f35'
+    displayName: Usage Agent
+    deleted: false
+  - id: fa483b80-ebd2-40ba-9778-061f4e7b4162
+    type: ingestionPipeline
+    name: daad4734-d6ee-4f47-8644-199ff3f37753
+    fullyQualifiedName: '"1.12.0 DB Test".daad4734-d6ee-4f47-8644-199ff3f37753'
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: 96488878-73f2-4f97-8d9e-a20001acbc9c
+    type: user
+    name: rohit.jain
+    fullyQualifiedName: '"rohit.jain"'
+    description: ""
+    displayName: Rohit Jain
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: deleted
+      oldValue: true
+      newValue: false
+  fieldsDeleted: []
+  previousVersion: 0.2
+  changeSummary: {}
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

@@ -1,0 +1,73 @@
+name: hk_redshift_test
+fullyQualifiedName: hk_redshift_test
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6-KeZv8S1751cWifeTIe_CZGwvrsr4EhRMELMFTKzXMH506oQp4NWrbvbehRiL586PfPutoUNsw3nNb0qVDs4olaulwkMmegqpFg7dgAdgUCBy4H6i5Fubeeh1q4oNgfBOnpehbWACyy34k5CRGPBkw==
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - hk_schema
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 7ca70ac5-8e29-4221-9909-c8ee7d0cfd24
+    type: ingestionPipeline
+    name: 5ef17e30-d033-4b22-b276-1a808d59ad91
+    fullyQualifiedName: hk_redshift_test.5ef17e30-d033-4b22-b276-1a808d59ad91
+    displayName: Lineage Agent
+    deleted: false
+  - id: db983464-8d4b-48e1-be3b-3bc72723d643
+    type: ingestionPipeline
+    name: 736eba1b-3630-40a6-a6e5-1ebb6aca4aa6
+    fullyQualifiedName: hk_redshift_test.736eba1b-3630-40a6-a6e5-1ebb6aca4aa6
+    displayName: Usage Agent
+    deleted: false
+  - id: 69bf0c9f-d677-487d-a6a0-40f78f9121a5
+    type: ingestionPipeline
+    name: c68511ea-80af-4c43-b939-3f521e10b808
+    fullyQualifiedName: hk_redshift_test.c68511ea-80af-4c43-b939-3f521e10b808
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: 273d742e-0f33-40ff-aca0-38a378c53c25
+    type: user
+    name: himanshu
+    fullyQualifiedName: himanshu
+    description: ""
+    displayName: himanshu
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

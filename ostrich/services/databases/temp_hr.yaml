@@ -1,0 +1,61 @@
+name: temp_hr
+fullyQualifiedName: temp_hr
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6X4i7mDFDSeMdsHAhXqsAk7r3CddKT_kkMYi-U3r03dlTLk8jBq1z3H7Fw9-hdzOWGHXF4GbudjHWHGaYS1cAhWNSYwpWWEHzzvnTeyYXAedo11G8b9JHJLRwyAezHttu
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - hk_schema
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: dd4eb3d9-6575-46a9-b9b6-0ad0addddebd
+    type: ingestionPipeline
+    name: 79471181-5b8d-49aa-a9cc-20900c82fd25
+    fullyQualifiedName: temp_hr.79471181-5b8d-49aa-a9cc-20900c82fd25
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: 273d742e-0f33-40ff-aca0-38a378c53c25
+    type: user
+    name: himanshu
+    fullyQualifiedName: himanshu
+    description: ""
+    displayName: himanshu
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 8e6dda93-d936-4238-a47f-03261d6a16ad
+  type: ingestionRunner

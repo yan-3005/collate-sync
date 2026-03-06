@@ -1,0 +1,74 @@
+name: hk_hr_red_new
+fullyQualifiedName: hk_hr_red_new
+serviceType: Redshift
+description: ""
+connection:
+  config:
+    type: Redshift
+    scheme: redshift+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpqiY6g0Fzh-mr1ylwWQsgHu3GX05Jl5esTJ0mBHDq4db5AZwJDQhZONlFokyPlOKHnQieBmCwYEgFgM7zfRc4TYck3wwH8jE3rOo-QhXwUoUDe6DvPnv8Ddp8_HLw6_OUT0n5R6jEnYZZ6sewTlBWKwi5KQ==
+    database: dev
+    hostPort: openmetadata-redshift-cluster.cdnpdclcdk2n.us-east-2.redshift.amazonaws.com:5439
+    username: openmetadata
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes:
+        - hk_schema
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^template1$
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 04c46694-758e-4d1e-bc44-1f41a8fc5b2a
+    type: ingestionPipeline
+    name: e38b0cc9-da57-49ce-9da3-2b8c57236ca0
+    fullyQualifiedName: hk_hr_red_new.e38b0cc9-da57-49ce-9da3-2b8c57236ca0
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: 273d742e-0f33-40ff-aca0-38a378c53c25
+    type: user
+    name: himanshu
+    fullyQualifiedName: himanshu
+    description: ""
+    displayName: himanshu
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: ingestionAgent
+      oldValue: '"a3ddeb31-a773-4eca-9b17-76e10275a4d2"'
+      newValue: '"53137086-a5bf-4047-8d31-16d97eaa9440"'
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 53137086-a5bf-4047-8d31-16d97eaa9440
+  type: ingestionRunner
+  name: HybridRunnerTestEngg
+  fullyQualifiedName: HybridRunnerTestEngg
+  deleted: false
+  inherited: false

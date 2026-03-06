@@ -1,0 +1,66 @@
+name: snow_cost
+fullyQualifiedName: snow_cost
+serviceType: Snowflake
+description: ""
+connection:
+  config:
+    type: Snowflake
+    scheme: snowflake
+    account: FMFAHQK-GI58232
+    username: testopenmetadata
+    warehouse: COMPUTE_WH
+    creditCost: 33.3
+    privateKey: fernet:gAAAAABpqiY6tfUeMRzLTxG6-08zBllcAidV-rQO-Rf0OTddf7LDklsbkZW6EL9nr3GPuxoxfHdk7mcS6_149wqAtcDmXDaGA59dOiQgC7PXTj2WHi63DYkNgYyLacUErkSaeal83vCB
+    includeStages: false
+    includeStreams: false
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    accountUsageSchema: SNOWFLAKE.ACCOUNT_USAGE
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes: []
+      includes:
+        - ^information_schema$
+        - account_usage
+    snowflakeSourceHost: app.snowflake.com
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes: []
+      includes:
+        - ^snowflake$
+        - E2E_DB
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    clientSessionKeepAlive: false
+    includeTransientTables: false
+    sampleDataStorageConfig:
+      config:
+        prefix: ""
+        bucketName: ""
+        overwriteData: true
+        storageConfig:
+          assumeRoleSessionName: OpenMetadataSession
+        filePathPattern: "{service_name}/{database_name}/{database_schema_name}/{table_name}/sample_data.parquet"
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    snowflakePrivatekeyPassphrase: fernet:gAAAAABpqiY6FCrhaE6MHLTwZmJSHLQfdDfJ3lY4gXy8jwLGujCP-AWIdLdVC0YlMtoSHrXDD6Lo2dSu_P1PPmKAmnivf1wr3yrMJXv3QkEs0aROURfblFPumaCdfk2WOKy1EvB-LQlAz6EDjNMGuueBvSVNwsELqIWyCSafHvB1OkzNmFy5NEc=
+    supportsIncrementalMetadataExtraction: true
+pipelines: []
+tags: []
+owners:
+  - id: dcf44732-945c-4fe4-bf5a-31389e3802c1
+    type: user
+    name: mayur
+    fullyQualifiedName: mayur
+    description: ""
+    displayName: mayur
+    deleted: false
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner

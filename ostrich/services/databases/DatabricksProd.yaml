@@ -1,0 +1,69 @@
+name: DatabricksProd
+fullyQualifiedName: DatabricksProd
+serviceType: Databricks
+description: ""
+connection:
+  config:
+    type: Databricks
+    scheme: databricks+connector
+    catalog: demo-test-cat
+    authType:
+      token: fernet:gAAAAABpqiY6NiUoNOph4vKGdye_Y1G403gS7Sfkw0s1ifq76pNQ55nMH7oG_TBZ05m0qHP8EhtuxhVSWZ9MXFX-HNgpns84VOIfmXgM01tJpIhmEmvJ1xw9bUC8E3HfllabmkgZ89s91xxrtI_4fE5Kl9iN0N6-_w==
+    hostPort: dbc-2be9944d-a501.cloud.databricks.com:443
+    httpPath: /sql/1.0/warehouses/39c390db3a5e19ee
+    supportsDatabase: true
+    supportsProfiler: true
+    connectionTimeout: 120
+    queryHistoryTable: system.query.history
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes:
+        - ^information_schema$
+      includes: []
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes:
+        - ^system$
+      includes: []
+    supportsDBTExtraction: true
+    sampleDataStorageConfig:
+      config:
+        prefix: ""
+        bucketName: ""
+        overwriteData: true
+        storageConfig:
+          assumeRoleSessionName: OpenMetadataSession
+        filePathPattern: "{service_name}/{database_name}/{database_schema_name}/{table_name}/sample_data.parquet"
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners:
+  - id: 366f642e-d660-489b-b5c3-9b80649e8c8a
+    type: user
+    name: ayush
+    fullyQualifiedName: ayush
+    displayName: ayush
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: connection
+      oldValue: '"old-encrypted-value"'
+      newValue: '"new-encrypted-value"'
+  fieldsDeleted: []
+  previousVersion: 0.2
+  changeSummary: {}
+entityStatus: Unprocessed
+dataProducts: []
+ingestionRunner:
+  id: 97327a7f-0fba-4ab8-bf19-431f6d44ff36
+  type: ingestionRunner
+  name: CollateSaaS
+  fullyQualifiedName: CollateSaaS
+  displayName: Collate SaaS Runner
+  deleted: false
+  inherited: false

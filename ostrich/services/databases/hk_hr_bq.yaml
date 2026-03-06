@@ -1,0 +1,102 @@
+name: hk_hr_bq
+fullyQualifiedName: hk_hr_bq
+serviceType: BigQuery
+description: ""
+connection:
+  config:
+    type: BigQuery
+    scheme: bigquery
+    hostPort: bigquery.googleapis.com
+    costPerTB: 6.25
+    credentials:
+      gcpConfig:
+        type: service_account
+        authUri: https://accounts.google.com/o/oauth2/auth
+        clientId: 107770670410857670935
+        tokenUri: https://oauth2.googleapis.com/token
+        projectId: modified-leaf-330420
+        privateKey: fernet:gAAAAABpqiY639uiyIbdaH6C7T28RjI-y_zmiM_S-cbNBKewT2eMQAvscX4pxTNf0YppjLzyac_x87Iu6Ev4gRa4j9xJ9qKeBgbXpZIocqY8oCmbvDBA-vs=
+        clientEmail: minimum-bigquery-permission@modified-leaf-330420.iam.gserviceaccount.com
+        privateKeyId: e86955209ae9e05da631085d832bc33b89bcbe9c
+        clientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/test-openmetadata%40modified-leaf-330420.iam.gserviceaccount.com
+        authProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      gcpImpersonateServiceAccount:
+        lifetime: 3600
+    usageLocation: us
+    billingProjectId: modified-leaf-330420
+    supportsDataDiff: true
+    supportsDatabase: true
+    supportsProfiler: true
+    taxonomyLocation: us
+    includePolicyTags: true
+    taxonomyProjectID: []
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes: []
+      includes:
+        - hk_test
+    supportsQueryComment: true
+    databaseFilterPattern:
+      excludes: []
+      includes: []
+    supportsDBTExtraction: true
+    supportsSystemProfile: false
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+    storedProcedureFilterPattern:
+      excludes: []
+      includes: []
+    supportsIncrementalMetadataExtraction: true
+pipelines:
+  - id: 37280412-9003-4168-a47d-965e02e08925
+    type: ingestionPipeline
+    name: 2655e6b8-e903-4ada-a6af-303ae83383d1
+    fullyQualifiedName: hk_hr_bq.2655e6b8-e903-4ada-a6af-303ae83383d1
+    displayName: Usage Agent
+    deleted: false
+  - id: ec9720c2-04fb-4cd5-970f-04786c77337b
+    type: ingestionPipeline
+    name: 2ec3bae4-a589-4fbc-b210-c6a74e7537ec
+    fullyQualifiedName: hk_hr_bq.2ec3bae4-a589-4fbc-b210-c6a74e7537ec
+    displayName: Metadata Agent
+    deleted: false
+  - id: 9739387c-1e14-4eed-bd3f-ae6879ce9e37
+    type: ingestionPipeline
+    name: 2f284690-d8a6-4815-95ec-f822cfd5a61f
+    fullyQualifiedName: hk_hr_bq.2f284690-d8a6-4815-95ec-f822cfd5a61f
+    displayName: Lineage Agent
+    deleted: false
+tags: []
+owners:
+  - id: 273d742e-0f33-40ff-aca0-38a378c53c25
+    type: user
+    name: himanshu
+    fullyQualifiedName: himanshu
+    description: ""
+    displayName: himanshu
+    deleted: false
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: domains
+      newValue: "[{\"id\":\"7c09ff9f-c6df-41a4-aa52-d51d115f1414\",\"type\":\"domain\"\
+        ,\"name\":\"Engineering\",\"fullyQualifiedName\":\"Engineering\",\"description\"\
+        :\"<p>Engineering</p>\",\"displayName\":\"Engineering\"}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: Unprocessed
+dataProducts: []
+domains:
+  - id: 7c09ff9f-c6df-41a4-aa52-d51d115f1414
+    type: domain
+    name: Engineering
+    fullyQualifiedName: Engineering
+    description: <p>Engineering</p>
+    displayName: Engineering
+ingestionRunner:
+  id: 53137086-a5bf-4047-8d31-16d97eaa9440
+  type: ingestionRunner
