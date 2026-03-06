@@ -1,0 +1,354 @@
+name: INFORMATION_SCHEMA
+fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA
+description: Views describing the contents of schemas in this database
+dataProducts: []
+owners: []
+service:
+  id: dd68ef55-06e7-4f43-9697-31e37b4559a9
+  type: databaseService
+  name: snow_cost
+  fullyQualifiedName: snow_cost
+  description: ""
+  displayName: snow_cost
+  deleted: false
+serviceType: Snowflake
+database:
+  id: 64f3b8c9-797f-4213-a79d-346a8cddc4fd
+  type: database
+  name: SNOWFLAKE
+  fullyQualifiedName: snow_cost.SNOWFLAKE
+  displayName: SNOWFLAKE
+  deleted: false
+tables:
+  - id: 7ff4a124-e7c3-4bc8-864e-80573943e990
+    type: table
+    name: APPLICABLE_ROLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.APPLICABLE_ROLES
+    displayName: APPLICABLE_ROLES
+    deleted: false
+  - id: 972dc7e2-8e24-4cd9-b769-a4fdd8ed6495
+    type: table
+    name: APPLICATION_SPECIFICATIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.APPLICATION_SPECIFICATIONS
+    displayName: APPLICATION_SPECIFICATIONS
+    deleted: false
+  - id: b2e6588d-6cc9-4b75-9246-f3a2f48237cc
+    type: table
+    name: CLASSES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.CLASSES
+    displayName: CLASSES
+    deleted: false
+  - id: b101940e-f931-433f-b037-d0a00ef84516
+    type: table
+    name: CLASS_INSTANCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.CLASS_INSTANCES
+    displayName: CLASS_INSTANCES
+    deleted: false
+  - id: 576c3c34-577a-4fbc-97bf-e1241753c918
+    type: table
+    name: CLASS_INSTANCE_FUNCTIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.CLASS_INSTANCE_FUNCTIONS
+    displayName: CLASS_INSTANCE_FUNCTIONS
+    deleted: false
+  - id: 22d09dfe-0125-4719-ba69-a2d89e23efad
+    type: table
+    name: CLASS_INSTANCE_PROCEDURES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.CLASS_INSTANCE_PROCEDURES
+    displayName: CLASS_INSTANCE_PROCEDURES
+    deleted: false
+  - id: ca744532-12b9-4a2f-8f77-492b76200665
+    type: table
+    name: COLUMNS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.COLUMNS
+    displayName: COLUMNS
+    deleted: false
+  - id: faba055f-7eb9-476f-bc9e-8b44764df55f
+    type: table
+    name: CORTEX_SEARCH_SERVICES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.CORTEX_SEARCH_SERVICES
+    displayName: CORTEX_SEARCH_SERVICES
+    deleted: false
+  - id: 239929b0-410e-457c-9542-840a892dbdf4
+    type: table
+    name: CORTEX_SEARCH_SERVICE_SCORING_PROFILES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.CORTEX_SEARCH_SERVICE_SCORING_PROFILES
+    displayName: CORTEX_SEARCH_SERVICE_SCORING_PROFILES
+    deleted: false
+  - id: f5a7bde6-97c7-4e62-ac4a-ca8b884f2254
+    type: table
+    name: CURRENT_PACKAGES_POLICY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.CURRENT_PACKAGES_POLICY
+    displayName: CURRENT_PACKAGES_POLICY
+    deleted: false
+  - id: 5bc6c7c0-4abe-4773-9106-e190b28f5a68
+    type: table
+    name: DATABASES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.DATABASES
+    displayName: DATABASES
+    deleted: false
+  - id: adcffc6e-4a6d-49ba-a624-e6c22b42838c
+    type: table
+    name: ELEMENT_TYPES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.ELEMENT_TYPES
+    displayName: ELEMENT_TYPES
+    deleted: false
+  - id: c204893a-47b3-486a-8991-6d57eb0f6d09
+    type: table
+    name: ENABLED_ROLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.ENABLED_ROLES
+    displayName: ENABLED_ROLES
+    deleted: false
+  - id: 6210d83c-4a78-44b2-99d8-8fe688fba949
+    type: table
+    name: EVENT_TABLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.EVENT_TABLES
+    displayName: EVENT_TABLES
+    deleted: false
+  - id: c72bbad8-2f78-450b-81b0-04aaf5b54c3b
+    type: table
+    name: EXTERNAL_TABLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.EXTERNAL_TABLES
+    displayName: EXTERNAL_TABLES
+    deleted: false
+  - id: 9ee44961-f3b1-408f-876b-1c114d4a6503
+    type: table
+    name: FIELDS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.FIELDS
+    displayName: FIELDS
+    deleted: false
+  - id: 0845a314-d6ae-4af9-b756-1ed66f7afd4f
+    type: table
+    name: FILE_FORMATS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.FILE_FORMATS
+    displayName: FILE_FORMATS
+    deleted: false
+  - id: e7643cde-c7c2-48ea-b25c-a2d8072bd98e
+    type: table
+    name: FUNCTIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.FUNCTIONS
+    displayName: FUNCTIONS
+    deleted: false
+  - id: 45a33fd0-6c2a-4ce3-beaf-a6158c439ae6
+    type: table
+    name: GIT_REPOSITORIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.GIT_REPOSITORIES
+    displayName: GIT_REPOSITORIES
+    deleted: false
+  - id: 67d8454a-6587-41e3-a348-00441240d2e6
+    type: table
+    name: HYBRID_TABLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.HYBRID_TABLES
+    displayName: HYBRID_TABLES
+    deleted: false
+  - id: 0c46a38a-e5e3-4734-a696-a73165f6071d
+    type: table
+    name: INDEXES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.INDEXES
+    displayName: INDEXES
+    deleted: false
+  - id: aab01c02-28cf-4c2e-b886-00d6030d29c7
+    type: table
+    name: INDEX_COLUMNS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.INDEX_COLUMNS
+    displayName: INDEX_COLUMNS
+    deleted: false
+  - id: 5055a80e-de43-4a50-8a40-18aeb8d637cb
+    type: table
+    name: INFORMATION_SCHEMA_CATALOG_NAME
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.INFORMATION_SCHEMA_CATALOG_NAME
+    displayName: INFORMATION_SCHEMA_CATALOG_NAME
+    deleted: false
+  - id: 85afa389-81fa-46ba-88b5-b9ab9004f4a4
+    type: table
+    name: LOAD_HISTORY
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.LOAD_HISTORY
+    displayName: LOAD_HISTORY
+    deleted: false
+  - id: b663c7e9-efde-4cb1-bb4a-2e6fa469f5f0
+    type: table
+    name: MODEL_VERSIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.MODEL_VERSIONS
+    displayName: MODEL_VERSIONS
+    deleted: false
+  - id: 4022d55c-3468-4c45-b381-221830435e75
+    type: table
+    name: NOTEBOOKS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.NOTEBOOKS
+    displayName: NOTEBOOKS
+    deleted: false
+  - id: ce9ca105-65b1-4549-9e08-13e59b15f3ac
+    type: table
+    name: OBJECT_PRIVILEGES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.OBJECT_PRIVILEGES
+    displayName: OBJECT_PRIVILEGES
+    deleted: false
+  - id: 39af97f8-8657-4913-8304-ded84efd7f66
+    type: table
+    name: PACKAGES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.PACKAGES
+    displayName: PACKAGES
+    deleted: false
+  - id: 1dce41e6-eae5-4e85-828d-37d2598b6924
+    type: table
+    name: PIPES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.PIPES
+    displayName: PIPES
+    deleted: false
+  - id: f8233dca-37a3-4e13-b906-77e50153c497
+    type: table
+    name: PROCEDURES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.PROCEDURES
+    displayName: PROCEDURES
+    deleted: false
+  - id: a2384515-756e-411d-874f-950b7c6c462c
+    type: table
+    name: REFERENTIAL_CONSTRAINTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS
+    displayName: REFERENTIAL_CONSTRAINTS
+    deleted: false
+  - id: 76b0d791-027a-4e0d-b021-edae74594f09
+    type: table
+    name: REPLICATION_DATABASES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.REPLICATION_DATABASES
+    displayName: REPLICATION_DATABASES
+    deleted: false
+  - id: 5cf127f0-a98a-46b1-8141-48b91c7be67a
+    type: table
+    name: REPLICATION_GROUPS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.REPLICATION_GROUPS
+    displayName: REPLICATION_GROUPS
+    deleted: false
+  - id: 7a6d9c9e-2aed-46e2-8761-d359f9eaab9f
+    type: table
+    name: SCHEMATA
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SCHEMATA
+    displayName: SCHEMATA
+    deleted: false
+  - id: 6fade6bf-6529-45af-a9d4-1a06b3e4148d
+    type: table
+    name: SEMANTIC_DIMENSIONS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SEMANTIC_DIMENSIONS
+    displayName: SEMANTIC_DIMENSIONS
+    deleted: false
+  - id: c1a80849-8f01-4c05-a24a-b726490b9736
+    type: table
+    name: SEMANTIC_FACTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SEMANTIC_FACTS
+    displayName: SEMANTIC_FACTS
+    deleted: false
+  - id: af0251d4-195b-414b-ba9e-7b0f6d8b10e3
+    type: table
+    name: SEMANTIC_METRICS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SEMANTIC_METRICS
+    displayName: SEMANTIC_METRICS
+    deleted: false
+  - id: dba37ccc-24ae-4714-af8f-b39d9cf472cd
+    type: table
+    name: SEMANTIC_RELATIONSHIPS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SEMANTIC_RELATIONSHIPS
+    displayName: SEMANTIC_RELATIONSHIPS
+    deleted: false
+  - id: c5fa8742-0c0b-42c1-b690-224c924df05e
+    type: table
+    name: SEMANTIC_TABLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SEMANTIC_TABLES
+    displayName: SEMANTIC_TABLES
+    deleted: false
+  - id: 52cb9048-b644-4c0c-85d9-b9145e6fa9f6
+    type: table
+    name: SEMANTIC_VIEWS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SEMANTIC_VIEWS
+    displayName: SEMANTIC_VIEWS
+    deleted: false
+  - id: 3dd7c882-d2c5-4597-8461-90438f2ab13d
+    type: table
+    name: SEQUENCES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SEQUENCES
+    displayName: SEQUENCES
+    deleted: false
+  - id: 529db25d-605b-425e-ba03-5d61ff73b7e7
+    type: table
+    name: SERVICES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SERVICES
+    displayName: SERVICES
+    deleted: false
+  - id: 7ae891f6-18c1-4c61-a6c1-80e8fa216280
+    type: table
+    name: SNAPSHOTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SNAPSHOTS
+    displayName: SNAPSHOTS
+    deleted: false
+  - id: 750b403f-bc0b-41db-9d76-7e8e2dcc069a
+    type: table
+    name: SNAPSHOT_POLICIES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SNAPSHOT_POLICIES
+    displayName: SNAPSHOT_POLICIES
+    deleted: false
+  - id: d37ff431-d63d-43df-aaf7-904d0ee0339a
+    type: table
+    name: SNAPSHOT_SETS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.SNAPSHOT_SETS
+    displayName: SNAPSHOT_SETS
+    deleted: false
+  - id: 252e2dc7-2d19-4924-9271-a5590053fd55
+    type: table
+    name: STAGES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.STAGES
+    displayName: STAGES
+    deleted: false
+  - id: 55472042-8cfc-4e61-b0f6-639657c2d7a2
+    type: table
+    name: STREAMLITS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.STREAMLITS
+    displayName: STREAMLITS
+    deleted: false
+  - id: 0f390c4b-c2f0-4e6d-9f0b-1a8c4929cb7d
+    type: table
+    name: TABLES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.TABLES
+    displayName: TABLES
+    deleted: false
+  - id: 48c82d8d-243d-4d75-b0cf-1c4223ae4341
+    type: table
+    name: TABLE_CONSTRAINTS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.TABLE_CONSTRAINTS
+    displayName: TABLE_CONSTRAINTS
+    deleted: false
+  - id: e4ea15b8-9d8d-4c47-95c8-72e475b04264
+    type: table
+    name: TABLE_PRIVILEGES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.TABLE_PRIVILEGES
+    displayName: TABLE_PRIVILEGES
+    deleted: false
+  - id: 6f5ba804-9c9a-44d3-8aa4-b7ba8983b75b
+    type: table
+    name: TABLE_STORAGE_METRICS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.TABLE_STORAGE_METRICS
+    displayName: TABLE_STORAGE_METRICS
+    deleted: false
+  - id: 1d9d575d-2a98-4ab6-8f14-e0dad56acc64
+    type: table
+    name: USAGE_PRIVILEGES
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.USAGE_PRIVILEGES
+    displayName: USAGE_PRIVILEGES
+    deleted: false
+  - id: 70d24ddb-73f6-4148-a0d3-c872c7efda4e
+    type: table
+    name: VIEWS
+    fullyQualifiedName: snow_cost.SNOWFLAKE.INFORMATION_SCHEMA.VIEWS
+    displayName: VIEWS
+    deleted: false
+tags:
+  - tagFQN: Ayush.Test
+    name: Test
+    displayName: Test
+    description: <p>Test</p>
+    style: {}
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedBy: admin
+sourceUrl: https://app.snowflake.com/fmfahqk/gi58232/#/data/databases/SNOWFLAKE/schemas/INFORMATION_SCHEMA
+domains: []
+sourceHash: cc32edf4d19b02748e975c458428d712
+entityStatus: Unprocessed

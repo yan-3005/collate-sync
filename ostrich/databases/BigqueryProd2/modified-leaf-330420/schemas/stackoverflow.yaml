@@ -1,0 +1,147 @@
+name: stackoverflow
+fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 197a4195-9e15-4b93-8bf4-fdf57225f455
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: BigqueryProd2.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: ac56fd59-17a2-4a5c-8162-2957cdac587e
+    type: table
+    name: badges
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.badges
+    displayName: badges
+    deleted: false
+  - id: 213ebdf1-82d6-405c-a923-e23d2c17ded8
+    type: table
+    name: comments
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.comments
+    displayName: comments
+    deleted: false
+  - id: cb05b3d8-f65a-4a90-97d7-e1728fc3c511
+    type: table
+    name: lineage_table
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.lineage_table
+    displayName: lineage_table
+    deleted: false
+  - id: 4c19e698-3c80-41c5-b13c-33f6d9809a0e
+    type: table
+    name: new_badges
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.new_badges
+    displayName: new_badges
+    deleted: false
+  - id: d75e6584-4945-4425-859a-5aa11cfcb0c9
+    type: table
+    name: new_cts_2
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.new_cts_2
+    displayName: new_cts_2
+    deleted: false
+  - id: ee941e1a-61ca-42e7-8f79-065cbdf9fe06
+    type: table
+    name: new_cts_final
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.new_cts_final
+    displayName: new_cts_final
+    deleted: false
+  - id: 1aa3fb06-e21d-4785-a4ef-2f0921738ad1
+    type: table
+    name: post_history
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.post_history
+    displayName: post_history
+    deleted: false
+  - id: 711757dc-26fd-4d1d-8a15-465e9595b8c8
+    type: table
+    name: post_links
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.post_links
+    displayName: post_links
+    deleted: false
+  - id: 5c67b629-ce5f-4228-a5cf-c2d867fed066
+    type: table
+    name: posts_answers
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.posts_answers
+    displayName: posts_answers
+    deleted: false
+  - id: 3487defa-4bdc-4e22-93e7-21fb83ddb51a
+    type: table
+    name: posts_moderator_nomination
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.posts_moderator_nomination
+    displayName: posts_moderator_nomination
+    deleted: false
+  - id: 32840fe9-13f6-486a-8814-c7803c60963e
+    type: table
+    name: posts_orphaned_tag_wiki
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.posts_orphaned_tag_wiki
+    displayName: posts_orphaned_tag_wiki
+    deleted: false
+  - id: 54dcaf33-e61e-4546-8f2a-b2796ffebc23
+    type: table
+    name: posts_privilege_wiki
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.posts_privilege_wiki
+    displayName: posts_privilege_wiki
+    deleted: false
+  - id: 7a0f7152-baa2-4836-8f2a-1d88d5c219f7
+    type: table
+    name: posts_questions
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.posts_questions
+    displayName: posts_questions
+    deleted: false
+  - id: 274a98d3-1d3a-49ad-b591-c8dd9ba0178f
+    type: table
+    name: posts_tag_wiki
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.posts_tag_wiki
+    displayName: posts_tag_wiki
+    deleted: false
+  - id: 9332cad0-cbde-4bce-9e21-f635b733989b
+    type: table
+    name: posts_tag_wiki_excerpt
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.posts_tag_wiki_excerpt
+    displayName: posts_tag_wiki_excerpt
+    deleted: false
+  - id: d98981f1-9a0a-4701-b5fa-939e732f5173
+    type: table
+    name: posts_wiki_placeholder
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.posts_wiki_placeholder
+    displayName: posts_wiki_placeholder
+    deleted: false
+  - id: 5b66753d-6533-4f1d-b9eb-ac90a780fd2a
+    type: table
+    name: stackoverflow_posts
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.stackoverflow_posts
+    description: Don't use this table - use posts_* instead
+    displayName: stackoverflow_posts
+    deleted: false
+  - id: d2d6c5f2-6031-4092-bb4a-8deda62cf24c
+    type: table
+    name: tags
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.tags
+    displayName: tags
+    deleted: false
+  - id: 05bf8597-8391-4bae-9c1f-be46c2f9573a
+    type: table
+    name: users
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.users
+    displayName: users
+    deleted: false
+  - id: c7bc77b3-2669-48f8-a2ae-2d5a963db6e2
+    type: table
+    name: votes
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.stackoverflow.votes
+    displayName: votes
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sstackoverflow
+domains: []
+sourceHash: c8a22fecb6eaf4115761530940cc300b
+entityStatus: Unprocessed

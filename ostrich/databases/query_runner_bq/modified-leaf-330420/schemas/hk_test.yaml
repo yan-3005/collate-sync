@@ -1,0 +1,87 @@
+name: hk_test
+fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 4f2bcb64-18b7-407d-baa9-831e329b5b97
+  type: databaseService
+  name: query_runner_bq
+  fullyQualifiedName: query_runner_bq
+  description: ""
+  displayName: query_runner_bq
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 92c3a48c-ccad-4c9b-bc36-0f5abbcc00ce
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: query_runner_bq.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 741dc99a-ede6-45d6-8691-5dc83f6c40c1
+    type: table
+    name: addresses
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.addresses
+    displayName: addresses
+    deleted: false
+  - id: c39d8564-ec46-4ce6-bbfe-af13fbe5975b
+    type: table
+    name: customers
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.customers
+    displayName: customers
+    deleted: false
+  - id: e34a2c1e-1423-47ba-86b1-2aeaee4d8e8f
+    type: table
+    name: employees
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.employees
+    displayName: employees
+    deleted: false
+  - id: c153c5f6-d6a2-465e-8cdc-6e608ee81e6a
+    type: table
+    name: order_items
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.order_items
+    displayName: order_items
+    deleted: false
+  - id: e70560e3-d6a0-4d17-807c-2e0ef24557a5
+    type: table
+    name: orders
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.orders
+    displayName: orders
+    deleted: false
+  - id: 51f121ae-2db3-48e1-b83d-8c7f3c1d033d
+    type: table
+    name: payments
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.payments
+    displayName: payments
+    deleted: false
+  - id: 3e4120ba-108d-4991-bf01-08fa2cce7878
+    type: table
+    name: product_inventory
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.product_inventory
+    displayName: product_inventory
+    deleted: false
+  - id: 14cbc45c-7da1-442f-a145-ac5e4f6296b5
+    type: table
+    name: products
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.products
+    displayName: products
+    deleted: false
+  - id: 4df982cb-9d56-4d3d-b2b1-ecd54e8fb2f4
+    type: table
+    name: sample_customers
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.sample_customers
+    displayName: sample_customers
+    deleted: false
+  - id: 5479dada-2398-449a-a384-7e9aa0d91ead
+    type: table
+    name: sample_table
+    fullyQualifiedName: query_runner_bq.modified-leaf-330420.hk_test.sample_table
+    displayName: sample_table
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2shk_test
+domains: []
+sourceHash: 829a29ad37dfb0d4592bffdf7636bff8
+entityStatus: Unprocessed

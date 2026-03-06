@@ -1,0 +1,59 @@
+name: imri_test
+fullyQualifiedName: BigqueryProd2.modified-leaf-330420.imri_test
+description: <p>test description.</p>
+dataProducts: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 197a4195-9e15-4b93-8bf4-fdf57225f455
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: BigqueryProd2.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 3caf0729-7896-485a-b541-91ab27bd4a07
+    type: table
+    name: imri_users
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.imri_test.imri_users
+    description: <p>new desc for table</p>
+    displayName: imri_users
+    deleted: false
+  - id: 3088e0b4-23ac-467a-b1a4-096c7640d9b5
+    type: table
+    name: users
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.imri_test.users
+    displayName: users
+    deleted: false
+  - id: 960035b0-b0b4-41b4-ab9e-5b3d5a485213
+    type: table
+    name: vw
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.imri_test.vw
+    displayName: vw
+    deleted: false
+tags:
+  - tagFQN: nonsensitive.nonsensitive
+    name: nonsensitive
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+  - tagFQN: person.person
+    name: person
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2simri_test
+domains: []
+sourceHash: a123e53f98fe0ee6ea81c388205713bb
+entityStatus: Unprocessed

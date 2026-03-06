@@ -1,0 +1,31 @@
+name: hk_schema
+fullyQualifiedName: hk_redshift_test.dev.hk_schema
+dataProducts: []
+owners: []
+service:
+  id: ebaa4b4d-b292-4090-92dc-f47d380cbc96
+  type: databaseService
+  name: hk_redshift_test
+  fullyQualifiedName: hk_redshift_test
+  description: ""
+  displayName: hk_redshift_test
+  deleted: false
+serviceType: Redshift
+database:
+  id: 4dede78c-21b3-4d27-b738-4e517308091d
+  type: database
+  name: dev
+  fullyQualifiedName: hk_redshift_test.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 4f2e6317-2051-4887-8ede-ac9d9f9878ef
+    type: table
+    name: sample_table
+    fullyQualifiedName: hk_redshift_test.dev.hk_schema.sample_table
+    displayName: sample_table
+    deleted: false
+tags: []
+domains: []
+sourceHash: 7b7cb1154ca95690e30ebcb6ff60df39
+entityStatus: Unprocessed

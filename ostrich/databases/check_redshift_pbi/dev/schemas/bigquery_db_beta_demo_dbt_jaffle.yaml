@@ -1,0 +1,57 @@
+name: bigquery_db_beta_demo_dbt_jaffle
+fullyQualifiedName: check_redshift_pbi.dev.bigquery_db_beta_demo_dbt_jaffle
+dataProducts: []
+owners: []
+service:
+  id: a3b05d3d-c60d-44fe-83cc-7188fb834a13
+  type: databaseService
+  name: check_redshift_pbi
+  fullyQualifiedName: check_redshift_pbi
+  description: ""
+  displayName: check_redshift_pbi
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5b24b962-c5da-40cb-8337-cafa3b99990f
+  type: database
+  name: dev
+  fullyQualifiedName: check_redshift_pbi.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 6d887739-c484-4b8a-8ba1-1dde0d44d678
+    type: table
+    name: customers
+    fullyQualifiedName: check_redshift_pbi.dev.bigquery_db_beta_demo_dbt_jaffle.customers
+    description: new description for customers table.
+    displayName: customers
+    deleted: false
+  - id: c7cefdd0-99fc-413e-b9d7-b314d489f4ba
+    type: table
+    name: materialized_view_table
+    fullyQualifiedName: check_redshift_pbi.dev.bigquery_db_beta_demo_dbt_jaffle.materialized_view_table
+    displayName: materialized_view_table
+    deleted: false
+  - id: c1d30e8b-ac42-4a1a-87ae-fc6dfcb64ef3
+    type: table
+    name: mv_tbl__materialized_view_table__0
+    fullyQualifiedName: check_redshift_pbi.dev.bigquery_db_beta_demo_dbt_jaffle.mv_tbl__materialized_view_table__0
+    displayName: mv_tbl__materialized_view_table__0
+    deleted: false
+  - id: b8a1c6d7-589a-424e-af6d-f30abe48c33d
+    type: table
+    name: orders
+    fullyQualifiedName: check_redshift_pbi.dev.bigquery_db_beta_demo_dbt_jaffle.orders
+    description: <p>New description for table.</p>
+    displayName: orders
+    deleted: false
+  - id: f656c7ad-5cf5-416c-8e64-8080fb346c24
+    type: table
+    name: view_table
+    fullyQualifiedName: check_redshift_pbi.dev.bigquery_db_beta_demo_dbt_jaffle.view_table
+    displayName: view_table
+    deleted: false
+tags: []
+domains: []
+sourceHash: 99e52d60bc9f85171b1b4ef52081168e
+entityStatus: Unprocessed

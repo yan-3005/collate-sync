@@ -1,0 +1,215 @@
+name: dbt_jaffle
+fullyQualifiedName: red-pere.dev.dbt_jaffle
+dataProducts: []
+owners: []
+service:
+  id: 34bdf347-0d56-435a-9989-b0eaed43af8f
+  type: databaseService
+  name: red-pere
+  fullyQualifiedName: red-pere
+  description: ""
+  displayName: red-pere
+  deleted: false
+serviceType: Redshift
+database:
+  id: 8c2fbaaa-22f9-41c7-ae3a-9beca80cd162
+  type: database
+  name: dev
+  fullyQualifiedName: red-pere.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 381818aa-8072-4e26-be4a-03922be8a1a2
+    type: table
+    name: category_sales_percentage
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.category_sales_percentage
+    displayName: category_sales_percentage
+    deleted: false
+  - id: a53ae4f8-05d5-4a20-afd7-79ed34dd49b6
+    type: table
+    name: customer_checklist
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.customer_checklist
+    description: This table stores tickets sales data. reverse metadata
+    displayName: customer_checklist
+    deleted: false
+  - id: c9801d2f-4ade-45dd-af01-a38f7be19d78
+    type: table
+    name: customers
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.customers
+    description: "This table stores detailed information about customers, including\
+      \ their lifetime value, order history, and number of orders. It can be used\
+      \ to analyze customer behavior, track customer loyalty, and personalize marketing\
+      \ strategies. this is a better description"
+    displayName: customers
+    deleted: false
+  - id: 2a6c1c5f-ee43-4060-8e5f-41922682f211
+    type: table
+    name: customers_model
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.customers_model
+    displayName: customers_model
+    deleted: false
+  - id: 2a0facc6-cf55-478b-9e6e-5177974a5f39
+    type: table
+    name: customerslineage
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.customerslineage
+    displayName: customerslineage
+    deleted: false
+  - id: d9b3ae5b-c8cb-45a2-ad14-9e31b2aaf295
+    type: table
+    name: geometry_table
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.geometry_table
+    description: Geometry test changed here
+    displayName: geometry_table
+    deleted: false
+  - id: 3a3e10f6-a00f-4277-b0c8-a73cac7505cb
+    type: table
+    name: my_first_dbt_model
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.my_first_dbt_model
+    displayName: my_first_dbt_model
+    deleted: false
+  - id: 23255c3a-e4a3-4ce7-8158-6c823738dd6d
+    type: table
+    name: my_second_dbt_model
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.my_second_dbt_model
+    displayName: my_second_dbt_model
+    deleted: false
+  - id: a3ec51a5-430d-4aca-b137-621a0eeff235
+    type: table
+    name: new_customers
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.new_customers
+    displayName: new_customers
+    deleted: false
+  - id: 681956c9-af15-45e6-9e6a-fb56da96ca5f
+    type: table
+    name: new_view
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.new_view
+    displayName: new_view
+    deleted: false
+  - id: 768f22cd-7393-4cb3-aff6-29aa21884a39
+    type: table
+    name: new_view_1
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.new_view_1
+    displayName: new_view_1
+    deleted: false
+  - id: abe11970-c932-4122-9748-f083ecb94d5c
+    type: table
+    name: orders
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.orders
+    description: "Comprehensive order transactions table tracking all customer purchases\
+      \ with detailed payment methods and amounts. This table serves as the primary\
+      \ source for order analytics, revenue reporting, and payment method analysis\
+      \ across the e-commerce platform."
+    displayName: orders
+    deleted: false
+  - id: 2e583354-44f7-48d4-b78f-c0b24810f293
+    type: table
+    name: orders_processed
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.orders_processed
+    displayName: orders_processed
+    deleted: false
+  - id: 50d33a29-3980-485e-8330-700bffe69b31
+    type: table
+    name: orders_ts
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.orders_ts
+    displayName: orders_ts
+    deleted: false
+  - id: e192de95-6747-409e-8516-63047d9caa9f
+    type: table
+    name: products_by_most_price_changes_with_avg_review
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.products_by_most_price_changes_with_avg_review
+    displayName: products_by_most_price_changes_with_avg_review
+    deleted: false
+  - id: 58ae38fc-37f9-43d4-a21b-3f7d36e01414
+    type: table
+    name: quarterly_returned_orders_percentage
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.quarterly_returned_orders_percentage
+    displayName: quarterly_returned_orders_percentage
+    deleted: false
+  - id: 2d185eda-7942-4fb6-9fb3-f356c351ffb2
+    type: table
+    name: raw_customers
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: 06e19c1d-1dc3-4f0f-b794-62456fdd97fa
+    type: table
+    name: raw_orders
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: 8fe86e17-f9ec-46bc-aa0c-53a32b8f85d4
+    type: table
+    name: raw_payments
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.raw_payments
+    displayName: raw_payments
+    deleted: false
+  - id: 11f45db9-19c3-45b0-8e54-51c43b780ec1
+    type: table
+    name: returned_orders_percentage_by_quarter
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.returned_orders_percentage_by_quarter
+    displayName: returned_orders_percentage_by_quarter
+    deleted: false
+  - id: 4c293133-c360-4339-92c5-0f5d9d20a09b
+    type: table
+    name: sensitive_customers
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.sensitive_customers
+    displayName: sensitive_customers
+    deleted: false
+  - id: 0faa3f48-b2f7-42a9-8567-3f856babccb6
+    type: table
+    name: stg_customers
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.stg_customers
+    displayName: stg_customers
+    deleted: false
+  - id: d4a675a7-d4f1-4ec8-aaa9-ed531b85cb9d
+    type: table
+    name: stg_orders
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.stg_orders
+    displayName: stg_orders
+    deleted: false
+  - id: 85aebf49-2d3d-44c4-9556-242ce75f5610
+    type: table
+    name: stg_payments
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.stg_payments
+    displayName: stg_payments
+    deleted: false
+  - id: 389f7090-e8be-4051-8a63-8263ccc5c5cb
+    type: table
+    name: test_table_one
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.test_table_one
+    description: testing reverse
+    displayName: test_table_one
+    deleted: false
+  - id: 45099459-0ed9-4c7d-ae65-e71a81e22bfb
+    type: table
+    name: test_view_one
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.test_view_one
+    displayName: test_view_one
+    deleted: false
+  - id: 498fd730-d9c9-43af-a97e-2821e31b0e7f
+    type: table
+    name: timestamp_table
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.timestamp_table
+    displayName: timestamp_table
+    deleted: false
+  - id: 45d2a0b5-b799-44ed-935e-02232d46dee6
+    type: table
+    name: top_5_product_categories_market_share
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.top_5_product_categories_market_share
+    displayName: top_5_product_categories_market_share
+    deleted: false
+  - id: daa428a4-13d1-4ae8-a611-f595a23af70e
+    type: table
+    name: top_5_products_by_sales
+    fullyQualifiedName: red-pere.dev.dbt_jaffle.top_5_products_by_sales
+    displayName: top_5_products_by_sales
+    deleted: false
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+domains: []
+sourceHash: e378cb397eafb4f5a2a086383891c813
+entityStatus: Unprocessed

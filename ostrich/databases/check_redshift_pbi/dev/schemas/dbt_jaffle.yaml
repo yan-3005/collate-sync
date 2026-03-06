@@ -1,0 +1,206 @@
+name: dbt_jaffle
+fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle
+dataProducts: []
+owners: []
+service:
+  id: a3b05d3d-c60d-44fe-83cc-7188fb834a13
+  type: databaseService
+  name: check_redshift_pbi
+  fullyQualifiedName: check_redshift_pbi
+  description: ""
+  displayName: check_redshift_pbi
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5b24b962-c5da-40cb-8337-cafa3b99990f
+  type: database
+  name: dev
+  fullyQualifiedName: check_redshift_pbi.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: a53279e1-f174-46a9-84fd-0b14db486514
+    type: table
+    name: category_sales_percentage
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.category_sales_percentage
+    displayName: category_sales_percentage
+    deleted: false
+  - id: ba344580-98df-4a6b-9ba8-508bd86a7d3d
+    type: table
+    name: customer_checklist
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.customer_checklist
+    description: This table stores tickets and sales data.
+    displayName: customer_checklist
+    deleted: false
+  - id: c72d88c3-e3fa-46a2-8910-a39658432f68
+    type: table
+    name: customers
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.customers
+    description: |-
+      This table is built in Athena,
+      refer to the canonical table for...
+    displayName: customers
+    deleted: false
+  - id: b012a9d8-2739-41b7-bbf2-b28c74b9cf3d
+    type: table
+    name: customers_model
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.customers_model
+    displayName: customers_model
+    deleted: false
+  - id: 16a67f2e-fc30-4669-8623-ccecc328727b
+    type: table
+    name: customerslineage
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.customerslineage
+    displayName: customerslineage
+    deleted: false
+  - id: 5be172a6-8666-4333-9df3-bc558e530040
+    type: table
+    name: geometry_table
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.geometry_table
+    description: Geometry test changed here
+    displayName: geometry_table
+    deleted: false
+  - id: e9e4d6d5-68fa-4c65-945b-2795652d8d88
+    type: table
+    name: my_first_dbt_model
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.my_first_dbt_model
+    displayName: my_first_dbt_model
+    deleted: false
+  - id: a92414da-e0ed-43f3-826d-bbb6c5dc48ec
+    type: table
+    name: my_second_dbt_model
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.my_second_dbt_model
+    displayName: my_second_dbt_model
+    deleted: false
+  - id: 00343795-540c-421e-a2e7-1902930bcbb6
+    type: table
+    name: new_customers
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.new_customers
+    displayName: new_customers
+    deleted: false
+  - id: 5a4be4e8-743c-49bd-8267-87c68c5c4388
+    type: table
+    name: new_view
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.new_view
+    displayName: new_view
+    deleted: false
+  - id: 577cb325-9cdf-4520-8887-21f740828c2b
+    type: table
+    name: new_view_1
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.new_view_1
+    displayName: new_view_1
+    deleted: false
+  - id: 7f203b22-9f2c-47a4-8b82-12ec178306f5
+    type: table
+    name: orders
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.orders
+    description: testing comments here
+    displayName: orders
+    deleted: false
+  - id: 644b346e-21cf-48a8-b4be-e4c50dfcc9d4
+    type: table
+    name: orders_processed
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.orders_processed
+    displayName: orders_processed
+    deleted: false
+  - id: 87d02fca-f899-4402-b143-0363753a0596
+    type: table
+    name: orders_ts
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.orders_ts
+    displayName: orders_ts
+    deleted: false
+  - id: cdd2de2e-57eb-4972-86ec-3670c844105d
+    type: table
+    name: products_by_most_price_changes_with_avg_review
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.products_by_most_price_changes_with_avg_review
+    displayName: products_by_most_price_changes_with_avg_review
+    deleted: false
+  - id: 52dbcdf3-9330-408b-8ef5-74ca60df2d8b
+    type: table
+    name: quarterly_returned_orders_percentage
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.quarterly_returned_orders_percentage
+    displayName: quarterly_returned_orders_percentage
+    deleted: false
+  - id: 97a47339-1a02-4c5f-add8-0aada1672935
+    type: table
+    name: raw_customers
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: 1bbf0b1f-dc4c-4cbc-ba72-899367e42453
+    type: table
+    name: raw_orders
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: cb37ca53-9a2c-42c1-bd9e-4f7b82a4a2c0
+    type: table
+    name: raw_payments
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.raw_payments
+    displayName: raw_payments
+    deleted: false
+  - id: dbb2bd47-3989-43af-af64-0faf0c9ffa9f
+    type: table
+    name: returned_orders_percentage_by_quarter
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.returned_orders_percentage_by_quarter
+    displayName: returned_orders_percentage_by_quarter
+    deleted: false
+  - id: cc557ab7-d83c-4329-8ca0-9692bacc5c64
+    type: table
+    name: sensitive_customers
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.sensitive_customers
+    displayName: sensitive_customers
+    deleted: false
+  - id: bd7b258f-d23e-4299-af6e-00ca6343cd27
+    type: table
+    name: stg_customers
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.stg_customers
+    displayName: stg_customers
+    deleted: false
+  - id: 028ea73c-3634-47ae-8363-4390b756151e
+    type: table
+    name: stg_orders
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.stg_orders
+    displayName: stg_orders
+    deleted: false
+  - id: 04185f87-70af-41f5-8520-54a489f63c18
+    type: table
+    name: stg_payments
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.stg_payments
+    displayName: stg_payments
+    deleted: false
+  - id: cec31196-5a8b-496a-b724-b5c53edfd454
+    type: table
+    name: test_table_one
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.test_table_one
+    description: testing reverse
+    displayName: test_table_one
+    deleted: false
+  - id: 470d21a2-182b-40c6-95dc-a71c695e7082
+    type: table
+    name: test_view_one
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.test_view_one
+    displayName: test_view_one
+    deleted: false
+  - id: 422f310f-9818-4557-8fe9-02baf9001bd3
+    type: table
+    name: timestamp_table
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.timestamp_table
+    displayName: timestamp_table
+    deleted: false
+  - id: 349d9f7b-6ecb-436c-a868-06d47d57646d
+    type: table
+    name: top_5_product_categories_market_share
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.top_5_product_categories_market_share
+    displayName: top_5_product_categories_market_share
+    deleted: false
+  - id: 0833ae47-8072-444f-ba88-7460a1b2258b
+    type: table
+    name: top_5_products_by_sales
+    fullyQualifiedName: check_redshift_pbi.dev.dbt_jaffle.top_5_products_by_sales
+    displayName: top_5_products_by_sales
+    deleted: false
+tags: []
+domains: []
+sourceHash: c82c3b3c4f507ec88b515ef0fa906088
+entityStatus: Unprocessed

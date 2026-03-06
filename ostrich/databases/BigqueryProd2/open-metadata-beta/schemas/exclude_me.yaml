@@ -1,0 +1,44 @@
+name: exclude_me
+fullyQualifiedName: BigqueryProd2.open-metadata-beta.exclude_me
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 2329fcec-cba1-4dd5-91be-9e7a3820a1ca
+  type: database
+  name: open-metadata-beta
+  fullyQualifiedName: BigqueryProd2.open-metadata-beta
+  displayName: open-metadata-beta
+  deleted: false
+tables:
+  - id: 65d37ca9-4c96-4cd9-b2da-5fa3e5bb0997
+    type: table
+    name: exclude_table
+    fullyQualifiedName: BigqueryProd2.open-metadata-beta.exclude_me.exclude_table
+    displayName: exclude_table
+    deleted: false
+  - id: 7bf91c58-4b37-43f0-95dc-f93c23d30b76
+    type: table
+    name: orders
+    fullyQualifiedName: BigqueryProd2.open-metadata-beta.exclude_me.orders
+    displayName: orders
+    deleted: false
+  - id: fc4ced1e-04b1-4511-be71-73ceb17b3029
+    type: table
+    name: view_orders
+    fullyQualifiedName: BigqueryProd2.open-metadata-beta.exclude_me.view_orders
+    displayName: view_orders
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=open-metadata-beta&ws=!1m4!1m3!3m2!1sopen-metadata-beta!2sexclude_me
+domains: []
+sourceHash: 2c46771c87badd26439dae909566b168
+entityStatus: Unprocessed

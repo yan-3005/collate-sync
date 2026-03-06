@@ -1,0 +1,114 @@
+name: dbt_production
+fullyQualifiedName: Redshift Keshav.dev.dbt_production
+displayName: ""
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 20eff402-2323-4b54-a831-d40f411f88ee
+  type: databaseService
+  name: Redshift Keshav
+  fullyQualifiedName: Redshift Keshav
+  description: ""
+  displayName: Redshift Keshav
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5e22c064-1883-42e0-94ff-5338c7650566
+  type: database
+  name: dev
+  fullyQualifiedName: Redshift Keshav.dev
+  description: <p>new desc</p>
+  displayName: dev
+  deleted: false
+tables:
+  - id: e0aedb2d-9d98-4360-9dd4-0fb28f21356e
+    type: table
+    name: customers
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.customers
+    description: "Customer dimension table serving as the primary source of truth\
+      \ for customer profiles and behavioral metrics. This table consolidates customer\
+      \ demographic information with aggregated order history data, providing a 360-degree\
+      \ view of customer engagement. Sourced from transactional order systems and\
+      \ transformed through dbt to calculate lifetime value metrics and ordering patterns.\
+      \ Commonly used for customer segmentation analysis, retention reporting, and\
+      \ marketing campaign targeting. Each record represents a unique customer with\
+      \ their complete order history summarized into key performance indicators."
+    displayName: customers
+    deleted: false
+  - id: c207d83c-3acb-4a03-a999-2033c84f56b7
+    type: table
+    name: my-table
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.my-table
+    description: ""
+    displayName: my-table
+    deleted: false
+  - id: 332d595b-0e7e-4b7a-a099-2fc808620985
+    type: table
+    name: orders
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.orders
+    description: ""
+    displayName: orders
+    deleted: false
+  - id: e6f1cce6-9d7e-46ac-a401-d513cbd9490d
+    type: table
+    name: raw_customers
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.raw_customers
+    description: ""
+    displayName: raw_customers
+    deleted: false
+  - id: 4449e8c8-efed-4303-94d0-f2c6b81400c9
+    type: table
+    name: raw_orders
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.raw_orders
+    description: ""
+    displayName: raw_orders
+    deleted: false
+  - id: 670f1dac-f5ea-404b-86c7-735d791bea47
+    type: table
+    name: raw_payments
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.raw_payments
+    description: ""
+    displayName: raw_payments
+    deleted: false
+  - id: a2bf3fec-6c51-4894-a836-dab0053756c5
+    type: table
+    name: stg_customers
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.stg_customers
+    description: ""
+    displayName: stg_customers
+    deleted: false
+  - id: 450cc1f2-01ea-4e80-9e21-1c2db1e6ba02
+    type: table
+    name: stg_orders
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.stg_orders
+    description: ""
+    displayName: stg_orders
+    deleted: false
+  - id: 6168c3f8-cf83-4559-a114-595d8202edd0
+    type: table
+    name: stg_payments
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production.stg_payments
+    description: ""
+    displayName: stg_payments
+    deleted: false
+tags: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: description
+      newValue: ""
+    - name: displayName
+      newValue: ""
+    - name: retentionPeriod
+      newValue: ""
+    - name: sourceUrl
+      newValue: ""
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+retentionPeriod: ""
+sourceUrl: ""
+domains: []
+sourceHash: 157d38cfbe1f390ddbbcd74ae3bf0c78
+entityStatus: Unprocessed

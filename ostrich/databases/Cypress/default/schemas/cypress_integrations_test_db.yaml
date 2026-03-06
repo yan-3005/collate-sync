@@ -1,0 +1,63 @@
+name: cypress_integrations_test_db
+fullyQualifiedName: Cypress.default.cypress_integrations_test_db
+dataProducts: []
+owners: []
+service:
+  id: 4e872884-bc9d-4244-9750-6c150d8a193d
+  type: databaseService
+  name: Cypress
+  fullyQualifiedName: Cypress
+  description: ""
+  displayName: Cypress
+  deleted: false
+serviceType: Mysql
+database:
+  id: d27753ec-9586-439b-b7cf-2149aaa93edf
+  type: database
+  name: default
+  fullyQualifiedName: Cypress.default
+  displayName: default
+  deleted: false
+tables:
+  - id: 57394843-40ab-40da-9858-4fc92c1c39d5
+    type: table
+    name: alert_entity
+    fullyQualifiedName: Cypress.default.cypress_integrations_test_db.alert_entity
+    displayName: alert_entity
+    deleted: false
+  - id: 2b4acf22-0d4b-49f1-b522-b202fb61be52
+    type: table
+    name: bot_entity
+    fullyQualifiedName: Cypress.default.cypress_integrations_test_db.bot_entity
+    displayName: bot_entity
+    deleted: false
+  - id: c153fdf5-44fc-4d3c-a963-f98f90c1e708
+    type: table
+    name: chart_entity
+    fullyQualifiedName: Cypress.default.cypress_integrations_test_db.chart_entity
+    displayName: chart_entity
+    deleted: false
+  - id: 2b0d274d-64ea-4b28-bf0b-4815beb71a1f
+    type: table
+    name: sensitive_customers
+    fullyQualifiedName: Cypress.default.cypress_integrations_test_db.sensitive_customers
+    displayName: sensitive_customers
+    deleted: false
+  - id: 5254aab2-362e-4913-8db8-70dd39615130
+    type: table
+    name: team_entity
+    fullyQualifiedName: Cypress.default.cypress_integrations_test_db.team_entity
+    description: DEMO COMMENT
+    displayName: team_entity
+    deleted: false
+tags: []
+domains:
+  - id: 7c09ff9f-c6df-41a4-aa52-d51d115f1414
+    type: domain
+    name: Engineering
+    fullyQualifiedName: Engineering
+    description: <p>Engineering</p>
+    displayName: Engineering
+    inherited: true
+sourceHash: 600d374f6ab90710b85ae97e2de2bbe6
+entityStatus: Unprocessed

@@ -1,0 +1,45 @@
+name: dbt_production
+fullyQualifiedName: Redshift Keshav 2.dev.dbt_production
+displayName: ""
+description: <p>new description - reverse metadata test - should fail</p>
+dataProducts: []
+owners: []
+service:
+  id: 90dbea1b-b50b-4348-9f7f-3fda7226c81a
+  type: databaseService
+  name: Redshift Keshav 2
+  fullyQualifiedName: Redshift Keshav 2
+  description: <p>new desc</p>
+  displayName: Redshift Keshav 2
+  deleted: false
+serviceType: Redshift
+database:
+  id: 1a2aa46e-a1a4-47f9-99c1-ea298be44ab6
+  type: database
+  name: dev
+  fullyQualifiedName: Redshift Keshav 2.dev
+  description: ""
+  displayName: dev
+  deleted: false
+tables:
+  - id: 523b48bb-05bf-4f5a-9aad-43f1cc91df26
+    type: table
+    name: my-table
+    fullyQualifiedName: Redshift Keshav 2.dev.dbt_production.my-table
+    description: ""
+    displayName: my-table
+    deleted: false
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: description
+      oldValue: ""
+      newValue: <p>new description - reverse metadata test - should fail</p>
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+retentionPeriod: ""
+sourceUrl: ""
+domains: []
+entityStatus: Unprocessed

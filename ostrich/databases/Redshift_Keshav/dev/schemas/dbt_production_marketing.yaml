@@ -1,0 +1,86 @@
+name: dbt_production_marketing
+fullyQualifiedName: Redshift Keshav.dev.dbt_production_marketing
+displayName: ""
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 20eff402-2323-4b54-a831-d40f411f88ee
+  type: databaseService
+  name: Redshift Keshav
+  fullyQualifiedName: Redshift Keshav
+  description: ""
+  displayName: Redshift Keshav
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5e22c064-1883-42e0-94ff-5338c7650566
+  type: database
+  name: dev
+  fullyQualifiedName: Redshift Keshav.dev
+  description: <p>new desc</p>
+  displayName: dev
+  deleted: false
+tables:
+  - id: 4288f080-57d0-4544-925f-5d4c17c63be3
+    type: table
+    name: customer_cohorts
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_marketing.customer_cohorts
+    description: ""
+    displayName: customer_cohorts
+    deleted: false
+  - id: 574ae01a-769c-4344-96d1-5368772aa501
+    type: table
+    name: customer_segmentation
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_marketing.customer_segmentation
+    description: ""
+    displayName: customer_segmentation
+    deleted: false
+  - id: 07372962-2dc4-4cdc-8dcf-654966e57896
+    type: table
+    name: customers
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_marketing.customers
+    description: ""
+    displayName: customers
+    deleted: false
+  - id: 48507cda-dd59-4f2f-aab2-2d0020adf3b2
+    type: table
+    name: marketing_attribution
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_marketing.marketing_attribution
+    description: ""
+    displayName: marketing_attribution
+    deleted: false
+  - id: 53f46a03-348c-4bfe-8878-5c46d81e124a
+    type: table
+    name: orders
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_marketing.orders
+    description: ""
+    displayName: orders
+    deleted: false
+  - id: 8e2a6ee0-5736-4002-8b01-9653bd59d623
+    type: table
+    name: product_performance
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_marketing.product_performance
+    description: ""
+    displayName: product_performance
+    deleted: false
+tags: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: description
+      newValue: ""
+    - name: displayName
+      newValue: ""
+    - name: retentionPeriod
+      newValue: ""
+    - name: sourceUrl
+      newValue: ""
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+retentionPeriod: ""
+sourceUrl: ""
+domains: []
+sourceHash: e124843ace45692cec13b26107f3494b
+entityStatus: Unprocessed

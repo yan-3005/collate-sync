@@ -1,0 +1,25 @@
+name: 1_table_10k_ctas
+fullyQualifiedName: DatabricksProd.demo.1_table_10k_ctas
+dataProducts: []
+owners: []
+service:
+  id: 10a64b1b-8d56-4a0b-9b52-a0d42da457d9
+  type: databaseService
+  name: DatabricksProd
+  fullyQualifiedName: DatabricksProd
+  description: ""
+  displayName: DatabricksProd
+  deleted: false
+serviceType: Databricks
+database:
+  id: e393312f-4bcd-4c51-9260-e9a9cda54861
+  type: database
+  name: demo
+  fullyQualifiedName: DatabricksProd.demo
+  displayName: demo
+  deleted: false
+tables: []
+tags: []
+domains: []
+sourceHash: db0e29b126b074213c38afc242e662bf
+entityStatus: Unprocessed

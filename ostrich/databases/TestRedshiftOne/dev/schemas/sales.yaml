@@ -1,0 +1,43 @@
+name: sales
+fullyQualifiedName: TestRedshiftOne.dev.sales
+dataProducts: []
+owners: []
+service:
+  id: 5f20ba3b-b2af-4584-a64c-8bd683dfdc15
+  type: databaseService
+  name: TestRedshiftOne
+  fullyQualifiedName: TestRedshiftOne
+  description: ""
+  displayName: TestRedshiftOne
+  deleted: false
+serviceType: Redshift
+database:
+  id: e7d5c2a2-05a8-44de-9331-a1cd358f6910
+  type: database
+  name: dev
+  fullyQualifiedName: TestRedshiftOne.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: cb2cfbcb-8064-406f-b338-7a0125228e10
+    type: table
+    name: customers
+    fullyQualifiedName: TestRedshiftOne.dev.sales.customers
+    displayName: customers
+    deleted: false
+  - id: e3b4cae3-20cc-43ea-904a-90f05ab1216c
+    type: table
+    name: order_items
+    fullyQualifiedName: TestRedshiftOne.dev.sales.order_items
+    displayName: order_items
+    deleted: false
+  - id: 2c8d775a-42e2-4667-958b-0e4a18f5c776
+    type: table
+    name: orders
+    fullyQualifiedName: TestRedshiftOne.dev.sales.orders
+    displayName: orders
+    deleted: false
+tags: []
+domains: []
+sourceHash: be0f639d3ffda4687c2d0f572f094685
+entityStatus: Unprocessed

@@ -1,0 +1,103 @@
+name: shoes_retail
+fullyQualifiedName: check_redshift_pbi.dev.shoes_retail
+dataProducts: []
+owners: []
+service:
+  id: a3b05d3d-c60d-44fe-83cc-7188fb834a13
+  type: databaseService
+  name: check_redshift_pbi
+  fullyQualifiedName: check_redshift_pbi
+  description: ""
+  displayName: check_redshift_pbi
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5b24b962-c5da-40cb-8337-cafa3b99990f
+  type: database
+  name: dev
+  fullyQualifiedName: check_redshift_pbi.dev
+  displayName: dev
+  deleted: false
+tables:
+  - id: 79ceed1a-3f17-4789-a692-9b6412365871
+    type: table
+    name: customers
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.customers
+    displayName: customers
+    deleted: false
+  - id: 84ba81de-af94-444e-a387-a71abdaf00d5
+    type: table
+    name: inventory
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.inventory
+    displayName: inventory
+    deleted: false
+  - id: 7d0796f5-3885-46ca-a622-649fd624303c
+    type: table
+    name: orders
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.orders
+    displayName: orders
+    deleted: false
+  - id: 1097e639-e7e1-46e2-80e5-9c86a0bfc8b8
+    type: table
+    name: payments
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.payments
+    displayName: payments
+    deleted: false
+  - id: d4aa26cc-7f4a-4a23-a97f-571f91476a41
+    type: table
+    name: pricing_history
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.pricing_history
+    displayName: pricing_history
+    deleted: false
+  - id: 7143b1a1-4bae-454a-b724-29cf506c7718
+    type: table
+    name: product_reviews
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.product_reviews
+    displayName: product_reviews
+    deleted: false
+  - id: 9d5b94fd-afaf-4f0a-937e-003343e649ac
+    type: table
+    name: products
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.products
+    displayName: products
+    deleted: false
+  - id: f53c4549-9cae-4fba-b98a-a8db49a7ad35
+    type: table
+    name: raw_customers
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.raw_customers
+    displayName: raw_customers
+    deleted: false
+  - id: 97fb6b5e-a872-41ad-a383-45b9edc4f1d2
+    type: table
+    name: raw_orders
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.raw_orders
+    displayName: raw_orders
+    deleted: false
+  - id: 7f089d82-efeb-4993-a502-5ad9e38543f7
+    type: table
+    name: raw_payments
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.raw_payments
+    displayName: raw_payments
+    deleted: false
+  - id: 7f610ec9-e523-4006-ae36-6fd4d1ac6afc
+    type: table
+    name: stg_customers
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.stg_customers
+    displayName: stg_customers
+    deleted: false
+  - id: 34b90540-edb5-4b9d-8069-6b717e171f11
+    type: table
+    name: stg_orders
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.stg_orders
+    displayName: stg_orders
+    deleted: false
+  - id: 59ddd85e-1d69-4c2f-bf34-1dbb2a140ef6
+    type: table
+    name: stg_payments
+    fullyQualifiedName: check_redshift_pbi.dev.shoes_retail.stg_payments
+    displayName: stg_payments
+    deleted: false
+tags: []
+domains: []
+sourceHash: a0bcc6e2ddf39539e91e8699defb3c41
+entityStatus: Unprocessed

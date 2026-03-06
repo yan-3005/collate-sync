@@ -1,0 +1,65 @@
+name: dbt_production_jaffle_shop
+fullyQualifiedName: Redshift Keshav.dev.dbt_production_jaffle_shop
+displayName: ""
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 20eff402-2323-4b54-a831-d40f411f88ee
+  type: databaseService
+  name: Redshift Keshav
+  fullyQualifiedName: Redshift Keshav
+  description: ""
+  displayName: Redshift Keshav
+  deleted: false
+serviceType: Redshift
+database:
+  id: 5e22c064-1883-42e0-94ff-5338c7650566
+  type: database
+  name: dev
+  fullyQualifiedName: Redshift Keshav.dev
+  description: <p>new desc</p>
+  displayName: dev
+  deleted: false
+tables:
+  - id: e833444c-f424-4320-a2cd-f0bbd28d6fb2
+    type: table
+    name: raw_customers
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_jaffle_shop.raw_customers
+    description: ""
+    displayName: raw_customers
+    deleted: false
+  - id: 42774b33-6061-44a4-80fc-6f90471d3960
+    type: table
+    name: raw_orders
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_jaffle_shop.raw_orders
+    description: ""
+    displayName: raw_orders
+    deleted: false
+  - id: e379ed7b-8f3f-4eff-813e-fdfedb6a3fc9
+    type: table
+    name: raw_payments
+    fullyQualifiedName: Redshift Keshav.dev.dbt_production_jaffle_shop.raw_payments
+    description: ""
+    displayName: raw_payments
+    deleted: false
+tags: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: description
+      newValue: ""
+    - name: displayName
+      newValue: ""
+    - name: retentionPeriod
+      newValue: ""
+    - name: sourceUrl
+      newValue: ""
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+retentionPeriod: ""
+sourceUrl: ""
+domains: []
+sourceHash: f68d9d8c32e90fa9086b7ec23ae7883c
+entityStatus: Unprocessed

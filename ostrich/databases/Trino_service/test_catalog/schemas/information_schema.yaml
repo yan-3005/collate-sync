@@ -1,0 +1,80 @@
+name: information_schema
+fullyQualifiedName: Trino_service.test_catalog.information_schema
+dataProducts: []
+owners: []
+service:
+  id: 03aca61a-c7bb-48c0-94e1-8cfdc05c44f0
+  type: databaseService
+  name: Trino_service
+  fullyQualifiedName: Trino_service
+  description: ""
+  displayName: Trino_service
+  deleted: false
+serviceType: Trino
+database:
+  id: 0abaf531-dbea-491f-aca5-8ddfb0b4c537
+  type: database
+  name: test_catalog
+  fullyQualifiedName: Trino_service.test_catalog
+  displayName: test_catalog
+  deleted: false
+tables:
+  - id: 0d561c0e-f271-4bda-bb5b-364bacc2d4dd
+    type: table
+    name: applicable_roles
+    fullyQualifiedName: Trino_service.test_catalog.information_schema.applicable_roles
+    displayName: applicable_roles
+    deleted: false
+  - id: 6a09c386-8a20-46cc-b055-8093d6ddb108
+    type: table
+    name: columns
+    fullyQualifiedName: Trino_service.test_catalog.information_schema.columns
+    displayName: columns
+    deleted: false
+  - id: 80b66f5a-d2b1-443f-8251-447ddc52f834
+    type: table
+    name: enabled_roles
+    fullyQualifiedName: Trino_service.test_catalog.information_schema.enabled_roles
+    displayName: enabled_roles
+    deleted: false
+  - id: 9c586d09-f422-4880-84c0-c50df1805c54
+    type: table
+    name: roles
+    fullyQualifiedName: Trino_service.test_catalog.information_schema.roles
+    displayName: roles
+    deleted: false
+  - id: 57495905-7437-4c3d-a2b6-cbb1fcb95c2d
+    type: table
+    name: schemata
+    fullyQualifiedName: Trino_service.test_catalog.information_schema.schemata
+    displayName: schemata
+    deleted: false
+  - id: fb620f3f-9d9a-4743-ac3b-b3a3d0af619b
+    type: table
+    name: table_privileges
+    fullyQualifiedName: Trino_service.test_catalog.information_schema.table_privileges
+    displayName: table_privileges
+    deleted: false
+  - id: edfd9943-043c-43f2-aae3-8203e4a1e07c
+    type: table
+    name: tables
+    fullyQualifiedName: Trino_service.test_catalog.information_schema.tables
+    displayName: tables
+    deleted: false
+  - id: 85f9fea6-cde3-4e57-9d10-b78c984ebf29
+    type: table
+    name: views
+    fullyQualifiedName: Trino_service.test_catalog.information_schema.views
+    displayName: views
+    deleted: false
+tags: []
+domains:
+  - id: 868ace94-2e9d-4087-80df-0649485043fe
+    type: domain
+    name: 1.12.0- release
+    fullyQualifiedName: '"1.12.0- release"'
+    description: <p>1.12.0- release</p>
+    displayName: 1.12.0- release
+    inherited: true
+sourceHash: e68759b88f6dc4b2f4e7f79a88596e5f
+entityStatus: Unprocessed

@@ -1,0 +1,59 @@
+name: Bronze
+fullyQualifiedName: BigqueryProd2.modified-leaf-330420.Bronze
+description: New description for BQ schema
+dataProducts: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 197a4195-9e15-4b93-8bf4-fdf57225f455
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: BigqueryProd2.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: da3d8143-cc5c-445a-afea-6e2c879049da
+    type: table
+    name: orders
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.Bronze.orders
+    description: New description for BQ orders table
+    displayName: orders
+    deleted: false
+  - id: 9da0b928-c894-453a-99d2-701b2e9bbddc
+    type: table
+    name: products
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.Bronze.products
+    displayName: products
+    deleted: false
+  - id: cfa6e939-43af-4720-b4eb-8a7a1d67f640
+    type: table
+    name: users
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.Bronze.users
+    displayName: users
+    deleted: false
+tags:
+  - tagFQN: none.none
+    name: none
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+  - tagFQN: nonsensitive.nonsensitive
+    name: nonsensitive
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Automated
+    state: Suggested
+    appliedBy: admin
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2sBronze
+domains: []
+sourceHash: 0b66f9d75e8c467cc782e888571e6b10
+entityStatus: Unprocessed

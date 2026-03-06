@@ -1,0 +1,45 @@
+name: test-schema
+fullyQualifiedName: DatabricksProd.demo-test-cat.test-schema
+dataProducts: []
+owners: []
+service:
+  id: 10a64b1b-8d56-4a0b-9b52-a0d42da457d9
+  type: databaseService
+  name: DatabricksProd
+  fullyQualifiedName: DatabricksProd
+  description: ""
+  displayName: DatabricksProd
+  deleted: false
+serviceType: Databricks
+database:
+  id: 0bdc8aaf-770f-46f1-819f-a0aabde20376
+  type: database
+  name: demo-test-cat
+  fullyQualifiedName: DatabricksProd.demo-test-cat
+  displayName: demo-test-cat
+  deleted: false
+tables:
+  - id: 295ebf88-e5c4-4db2-abb1-5d2ca9e6ee21
+    type: table
+    name: event_log_new
+    fullyQualifiedName: DatabricksProd.demo-test-cat.test-schema.event_log_new
+    description: <p>yest</p>
+    displayName: event_log_new
+    deleted: false
+  - id: e99f1112-9d00-4240-923d-2dd034ef3b80
+    type: table
+    name: event_logs
+    fullyQualifiedName: DatabricksProd.demo-test-cat.test-schema.event_logs
+    displayName: event_logs
+    deleted: false
+  - id: 97bf9ee4-06fa-4de0-90ea-7c3fac427c19
+    type: table
+    name: test-table
+    fullyQualifiedName: DatabricksProd.demo-test-cat.test-schema.test-table
+    description: TEST TRES HEL2
+    displayName: test-table
+    deleted: false
+tags: []
+domains: []
+sourceHash: f43538b221ac6225151b9c7e71c78af9
+entityStatus: Unprocessed

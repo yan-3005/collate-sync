@@ -1,0 +1,80 @@
+name: pere_test
+fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test
+description: ""
+dataProducts: []
+owners: []
+service:
+  id: 0a39f8ed-7a10-459a-809a-4038e5af7fc2
+  type: databaseService
+  name: BigqueryProd2
+  fullyQualifiedName: BigqueryProd2
+  displayName: BigqueryProd2
+  deleted: false
+serviceType: BigQuery
+database:
+  id: 197a4195-9e15-4b93-8bf4-fdf57225f455
+  type: database
+  name: modified-leaf-330420
+  fullyQualifiedName: BigqueryProd2.modified-leaf-330420
+  displayName: modified-leaf-330420
+  deleted: false
+tables:
+  - id: 362697e7-88dd-447b-a852-91cf3882c900
+    type: table
+    name: external_pere
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.external_pere
+    displayName: external_pere
+    deleted: false
+  - id: f4e86194-a3eb-4127-aadb-034eca5462e9
+    type: table
+    name: external_pere2
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.external_pere2
+    displayName: external_pere2
+    deleted: false
+  - id: 321403f2-5346-4ad0-af7f-f8e0ef45967f
+    type: table
+    name: external_pere_mult
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.external_pere_mult
+    displayName: external_pere_mult
+    deleted: false
+  - id: 5d5c07f8-7642-4e34-9d86-e6f57399546b
+    type: table
+    name: external_pere_parquet
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.external_pere_parquet
+    displayName: external_pere_parquet
+    deleted: false
+  - id: a651d295-e70c-4cc7-8eb9-7633bb7689b8
+    type: table
+    name: test_cluster
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.test_cluster
+    displayName: test_cluster
+    deleted: false
+  - id: cda4bbd4-4c93-42e3-be1a-5904784da2f6
+    type: table
+    name: test_normal
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.test_normal
+    displayName: test_normal
+    deleted: false
+  - id: 146c9ede-e882-493c-a226-8f7499fc868d
+    type: table
+    name: test_partition
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.test_partition
+    displayName: test_partition
+    deleted: false
+  - id: 50148571-c34c-46e9-ae56-5ec224426704
+    type: table
+    name: test_partition_filter
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.test_partition_filter
+    displayName: test_partition_filter
+    deleted: false
+  - id: f0265577-7d86-41aa-ab1e-b6db9e39cfe3
+    type: table
+    name: test_partition_filter_mult
+    fullyQualifiedName: BigqueryProd2.modified-leaf-330420.pere_test.test_partition_filter_mult
+    displayName: test_partition_filter_mult
+    deleted: false
+tags: []
+sourceUrl: https://console.cloud.google.com/bigquery?project=modified-leaf-330420&ws=!1m4!1m3!3m2!1smodified-leaf-330420!2spere_test
+domains: []
+sourceHash: bcd6ace57f2f742f74c38bbc9db40a87
+entityStatus: Unprocessed

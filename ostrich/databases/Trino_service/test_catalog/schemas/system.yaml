@@ -1,0 +1,38 @@
+name: system
+fullyQualifiedName: Trino_service.test_catalog.system
+dataProducts: []
+owners: []
+service:
+  id: 03aca61a-c7bb-48c0-94e1-8cfdc05c44f0
+  type: databaseService
+  name: Trino_service
+  fullyQualifiedName: Trino_service
+  description: ""
+  displayName: Trino_service
+  deleted: false
+serviceType: Trino
+database:
+  id: 0abaf531-dbea-491f-aca5-8ddfb0b4c537
+  type: database
+  name: test_catalog
+  fullyQualifiedName: Trino_service.test_catalog
+  displayName: test_catalog
+  deleted: false
+tables:
+  - id: 2403beba-3382-498b-b8c1-3bf7126be990
+    type: table
+    name: iceberg_tables
+    fullyQualifiedName: Trino_service.test_catalog.system.iceberg_tables
+    displayName: iceberg_tables
+    deleted: false
+tags: []
+domains:
+  - id: 868ace94-2e9d-4087-80df-0649485043fe
+    type: domain
+    name: 1.12.0- release
+    fullyQualifiedName: '"1.12.0- release"'
+    description: <p>1.12.0- release</p>
+    displayName: 1.12.0- release
+    inherited: true
+sourceHash: ca18b683f9b82201e58243f838f685fb
+entityStatus: Unprocessed

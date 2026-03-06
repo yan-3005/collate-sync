@@ -1,0 +1,87 @@
+name: openmetadata-schema-2
+fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2
+dataProducts: []
+owners: []
+service:
+  id: a877e418-b589-47bc-8103-aef082a98bb2
+  type: databaseService
+  name: openmetadata-0
+  fullyQualifiedName: openmetadata-0
+  displayName: openmetadata-0
+  deleted: false
+serviceType: Snowflake
+database:
+  id: 1f1bae77-d4cf-4622-8546-e0e72c2ec991
+  type: database
+  name: openmetadata-db-1
+  fullyQualifiedName: openmetadata-0.openmetadata-db-1
+  displayName: openmetadata-db-1
+  deleted: false
+tables:
+  - id: ab2ef720-1110-4a8a-a040-53ae46035cce
+    type: table
+    name: openmetadata-table-0
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-0
+    description: This is openmetadata-table-0 description.
+    displayName: openmetadata-table-0
+    deleted: false
+  - id: b513974c-8c05-4d7c-8bdb-f71612b07ae9
+    type: table
+    name: openmetadata-table-1
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-1
+    displayName: openmetadata-table-1
+    deleted: false
+  - id: ffb84c25-c4f7-474f-842f-bd803b07003b
+    type: table
+    name: openmetadata-table-2
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-2
+    displayName: openmetadata-table-2
+    deleted: false
+  - id: 476b6859-4975-4a93-b503-99aa030d0083
+    type: table
+    name: openmetadata-table-3
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-3
+    description: This is openmetadata-table-3 description.
+    displayName: openmetadata-table-3
+    deleted: false
+  - id: b3b7c1a3-4504-4c5e-88b1-8e47af60a069
+    type: table
+    name: openmetadata-table-4
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-4
+    displayName: openmetadata-table-4
+    deleted: false
+  - id: d7af68bb-4615-4c1e-b934-9b7c3eabe3af
+    type: table
+    name: openmetadata-table-5
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-5
+    displayName: openmetadata-table-5
+    deleted: false
+  - id: 05d64b4d-60d0-45d0-9f19-e8d5c2b09066
+    type: table
+    name: openmetadata-table-6
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-6
+    description: This is openmetadata-table-6 description.
+    displayName: openmetadata-table-6
+    deleted: false
+  - id: 4c17d476-2990-45ab-bc65-5e9a403d8e86
+    type: table
+    name: openmetadata-table-7
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-7
+    displayName: openmetadata-table-7
+    deleted: false
+  - id: 47e3e5bd-21d9-4825-9244-f74fbb38b1df
+    type: table
+    name: openmetadata-table-8
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-8
+    displayName: openmetadata-table-8
+    deleted: false
+  - id: c1f51bb3-c490-47d3-bf49-90822eae1059
+    type: table
+    name: openmetadata-table-9
+    fullyQualifiedName: openmetadata-0.openmetadata-db-1.openmetadata-schema-2.openmetadata-table-9
+    description: This is openmetadata-table-9 description.
+    displayName: openmetadata-table-9
+    deleted: false
+tags: []
+domains: []
+entityStatus: Unprocessed
