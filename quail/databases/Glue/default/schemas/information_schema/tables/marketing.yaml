@@ -1,0 +1,60 @@
+name: marketing
+fullyQualifiedName: Glue.default.information_schema.marketing
+description: Marketing data
+tableType: Iceberg
+columns:
+  - name: ad_id
+    dataType: NUMERIC
+    dataTypeDisplay: bigint
+    description: Ad ID
+    fullyQualifiedName: Glue.default.information_schema.marketing.ad_id
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+  - name: campaign_id
+    dataType: NUMERIC
+    dataTypeDisplay: bigint
+    description: campaign ID
+    fullyQualifiedName: Glue.default.information_schema.marketing.campaign_id
+    tags: []
+    ordinalPosition: 1
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: 40ffe772-9700-41de-859a-3e63553c2ee0
+  type: databaseSchema
+  name: information_schema
+  fullyQualifiedName: Glue.default.information_schema
+  description: This **mock** database contains tables related to the Glue service
+  displayName: information_schema
+  deleted: false
+database:
+  id: 042789b0-4b2c-48cf-a730-ddbbdd482594
+  type: database
+  name: default
+  fullyQualifiedName: Glue.default
+  description: This **mock** database contains tables related to the Glue service
+  displayName: default
+  deleted: false
+service:
+  id: f5440a16-61f3-4d2b-b4db-9948c75f4c86
+  type: databaseService
+  name: Glue
+  fullyQualifiedName: Glue
+  displayName: Glue
+  deleted: false
+serviceType: Glue
+tags: []
+joins:
+  startDate: 2026-04-05
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+sourceUrl: https://www.glue.com/marketing
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
