@@ -1,0 +1,57 @@
+name: Revenue
+description: Published Revenue description
+fullyQualifiedName: approval_demo.Revenue
+synonyms: []
+glossary:
+  id: 7ce54deb-15d8-4883-b0f9-672658ae849b
+  type: glossary
+  name: approval_demo
+  fullyQualifiedName: approval_demo
+  description: Published glossary description
+  displayName: Approval Demo Glossary
+  deleted: false
+relatedTerms: []
+references: []
+conceptMappings: []
+attributes: []
+realizedIn: []
+conceptType: BOTH
+impersonatedBy: governance-bot
+reviewers:
+  - id: aa0b2008-4243-42a9-9600-cc8edf83ec3e
+    type: user
+    name: bob_reviewer
+    fullyQualifiedName: bob_reviewer
+    displayName: Bob (reviewer)
+    deleted: false
+    inherited: true
+owners:
+  - id: 305f197a-27bc-4b05-a9da-dde304b89b3f
+    type: user
+    name: alice_requester
+    fullyQualifiedName: alice_requester
+    displayName: Alice (requester)
+    deleted: false
+    inherited: true
+  - id: bb80188f-7094-4d06-adbd-b0f60be025a4
+    type: user
+    name: carol_editor
+    fullyQualifiedName: carol_editor
+    displayName: Carol (other editor)
+    deleted: false
+    inherited: true
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Draft
+      newValue: In Review
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: In Review
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
