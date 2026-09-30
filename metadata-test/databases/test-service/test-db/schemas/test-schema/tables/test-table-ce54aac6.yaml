@@ -1,0 +1,15 @@
+name: test-table-ce54aac6
+fullyQualifiedName: test-service.test-db.test-schema.test-table-ce54aac6
+description: "Real integration test table: test-table-ce54aac6"
+tableType: Regular
+columns:
+  - name: id
+    dataType: BIGINT
+    tags: []
+    children: []
+  - name: name
+    dataType: VARCHAR
+    tags: []
+    children: []
+processedLineage: false
+entityStatus: Unprocessed
