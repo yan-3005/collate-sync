@@ -1,0 +1,32 @@
+name: ReproTerm0260
+displayName: ReproTerm0260
+description: 'repro term lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum '
+fullyQualifiedName: GitSinkReproGlossary.ReproTerm0260
+synonyms: []
+glossary:
+  id: 2177cdc4-85c3-4e2a-a23b-8eb2a9936a4a
+  type: glossary
+  name: GitSinkReproGlossary
+  fullyQualifiedName: GitSinkReproGlossary
+  description: repro
+  displayName: GitSinkReproGlossary
+  deleted: false
+relatedTerms: []
+references: []
+conceptMappings: []
+attributes: []
+realizedIn: []
+conceptType: BOTH
+reviewers: []
+owners: []
+tags: []
+entityStatus: Approved
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
