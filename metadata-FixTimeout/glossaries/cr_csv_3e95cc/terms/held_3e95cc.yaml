@@ -1,0 +1,55 @@
+name: held_3e95cc
+displayName: held dn
+description: held via csv
+fullyQualifiedName: cr_csv_3e95cc.held_3e95cc
+synonyms: []
+glossary:
+  id: d288041a-aa46-4f78-bbc9-aaf5f0314d58
+  type: glossary
+  name: cr_csv_3e95cc
+  fullyQualifiedName: cr_csv_3e95cc
+  description: csv glossary
+  displayName: cr_csv_3e95cc
+  deleted: false
+relatedTerms: []
+references: []
+conceptMappings: []
+attributes: []
+realizedIn: []
+conceptType: BOTH
+impersonatedBy: governance-bot
+reviewers:
+  - id: 63368340-592f-4714-84a3-73a7d343c59d
+    type: user
+    name: csv_rev_3e95cc
+    fullyQualifiedName: csv_rev_3e95cc
+    displayName: csv_rev_3e95cc
+    deleted: false
+    inherited: true
+owners:
+  - id: c25eff36-1213-41e9-bcc3-a7f311ce2c8b
+    type: user
+    name: csv_req_3e95cc
+    fullyQualifiedName: csv_req_3e95cc
+    displayName: csv_req_3e95cc
+    deleted: false
+    inherited: true
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: In Review
+      newValue: Approved
+  fieldsDeleted: []
+  previousVersion: 0.3
+  changeSummary:
+    description:
+      changeSource: Manual
+      changedBy: csv_req_3e95cc
+      changedAt: 1790764555241
+entityStatus: Approved
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
