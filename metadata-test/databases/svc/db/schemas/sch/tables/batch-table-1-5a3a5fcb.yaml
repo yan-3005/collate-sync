@@ -1,0 +1,15 @@
+name: batch-table-1-5a3a5fcb
+fullyQualifiedName: svc.db.sch.batch-table-1-5a3a5fcb
+description: "Real integration test table: batch-table-1-5a3a5fcb"
+tableType: Regular
+columns:
+  - name: id
+    dataType: BIGINT
+    tags: []
+    children: []
+  - name: name
+    dataType: VARCHAR
+    tags: []
+    children: []
+processedLineage: false
+entityStatus: Unprocessed
