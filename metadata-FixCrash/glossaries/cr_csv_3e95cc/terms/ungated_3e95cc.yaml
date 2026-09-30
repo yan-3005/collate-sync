@@ -1,0 +1,40 @@
+name: ungated_3e95cc
+displayName: ungated via csv
+description: ungated base
+fullyQualifiedName: cr_csv_3e95cc.ungated_3e95cc
+synonyms: []
+glossary:
+  id: d288041a-aa46-4f78-bbc9-aaf5f0314d58
+  type: glossary
+  name: cr_csv_3e95cc
+  fullyQualifiedName: cr_csv_3e95cc
+  description: csv glossary
+  displayName: cr_csv_3e95cc
+  deleted: false
+relatedTerms: []
+references: []
+conceptMappings: []
+attributes: []
+realizedIn: []
+conceptType: BOTH
+impersonatedBy: csv_req_3e95cc
+reviewers:
+  - id: 63368340-592f-4714-84a3-73a7d343c59d
+    type: user
+    name: csv_rev_3e95cc
+    fullyQualifiedName: csv_rev_3e95cc
+    displayName: csv_rev_3e95cc
+    deleted: false
+owners:
+  - id: c25eff36-1213-41e9-bcc3-a7f311ce2c8b
+    type: user
+    name: csv_req_3e95cc
+    fullyQualifiedName: csv_req_3e95cc
+    displayName: csv_req_3e95cc
+    deleted: false
+tags: []
+entityStatus: In Review
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
