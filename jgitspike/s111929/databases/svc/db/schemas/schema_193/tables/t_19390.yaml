@@ -1,5 +1,5 @@
 name: t_19390
-version: v1
+version: v2
 MERGE INTO PROD.PSA.TBL AS target USING (SELECT F_1, F_2, F_3) src ON 1=1
 MERGE INTO PROD.PSA.TBL AS target USING (SELECT F_1, F_2, F_3) src ON 1=1
 MERGE INTO PROD.PSA.TBL AS target USING (SELECT F_1, F_2, F_3) src ON 1=1
