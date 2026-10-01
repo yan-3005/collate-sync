@@ -1,0 +1,79 @@
+name: 8f1385308448441f2cd2595a24df9442
+fullyQualifiedName: approval_demo_svc.8f1385308448441f2cd2595a24df9442
+owners: []
+duration: 1.5
+query: "MERGE INTO PROD_REPRO_DB.PSA.TBL_OPERATIONS_18 AS target USING (SELECT PK_SEQ,\
+  \ SESSION, TS, COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_0')::STRING, '') AS \"FIELD_0\"\
+  , COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_1')::STRING, '') AS \"FIELD_1\", COALESCE(GET_IGNORE_CASE(PAYLOAD,\
+  \ 'FIELD_2')::STRING, '') AS \"FIELD_2\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_3')::STRING,\
+  \ '') AS \"FIELD_3\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_4')::STRING, '')\
+  \ AS \"FIELD_4\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_5')::STRING, '') AS \"\
+  FIELD_5\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_6')::STRING, '') AS \"FIELD_6\"\
+  , COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_7')::STRING, '') AS \"FIELD_7\", COALESCE(GET_IGNORE_CASE(PAYLOAD,\
+  \ 'FIELD_8')::STRING, '') AS \"FIELD_8\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_9')::STRING,\
+  \ '') AS \"FIELD_9\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_10')::STRING, '')\
+  \ AS \"FIELD_10\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_11')::STRING, '') AS\
+  \ \"FIELD_11\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_12')::STRING, '') AS \"\
+  FIELD_12\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_13')::STRING, '') AS \"FIELD_13\"\
+  , COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_14')::STRING, '') AS \"FIELD_14\", COALESCE(GET_IGNORE_CASE(PAYLOAD,\
+  \ 'FIELD_15')::STRING, '') AS \"FIELD_15\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_16')::STRING,\
+  \ '') AS \"FIELD_16\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_17')::STRING, '')\
+  \ AS \"FIELD_17\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_18')::STRING, '') AS\
+  \ \"FIELD_18\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_19')::STRING, '') AS \"\
+  FIELD_19\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_20')::STRING, '') AS \"FIELD_20\"\
+  , COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_21')::STRING, '') AS \"FIELD_21\", COALESCE(GET_IGNORE_CASE(PAYLOAD,\
+  \ 'FIELD_22')::STRING, '') AS \"FIELD_22\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_23')::STRING,\
+  \ '') AS \"FIELD_23\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_24')::STRING, '')\
+  \ AS \"FIELD_24\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_25')::STRING, '') AS\
+  \ \"FIELD_25\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_26')::STRING, '') AS \"\
+  FIELD_26\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_27')::STRING, '') AS \"FIELD_27\"\
+  , COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_28')::STRING, '') AS \"FIELD_28\", COALESCE(GET_IGNORE_CASE(PAYLOAD,\
+  \ 'FIELD_29')::STRING, '') AS \"FIELD_29\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_30')::STRING,\
+  \ '') AS \"FIELD_30\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_31')::STRING, '')\
+  \ AS \"FIELD_31\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_32')::STRING, '') AS\
+  \ \"FIELD_32\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_33')::STRING, '') AS \"\
+  FIELD_33\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_34')::STRING, '') AS \"FIELD_34\"\
+  , COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_35')::STRING, '') AS \"FIELD_35\", COALESCE(GET_IGNORE_CASE(PAYLOAD,\
+  \ 'FIELD_36')::STRING, '') AS \"FIELD_36\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_37')::STRING,\
+  \ '') AS \"FIELD_37\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_38')::STRING, '')\
+  \ AS \"FIELD_38\", COALESCE(GET_IGNORE_CASE(PAYLOAD, 'FIELD_39')::STRING, '') AS\
+  \ \"FIELD_39\" FROM PROD_REPRO_DB.RAW.SRC_31155 WHERE TS > DATEADD(day,-1,CURRENT_TIMESTAMP()))\
+  \ AS src ON target.PK_SEQ = src.PK_SEQ WHEN MATCHED THEN UPDATE SET target.TS =\
+  \ src.TS WHEN NOT MATCHED THEN INSERT (PK_SEQ, TS) VALUES (src.PK_SEQ, src.TS) --\
+  \ q31155 dezqokwmxvqlhcevezpjavpmhvsryfxytupwhodmfgurolxvgvpqicumdyyxyrls"
+checksum: 8f1385308448441f2cd2595a24df9442
+queryDate: 1790837947093
+usedBy: []
+tags: []
+queryUsedIn:
+  - id: c6b81325-079f-433e-9ac3-968d71abada9
+    type: table
+    name: orders
+    fullyQualifiedName: approval_demo_svc.sales.public.orders
+    description: Published table description
+    displayName: orders
+    deleted: false
+  - id: 89b98ee9-9151-4876-bb87-f874385697f2
+    type: table
+    name: t_bulk
+    fullyQualifiedName: cr_svc_af41a1.db.sc.t_bulk
+    description: published
+    displayName: t_bulk
+    deleted: false
+  - id: d7741620-862d-456b-aff4-ff488c7868d1
+    type: table
+    name: t_bulk
+    fullyQualifiedName: cr_svc_4a6829.db.sc.t_bulk
+    description: published
+    displayName: t_bulk
+    deleted: false
+processedLineage: false
+service:
+  id: 20f2820b-f478-4341-86d9-d7b0e99d3bea
+  type: databaseService
+  name: approval_demo_svc
+  fullyQualifiedName: approval_demo_svc
+  displayName: approval_demo_svc
+  deleted: false
+domains: []
+entityStatus: Unprocessed
