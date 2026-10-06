@@ -1,0 +1,97 @@
+name: t_00099
+fullyQualifiedName: e2e_svc.e2e_db.finance.t_00099
+createdAt: 1791275622154
+createdBy: admin
+columns:
+  - name: id
+    dataType: INT
+    dataTypeDisplay: int
+    fullyQualifiedName: e2e_svc.e2e_db.finance.t_00099.id
+    tags: []
+    children: []
+  - name: email
+    dataType: VARCHAR
+    dataLength: 255
+    dataTypeDisplay: varchar
+    fullyQualifiedName: e2e_svc.e2e_db.finance.t_00099.email
+    tags: []
+    children: []
+owners: []
+databaseSchema:
+  id: 1f23e0cb-87fb-42ab-8f41-9961512ed29f
+  type: databaseSchema
+  name: finance
+  fullyQualifiedName: e2e_svc.e2e_db.finance
+  displayName: finance
+  deleted: false
+database:
+  id: 4f84389d-859d-43f8-8d80-b1dd86953586
+  type: database
+  name: e2e_db
+  fullyQualifiedName: e2e_svc.e2e_db
+  displayName: e2e_db
+  deleted: false
+service:
+  id: b97c7585-3c12-478e-99dc-c61e3ad319cc
+  type: databaseService
+  name: e2e_svc
+  fullyQualifiedName: e2e_svc
+  displayName: e2e_svc
+  deleted: false
+serviceType: Mysql
+tags:
+  - tagFQN: Tier.Tier1
+    name: Tier1
+    description: |-
+      **Critical Source of Truth business data assets of an organization**
+
+      - Used in critical metrics and dashboards to drive business and product decisions
+
+      - Used in critical compliance reporting to regulators, govt entities, and third party
+
+      - Used in brand or revenue impacting online user-facing experiences (search results, advertisement, promotions, and experimentation)
+
+      - Other high impact use, such as ML models and fraud detection
+
+      - Source used to derive other critical Tier-1 datasets
+    source: Classification
+    labelType: Automated
+    state: Confirmed
+    appliedAt: 1791280618096
+    appliedBy: governance-bot
+joins:
+  startDate: 2026-09-06
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: tags
+      newValue: "[{\"tagFQN\":\"Tier.Tier1\",\"name\":\"Tier1\",\"description\":\"\
+        **Critical Source of Truth business data assets of an organization**\\n\\\
+        n- Used in critical metrics and dashboards to drive business and product decisions\\\
+        n\\n- Used in critical compliance reporting to regulators, govt entities,\
+        \ and third party\\n\\n- Used in brand or revenue impacting online user-facing\
+        \ experiences (search results, advertisement, promotions, and experimentation)\\\
+        n\\n- Other high impact use, such as ML models and fraud detection\\n\\n-\
+        \ Source used to derive other critical Tier-1 datasets\",\"source\":\"Classification\"\
+        ,\"labelType\":\"Automated\",\"state\":\"Confirmed\",\"appliedBy\":\"governance-bot\"\
+        }]"
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: tags
+      oldValue: "[{\"tagFQN\":\"Tier.Tier2\",\"name\":\"Tier2\",\"description\":\"\
+        **Important business datasets for your company (not as critical as Tier 1)**\\\
+        n\\n- Used in important business metrics, product metrics, and dashboards\
+        \ to drive internal decisions\\n\\n- Used in important compliance reporting\
+        \ to major regulators, govt entities, and third party\\n\\n- Used for less\
+        \ critical online user-facing experiences (user activity, user behavior)\\\
+        n\\n- Source used to derive other critical Tier-2 datasets\",\"source\":\"\
+        Classification\",\"labelType\":\"Automated\",\"state\":\"Confirmed\",\"appliedAt\"\
+        :\"2026-10-06T08:38:12.000523Z\",\"appliedBy\":\"governance-bot\"}]"
+  previousVersion: 0.2
+  changeSummary: {}
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
