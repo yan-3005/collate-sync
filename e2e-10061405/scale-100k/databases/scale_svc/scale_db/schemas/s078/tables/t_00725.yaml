@@ -1,0 +1,60 @@
+name: t_00725
+fullyQualifiedName: scale_svc.scale_db.s078.t_00725
+createdAt: 1791278650339
+createdBy: admin
+columns:
+  - name: id
+    dataType: INT
+    dataTypeDisplay: int
+    fullyQualifiedName: scale_svc.scale_db.s078.t_00725.id
+    tags: []
+    children: []
+  - name: email
+    dataType: VARCHAR
+    dataLength: 255
+    dataTypeDisplay: varchar
+    fullyQualifiedName: scale_svc.scale_db.s078.t_00725.email
+    tags: []
+    children: []
+owners: []
+databaseSchema:
+  id: ca0d55c7-1ed0-45db-bb24-7aa6cac717ea
+  type: databaseSchema
+  name: s078
+  fullyQualifiedName: scale_svc.scale_db.s078
+  displayName: s078
+  deleted: false
+database:
+  id: f2dea2e6-78b2-495d-8272-b37446e4de24
+  type: database
+  name: scale_db
+  fullyQualifiedName: scale_svc.scale_db
+  displayName: scale_db
+  deleted: false
+service:
+  id: e4b81361-38e0-4e0b-a685-f3c0c1216d41
+  type: databaseService
+  name: scale_svc
+  fullyQualifiedName: scale_svc
+  displayName: scale_svc
+  deleted: false
+serviceType: Mysql
+tags:
+  - tagFQN: PII.Sensitive
+    name: Sensitive
+    description: "PII which if lost, compromised, or disclosed without authorization,\
+      \ could result in substantial harm, embarrassment, inconvenience, or unfairness\
+      \ to an individual."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1791278650364
+joins:
+  startDate: 2026-09-06
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
