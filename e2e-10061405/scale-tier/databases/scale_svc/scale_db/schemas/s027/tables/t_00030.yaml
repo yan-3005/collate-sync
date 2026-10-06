@@ -1,0 +1,90 @@
+name: t_00030
+fullyQualifiedName: scale_svc.scale_db.s027.t_00030
+description: Described table 30
+createdAt: 1791278136145
+createdBy: admin
+columns:
+  - name: id
+    dataType: INT
+    dataTypeDisplay: int
+    fullyQualifiedName: scale_svc.scale_db.s027.t_00030.id
+    tags: []
+    children: []
+  - name: email
+    dataType: VARCHAR
+    dataLength: 255
+    dataTypeDisplay: varchar
+    fullyQualifiedName: scale_svc.scale_db.s027.t_00030.email
+    tags: []
+    children: []
+owners: []
+databaseSchema:
+  id: 960e060a-5a23-4adc-93a2-f939da5a978e
+  type: databaseSchema
+  name: s027
+  fullyQualifiedName: scale_svc.scale_db.s027
+  displayName: s027
+  deleted: false
+database:
+  id: f2dea2e6-78b2-495d-8272-b37446e4de24
+  type: database
+  name: scale_db
+  fullyQualifiedName: scale_svc.scale_db
+  displayName: scale_db
+  deleted: false
+service:
+  id: e4b81361-38e0-4e0b-a685-f3c0c1216d41
+  type: databaseService
+  name: scale_svc
+  fullyQualifiedName: scale_svc
+  displayName: scale_svc
+  deleted: false
+serviceType: Mysql
+tags:
+  - tagFQN: PII.Sensitive
+    name: Sensitive
+    description: "PII which if lost, compromised, or disclosed without authorization,\
+      \ could result in substantial harm, embarrassment, inconvenience, or unfairness\
+      \ to an individual."
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1791278136167
+  - tagFQN: Tier.Tier3
+    name: Tier3
+    description: |-
+      **Department/group level datasets that are typically non-business and general internal system**
+
+      - Used in product metrics, and dashboards to drive product decisions
+
+      - Used to track operational metrics of internal systems
+
+      - Source used to derive other critical Tier-3 datasets
+    source: Classification
+    labelType: Automated
+    state: Confirmed
+    appliedAt: 1791280444108
+    appliedBy: governance-bot
+joins:
+  startDate: 2026-09-06
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: tags
+      newValue: "[{\"tagFQN\":\"Tier.Tier3\",\"name\":\"Tier3\",\"description\":\"\
+        **Department/group level datasets that are typically non-business and general\
+        \ internal system**\\n\\n- Used in product metrics, and dashboards to drive\
+        \ product decisions\\n\\n- Used to track operational metrics of internal systems\\\
+        n\\n- Source used to derive other critical Tier-3 datasets\",\"source\":\"\
+        Classification\",\"labelType\":\"Automated\",\"state\":\"Confirmed\",\"appliedBy\"\
+        :\"governance-bot\"}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
