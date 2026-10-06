@@ -1,0 +1,37 @@
+name: Term0
+description: term 0
+fullyQualifiedName: E2EGlossary.Term0
+synonyms: []
+glossary:
+  id: 77d80950-ad1f-4d0b-bccf-9f4ec66f54c0
+  type: glossary
+  name: E2EGlossary
+  fullyQualifiedName: E2EGlossary
+  description: e2e
+  displayName: E2E Glossary
+  deleted: false
+relatedTerms: []
+references: []
+sourceMemoryIds: []
+conceptMappings: []
+attributes: []
+realizedIn: []
+conceptType: BOTH
+impersonatedBy: governance-bot
+reviewers: []
+owners: []
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Approved
+      newValue: Deprecated
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: Deprecated
+provider: user
+mutuallyExclusive: false
+domains: []
+dataProducts: []
