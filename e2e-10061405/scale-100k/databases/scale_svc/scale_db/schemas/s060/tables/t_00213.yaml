@@ -1,0 +1,51 @@
+name: t_00213
+fullyQualifiedName: scale_svc.scale_db.s060.t_00213
+createdAt: 1791278464824
+createdBy: admin
+columns:
+  - name: id
+    dataType: INT
+    dataTypeDisplay: int
+    fullyQualifiedName: scale_svc.scale_db.s060.t_00213.id
+    tags: []
+    children: []
+  - name: email
+    dataType: VARCHAR
+    dataLength: 255
+    dataTypeDisplay: varchar
+    fullyQualifiedName: scale_svc.scale_db.s060.t_00213.email
+    tags: []
+    children: []
+owners: []
+databaseSchema:
+  id: b6c9a0df-13af-4d71-b283-ea8c6988436a
+  type: databaseSchema
+  name: s060
+  fullyQualifiedName: scale_svc.scale_db.s060
+  displayName: s060
+  deleted: false
+database:
+  id: f2dea2e6-78b2-495d-8272-b37446e4de24
+  type: database
+  name: scale_db
+  fullyQualifiedName: scale_svc.scale_db
+  displayName: scale_db
+  deleted: false
+service:
+  id: e4b81361-38e0-4e0b-a685-f3c0c1216d41
+  type: databaseService
+  name: scale_svc
+  fullyQualifiedName: scale_svc
+  displayName: scale_svc
+  deleted: false
+serviceType: Mysql
+tags: []
+joins:
+  startDate: 2026-09-06
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Unprocessed
